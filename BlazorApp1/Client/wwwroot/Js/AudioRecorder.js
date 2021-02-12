@@ -5,62 +5,62 @@ let audioCtx;
 
 // This function visualizes the audio stream coming out of the user's microphone.
 // Credit: Soledad Penades of https://soledadpenades.com/ via https://mdn.github.io/web-dictaphone/
-function visualize(stream, canvas, canvasCtx) {
-    if (!audioCtx) {
-        audioCtx = new AudioContext();
-    }
+//function visualize(stream, canvas, canvasCtx) {
+//    if (!audioCtx) {
+//        audioCtx = new AudioContext();
+//    }
 
-    const source = audioCtx.createMediaStreamSource(stream);
+//    const source = audioCtx.createMediaStreamSource(stream);
 
-    const analyzer = audioCtx.createAnalyser();
-    analyzer.fftSize = 2048;
-    const bufferLength = analyzer.frequencyBinCount;
-    const dataArray = new Uint8Array(bufferLength);
+//    const analyzer = audioCtx.createAnalyser();
+//    analyzer.fftSize = 2048;
+//    const bufferLength = analyzer.frequencyBinCount;
+//    const dataArray = new Uint8Array(bufferLength);
 
-    source.connect(analyzer);
-    //analyser.connect(audioCtx.destination);
+//    source.connect(analyzer);
+//    //analyser.connect(audioCtx.destination);
 
-    //draw();
+//    draw();
 
-    //function draw() {
-    //    const WIDTH = canvas.width;
-    //    const HEIGHT = canvas.height;
+//    function draw() {
+//        const WIDTH = canvas.width;
+//        const HEIGHT = canvas.height;
 
-    //    requestAnimationFrame(draw);
+//        requestAnimationFrame(draw);
 
-    //    analyzer.getByteTimeDomainData(dataArray);
+//        analyzer.getByteTimeDomainData(dataArray);
 
-    //    canvasCtx.fillStyle = "rgb(200, 200, 200)";
-    //    canvasCtx.fillRect(0, 0, WIDTH, HEIGHT);
+//        canvasCtx.fillStyle = "rgb(200, 200, 200)";
+//        canvasCtx.fillRect(0, 0, WIDTH, HEIGHT);
 
-    //    canvasCtx.lineWidth = 2;
-    //    canvasCtx.strokeStyle = "rgb(0, 0, 0)";
+//        canvasCtx.lineWidth = 2;
+//        canvasCtx.strokeStyle = "rgb(0, 0, 0)";
 
-    //    canvasCtx.beginPath();
+//        canvasCtx.beginPath();
 
-    //    let sliceWidth = WIDTH * 1.0 / bufferLength;
-    //    let x = 0;
+//        let sliceWidth = WIDTH * 1.0 / bufferLength;
+//        let x = 0;
 
 
-    //    for (let i = 0; i < bufferLength; i++) {
+//        for (let i = 0; i < bufferLength; i++) {
 
-    //        let v = dataArray[i] / 128.0;
-    //        let y = v * HEIGHT / 2;
+//            let v = dataArray[i] / 128.0;
+//            let y = v * HEIGHT / 2;
 
-    //        if (i === 0) {
-    //            canvasCtx.moveTo(x, y);
-    //        } else {
-    //            canvasCtx.lineTo(x, y);
-    //        }
+//            if (i === 0) {
+//                canvasCtx.moveTo(x, y);
+//            } else {
+//                canvasCtx.lineTo(x, y);
+//            }
 
-    //        x += sliceWidth;
-    //    }
+//            x += sliceWidth;
+//        }
 
-    //    canvasCtx.lineTo(canvas.width, canvas.height / 2);
-    //    canvasCtx.stroke();
+//        canvasCtx.lineTo(canvas.width, canvas.height / 2);
+//        canvasCtx.stroke();
 
-    //}
-}
+//    }
+//}
 
 window.MyJSMethods = {
 
@@ -83,20 +83,20 @@ let stop = document.querySelector(".stop");
 
 let onSuccess = function (stream) {
     let audio = document.querySelector("audio");
-    stop.disabled = false;
+    //stop.disabled = false;
 
-    let mainSection = document.querySelector(".main-controls");
-    const canvas = document.querySelector(".visualizer");
-    canvas.width = mainSection.offsetWidth;
+    //let mainSection = document.querySelector(".main-controls");
+    //const canvas = document.querySelector(".visualizer");
+    //canvas.width = mainSection.offsetWidth;
 
-    const canvasCtx = canvas.getContext("2d");
+    //const canvasCtx = canvas.getContext("2d");
 
     let context = new AudioContext();
     let mediaStreamSource = context.createMediaStreamSource(stream);
     let recorder = new Recorder(mediaStreamSource);
     recorder.record();
 
-    visualize(stream, canvas, canvasCtx);
+    //visualize(stream, canvas, canvasCtx);
 
 
     stop.onclick = function () {
@@ -112,7 +112,7 @@ let onSuccess = function (stream) {
             xhr.addEventListener("load", transferComplete);
             xhr.addEventListener("error", transferFailed);
             xhr.addEventListener("abort", transferFailed);
-            xhr.open("POST", "api/SaveAudio/Save/", true);
+            xhr.open("POST", "api/AudioSave/Save/", true);
             xhr.send(fd);
 
         });

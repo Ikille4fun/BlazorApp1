@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Hosting;
 
-namespace BlazorApp1.Client.Components
+namespace BlazorApp1.Client
 {
     public class AudioSave : Controller
     {

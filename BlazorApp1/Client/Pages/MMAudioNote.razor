@@ -83,34 +83,33 @@
 
             @if (IsRecording)
             {
-                <button class="btn btn-primary btn-block" @onclick="StopRecording" aria-hidden="true" name="stopRecording" id="stopRecording">stop</button>
+                <button class="btn btn-primary btn-block" @onclick="StopRecording" aria-hidden="true" id="stopRecording">stop</button>
             }
             else
             {
-                <button class="btn btn-primary btn-block" @onclick="StartRecording" aria-hidden="true" name="startRecording" id="startRecording">record</button>
+                <button class="btn btn-primary btn-block" @onclick="StartRecording" aria-hidden="true" id="startRecording">record</button>
             }
 
-            <button class="btn btn-primary" onclick="" name="begin" id="begin">begin</button>
-            <button class="btn btn-primary" onclick="" name="rewind" id="rewind">rewind</button>
+            <button class="btn btn-primary" onclick="" id="beginning">beginning</button>
+            <button class="btn btn-primary" onclick="" id="rewind">rewind</button>
 
             @if (IsPlaying)
             {
-                <button class="btn btn-primary btn-block" @onclick="StopAudio" aria-hidden="true" name="stopAudio" id="stopAudio">stop</button>
+                <button class="btn btn-primary btn-block" @onclick="StopAudio" aria-hidden="true" id="stopAudio">stop</button>
             }
             else
             {
-                <button class="btn btn-primary btn-block" @onclick="PlayAudio" aria-hidden="true" name="playAudio" id="playAudio">play</button>
+                <button class="btn btn-primary btn-block" @onclick="PlayAudio" aria-hidden="true" id="playAudio">play</button>
             }
 
-            <button class="btn btn-primary" onclick="" name="forward" id="forward">forward</button>
-            <button class="btn btn-primary" onclick="" name="end" id="end">end</button>
+            <button class="btn btn-primary" onclick="" id="forward">forward</button>
+            <button class="btn btn-primary" onclick="" id="end">end</button>
             
-            <section class="sound-clips">
-            </section>
+            <button id="downloadBtn">Download</button>
 
-            <audio id="AP" @ref="Audio" preload="auto">
+            @*<audio id="AP" @ref="Audio" preload="auto">
                 <source src="/Sounds/Mamma_Mia.mp3" type="audio/mp3" />
-            </audio>
+            </audio>*@
         </div>
     </div>
 
@@ -127,6 +126,7 @@
 
     @*test code*@
     
+
     @*test code*@
 
     @*Audio-text inputs*@

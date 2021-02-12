@@ -46,11 +46,7 @@ function startRecording() {
 		*/
 		audioContext = new AudioContext();
 
-		//update the format 
-        document.getElementById("formats").innerHTML =
-            "Format: 1 channel pcm @ " + audioContext.sampleRate / 1000 + "kHz";
-
-		/*  assign to gumStream for later use  */
+        /*  assign to gumStream for later use  */
 		gumStream = stream;
 
 		/* use the stream */
@@ -60,9 +56,9 @@ function startRecording() {
 			Create the Recorder object and configure to record mono sound (1 channel)
 			Recording 2 channels  will double the file size
 		*/
-		rec = new Recorder(input, { numChannels: 1 })
+        rec = new Recorder(input, { numChannels: 1 });
 
-		//start the recording process
+        //start the recording process
         rec.record();
 
 		console.log("Recording started");

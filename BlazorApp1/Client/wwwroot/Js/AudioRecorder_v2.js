@@ -18,6 +18,8 @@ var audioContext //audio context to help us record
 //stopButton.addEventListener("click", stopRecording);
 //pauseButton.addEventListener("click", pauseRecording);
 
+
+
 function startRecording() {
 	console.log("startRecordingBtn clicked");
 

@@ -18,7 +18,7 @@
             <h1>AudioNote</h1>
         </div>
         <div class="col">
-            <p class="pt-3">placeholder</p>
+            <p class="pt-3">@Role placeholder</p>
         </div>
         <div class="col">
             <p class="pt-3">@Username placeholder</p>
@@ -31,7 +31,7 @@
             <label>Navn</label>
         </div>
         <div class="col-*-*">
-            <input type="text" style="width:350px" name="navn" id="navn" />
+            <input type="text" style="width:350px" id="navn" />
         </div>
     </div>
 
@@ -65,60 +65,57 @@
             <input type="text" style="width:350px" name="ekstrafelt" id="ekstrafelt"/>
         </div>
     </div>
+    
+    <br />
 
-    <div class="row" title="ProgressBar">
-        <div class="col-*-*">
-            <RadzenProgressBar Value="100" ShowValue="false" Mode="ProgressBarMode.Indeterminate" Style="margin-bottom: 10px; margin-top: 20px;"></RadzenProgressBar>
+    @* Visual progressbar *@
+    <div class="row">
+        <div class="col-xl-8">
+            <oi style="line-height: 180%" id="recordingsList"></oi>
         </div>
     </div>
     
-    <div class="row">
-        <oi id="recordingsList"></oi>
-        @*<p id="lblCurrentTime"></p>
-        <p id="lblRemainingTime"></p>
-        <p id="lblTotalTime"></p>*@
-    </div>
-
+    @* Audio control buttons *@
     <div class="row p-2">
         <div id="controls" class="btn-group">
 
             @if (IsRecording)
             {
-                <button class="btn btn-primary btn-block" @onclick="StopRecording" aria-hidden="true" id="stopRecordingBtn">stop</button>
+                <button class="btn btn-primary btn-block" @onclick="StopRecording" aria-hidden="true" id="stopRecordingBtn">Stop</button>
             }
             else
             {
-                <button class="btn btn-primary btn-block" @onclick="StartRecording" aria-hidden="true" id="startRecordingBtn">record</button>
+                <button class="btn btn-primary btn-block" @onclick="StartRecording" aria-hidden="true" id="startRecordingBtn">Record</button>
             }
 
-            <button class="btn btn-primary" onclick="" id="beginning">beginning</button>
-            <button class="btn btn-primary" onclick="" id="rewind">rewind</button>
+            <button class="btn btn-primary" onclick="" id="beginning">Beginning</button>
+            <button class="btn btn-primary" onclick="" id="rewind">Rewind</button>
 
             @if (IsPlaying)
             {
-                <button class="btn btn-primary btn-block" @onclick="StopAudio" aria-hidden="true" id="stopAudio">stop</button>
+                <button class="btn btn-primary btn-block" @onclick="StopAudio" aria-hidden="true" id="stopAudio">Stop</button>
             }
             else
             {
-                <button class="btn btn-primary btn-block" @onclick="PlayAudio" aria-hidden="true" id="playAudio">play</button>
+                <button class="btn btn-primary btn-block" @onclick="PlayAudio" aria-hidden="true" id="playAudio">Play</button>
             }
 
-            <button class="btn btn-primary" onclick="" id="forward">forward</button>
-            <button class="btn btn-primary" onclick="" id="end">end</button>
+            <button class="btn btn-primary" onclick="" id="forward">Forward</button>
+            <button class="btn btn-primary" onclick="" id="end">End</button>
             
-            <button class="btn btn-primary" id="downloadBtn">Download</button>
-
-            @*<audio id="AP" @ref="Audio" preload="auto">
+            @*sources has to come from ListNote*@
+            <audio id="AP" @ref="Audio" preload="auto">
                 <source src="/Sounds/Mamma_Mia.mp3" type="audio/mp3" />
-            </audio>*@
+            </audio>
         </div>
     </div>
-
+    
+    @* Edit buttons *@
     <div class="row p-2">
         <div title="Edit-controls" class="btn-group">
-            <button class="btn btn-primary" onclick="" name="ready" id="ready">ready</button>
-            <button class="btn btn-primary" onclick="" name="suspend" id="suspend">suspend</button>
-            <button class="btn btn-primary" onclick="" name="cancel" id="cancel">cancel</button>
+            <button class="btn btn-primary" onclick="" name="ready" id="ready">Ready</button>
+            <button class="btn btn-primary" onclick="" name="suspend" id="suspend">Suspend</button>
+            <button class="btn btn-primary" onclick="" name="cancel" id="cancel">Cancel</button>
         </div>
     </div>
 </div>
@@ -131,6 +128,9 @@
     @*test code*@
 
     @*Audio-text inputs*@
+
+    public string Role { get; set; }
+
     public string Username { get; set; }
 
 
@@ -148,6 +148,7 @@
         IsRecording = true;
     }
 
+    @* StopRecording has to be renamed to PauseRecording and its func has to be moved to ready and suspend *@
     private async Task StopRecording()
     {
         await Js.InvokeVoidAsync("stopRecording");

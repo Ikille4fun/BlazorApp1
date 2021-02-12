@@ -11,9 +11,9 @@ namespace BlazorApp1.Client
 {
     public class AudioSave : Controller
     {
-        Microsoft.AspNetCore.Hosting.IHostingEnvironment _hostingEnvironment;
+        IHostingEnvironment _hostingEnvironment;
 
-        public AudioSave(Microsoft.AspNetCore.Hosting.IHostingEnvironment hostingEnvironment)
+        public AudioSave(IHostingEnvironment hostingEnvironment)
         {
             _hostingEnvironment = hostingEnvironment;
         }

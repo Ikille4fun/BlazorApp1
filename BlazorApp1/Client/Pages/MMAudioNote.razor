@@ -1,11 +1,11 @@
 ﻿@page "/audionote"
 
+@using Microsoft.AspNetCore.Mvc.TagHelpers
 @using Microsoft.Extensions.WebEncoders.Testing
 @using Radzen
 
 @inject HttpClient Http
 @inject IJSRuntime Js;
-
 
 <div class="container mx-auto my-3 bg-dark text-white" style="width:550px">
 
@@ -73,21 +73,21 @@
     </div>
     
     <div class="row">
-        <p id="lblCurrentTime"></p>
+        @*<p id="lblCurrentTime"></p>
         <p id="lblRemainingTime"></p>
-        <p id="lblTotalTime"></p>
+        <p id="lblTotalTime"></p>*@
     </div>
 
     <div class="row p-2">
-        <div title="Audio-control" class="btn-group">
+        <div id="controls" class="btn-group">
 
             @if (IsRecording)
             {
-                <button class="btn btn-primary btn-block" @onclick="StopRecording" aria-hidden="true" id="stopRecording">stop</button>
+                <button class="btn btn-primary btn-block" @onclick="StopRecording" aria-hidden="true" id="stopRecordingBtn">stop</button>
             }
             else
             {
-                <button class="btn btn-primary btn-block" @onclick="StartRecording" aria-hidden="true" id="startRecording">record</button>
+                <button class="btn btn-primary btn-block" @onclick="StartRecording" aria-hidden="true" id="startRecordingBtn">record</button>
             }
 
             <button class="btn btn-primary" onclick="" id="beginning">beginning</button>
@@ -105,7 +105,7 @@
             <button class="btn btn-primary" onclick="" id="forward">forward</button>
             <button class="btn btn-primary" onclick="" id="end">end</button>
             
-            <button id="downloadBtn">Download</button>
+            <button class="btn btn-primary" id="downloadBtn">Download</button>
 
             @*<audio id="AP" @ref="Audio" preload="auto">
                 <source src="/Sounds/Mamma_Mia.mp3" type="audio/mp3" />
@@ -143,13 +143,13 @@
 
     private async Task StartRecording()
     {
-        await Js.InvokeVoidAsync("MyJSMethods.startRecording");
+        await Js.InvokeVoidAsync("startRecording");
         IsRecording = true;
     }
 
     private async Task StopRecording()
     {
-        await Js.InvokeVoidAsync("MyJSMethods.stopRecording");
+        await Js.InvokeVoidAsync("stopRecording");
         IsRecording = false;
     }
 

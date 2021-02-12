@@ -146,5 +146,5 @@ function createDownloadLink(blob) {
 	li.appendChild(upload)//add the upload link to li
 
 	//add the li element to the ol
-	recordingsList.appendChild(li);
+	window.recordingsList.appendChild(li);
 }

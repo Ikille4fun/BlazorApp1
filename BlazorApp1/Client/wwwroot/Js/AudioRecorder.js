@@ -98,7 +98,7 @@ let onSuccess = function (stream) {
 
     //visualize(stream, canvas, canvasCtx);
 
-
+    //dø her
     stop.onclick = function () {
         recorder.stop();
 

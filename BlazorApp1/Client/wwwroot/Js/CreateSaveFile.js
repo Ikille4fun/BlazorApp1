@@ -11,8 +11,8 @@
     xhr.addEventListener("load", transferComplete);
     xhr.addEventListener("error", transferFailed);
     xhr.addEventListener("abort", transferFailed);
-    xhr.open("POST", "api/Components/AudioSave/Save/", true);
-    xhr.send(fd); //it fails her post 500 error
+    xhr.open("POST", "api/AudioSave/Save/", true);
+    xhr.send(fd); //it fails her, post 500 error
 }
 
 function transferComplete(evt) {

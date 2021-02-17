@@ -1,6 +1,6 @@
-﻿using BlazorApp1.Client.Components.Services;
-using BlazorApp1.Client.Components.Models.Account;
-using System;
+﻿using System;
+using BlazorApp1.Client.Components.Services;
+using BlazorApp1.Shared.Components.Models.Account;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -9,8 +9,6 @@ using System.Text;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
-using MMBackendServiceReference2;
-using System.Text.RegularExpressions;
 
 namespace BlazorApp1.Server.Components.Helpers
 {
@@ -36,12 +34,12 @@ namespace BlazorApp1.Server.Components.Helpers
 
             async Task<HttpResponseMessage> handleRoute()
             {
-                if (path == "/users/authenticate" && method == HttpMethod.Post)
+                if (path == "login" && method == HttpMethod.Post)
                 {
                     return await MMLogin();
                 }
 
-                if (path == "/notelist" && method == HttpMethod.Get)
+                if (path == "notelist" && method == HttpMethod.Get)
                 {
                     return await getNoteList();
                 }
@@ -59,6 +57,8 @@ namespace BlazorApp1.Server.Components.Helpers
 
                 ServicesAccess s = new ServicesAccess();
                 var result = s.CallServiceRefLogin(user.Username, user.Password);
+
+                Console.WriteLine("Server/BackendHandler.cs: " + result);
 
                 return await ok(result);
             }

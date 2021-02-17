@@ -43,6 +43,9 @@ namespace BlazorApp1.Client.Components.Services
 
         public async Task<T> Post<T>(string uri, object value)
         {
+            Console.WriteLine("HttpService.cs line 46: " + uri);
+            Console.WriteLine("HttpService.cs line 47: " + value);
+
             var request = createRequest(HttpMethod.Post, uri, value);
             return await sendRequest<T>(request);
         }
@@ -76,6 +79,9 @@ namespace BlazorApp1.Client.Components.Services
         {
             // send request
             using var response = await _httpClient.SendAsync(request);
+
+            // gets a 404 not found her
+            Console.WriteLine("HttpService.cs line 81: " + response);
 
             // auto logout on 401 response
             if (response.StatusCode == HttpStatusCode.Unauthorized)

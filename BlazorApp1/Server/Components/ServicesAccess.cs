@@ -16,9 +16,11 @@ namespace BlazorApp1.Server.Components
             var tempLoginResult = backend.LoginAsync(username, password);
             //var tempLoginResult = backend.LoginAsync("Alex", "alex");
 
-            return tempLoginResult.Result.LoginResult;
-
             //backend.CreateAudioNoteAsync(tempLoginResult.Result.LoginResult, new AudioNote(), 1, 0, false);
+
+            Console.WriteLine("Server/ServicesAccess.cs: " + tempLoginResult.Result.LoginResult);
+
+            return tempLoginResult.Result.LoginResult;
         }
 
         // Service call to backend to make a AudioNote

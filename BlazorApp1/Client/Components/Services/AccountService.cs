@@ -1,5 +1,5 @@
 ﻿using BlazorApp1.Client.Components.Models;
-using BlazorApp1.Client.Components.Models.Account;
+using BlazorApp1.Shared.Components.Models.Account;
 using Microsoft.AspNetCore.Components;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -46,7 +46,7 @@ namespace BlazorApp1.Client.Components.Services
         //Login model contains both username and password
         public async Task Login(Login model)
         {
-            User = await _httpService.Post<User>("/user/authenticate", model);
+            User = await _httpService.Post<User>("/api/login", model);
             await _localStorageService.SetItem(_userKey, User);
         }
 

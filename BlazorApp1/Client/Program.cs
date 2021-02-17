@@ -21,22 +21,22 @@ namespace BlazorApp1.Client
                 .AddScoped<ILocalStorageService, LocalStorageService>();
 
             // default configure http client
-            //builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
             // custom configure http client
-            builder.Services.AddScoped(x =>
-            {
-                var apiUrl = new Uri(builder.Configuration["apiUrl"]);
+            //builder.Services.AddScoped(x =>
+            //{
+            //    var apiUrl = new Uri(builder.Configuration["apiUrl"]);
 
-                // use backend if "backend" is "true" in appsetting.json
-                if (builder.Configuration["Backend"] == "true")
-                {
-                    var backendHandler = BackendHandler(x.GetService<ILocalStorageService>());
-                    return new HttpClient(backendHandler) {BaseAddress = apiUrl};
-                }
+            //    // use backend if "backend" is "true" in appsetting.json
+            //    if (builder.Configuration["Backend"] == "true")
+            //    {
+            //        var backendHandler = BackendHandler(x.GetService<ILocalStorageService>());
+            //        return new HttpClient(backendHandler) { BaseAddress = apiUrl };
+            //    }
 
-                return new HttpClient() { BaseAddress = apiUrl };
-            });
+            //    return new HttpClient() { BaseAddress = apiUrl };
+            //});
 
             var host = builder.Build();
 

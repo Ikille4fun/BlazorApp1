@@ -1,12 +1,14 @@
 ﻿@page "/account/login"
-@using BlazorApp1.Client.Components.Models.Account
+@using BlazorApp1.Shared.Components.Models.Account
 @inject IAccountService AccountService
 @inject NavigationManager NavigationManager
+@using System.Net.Http
+@inject HttpClient HttpClient
 
 <div class="card">
     <h1 class="card-header">Login</h1>
     <div class="card-body">
-        <EditForm Model="@model" OnSubmit="CLogin">
+        <EditForm Model="@model" OnSubmit="TLogin">
             <DataAnnotationsValidator />
             <div class="form-group">
                 <label for="username">Username:</label>
@@ -30,6 +32,20 @@
 @code {
 
     private Login model = new Login();
+
+    private async Task TLogin()
+    {
+        try
+        {
+            await HttpClient.PostAsJsonAsync("api/login", (model.Username, model.Password));
+            //NavigationManager.NavigateTo("/audionote");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine("MMLogin.razor" + e);
+            throw;
+        }
+    }
 
     private async void CLogin()
     {

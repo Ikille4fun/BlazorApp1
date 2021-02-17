@@ -6,11 +6,21 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="5.0.3" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+    <PackageReference Include="System.Net.Security" Version="4.3.2" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Client\BlazorApp1.Client.csproj" />
     <ProjectReference Include="..\Shared\BlazorApp1.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.ServiceModel" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
   </ItemGroup>
 
 

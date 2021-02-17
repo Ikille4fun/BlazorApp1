@@ -1,6 +1,10 @@
 ﻿@using System.Net.Http
 @using System.Net.Http.Json
 
+
+@using System.ServiceModel
+@using System.ServiceModel.Security
+
 @using Microsoft.AspNetCore.Components.Forms
 @using Microsoft.AspNetCore.Components.Routing
 @using Microsoft.AspNetCore.Components.Web
@@ -9,8 +13,11 @@
 @using Microsoft.JSInterop
 
 @using BlazorApp1.Client
-@using BlazorApp1.Shared
 @using BlazorApp1.Client.Components
+@using BlazorApp1.Client.Components.Services
+@using BlazorApp1.Client.Components.Helpers
+@using BlazorApp1.Client.Components.Models
+@using BlazorApp1.Shared
 
-@using Radzen
-@using Radzen.Blazor
+@* prerelease *@
+@using CoreWCF

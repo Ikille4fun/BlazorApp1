@@ -6,13 +6,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="CoreWCF.Http" Version="0.2.0-alpha" />
+    <PackageReference Include="CoreWCF.NetTcp" Version="0.2.0-alpha" />
+    <PackageReference Include="CoreWCF.Primitives" Version="0.2.0-alpha" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="5.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.3" PrivateAssets="all" />
     <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.TagHelpers" Version="2.2.0" />
-    <PackageReference Include="Radzen.Blazor" Version="3.0.9" />
     <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
+    <PackageReference Include="System.Net.Security" Version="4.3.2" />
+    <PackageReference Include="System.ServiceModel.Duplex" Version="4.8.1" />
+    <PackageReference Include="System.ServiceModel.Http" Version="4.8.1" />
+    <PackageReference Include="System.ServiceModel.NetTcp" Version="4.8.1" />
+    <PackageReference Include="System.ServiceModel.Primitives" Version="4.8.1" />
+    <PackageReference Include="System.ServiceModel.Security" Version="4.8.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,10 +32,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Connected Services\" />
     <Folder Include="wwwroot\Resources\" />
     <Folder Include="wwwroot\uploads\" />
     <Folder Include="wwwroot\Sounds\" />
     <Folder Include="wwwroot\Pictures\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.ServiceModel" />
   </ItemGroup>
 
   <ItemGroup>
@@ -37,6 +50,10 @@
     <Content Update="wwwroot\Sounds\Mamma_Mia.mp3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
   </ItemGroup>
 
 </Project>

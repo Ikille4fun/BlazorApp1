@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MMBackendServiceReference2
+namespace NoteWebServiceReference
 {
     
     
@@ -4685,649 +4685,649 @@ namespace MMBackendServiceReference2
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="MMBackendServiceReference2.NoteWebService")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="NoteWebServiceReference.NoteWebService")]
     public interface NoteWebService
     {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/LockAudioNote", ReplyAction="http://tempuri.org/NoteWebService/LockAudioNoteResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/LockAudioNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/LockAudioNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.LockAudioNoteResponse> LockAudioNoteAsync(MMBackendServiceReference2.LockAudioNoteRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.LockAudioNoteResponse> LockAudioNoteAsync(NoteWebServiceReference.LockAudioNoteRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/UnlockAudioNote", ReplyAction="http://tempuri.org/NoteWebService/UnlockAudioNoteResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/UnlockAudioNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/UnlockAudioNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.UnlockAudioNoteResponse> UnlockAudioNoteAsync(MMBackendServiceReference2.UnlockAudioNoteRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.UnlockAudioNoteResponse> UnlockAudioNoteAsync(NoteWebServiceReference.UnlockAudioNoteRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/LockSpeechNote", ReplyAction="http://tempuri.org/NoteWebService/LockSpeechNoteResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/LockSpeechNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/LockSpeechNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.LockSpeechNoteResponse> LockSpeechNoteAsync(MMBackendServiceReference2.LockSpeechNoteRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.LockSpeechNoteResponse> LockSpeechNoteAsync(NoteWebServiceReference.LockSpeechNoteRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/UnlockSpeechNote", ReplyAction="http://tempuri.org/NoteWebService/UnlockSpeechNoteResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/UnlockSpeechNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/UnlockSpeechNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.UnlockSpeechNoteResponse> UnlockSpeechNoteAsync(MMBackendServiceReference2.UnlockSpeechNoteRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.UnlockSpeechNoteResponse> UnlockSpeechNoteAsync(NoteWebServiceReference.UnlockSpeechNoteRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/CreateSpeechNote", ReplyAction="http://tempuri.org/NoteWebService/CreateSpeechNoteResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/CreateSpeechNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/CreateSpeechNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.CreateSpeechNoteResponse> CreateSpeechNoteAsync(MMBackendServiceReference2.CreateSpeechNoteRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.CreateSpeechNoteResponse> CreateSpeechNoteAsync(NoteWebServiceReference.CreateSpeechNoteRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/UpdateSpeechNote", ReplyAction="http://tempuri.org/NoteWebService/UpdateSpeechNoteResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/UpdateSpeechNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/UpdateSpeechNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.UpdateSpeechNoteResponse> UpdateSpeechNoteAsync(MMBackendServiceReference2.UpdateSpeechNoteRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.UpdateSpeechNoteResponse> UpdateSpeechNoteAsync(NoteWebServiceReference.UpdateSpeechNoteRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetSpeechNote", ReplyAction="http://tempuri.org/NoteWebService/GetSpeechNoteResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetSpeechNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetSpeechNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetSpeechNoteResponse> GetSpeechNoteAsync(MMBackendServiceReference2.GetSpeechNoteRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechNoteResponse> GetSpeechNoteAsync(NoteWebServiceReference.GetSpeechNoteRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetSpeechNoteStatus", ReplyAction="http://tempuri.org/NoteWebService/GetSpeechNoteStatusResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetSpeechNoteStatusCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetSpeechNoteStatusCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetSpeechNoteStatusResponse> GetSpeechNoteStatusAsync(MMBackendServiceReference2.GetSpeechNoteStatusRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechNoteStatusResponse> GetSpeechNoteStatusAsync(NoteWebServiceReference.GetSpeechNoteStatusRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/DeleteSpeechNote", ReplyAction="http://tempuri.org/NoteWebService/DeleteSpeechNoteResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/DeleteSpeechNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/DeleteSpeechNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.DeleteSpeechNoteResponse> DeleteSpeechNoteAsync(MMBackendServiceReference2.DeleteSpeechNoteRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteSpeechNoteResponse> DeleteSpeechNoteAsync(NoteWebServiceReference.DeleteSpeechNoteRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/FindNotes", ReplyAction="http://tempuri.org/NoteWebService/FindNotesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/FindNotesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/FindNotesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.FindNotesResponse> FindNotesAsync(MMBackendServiceReference2.FindNotesRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.FindNotesResponse> FindNotesAsync(NoteWebServiceReference.FindNotesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/FindNotesCount", ReplyAction="http://tempuri.org/NoteWebService/FindNotesCountResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/FindNotesCountCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/FindNotesCountCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.FindNotesCountResponse> FindNotesCountAsync(MMBackendServiceReference2.FindNotesCountRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.FindNotesCountResponse> FindNotesCountAsync(NoteWebServiceReference.FindNotesCountRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/FindNotesLength", ReplyAction="http://tempuri.org/NoteWebService/FindNotesLengthResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/FindNotesLengthCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/FindNotesLengthCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.FindNotesLengthResponse> FindNotesLengthAsync(MMBackendServiceReference2.FindNotesLengthRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.FindNotesLengthResponse> FindNotesLengthAsync(NoteWebServiceReference.FindNotesLengthRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/FindNotesInfo", ReplyAction="http://tempuri.org/NoteWebService/FindNotesInfoResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/FindNotesInfoCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/FindNotesInfoCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.FindNotesInfoResponse> FindNotesInfoAsync(MMBackendServiceReference2.FindNotesInfoRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.FindNotesInfoResponse> FindNotesInfoAsync(NoteWebServiceReference.FindNotesInfoRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/ChangeUserPassword", ReplyAction="http://tempuri.org/NoteWebService/ChangeUserPasswordResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/ChangeUserPasswordCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/ChangeUserPasswordCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.ChangeUserPasswordResponse> ChangeUserPasswordAsync(MMBackendServiceReference2.ChangeUserPasswordRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.ChangeUserPasswordResponse> ChangeUserPasswordAsync(NoteWebServiceReference.ChangeUserPasswordRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/UpdateSimpleUserProperties", ReplyAction="http://tempuri.org/NoteWebService/UpdateSimpleUserPropertiesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/UpdateSimpleUserPropertiesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/UpdateSimpleUserPropertiesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.UpdateSimpleUserPropertiesResponse> UpdateSimpleUserPropertiesAsync(MMBackendServiceReference2.UpdateSimpleUserPropertiesRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.UpdateSimpleUserPropertiesResponse> UpdateSimpleUserPropertiesAsync(NoteWebServiceReference.UpdateSimpleUserPropertiesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetQuickNoteUid", ReplyAction="http://tempuri.org/NoteWebService/GetQuickNoteUidResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetQuickNoteUidCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetQuickNoteUidCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetQuickNoteUidResponse> GetQuickNoteUidAsync(MMBackendServiceReference2.GetQuickNoteUidRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetQuickNoteUidResponse> GetQuickNoteUidAsync(NoteWebServiceReference.GetQuickNoteUidRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetApplications", ReplyAction="http://tempuri.org/NoteWebService/GetApplicationsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetApplicationsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetApplicationsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetApplicationsResponse> GetApplicationsAsync(MMBackendServiceReference2.GetApplicationsRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetApplicationsResponse> GetApplicationsAsync(NoteWebServiceReference.GetApplicationsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/CreateOrUpdateTriggerAction", ReplyAction="http://tempuri.org/NoteWebService/CreateOrUpdateTriggerActionResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/CreateOrUpdateTriggerActionCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/CreateOrUpdateTriggerActionCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.CreateOrUpdateTriggerActionResponse> CreateOrUpdateTriggerActionAsync(MMBackendServiceReference2.CreateOrUpdateTriggerActionRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.CreateOrUpdateTriggerActionResponse> CreateOrUpdateTriggerActionAsync(NoteWebServiceReference.CreateOrUpdateTriggerActionRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/DeleteTriggerAction", ReplyAction="http://tempuri.org/NoteWebService/DeleteTriggerActionResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/DeleteTriggerActionCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/DeleteTriggerActionCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.DeleteTriggerActionResponse> DeleteTriggerActionAsync(MMBackendServiceReference2.DeleteTriggerActionRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteTriggerActionResponse> DeleteTriggerActionAsync(NoteWebServiceReference.DeleteTriggerActionRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetTriggerActionCategories", ReplyAction="http://tempuri.org/NoteWebService/GetTriggerActionCategoriesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetTriggerActionCategoriesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetTriggerActionCategoriesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetTriggerActionCategoriesResponse> GetTriggerActionCategoriesAsync(MMBackendServiceReference2.GetTriggerActionCategoriesRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetTriggerActionCategoriesResponse> GetTriggerActionCategoriesAsync(NoteWebServiceReference.GetTriggerActionCategoriesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetAudioNoteStatus", ReplyAction="http://tempuri.org/NoteWebService/SetAudioNoteStatusResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/SetAudioNoteStatusCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetAudioNoteStatusCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SetAudioNoteStatusResponse> SetAudioNoteStatusAsync(MMBackendServiceReference2.SetAudioNoteStatusRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetAudioNoteStatusResponse> SetAudioNoteStatusAsync(NoteWebServiceReference.SetAudioNoteStatusRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/TuneContext", ReplyAction="http://tempuri.org/NoteWebService/TuneContextResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/TuneContextCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/TuneContextCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.TuneContextResponse> TuneContextAsync(MMBackendServiceReference2.TuneContextRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.TuneContextResponse> TuneContextAsync(NoteWebServiceReference.TuneContextRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetUnknownWords", ReplyAction="http://tempuri.org/NoteWebService/GetUnknownWordsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetUnknownWordsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetUnknownWordsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetUnknownWordsResponse> GetUnknownWordsAsync(MMBackendServiceReference2.GetUnknownWordsRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetUnknownWordsResponse> GetUnknownWordsAsync(NoteWebServiceReference.GetUnknownWordsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SaveClientInfo", ReplyAction="http://tempuri.org/NoteWebService/SaveClientInfoResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/SaveClientInfoCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SaveClientInfoCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SaveClientInfoResponse> SaveClientInfoAsync(MMBackendServiceReference2.SaveClientInfoRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.SaveClientInfoResponse> SaveClientInfoAsync(NoteWebServiceReference.SaveClientInfoRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/UpdateNoteClientId", ReplyAction="http://tempuri.org/NoteWebService/UpdateNoteClientIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/UpdateNoteClientIdCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/UpdateNoteClientIdCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.UpdateNoteClientIdResponse> UpdateNoteClientIdAsync(MMBackendServiceReference2.UpdateNoteClientIdRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.UpdateNoteClientIdResponse> UpdateNoteClientIdAsync(NoteWebServiceReference.UpdateNoteClientIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/DeleteAllAutosavedDocuments", ReplyAction="http://tempuri.org/NoteWebService/DeleteAllAutosavedDocumentsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/DeleteAllAutosavedDocumentsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/DeleteAllAutosavedDocumentsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.DeleteAllAutosavedDocumentsResponse> DeleteAllAutosavedDocumentsAsync(MMBackendServiceReference2.DeleteAllAutosavedDocumentsRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteAllAutosavedDocumentsResponse> DeleteAllAutosavedDocumentsAsync(NoteWebServiceReference.DeleteAllAutosavedDocumentsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetSpeechNoteFromLinkedNoteId", ReplyAction="http://tempuri.org/NoteWebService/GetSpeechNoteFromLinkedNoteIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetSpeechNoteFromLinkedNoteIdCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetSpeechNoteFromLinkedNoteIdCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetSpeechNoteFromLinkedNoteIdResponse> GetSpeechNoteFromLinkedNoteIdAsync(MMBackendServiceReference2.GetSpeechNoteFromLinkedNoteIdRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechNoteFromLinkedNoteIdResponse> GetSpeechNoteFromLinkedNoteIdAsync(NoteWebServiceReference.GetSpeechNoteFromLinkedNoteIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetMessageForUser", ReplyAction="http://tempuri.org/NoteWebService/GetMessageForUserResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetMessageForUserCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetMessageForUserCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetMessageForUserResponse> GetMessageForUserAsync(MMBackendServiceReference2.GetMessageForUserRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetMessageForUserResponse> GetMessageForUserAsync(NoteWebServiceReference.GetMessageForUserRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/MessageResponse", ReplyAction="http://tempuri.org/NoteWebService/MessageResponseResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/MessageResponseCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/MessageResponseCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.MessageResponseResponse> MessageResponseAsync(MMBackendServiceReference2.MessageResponseRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.MessageResponseResponse> MessageResponseAsync(NoteWebServiceReference.MessageResponseRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/RegisterListen", ReplyAction="http://tempuri.org/NoteWebService/RegisterListenResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/RegisterListenCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/RegisterListenCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.RegisterListenResponse> RegisterListenAsync(MMBackendServiceReference2.RegisterListenRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.RegisterListenResponse> RegisterListenAsync(NoteWebServiceReference.RegisterListenRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/LoginByDomain", ReplyAction="http://tempuri.org/NoteWebService/LoginByDomainResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/LoginByDomainCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/LoginByDomainCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.LoginByDomainResponse> LoginByDomainAsync(MMBackendServiceReference2.LoginByDomainRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.LoginByDomainResponse> LoginByDomainAsync(NoteWebServiceReference.LoginByDomainRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetADSearchGroupNames", ReplyAction="http://tempuri.org/NoteWebService/GetADSearchGroupNamesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetADSearchGroupNamesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetADSearchGroupNamesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetADSearchGroupNamesResponse> GetADSearchGroupNamesAsync(MMBackendServiceReference2.GetADSearchGroupNamesRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetADSearchGroupNamesResponse> GetADSearchGroupNamesAsync(NoteWebServiceReference.GetADSearchGroupNamesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/Login", ReplyAction="http://tempuri.org/NoteWebService/LoginResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/LoginCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/LoginCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.LoginResponse> LoginAsync(MMBackendServiceReference2.LoginRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.LoginResponse> LoginAsync(NoteWebServiceReference.LoginRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetCurrentUser", ReplyAction="http://tempuri.org/NoteWebService/GetCurrentUserResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetCurrentUserCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetCurrentUserCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetCurrentUserResponse> GetCurrentUserAsync(MMBackendServiceReference2.GetCurrentUserRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetCurrentUserResponse> GetCurrentUserAsync(NoteWebServiceReference.GetCurrentUserRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/VerifyUser", ReplyAction="http://tempuri.org/NoteWebService/VerifyUserResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/VerifyUserCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/VerifyUserCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.VerifyUserResponse> VerifyUserAsync(MMBackendServiceReference2.VerifyUserRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.VerifyUserResponse> VerifyUserAsync(NoteWebServiceReference.VerifyUserRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetCurrentUser", ReplyAction="http://tempuri.org/NoteWebService/SetCurrentUserResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/SetCurrentUserCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetCurrentUserCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SetCurrentUserResponse> SetCurrentUserAsync(MMBackendServiceReference2.SetCurrentUserRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentUserResponse> SetCurrentUserAsync(NoteWebServiceReference.SetCurrentUserRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetCurrentUserWithSignature", ReplyAction="http://tempuri.org/NoteWebService/SetCurrentUserWithSignatureResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/SetCurrentUserWithSignatureCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetCurrentUserWithSignatureCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SetCurrentUserWithSignatureResponse> SetCurrentUserWithSignatureAsync(MMBackendServiceReference2.SetCurrentUserWithSignatureRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentUserWithSignatureResponse> SetCurrentUserWithSignatureAsync(NoteWebServiceReference.SetCurrentUserWithSignatureRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetCurrentUserWithFullName", ReplyAction="http://tempuri.org/NoteWebService/SetCurrentUserWithFullNameResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/SetCurrentUserWithFullNameCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetCurrentUserWithFullNameCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SetCurrentUserWithFullNameResponse> SetCurrentUserWithFullNameAsync(MMBackendServiceReference2.SetCurrentUserWithFullNameRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentUserWithFullNameResponse> SetCurrentUserWithFullNameAsync(NoteWebServiceReference.SetCurrentUserWithFullNameRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetCurrentUserAndGroup", ReplyAction="http://tempuri.org/NoteWebService/SetCurrentUserAndGroupResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/SetCurrentUserAndGroupCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetCurrentUserAndGroupCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SetCurrentUserAndGroupResponse> SetCurrentUserAndGroupAsync(MMBackendServiceReference2.SetCurrentUserAndGroupRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentUserAndGroupResponse> SetCurrentUserAndGroupAsync(NoteWebServiceReference.SetCurrentUserAndGroupRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetCurrentUserStandAlone", ReplyAction="http://tempuri.org/NoteWebService/SetCurrentUserStandAloneResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/SetCurrentUserStandAloneCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetCurrentUserStandAloneCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SetCurrentUserStandAloneResponse> SetCurrentUserStandAloneAsync(MMBackendServiceReference2.SetCurrentUserStandAloneRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentUserStandAloneResponse> SetCurrentUserStandAloneAsync(NoteWebServiceReference.SetCurrentUserStandAloneRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetCurrentGroup", ReplyAction="http://tempuri.org/NoteWebService/GetCurrentGroupResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetCurrentGroupCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetCurrentGroupCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetCurrentGroupResponse> GetCurrentGroupAsync(MMBackendServiceReference2.GetCurrentGroupRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetCurrentGroupResponse> GetCurrentGroupAsync(NoteWebServiceReference.GetCurrentGroupRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetCurrentGroup", ReplyAction="http://tempuri.org/NoteWebService/SetCurrentGroupResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/SetCurrentGroupCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetCurrentGroupCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SetCurrentGroupResponse> SetCurrentGroupAsync(MMBackendServiceReference2.SetCurrentGroupRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentGroupResponse> SetCurrentGroupAsync(NoteWebServiceReference.SetCurrentGroupRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetRights", ReplyAction="http://tempuri.org/NoteWebService/GetRightsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetRightsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetRightsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetRightsResponse> GetRightsAsync(MMBackendServiceReference2.GetRightsRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetRightsResponse> GetRightsAsync(NoteWebServiceReference.GetRightsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetRoles", ReplyAction="http://tempuri.org/NoteWebService/SetRolesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/SetRolesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetRolesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SetRolesResponse> SetRolesAsync(MMBackendServiceReference2.SetRolesRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetRolesResponse> SetRolesAsync(NoteWebServiceReference.SetRolesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetServerName", ReplyAction="http://tempuri.org/NoteWebService/GetServerNameResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetServerNameCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetServerNameCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetServerNameResponse> GetServerNameAsync(MMBackendServiceReference2.GetServerNameRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetServerNameResponse> GetServerNameAsync(NoteWebServiceReference.GetServerNameRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SaveFile", ReplyAction="http://tempuri.org/NoteWebService/SaveFileResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/SaveFileCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SaveFileCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SaveFileResponse> SaveFileAsync(MMBackendServiceReference2.SaveFileRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.SaveFileResponse> SaveFileAsync(NoteWebServiceReference.SaveFileRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/LoadFile", ReplyAction="http://tempuri.org/NoteWebService/LoadFileResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/LoadFileCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/LoadFileCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.LoadFileResponse> LoadFileAsync(MMBackendServiceReference2.LoadFileRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.LoadFileResponse> LoadFileAsync(NoteWebServiceReference.LoadFileRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/LoadFileById", ReplyAction="http://tempuri.org/NoteWebService/LoadFileByIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/LoadFileByIdCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/LoadFileByIdCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.LoadFileByIdResponse> LoadFileByIdAsync(MMBackendServiceReference2.LoadFileByIdRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.LoadFileByIdResponse> LoadFileByIdAsync(NoteWebServiceReference.LoadFileByIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/DeleteFile", ReplyAction="http://tempuri.org/NoteWebService/DeleteFileResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/DeleteFileCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/DeleteFileCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.DeleteFileResponse> DeleteFileAsync(MMBackendServiceReference2.DeleteFileRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteFileResponse> DeleteFileAsync(NoteWebServiceReference.DeleteFileRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/FileExists", ReplyAction="http://tempuri.org/NoteWebService/FileExistsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/FileExistsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/FileExistsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.FileExistsResponse> FileExistsAsync(MMBackendServiceReference2.FileExistsRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.FileExistsResponse> FileExistsAsync(NoteWebServiceReference.FileExistsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/NoteExists", ReplyAction="http://tempuri.org/NoteWebService/NoteExistsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/NoteExistsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/NoteExistsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.NoteExistsResponse> NoteExistsAsync(MMBackendServiceReference2.NoteExistsRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.NoteExistsResponse> NoteExistsAsync(NoteWebServiceReference.NoteExistsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetAutoRecoveredNotes", ReplyAction="http://tempuri.org/NoteWebService/GetAutoRecoveredNotesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetAutoRecoveredNotesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetAutoRecoveredNotesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetAutoRecoveredNotesResponse> GetAutoRecoveredNotesAsync(MMBackendServiceReference2.GetAutoRecoveredNotesRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetAutoRecoveredNotesResponse> GetAutoRecoveredNotesAsync(NoteWebServiceReference.GetAutoRecoveredNotesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SaveClientLogFile", ReplyAction="http://tempuri.org/NoteWebService/SaveClientLogFileResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/SaveClientLogFileCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SaveClientLogFileCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SaveClientLogFileResponse> SaveClientLogFileAsync(MMBackendServiceReference2.SaveClientLogFileRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.SaveClientLogFileResponse> SaveClientLogFileAsync(NoteWebServiceReference.SaveClientLogFileRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetDictationAttribute", ReplyAction="http://tempuri.org/NoteWebService/GetDictationAttributeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetDictationAttributeCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetDictationAttributeCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetDictationAttributeResponse> GetDictationAttributeAsync(MMBackendServiceReference2.GetDictationAttributeRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetDictationAttributeResponse> GetDictationAttributeAsync(NoteWebServiceReference.GetDictationAttributeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetDictationAttribute", ReplyAction="http://tempuri.org/NoteWebService/SetDictationAttributeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/SetDictationAttributeCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetDictationAttributeCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SetDictationAttributeResponse> SetDictationAttributeAsync(MMBackendServiceReference2.SetDictationAttributeRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetDictationAttributeResponse> SetDictationAttributeAsync(NoteWebServiceReference.SetDictationAttributeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetDictationFields", ReplyAction="http://tempuri.org/NoteWebService/GetDictationFieldsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetDictationFieldsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetDictationFieldsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetDictationFieldsResponse> GetDictationFieldsAsync(MMBackendServiceReference2.GetDictationFieldsRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetDictationFieldsResponse> GetDictationFieldsAsync(NoteWebServiceReference.GetDictationFieldsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetContextForProfile", ReplyAction="http://tempuri.org/NoteWebService/GetContextForProfileResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetContextForProfileCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetContextForProfileCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetContextForProfileResponse> GetContextForProfileAsync(MMBackendServiceReference2.GetContextForProfileRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetContextForProfileResponse> GetContextForProfileAsync(NoteWebServiceReference.GetContextForProfileRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetSpeechRecognitionProfile", ReplyAction="http://tempuri.org/NoteWebService/GetSpeechRecognitionProfileResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetSpeechRecognitionProfileCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetSpeechRecognitionProfileCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetSpeechRecognitionProfileResponse> GetSpeechRecognitionProfileAsync(MMBackendServiceReference2.GetSpeechRecognitionProfileRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechRecognitionProfileResponse> GetSpeechRecognitionProfileAsync(NoteWebServiceReference.GetSpeechRecognitionProfileRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetDefaultSpeechRecognitionContext", ReplyAction="http://tempuri.org/NoteWebService/SetDefaultSpeechRecognitionContextResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/SetDefaultSpeechRecognitionContextCustomFaultFa" +
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetDefaultSpeechRecognitionContextCustomFaultFa" +
             "ult", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SetDefaultSpeechRecognitionContextResponse> SetDefaultSpeechRecognitionContextAsync(MMBackendServiceReference2.SetDefaultSpeechRecognitionContextRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetDefaultSpeechRecognitionContextResponse> SetDefaultSpeechRecognitionContextAsync(NoteWebServiceReference.SetDefaultSpeechRecognitionContextRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetDictationTemplate", ReplyAction="http://tempuri.org/NoteWebService/GetDictationTemplateResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetDictationTemplateCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetDictationTemplateCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetDictationTemplateResponse> GetDictationTemplateAsync(MMBackendServiceReference2.GetDictationTemplateRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetDictationTemplateResponse> GetDictationTemplateAsync(NoteWebServiceReference.GetDictationTemplateRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetNewDictationTemplate", ReplyAction="http://tempuri.org/NoteWebService/GetNewDictationTemplateResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetNewDictationTemplateCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetNewDictationTemplateCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetNewDictationTemplateResponse> GetNewDictationTemplateAsync(MMBackendServiceReference2.GetNewDictationTemplateRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetNewDictationTemplateResponse> GetNewDictationTemplateAsync(NoteWebServiceReference.GetNewDictationTemplateRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetDictationTemplates", ReplyAction="http://tempuri.org/NoteWebService/GetDictationTemplatesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetDictationTemplatesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetDictationTemplatesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetDictationTemplatesResponse> GetDictationTemplatesAsync(MMBackendServiceReference2.GetDictationTemplatesRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetDictationTemplatesResponse> GetDictationTemplatesAsync(NoteWebServiceReference.GetDictationTemplatesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetDictationNoteTemplates", ReplyAction="http://tempuri.org/NoteWebService/GetDictationNoteTemplatesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetDictationNoteTemplatesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetDictationNoteTemplatesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetDictationNoteTemplatesResponse> GetDictationNoteTemplatesAsync(MMBackendServiceReference2.GetDictationNoteTemplatesRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetDictationNoteTemplatesResponse> GetDictationNoteTemplatesAsync(NoteWebServiceReference.GetDictationNoteTemplatesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetNewDictationNoteTemplate", ReplyAction="http://tempuri.org/NoteWebService/GetNewDictationNoteTemplateResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetNewDictationNoteTemplateCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetNewDictationNoteTemplateCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetNewDictationNoteTemplateResponse> GetNewDictationNoteTemplateAsync(MMBackendServiceReference2.GetNewDictationNoteTemplateRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetNewDictationNoteTemplateResponse> GetNewDictationNoteTemplateAsync(NoteWebServiceReference.GetNewDictationNoteTemplateRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetAllGroups", ReplyAction="http://tempuri.org/NoteWebService/GetAllGroupsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetAllGroupsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetAllGroupsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetAllGroupsResponse> GetAllGroupsAsync(MMBackendServiceReference2.GetAllGroupsRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetAllGroupsResponse> GetAllGroupsAsync(NoteWebServiceReference.GetAllGroupsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetGroups", ReplyAction="http://tempuri.org/NoteWebService/GetGroupsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetGroupsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetGroupsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetGroupsResponse> GetGroupsAsync(MMBackendServiceReference2.GetGroupsRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetGroupsResponse> GetGroupsAsync(NoteWebServiceReference.GetGroupsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetGroupHierarchy", ReplyAction="http://tempuri.org/NoteWebService/GetGroupHierarchyResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetGroupHierarchyCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetGroupHierarchyCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetGroupHierarchyResponse> GetGroupHierarchyAsync(MMBackendServiceReference2.GetGroupHierarchyRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetGroupHierarchyResponse> GetGroupHierarchyAsync(NoteWebServiceReference.GetGroupHierarchyRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetQualifiedUsers", ReplyAction="http://tempuri.org/NoteWebService/GetQualifiedUsersResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetQualifiedUsersCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetQualifiedUsersCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetQualifiedUsersResponse> GetQualifiedUsersAsync(MMBackendServiceReference2.GetQualifiedUsersRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetQualifiedUsersResponse> GetQualifiedUsersAsync(NoteWebServiceReference.GetQualifiedUsersRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/CreateSuspendedDocument", ReplyAction="http://tempuri.org/NoteWebService/CreateSuspendedDocumentResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/CreateSuspendedDocumentCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/CreateSuspendedDocumentCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.CreateSuspendedDocumentResponse> CreateSuspendedDocumentAsync(MMBackendServiceReference2.CreateSuspendedDocumentRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.CreateSuspendedDocumentResponse> CreateSuspendedDocumentAsync(NoteWebServiceReference.CreateSuspendedDocumentRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/UpdateSuspendedDocument", ReplyAction="http://tempuri.org/NoteWebService/UpdateSuspendedDocumentResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/UpdateSuspendedDocumentCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/UpdateSuspendedDocumentCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.UpdateSuspendedDocumentResponse> UpdateSuspendedDocumentAsync(MMBackendServiceReference2.UpdateSuspendedDocumentRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.UpdateSuspendedDocumentResponse> UpdateSuspendedDocumentAsync(NoteWebServiceReference.UpdateSuspendedDocumentRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetSuspendedDocument", ReplyAction="http://tempuri.org/NoteWebService/GetSuspendedDocumentResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetSuspendedDocumentCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetSuspendedDocumentCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetSuspendedDocumentResponse> GetSuspendedDocumentAsync(MMBackendServiceReference2.GetSuspendedDocumentRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetSuspendedDocumentResponse> GetSuspendedDocumentAsync(NoteWebServiceReference.GetSuspendedDocumentRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetListOfSuspendedDocuments", ReplyAction="http://tempuri.org/NoteWebService/GetListOfSuspendedDocumentsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetListOfSuspendedDocumentsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetListOfSuspendedDocumentsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetListOfSuspendedDocumentsResponse> GetListOfSuspendedDocumentsAsync(MMBackendServiceReference2.GetListOfSuspendedDocumentsRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetListOfSuspendedDocumentsResponse> GetListOfSuspendedDocumentsAsync(NoteWebServiceReference.GetListOfSuspendedDocumentsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/CloseSuspendedDocument", ReplyAction="http://tempuri.org/NoteWebService/CloseSuspendedDocumentResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/CloseSuspendedDocumentCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/CloseSuspendedDocumentCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.CloseSuspendedDocumentResponse> CloseSuspendedDocumentAsync(MMBackendServiceReference2.CloseSuspendedDocumentRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.CloseSuspendedDocumentResponse> CloseSuspendedDocumentAsync(NoteWebServiceReference.CloseSuspendedDocumentRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/RemoveSuspendedDocument", ReplyAction="http://tempuri.org/NoteWebService/RemoveSuspendedDocumentResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/RemoveSuspendedDocumentCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/RemoveSuspendedDocumentCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.RemoveSuspendedDocumentResponse> RemoveSuspendedDocumentAsync(MMBackendServiceReference2.RemoveSuspendedDocumentRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.RemoveSuspendedDocumentResponse> RemoveSuspendedDocumentAsync(NoteWebServiceReference.RemoveSuspendedDocumentRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/AddOrUpdateAutoText", ReplyAction="http://tempuri.org/NoteWebService/AddOrUpdateAutoTextResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/AddOrUpdateAutoTextCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/AddOrUpdateAutoTextCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.AddOrUpdateAutoTextResponse> AddOrUpdateAutoTextAsync(MMBackendServiceReference2.AddOrUpdateAutoTextRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.AddOrUpdateAutoTextResponse> AddOrUpdateAutoTextAsync(NoteWebServiceReference.AddOrUpdateAutoTextRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetAllAutoTexts", ReplyAction="http://tempuri.org/NoteWebService/GetAllAutoTextsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetAllAutoTextsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetAllAutoTextsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetAllAutoTextsResponse> GetAllAutoTextsAsync(MMBackendServiceReference2.GetAllAutoTextsRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetAllAutoTextsResponse> GetAllAutoTextsAsync(NoteWebServiceReference.GetAllAutoTextsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/DeleteAutoText", ReplyAction="http://tempuri.org/NoteWebService/DeleteAutoTextResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/DeleteAutoTextCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/DeleteAutoTextCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.DeleteAutoTextResponse> DeleteAutoTextAsync(MMBackendServiceReference2.DeleteAutoTextRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteAutoTextResponse> DeleteAutoTextAsync(NoteWebServiceReference.DeleteAutoTextRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/RegisterSpeechRecognitionStatistics", ReplyAction="http://tempuri.org/NoteWebService/RegisterSpeechRecognitionStatisticsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/RegisterSpeechRecognitionStatisticsCustomFaultF" +
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/RegisterSpeechRecognitionStatisticsCustomFaultF" +
             "ault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.RegisterSpeechRecognitionStatisticsResponse> RegisterSpeechRecognitionStatisticsAsync(MMBackendServiceReference2.RegisterSpeechRecognitionStatisticsRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.RegisterSpeechRecognitionStatisticsResponse> RegisterSpeechRecognitionStatisticsAsync(NoteWebServiceReference.RegisterSpeechRecognitionStatisticsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetTriggerActions", ReplyAction="http://tempuri.org/NoteWebService/GetTriggerActionsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetTriggerActionsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetTriggerActionsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetTriggerActionsResponse> GetTriggerActionsAsync(MMBackendServiceReference2.GetTriggerActionsRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetTriggerActionsResponse> GetTriggerActionsAsync(NoteWebServiceReference.GetTriggerActionsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetManagerTriggerActions", ReplyAction="http://tempuri.org/NoteWebService/GetManagerTriggerActionsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetManagerTriggerActionsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetManagerTriggerActionsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetManagerTriggerActionsResponse> GetManagerTriggerActionsAsync(MMBackendServiceReference2.GetManagerTriggerActionsRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetManagerTriggerActionsResponse> GetManagerTriggerActionsAsync(NoteWebServiceReference.GetManagerTriggerActionsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetCommandSubstitutions", ReplyAction="http://tempuri.org/NoteWebService/GetCommandSubstitutionsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetCommandSubstitutionsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetCommandSubstitutionsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetCommandSubstitutionsResponse> GetCommandSubstitutionsAsync(MMBackendServiceReference2.GetCommandSubstitutionsRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetCommandSubstitutionsResponse> GetCommandSubstitutionsAsync(NoteWebServiceReference.GetCommandSubstitutionsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetUser", ReplyAction="http://tempuri.org/NoteWebService/GetUserResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetUserCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetUserCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetUserResponse> GetUserAsync(MMBackendServiceReference2.GetUserRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetUserResponse> GetUserAsync(NoteWebServiceReference.GetUserRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/ReadKPIValue", ReplyAction="http://tempuri.org/NoteWebService/ReadKPIValueResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/ReadKPIValueCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/ReadKPIValueCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.ReadKPIValueResponse> ReadKPIValueAsync(MMBackendServiceReference2.ReadKPIValueRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.ReadKPIValueResponse> ReadKPIValueAsync(NoteWebServiceReference.ReadKPIValueRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetStatistics", ReplyAction="http://tempuri.org/NoteWebService/GetStatisticsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetStatisticsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetStatisticsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetStatisticsResponse> GetStatisticsAsync(MMBackendServiceReference2.GetStatisticsRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetStatisticsResponse> GetStatisticsAsync(NoteWebServiceReference.GetStatisticsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetStatisticsLastModified", ReplyAction="http://tempuri.org/NoteWebService/GetStatisticsLastModifiedResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetStatisticsLastModifiedCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetStatisticsLastModifiedCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetStatisticsLastModifiedResponse> GetStatisticsLastModifiedAsync(MMBackendServiceReference2.GetStatisticsLastModifiedRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetStatisticsLastModifiedResponse> GetStatisticsLastModifiedAsync(NoteWebServiceReference.GetStatisticsLastModifiedRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/IsAlive", ReplyAction="http://tempuri.org/NoteWebService/IsAliveResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/IsAliveCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/IsAliveCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
         System.Threading.Tasks.Task<bool> IsAliveAsync();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetParameters", ReplyAction="http://tempuri.org/NoteWebService/GetParametersResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetParametersCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetParametersCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetParametersResponse> GetParametersAsync(MMBackendServiceReference2.GetParametersRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetParametersResponse> GetParametersAsync(NoteWebServiceReference.GetParametersRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SaveAllParameters", ReplyAction="http://tempuri.org/NoteWebService/SaveAllParametersResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/SaveAllParametersCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SaveAllParametersCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SaveAllParametersResponse> SaveAllParametersAsync(MMBackendServiceReference2.SaveAllParametersRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.SaveAllParametersResponse> SaveAllParametersAsync(NoteWebServiceReference.SaveAllParametersRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetParameter", ReplyAction="http://tempuri.org/NoteWebService/SetParameterResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/SetParameterCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetParameterCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SetParameterResponse> SetParameterAsync(MMBackendServiceReference2.SetParameterRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetParameterResponse> SetParameterAsync(NoteWebServiceReference.SetParameterRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SaveAllParametersWithError", ReplyAction="http://tempuri.org/NoteWebService/SaveAllParametersWithErrorResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/SaveAllParametersWithErrorCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SaveAllParametersWithErrorCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SaveAllParametersWithErrorResponse> SaveAllParametersWithErrorAsync(MMBackendServiceReference2.SaveAllParametersWithErrorRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.SaveAllParametersWithErrorResponse> SaveAllParametersWithErrorAsync(NoteWebServiceReference.SaveAllParametersWithErrorRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetSystemParameters", ReplyAction="http://tempuri.org/NoteWebService/GetSystemParametersResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetSystemParametersCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetSystemParametersCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetSystemParametersResponse> GetSystemParametersAsync(MMBackendServiceReference2.GetSystemParametersRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetSystemParametersResponse> GetSystemParametersAsync(NoteWebServiceReference.GetSystemParametersRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetApplicationParameters", ReplyAction="http://tempuri.org/NoteWebService/GetApplicationParametersResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetApplicationParametersCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetApplicationParametersCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetApplicationParametersResponse> GetApplicationParametersAsync(MMBackendServiceReference2.GetApplicationParametersRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetApplicationParametersResponse> GetApplicationParametersAsync(NoteWebServiceReference.GetApplicationParametersRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetApplicationParametersForAllCategories", ReplyAction="http://tempuri.org/NoteWebService/GetApplicationParametersForAllCategoriesRespons" +
             "e")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetApplicationParametersForAllCategoriesCustomF" +
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetApplicationParametersForAllCategoriesCustomF" +
             "aultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetApplicationParametersForAllCategoriesResponse> GetApplicationParametersForAllCategoriesAsync(MMBackendServiceReference2.GetApplicationParametersForAllCategoriesRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetApplicationParametersForAllCategoriesResponse> GetApplicationParametersForAllCategoriesAsync(NoteWebServiceReference.GetApplicationParametersForAllCategoriesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetAutoText", ReplyAction="http://tempuri.org/NoteWebService/GetAutoTextResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetAutoTextCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetAutoTextCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetAutoTextResponse> GetAutoTextAsync(MMBackendServiceReference2.GetAutoTextRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetAutoTextResponse> GetAutoTextAsync(NoteWebServiceReference.GetAutoTextRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/AudioNoteExists", ReplyAction="http://tempuri.org/NoteWebService/AudioNoteExistsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/AudioNoteExistsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/AudioNoteExistsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.AudioNoteExistsResponse> AudioNoteExistsAsync(MMBackendServiceReference2.AudioNoteExistsRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.AudioNoteExistsResponse> AudioNoteExistsAsync(NoteWebServiceReference.AudioNoteExistsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetAudioNoteById", ReplyAction="http://tempuri.org/NoteWebService/GetAudioNoteByIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetAudioNoteByIdCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetAudioNoteByIdCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetAudioNoteByIdResponse> GetAudioNoteByIdAsync(MMBackendServiceReference2.GetAudioNoteByIdRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetAudioNoteByIdResponse> GetAudioNoteByIdAsync(NoteWebServiceReference.GetAudioNoteByIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetNote", ReplyAction="http://tempuri.org/NoteWebService/GetNoteResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetNoteResponse> GetNoteAsync(MMBackendServiceReference2.GetNoteRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetNoteResponse> GetNoteAsync(NoteWebServiceReference.GetNoteRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetNoteResult", ReplyAction="http://tempuri.org/NoteWebService/GetNoteResultResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetNoteResultCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetNoteResultCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetNoteResultResponse> GetNoteResultAsync(MMBackendServiceReference2.GetNoteResultRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetNoteResultResponse> GetNoteResultAsync(NoteWebServiceReference.GetNoteResultRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetAudioNoteBinaryByUid", ReplyAction="http://tempuri.org/NoteWebService/GetAudioNoteBinaryByUidResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetAudioNoteBinaryByUidCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetAudioNoteBinaryByUidCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetAudioNoteBinaryByUidResponse> GetAudioNoteBinaryByUidAsync(MMBackendServiceReference2.GetAudioNoteBinaryByUidRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetAudioNoteBinaryByUidResponse> GetAudioNoteBinaryByUidAsync(NoteWebServiceReference.GetAudioNoteBinaryByUidRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetAudioNoteBinary", ReplyAction="http://tempuri.org/NoteWebService/SetAudioNoteBinaryResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/SetAudioNoteBinaryCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetAudioNoteBinaryCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
         System.Threading.Tasks.Task SetAudioNoteBinaryAsync(System.IO.Stream binaryStream);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetAudioNoteResultById", ReplyAction="http://tempuri.org/NoteWebService/GetAudioNoteResultByIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetAudioNoteResultByIdCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetAudioNoteResultByIdCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetAudioNoteResultByIdResponse> GetAudioNoteResultByIdAsync(MMBackendServiceReference2.GetAudioNoteResultByIdRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetAudioNoteResultByIdResponse> GetAudioNoteResultByIdAsync(NoteWebServiceReference.GetAudioNoteResultByIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetSpeechNoteResultById", ReplyAction="http://tempuri.org/NoteWebService/GetSpeechNoteResultByIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/GetSpeechNoteResultByIdCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetSpeechNoteResultByIdCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetSpeechNoteResultByIdResponse> GetSpeechNoteResultByIdAsync(MMBackendServiceReference2.GetSpeechNoteResultByIdRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechNoteResultByIdResponse> GetSpeechNoteResultByIdAsync(NoteWebServiceReference.GetSpeechNoteResultByIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/UpdateAudioNote", ReplyAction="http://tempuri.org/NoteWebService/UpdateAudioNoteResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/UpdateAudioNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/UpdateAudioNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.UpdateAudioNoteResponse> UpdateAudioNoteAsync(MMBackendServiceReference2.UpdateAudioNoteRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.UpdateAudioNoteResponse> UpdateAudioNoteAsync(NoteWebServiceReference.UpdateAudioNoteRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/DeleteAudioNote", ReplyAction="http://tempuri.org/NoteWebService/DeleteAudioNoteResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/DeleteAudioNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/DeleteAudioNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.DeleteAudioNoteResponse> DeleteAudioNoteAsync(MMBackendServiceReference2.DeleteAudioNoteRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteAudioNoteResponse> DeleteAudioNoteAsync(NoteWebServiceReference.DeleteAudioNoteRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/DeleteNote", ReplyAction="http://tempuri.org/NoteWebService/DeleteNoteResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/DeleteNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/DeleteNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.DeleteNoteResponse> DeleteNoteAsync(MMBackendServiceReference2.DeleteNoteRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteNoteResponse> DeleteNoteAsync(NoteWebServiceReference.DeleteNoteRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/CreateAudioNote", ReplyAction="http://tempuri.org/NoteWebService/CreateAudioNoteResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MMBackendServiceReference2.CustomFault), Action="http://tempuri.org/NoteWebService/CreateAudioNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/CreateAudioNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.CreateAudioNoteResponse> CreateAudioNoteAsync(MMBackendServiceReference2.CreateAudioNoteRequest request);
+        System.Threading.Tasks.Task<NoteWebServiceReference.CreateAudioNoteResponse> CreateAudioNoteAsync(NoteWebServiceReference.CreateAudioNoteRequest request);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -5339,11 +5339,11 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.AudioNote audioNote;
+        public NoteWebServiceReference.AudioNote audioNote;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
         public bool useLockTimeSlice;
@@ -5352,7 +5352,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public LockAudioNoteRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.AudioNote audioNote, bool useLockTimeSlice)
+        public LockAudioNoteRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.AudioNote audioNote, bool useLockTimeSlice)
         {
             this.verifiedSession = verifiedSession;
             this.audioNote = audioNote;
@@ -5389,17 +5389,17 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.AudioNote audioNote;
+        public NoteWebServiceReference.AudioNote audioNote;
         
         public UnlockAudioNoteRequest()
         {
         }
         
-        public UnlockAudioNoteRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.AudioNote audioNote)
+        public UnlockAudioNoteRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.AudioNote audioNote)
         {
             this.verifiedSession = verifiedSession;
             this.audioNote = audioNote;
@@ -5427,11 +5427,11 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.SpeechNote speechNote;
+        public NoteWebServiceReference.SpeechNote speechNote;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
         public bool useLockTimeSlice;
@@ -5440,7 +5440,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public LockSpeechNoteRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.SpeechNote speechNote, bool useLockTimeSlice)
+        public LockSpeechNoteRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.SpeechNote speechNote, bool useLockTimeSlice)
         {
             this.verifiedSession = verifiedSession;
             this.speechNote = speechNote;
@@ -5477,17 +5477,17 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.SpeechNote speechNote;
+        public NoteWebServiceReference.SpeechNote speechNote;
         
         public UnlockSpeechNoteRequest()
         {
         }
         
-        public UnlockSpeechNoteRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.SpeechNote speechNote)
+        public UnlockSpeechNoteRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.SpeechNote speechNote)
         {
             this.verifiedSession = verifiedSession;
             this.speechNote = speechNote;
@@ -5703,11 +5703,11 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.SpeechNote speechNote;
+        public NoteWebServiceReference.SpeechNote speechNote;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
         public long createdDuration;
@@ -5716,7 +5716,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public CreateSpeechNoteRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.SpeechNote speechNote, long createdDuration)
+        public CreateSpeechNoteRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.SpeechNote speechNote, long createdDuration)
         {
             this.verifiedSession = verifiedSession;
             this.speechNote = speechNote;
@@ -5733,13 +5733,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.SpeechNoteResult CreateSpeechNoteResult;
+        public NoteWebServiceReference.SpeechNoteResult CreateSpeechNoteResult;
         
         public CreateSpeechNoteResponse()
         {
         }
         
-        public CreateSpeechNoteResponse(MMBackendServiceReference2.SpeechNoteResult CreateSpeechNoteResult)
+        public CreateSpeechNoteResponse(NoteWebServiceReference.SpeechNoteResult CreateSpeechNoteResult)
         {
             this.CreateSpeechNoteResult = CreateSpeechNoteResult;
         }
@@ -5754,11 +5754,11 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.SpeechNote speechNote;
+        public NoteWebServiceReference.SpeechNote speechNote;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
         public long updateDuration;
@@ -5770,7 +5770,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public UpdateSpeechNoteRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.SpeechNote speechNote, long updateDuration, bool forceOverWrite)
+        public UpdateSpeechNoteRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.SpeechNote speechNote, long updateDuration, bool forceOverWrite)
         {
             this.verifiedSession = verifiedSession;
             this.speechNote = speechNote;
@@ -5788,13 +5788,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.SpeechNoteResult UpdateSpeechNoteResult;
+        public NoteWebServiceReference.SpeechNoteResult UpdateSpeechNoteResult;
         
         public UpdateSpeechNoteResponse()
         {
         }
         
-        public UpdateSpeechNoteResponse(MMBackendServiceReference2.SpeechNoteResult UpdateSpeechNoteResult)
+        public UpdateSpeechNoteResponse(NoteWebServiceReference.SpeechNoteResult UpdateSpeechNoteResult)
         {
             this.UpdateSpeechNoteResult = UpdateSpeechNoteResult;
         }
@@ -5809,7 +5809,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         public long id;
@@ -5822,7 +5822,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetSpeechNoteRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, long id, string externalUid)
+        public GetSpeechNoteRequest(NoteWebServiceReference.VerifiedSession verifiedSession, long id, string externalUid)
         {
             this.verifiedSession = verifiedSession;
             this.id = id;
@@ -5839,13 +5839,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.SpeechNote GetSpeechNoteResult;
+        public NoteWebServiceReference.SpeechNote GetSpeechNoteResult;
         
         public GetSpeechNoteResponse()
         {
         }
         
-        public GetSpeechNoteResponse(MMBackendServiceReference2.SpeechNote GetSpeechNoteResult)
+        public GetSpeechNoteResponse(NoteWebServiceReference.SpeechNote GetSpeechNoteResult)
         {
             this.GetSpeechNoteResult = GetSpeechNoteResult;
         }
@@ -5860,7 +5860,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         public long id;
@@ -5873,7 +5873,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetSpeechNoteStatusRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, long id, string externalUid)
+        public GetSpeechNoteStatusRequest(NoteWebServiceReference.VerifiedSession verifiedSession, long id, string externalUid)
         {
             this.verifiedSession = verifiedSession;
             this.id = id;
@@ -5925,20 +5925,20 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.SpeechNote speechNote;
+        public NoteWebServiceReference.SpeechNote speechNote;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
-        public MMBackendServiceReference2.NoteValidationRules ignoreTheseRules;
+        public NoteWebServiceReference.NoteValidationRules ignoreTheseRules;
         
         public DeleteSpeechNoteRequest()
         {
         }
         
-        public DeleteSpeechNoteRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.SpeechNote speechNote, MMBackendServiceReference2.NoteValidationRules ignoreTheseRules)
+        public DeleteSpeechNoteRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.SpeechNote speechNote, NoteWebServiceReference.NoteValidationRules ignoreTheseRules)
         {
             this.verifiedSession = verifiedSession;
             this.speechNote = speechNote;
@@ -5955,13 +5955,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.SpeechNoteResult DeleteSpeechNoteResult;
+        public NoteWebServiceReference.SpeechNoteResult DeleteSpeechNoteResult;
         
         public DeleteSpeechNoteResponse()
         {
         }
         
-        public DeleteSpeechNoteResponse(MMBackendServiceReference2.SpeechNoteResult DeleteSpeechNoteResult)
+        public DeleteSpeechNoteResponse(NoteWebServiceReference.SpeechNoteResult DeleteSpeechNoteResult)
         {
             this.DeleteSpeechNoteResult = DeleteSpeechNoteResult;
         }
@@ -6623,17 +6623,17 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.NoteSearchQuery noteSearchQuery;
+        public NoteWebServiceReference.NoteSearchQuery noteSearchQuery;
         
         public FindNotesRequest()
         {
         }
         
-        public FindNotesRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.NoteSearchQuery noteSearchQuery)
+        public FindNotesRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.NoteSearchQuery noteSearchQuery)
         {
             this.verifiedSession = verifiedSession;
             this.noteSearchQuery = noteSearchQuery;
@@ -6651,13 +6651,13 @@ namespace MMBackendServiceReference2
         [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
             "")]
-        public MMBackendServiceReference2.Note[] FindNotesResult;
+        public NoteWebServiceReference.Note[] FindNotesResult;
         
         public FindNotesResponse()
         {
         }
         
-        public FindNotesResponse(MMBackendServiceReference2.Note[] FindNotesResult)
+        public FindNotesResponse(NoteWebServiceReference.Note[] FindNotesResult)
         {
             this.FindNotesResult = FindNotesResult;
         }
@@ -6672,17 +6672,17 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.NoteSearchQuery noteSearchQuery;
+        public NoteWebServiceReference.NoteSearchQuery noteSearchQuery;
         
         public FindNotesCountRequest()
         {
         }
         
-        public FindNotesCountRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.NoteSearchQuery noteSearchQuery)
+        public FindNotesCountRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.NoteSearchQuery noteSearchQuery)
         {
             this.verifiedSession = verifiedSession;
             this.noteSearchQuery = noteSearchQuery;
@@ -6718,17 +6718,17 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.NoteSearchQuery noteSearchQuery;
+        public NoteWebServiceReference.NoteSearchQuery noteSearchQuery;
         
         public FindNotesLengthRequest()
         {
         }
         
-        public FindNotesLengthRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.NoteSearchQuery noteSearchQuery)
+        public FindNotesLengthRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.NoteSearchQuery noteSearchQuery)
         {
             this.verifiedSession = verifiedSession;
             this.noteSearchQuery = noteSearchQuery;
@@ -6836,17 +6836,17 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.NoteSearchQuery noteSearchQuery;
+        public NoteWebServiceReference.NoteSearchQuery noteSearchQuery;
         
         public FindNotesInfoRequest()
         {
         }
         
-        public FindNotesInfoRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.NoteSearchQuery noteSearchQuery)
+        public FindNotesInfoRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.NoteSearchQuery noteSearchQuery)
         {
             this.verifiedSession = verifiedSession;
             this.noteSearchQuery = noteSearchQuery;
@@ -6862,13 +6862,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.FindNoteInfo FindNotesInfoResult;
+        public NoteWebServiceReference.FindNoteInfo FindNotesInfoResult;
         
         public FindNotesInfoResponse()
         {
         }
         
-        public FindNotesInfoResponse(MMBackendServiceReference2.FindNoteInfo FindNotesInfoResult)
+        public FindNotesInfoResponse(NoteWebServiceReference.FindNoteInfo FindNotesInfoResult)
         {
             this.FindNotesInfoResult = FindNotesInfoResult;
         }
@@ -6971,7 +6971,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -6985,7 +6985,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public ChangeUserPasswordRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, string oldPassword, string newPassword)
+        public ChangeUserPasswordRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string oldPassword, string newPassword)
         {
             this.verifiedSession = verifiedSession;
             this.oldPassword = oldPassword;
@@ -7002,13 +7002,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.ChangePasswordResult ChangeUserPasswordResult;
+        public NoteWebServiceReference.ChangePasswordResult ChangeUserPasswordResult;
         
         public ChangeUserPasswordResponse()
         {
         }
         
-        public ChangeUserPasswordResponse(MMBackendServiceReference2.ChangePasswordResult ChangeUserPasswordResult)
+        public ChangeUserPasswordResponse(NoteWebServiceReference.ChangePasswordResult ChangeUserPasswordResult)
         {
             this.ChangeUserPasswordResult = ChangeUserPasswordResult;
         }
@@ -7023,17 +7023,17 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.User changedUser;
+        public NoteWebServiceReference.User changedUser;
         
         public UpdateSimpleUserPropertiesRequest()
         {
         }
         
-        public UpdateSimpleUserPropertiesRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.User changedUser)
+        public UpdateSimpleUserPropertiesRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.User changedUser)
         {
             this.verifiedSession = verifiedSession;
             this.changedUser = changedUser;
@@ -7069,13 +7069,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         public GetQuickNoteUidRequest()
         {
         }
         
-        public GetQuickNoteUidRequest(MMBackendServiceReference2.VerifiedSession verifiedSession)
+        public GetQuickNoteUidRequest(NoteWebServiceReference.VerifiedSession verifiedSession)
         {
             this.verifiedSession = verifiedSession;
         }
@@ -7214,13 +7214,13 @@ namespace MMBackendServiceReference2
         [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
             "")]
-        public MMBackendServiceReference2.Application[] GetApplicationsResult;
+        public NoteWebServiceReference.Application[] GetApplicationsResult;
         
         public GetApplicationsResponse()
         {
         }
         
-        public GetApplicationsResponse(MMBackendServiceReference2.Application[] GetApplicationsResult)
+        public GetApplicationsResponse(NoteWebServiceReference.Application[] GetApplicationsResult)
         {
             this.GetApplicationsResult = GetApplicationsResult;
         }
@@ -7775,17 +7775,17 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.TriggerAction triggerAction;
+        public NoteWebServiceReference.TriggerAction triggerAction;
         
         public CreateOrUpdateTriggerActionRequest()
         {
         }
         
-        public CreateOrUpdateTriggerActionRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.TriggerAction triggerAction)
+        public CreateOrUpdateTriggerActionRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.TriggerAction triggerAction)
         {
             this.verifiedSession = verifiedSession;
             this.triggerAction = triggerAction;
@@ -7813,17 +7813,17 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.TriggerAction triggerAction;
+        public NoteWebServiceReference.TriggerAction triggerAction;
         
         public DeleteTriggerActionRequest()
         {
         }
         
-        public DeleteTriggerActionRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.TriggerAction triggerAction)
+        public DeleteTriggerActionRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.TriggerAction triggerAction)
         {
             this.verifiedSession = verifiedSession;
             this.triggerAction = triggerAction;
@@ -7851,13 +7851,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         public GetTriggerActionCategoriesRequest()
         {
         }
         
-        public GetTriggerActionCategoriesRequest(MMBackendServiceReference2.VerifiedSession verifiedSession)
+        public GetTriggerActionCategoriesRequest(NoteWebServiceReference.VerifiedSession verifiedSession)
         {
             this.verifiedSession = verifiedSession;
         }
@@ -7874,13 +7874,13 @@ namespace MMBackendServiceReference2
         [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Speech" +
             "Recognition")]
-        public MMBackendServiceReference2.TriggerActionCategory[] GetTriggerActionCategoriesResult;
+        public NoteWebServiceReference.TriggerActionCategory[] GetTriggerActionCategoriesResult;
         
         public GetTriggerActionCategoriesResponse()
         {
         }
         
-        public GetTriggerActionCategoriesResponse(MMBackendServiceReference2.TriggerActionCategory[] GetTriggerActionCategoriesResult)
+        public GetTriggerActionCategoriesResponse(NoteWebServiceReference.TriggerActionCategory[] GetTriggerActionCategoriesResult)
         {
             this.GetTriggerActionCategoriesResult = GetTriggerActionCategoriesResult;
         }
@@ -8015,20 +8015,20 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string externalUid;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
-        public MMBackendServiceReference2.NoteStatus noteStatus;
+        public NoteWebServiceReference.NoteStatus noteStatus;
         
         public SetAudioNoteStatusRequest()
         {
         }
         
-        public SetAudioNoteStatusRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, string externalUid, MMBackendServiceReference2.NoteStatus noteStatus)
+        public SetAudioNoteStatusRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string externalUid, NoteWebServiceReference.NoteStatus noteStatus)
         {
             this.verifiedSession = verifiedSession;
             this.externalUid = externalUid;
@@ -8045,13 +8045,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.AudioNoteResult SetAudioNoteStatusResult;
+        public NoteWebServiceReference.AudioNoteResult SetAudioNoteStatusResult;
         
         public SetAudioNoteStatusResponse()
         {
         }
         
-        public SetAudioNoteStatusResponse(MMBackendServiceReference2.AudioNoteResult SetAudioNoteStatusResult)
+        public SetAudioNoteStatusResponse(NoteWebServiceReference.AudioNoteResult SetAudioNoteStatusResult)
         {
             this.SetAudioNoteStatusResult = SetAudioNoteStatusResult;
         }
@@ -8106,18 +8106,18 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.NoteLogic")]
-        public MMBackendServiceReference2.TuningDocument[] documents;
+        public NoteWebServiceReference.TuningDocument[] documents;
         
         public TuneContextRequest()
         {
         }
         
-        public TuneContextRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.TuningDocument[] documents)
+        public TuneContextRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.TuningDocument[] documents)
         {
             this.verifiedSession = verifiedSession;
             this.documents = documents;
@@ -8145,13 +8145,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         public GetUnknownWordsRequest()
         {
         }
         
-        public GetUnknownWordsRequest(MMBackendServiceReference2.VerifiedSession verifiedSession)
+        public GetUnknownWordsRequest(NoteWebServiceReference.VerifiedSession verifiedSession)
         {
             this.verifiedSession = verifiedSession;
         }
@@ -8516,17 +8516,17 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.ClientInfo clientInfo;
+        public NoteWebServiceReference.ClientInfo clientInfo;
         
         public SaveClientInfoRequest()
         {
         }
         
-        public SaveClientInfoRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.ClientInfo clientInfo)
+        public SaveClientInfoRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.ClientInfo clientInfo)
         {
             this.verifiedSession = verifiedSession;
             this.clientInfo = clientInfo;
@@ -8674,7 +8674,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -8688,7 +8688,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public UpdateNoteClientIdRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, string currentClientId, string newClientId)
+        public UpdateNoteClientIdRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string currentClientId, string newClientId)
         {
             this.verifiedSession = verifiedSession;
             this.currentClientId = currentClientId;
@@ -8706,13 +8706,13 @@ namespace MMBackendServiceReference2
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.NoteLogic")]
-        public MMBackendServiceReference2.NoteResult[] UpdateNoteClientIdResult;
+        public NoteWebServiceReference.NoteResult[] UpdateNoteClientIdResult;
         
         public UpdateNoteClientIdResponse()
         {
         }
         
-        public UpdateNoteClientIdResponse(MMBackendServiceReference2.NoteResult[] UpdateNoteClientIdResult)
+        public UpdateNoteClientIdResponse(NoteWebServiceReference.NoteResult[] UpdateNoteClientIdResult)
         {
             this.UpdateNoteClientIdResult = UpdateNoteClientIdResult;
         }
@@ -8727,13 +8727,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         public DeleteAllAutosavedDocumentsRequest()
         {
         }
         
-        public DeleteAllAutosavedDocumentsRequest(MMBackendServiceReference2.VerifiedSession verifiedSession)
+        public DeleteAllAutosavedDocumentsRequest(NoteWebServiceReference.VerifiedSession verifiedSession)
         {
             this.verifiedSession = verifiedSession;
         }
@@ -8760,7 +8760,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         public long linkedNoteId;
@@ -8769,7 +8769,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetSpeechNoteFromLinkedNoteIdRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, long linkedNoteId)
+        public GetSpeechNoteFromLinkedNoteIdRequest(NoteWebServiceReference.VerifiedSession verifiedSession, long linkedNoteId)
         {
             this.verifiedSession = verifiedSession;
             this.linkedNoteId = linkedNoteId;
@@ -8785,13 +8785,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.SpeechNote GetSpeechNoteFromLinkedNoteIdResult;
+        public NoteWebServiceReference.SpeechNote GetSpeechNoteFromLinkedNoteIdResult;
         
         public GetSpeechNoteFromLinkedNoteIdResponse()
         {
         }
         
-        public GetSpeechNoteFromLinkedNoteIdResponse(MMBackendServiceReference2.SpeechNote GetSpeechNoteFromLinkedNoteIdResult)
+        public GetSpeechNoteFromLinkedNoteIdResponse(NoteWebServiceReference.SpeechNote GetSpeechNoteFromLinkedNoteIdResult)
         {
             this.GetSpeechNoteFromLinkedNoteIdResult = GetSpeechNoteFromLinkedNoteIdResult;
         }
@@ -8832,7 +8832,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -8842,7 +8842,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetMessageForUserRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, string clientVersion)
+        public GetMessageForUserRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string clientVersion)
         {
             this.verifiedSession = verifiedSession;
             this.clientVersion = clientVersion;
@@ -8858,13 +8858,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.MessageResult GetMessageForUserResult;
+        public NoteWebServiceReference.MessageResult GetMessageForUserResult;
         
         public GetMessageForUserResponse()
         {
         }
         
-        public GetMessageForUserResponse(MMBackendServiceReference2.MessageResult GetMessageForUserResult)
+        public GetMessageForUserResponse(NoteWebServiceReference.MessageResult GetMessageForUserResult)
         {
             this.GetMessageForUserResult = GetMessageForUserResult;
         }
@@ -8967,17 +8967,17 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.MessageResponse response;
+        public NoteWebServiceReference.MessageResponse response;
         
         public MessageResponseRequest()
         {
         }
         
-        public MessageResponseRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.MessageResponse response)
+        public MessageResponseRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.MessageResponse response)
         {
             this.verifiedSession = verifiedSession;
             this.response = response;
@@ -9005,7 +9005,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         public long noteId;
@@ -9014,7 +9014,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public RegisterListenRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, long noteId)
+        public RegisterListenRequest(NoteWebServiceReference.VerifiedSession verifiedSession, long noteId)
         {
             this.verifiedSession = verifiedSession;
             this.noteId = noteId;
@@ -9084,13 +9084,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession LoginByDomainResult;
+        public NoteWebServiceReference.VerifiedSession LoginByDomainResult;
         
         public LoginByDomainResponse()
         {
         }
         
-        public LoginByDomainResponse(MMBackendServiceReference2.VerifiedSession LoginByDomainResult)
+        public LoginByDomainResponse(NoteWebServiceReference.VerifiedSession LoginByDomainResult)
         {
             this.LoginByDomainResult = LoginByDomainResult;
         }
@@ -9165,13 +9165,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession LoginResult;
+        public NoteWebServiceReference.VerifiedSession LoginResult;
         
         public LoginResponse()
         {
         }
         
-        public LoginResponse(MMBackendServiceReference2.VerifiedSession LoginResult)
+        public LoginResponse(NoteWebServiceReference.VerifiedSession LoginResult)
         {
             this.LoginResult = LoginResult;
         }
@@ -14348,13 +14348,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         public GetCurrentUserRequest()
         {
         }
         
-        public GetCurrentUserRequest(MMBackendServiceReference2.VerifiedSession verifiedSession)
+        public GetCurrentUserRequest(NoteWebServiceReference.VerifiedSession verifiedSession)
         {
             this.verifiedSession = verifiedSession;
         }
@@ -14369,13 +14369,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.UserEntity GetCurrentUserResult;
+        public NoteWebServiceReference.UserEntity GetCurrentUserResult;
         
         public GetCurrentUserResponse()
         {
         }
         
-        public GetCurrentUserResponse(MMBackendServiceReference2.UserEntity GetCurrentUserResult)
+        public GetCurrentUserResponse(NoteWebServiceReference.UserEntity GetCurrentUserResult)
         {
             this.GetCurrentUserResult = GetCurrentUserResult;
         }
@@ -14390,7 +14390,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -14400,7 +14400,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public VerifyUserRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, string loginName)
+        public VerifyUserRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string loginName)
         {
             this.verifiedSession = verifiedSession;
             this.loginName = loginName;
@@ -14457,13 +14457,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession SetCurrentUserResult;
+        public NoteWebServiceReference.VerifiedSession SetCurrentUserResult;
         
         public SetCurrentUserResponse()
         {
         }
         
-        public SetCurrentUserResponse(MMBackendServiceReference2.VerifiedSession SetCurrentUserResult)
+        public SetCurrentUserResponse(NoteWebServiceReference.VerifiedSession SetCurrentUserResult)
         {
             this.SetCurrentUserResult = SetCurrentUserResult;
         }
@@ -14514,13 +14514,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession SetCurrentUserWithSignatureResult;
+        public NoteWebServiceReference.VerifiedSession SetCurrentUserWithSignatureResult;
         
         public SetCurrentUserWithSignatureResponse()
         {
         }
         
-        public SetCurrentUserWithSignatureResponse(MMBackendServiceReference2.VerifiedSession SetCurrentUserWithSignatureResult)
+        public SetCurrentUserWithSignatureResponse(NoteWebServiceReference.VerifiedSession SetCurrentUserWithSignatureResult)
         {
             this.SetCurrentUserWithSignatureResult = SetCurrentUserWithSignatureResult;
         }
@@ -14556,13 +14556,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession SetCurrentUserWithFullNameResult;
+        public NoteWebServiceReference.VerifiedSession SetCurrentUserWithFullNameResult;
         
         public SetCurrentUserWithFullNameResponse()
         {
         }
         
-        public SetCurrentUserWithFullNameResponse(MMBackendServiceReference2.VerifiedSession SetCurrentUserWithFullNameResult)
+        public SetCurrentUserWithFullNameResponse(NoteWebServiceReference.VerifiedSession SetCurrentUserWithFullNameResult)
         {
             this.SetCurrentUserWithFullNameResult = SetCurrentUserWithFullNameResult;
         }
@@ -14603,13 +14603,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession SetCurrentUserAndGroupResult;
+        public NoteWebServiceReference.VerifiedSession SetCurrentUserAndGroupResult;
         
         public SetCurrentUserAndGroupResponse()
         {
         }
         
-        public SetCurrentUserAndGroupResponse(MMBackendServiceReference2.VerifiedSession SetCurrentUserAndGroupResult)
+        public SetCurrentUserAndGroupResponse(NoteWebServiceReference.VerifiedSession SetCurrentUserAndGroupResult)
         {
             this.SetCurrentUserAndGroupResult = SetCurrentUserAndGroupResult;
         }
@@ -14645,13 +14645,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession SetCurrentUserStandAloneResult;
+        public NoteWebServiceReference.VerifiedSession SetCurrentUserStandAloneResult;
         
         public SetCurrentUserStandAloneResponse()
         {
         }
         
-        public SetCurrentUserStandAloneResponse(MMBackendServiceReference2.VerifiedSession SetCurrentUserStandAloneResult)
+        public SetCurrentUserStandAloneResponse(NoteWebServiceReference.VerifiedSession SetCurrentUserStandAloneResult)
         {
             this.SetCurrentUserStandAloneResult = SetCurrentUserStandAloneResult;
         }
@@ -14666,13 +14666,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedUser;
+        public NoteWebServiceReference.VerifiedSession verifiedUser;
         
         public GetCurrentGroupRequest()
         {
         }
         
-        public GetCurrentGroupRequest(MMBackendServiceReference2.VerifiedSession verifiedUser)
+        public GetCurrentGroupRequest(NoteWebServiceReference.VerifiedSession verifiedUser)
         {
             this.verifiedUser = verifiedUser;
         }
@@ -14687,13 +14687,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.GroupEntity GetCurrentGroupResult;
+        public NoteWebServiceReference.GroupEntity GetCurrentGroupResult;
         
         public GetCurrentGroupResponse()
         {
         }
         
-        public GetCurrentGroupResponse(MMBackendServiceReference2.GroupEntity GetCurrentGroupResult)
+        public GetCurrentGroupResponse(NoteWebServiceReference.GroupEntity GetCurrentGroupResult)
         {
             this.GetCurrentGroupResult = GetCurrentGroupResult;
         }
@@ -14845,17 +14845,17 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedUser;
+        public NoteWebServiceReference.VerifiedSession verifiedUser;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.GroupWithPath currentGroup;
+        public NoteWebServiceReference.GroupWithPath currentGroup;
         
         public SetCurrentGroupRequest()
         {
         }
         
-        public SetCurrentGroupRequest(MMBackendServiceReference2.VerifiedSession verifiedUser, MMBackendServiceReference2.GroupWithPath currentGroup)
+        public SetCurrentGroupRequest(NoteWebServiceReference.VerifiedSession verifiedUser, NoteWebServiceReference.GroupWithPath currentGroup)
         {
             this.verifiedUser = verifiedUser;
             this.currentGroup = currentGroup;
@@ -14871,13 +14871,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession SetCurrentGroupResult;
+        public NoteWebServiceReference.VerifiedSession SetCurrentGroupResult;
         
         public SetCurrentGroupResponse()
         {
         }
         
-        public SetCurrentGroupResponse(MMBackendServiceReference2.VerifiedSession SetCurrentGroupResult)
+        public SetCurrentGroupResponse(NoteWebServiceReference.VerifiedSession SetCurrentGroupResult)
         {
             this.SetCurrentGroupResult = SetCurrentGroupResult;
         }
@@ -14892,7 +14892,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedUser;
+        public NoteWebServiceReference.VerifiedSession verifiedUser;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -14902,7 +14902,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetRightsRequest(MMBackendServiceReference2.VerifiedSession verifiedUser, string categoryName)
+        public GetRightsRequest(NoteWebServiceReference.VerifiedSession verifiedUser, string categoryName)
         {
             this.verifiedUser = verifiedUser;
             this.categoryName = categoryName;
@@ -14920,13 +14920,13 @@ namespace MMBackendServiceReference2
         [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
             "")]
-        public MMBackendServiceReference2.Right[] GetRightsResult;
+        public NoteWebServiceReference.Right[] GetRightsResult;
         
         public GetRightsResponse()
         {
         }
         
-        public GetRightsResponse(MMBackendServiceReference2.Right[] GetRightsResult)
+        public GetRightsResponse(NoteWebServiceReference.Right[] GetRightsResult)
         {
             this.GetRightsResult = GetRightsResult;
         }
@@ -14941,7 +14941,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedUser;
+        public NoteWebServiceReference.VerifiedSession verifiedUser;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
@@ -14957,7 +14957,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public SetRolesRequest(MMBackendServiceReference2.VerifiedSession verifiedUser, string[] addRoles, string[] deleteRoles)
+        public SetRolesRequest(NoteWebServiceReference.VerifiedSession verifiedUser, string[] addRoles, string[] deleteRoles)
         {
             this.verifiedUser = verifiedUser;
             this.addRoles = addRoles;
@@ -14986,13 +14986,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedUser;
+        public NoteWebServiceReference.VerifiedSession verifiedUser;
         
         public GetServerNameRequest()
         {
         }
         
-        public GetServerNameRequest(MMBackendServiceReference2.VerifiedSession verifiedUser)
+        public GetServerNameRequest(NoteWebServiceReference.VerifiedSession verifiedUser)
         {
             this.verifiedUser = verifiedUser;
         }
@@ -15028,7 +15028,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedUser;
+        public NoteWebServiceReference.VerifiedSession verifiedUser;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -15045,7 +15045,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public SaveFileRequest(MMBackendServiceReference2.VerifiedSession verifiedUser, string uid, byte[] bytes, int binaryType)
+        public SaveFileRequest(NoteWebServiceReference.VerifiedSession verifiedUser, string uid, byte[] bytes, int binaryType)
         {
             this.verifiedUser = verifiedUser;
             this.uid = uid;
@@ -15083,7 +15083,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedUser;
+        public NoteWebServiceReference.VerifiedSession verifiedUser;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -15093,7 +15093,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public LoadFileRequest(MMBackendServiceReference2.VerifiedSession verifiedUser, string uid)
+        public LoadFileRequest(NoteWebServiceReference.VerifiedSession verifiedUser, string uid)
         {
             this.verifiedUser = verifiedUser;
             this.uid = uid;
@@ -15130,7 +15130,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedUser;
+        public NoteWebServiceReference.VerifiedSession verifiedUser;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         public long id;
@@ -15139,7 +15139,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public LoadFileByIdRequest(MMBackendServiceReference2.VerifiedSession verifiedUser, long id)
+        public LoadFileByIdRequest(NoteWebServiceReference.VerifiedSession verifiedUser, long id)
         {
             this.verifiedUser = verifiedUser;
             this.id = id;
@@ -15176,7 +15176,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedUser;
+        public NoteWebServiceReference.VerifiedSession verifiedUser;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -15186,7 +15186,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public DeleteFileRequest(MMBackendServiceReference2.VerifiedSession verifiedUser, string uid)
+        public DeleteFileRequest(NoteWebServiceReference.VerifiedSession verifiedUser, string uid)
         {
             this.verifiedUser = verifiedUser;
             this.uid = uid;
@@ -15214,7 +15214,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedUser;
+        public NoteWebServiceReference.VerifiedSession verifiedUser;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -15224,7 +15224,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public FileExistsRequest(MMBackendServiceReference2.VerifiedSession verifiedUser, string uid)
+        public FileExistsRequest(NoteWebServiceReference.VerifiedSession verifiedUser, string uid)
         {
             this.verifiedUser = verifiedUser;
             this.uid = uid;
@@ -15260,7 +15260,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -15270,7 +15270,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public NoteExistsRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, string uid)
+        public NoteExistsRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string uid)
         {
             this.verifiedSession = verifiedSession;
             this.uid = uid;
@@ -15306,7 +15306,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -15316,7 +15316,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetAutoRecoveredNotesRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, string uid)
+        public GetAutoRecoveredNotesRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string uid)
         {
             this.verifiedSession = verifiedSession;
             this.uid = uid;
@@ -15334,13 +15334,13 @@ namespace MMBackendServiceReference2
         [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
             "")]
-        public MMBackendServiceReference2.Note[] GetAutoRecoveredNotesResult;
+        public NoteWebServiceReference.Note[] GetAutoRecoveredNotesResult;
         
         public GetAutoRecoveredNotesResponse()
         {
         }
         
-        public GetAutoRecoveredNotesResponse(MMBackendServiceReference2.Note[] GetAutoRecoveredNotesResult)
+        public GetAutoRecoveredNotesResponse(NoteWebServiceReference.Note[] GetAutoRecoveredNotesResult)
         {
             this.GetAutoRecoveredNotesResult = GetAutoRecoveredNotesResult;
         }
@@ -15443,17 +15443,17 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.ClientLogFile clientLogFile;
+        public NoteWebServiceReference.ClientLogFile clientLogFile;
         
         public SaveClientLogFileRequest()
         {
         }
         
-        public SaveClientLogFileRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.ClientLogFile clientLogFile)
+        public SaveClientLogFileRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.ClientLogFile clientLogFile)
         {
             this.verifiedSession = verifiedSession;
             this.clientLogFile = clientLogFile;
@@ -15481,7 +15481,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedUser;
+        public NoteWebServiceReference.VerifiedSession verifiedUser;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -15495,7 +15495,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetDictationAttributeRequest(MMBackendServiceReference2.VerifiedSession verifiedUser, string dictationName, string attributeName)
+        public GetDictationAttributeRequest(NoteWebServiceReference.VerifiedSession verifiedUser, string dictationName, string attributeName)
         {
             this.verifiedUser = verifiedUser;
             this.dictationName = dictationName;
@@ -15533,7 +15533,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedUser;
+        public NoteWebServiceReference.VerifiedSession verifiedUser;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -15551,7 +15551,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public SetDictationAttributeRequest(MMBackendServiceReference2.VerifiedSession verifiedUser, string dictationName, string attributeName, string attributeValue)
+        public SetDictationAttributeRequest(NoteWebServiceReference.VerifiedSession verifiedUser, string dictationName, string attributeName, string attributeValue)
         {
             this.verifiedUser = verifiedUser;
             this.dictationName = dictationName;
@@ -15581,13 +15581,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         public GetDictationFieldsRequest()
         {
         }
         
-        public GetDictationFieldsRequest(MMBackendServiceReference2.VerifiedSession verifiedSession)
+        public GetDictationFieldsRequest(NoteWebServiceReference.VerifiedSession verifiedSession)
         {
             this.verifiedSession = verifiedSession;
         }
@@ -15602,13 +15602,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.ArrayOfXElement GetDictationFieldsResult;
+        public NoteWebServiceReference.ArrayOfXElement GetDictationFieldsResult;
         
         public GetDictationFieldsResponse()
         {
         }
         
-        public GetDictationFieldsResponse(MMBackendServiceReference2.ArrayOfXElement GetDictationFieldsResult)
+        public GetDictationFieldsResponse(NoteWebServiceReference.ArrayOfXElement GetDictationFieldsResult)
         {
             this.GetDictationFieldsResult = GetDictationFieldsResult;
         }
@@ -15623,7 +15623,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -15633,7 +15633,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetContextForProfileRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, string profileName)
+        public GetContextForProfileRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string profileName)
         {
             this.verifiedSession = verifiedSession;
             this.profileName = profileName;
@@ -15651,13 +15651,13 @@ namespace MMBackendServiceReference2
         [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.DomainModel.SpeechRecogn" +
             "ition")]
-        public MMBackendServiceReference2.SpeechRecognitionContextEntity[] GetContextForProfileResult;
+        public NoteWebServiceReference.SpeechRecognitionContextEntity[] GetContextForProfileResult;
         
         public GetContextForProfileResponse()
         {
         }
         
-        public GetContextForProfileResponse(MMBackendServiceReference2.SpeechRecognitionContextEntity[] GetContextForProfileResult)
+        public GetContextForProfileResponse(NoteWebServiceReference.SpeechRecognitionContextEntity[] GetContextForProfileResult)
         {
             this.GetContextForProfileResult = GetContextForProfileResult;
         }
@@ -15696,6 +15696,10 @@ namespace MMBackendServiceReference2
         private string languageField;
         
         private string languageIdField;
+        
+        private SpeechRecognitionReason reasonField;
+        
+        private bool reasonFieldSpecified;
         
         private string sMUserField;
         
@@ -15890,7 +15894,35 @@ namespace MMBackendServiceReference2
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=10)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=10)]
+        public SpeechRecognitionReason Reason
+        {
+            get
+            {
+                return this.reasonField;
+            }
+            set
+            {
+                this.reasonField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool ReasonSpecified
+        {
+            get
+            {
+                return this.reasonFieldSpecified;
+            }
+            set
+            {
+                this.reasonFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=11)]
         public string SMUser
         {
             get
@@ -15904,7 +15936,7 @@ namespace MMBackendServiceReference2
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=11)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=12)]
         public string SmUser
         {
             get
@@ -15918,7 +15950,7 @@ namespace MMBackendServiceReference2
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=12)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=13)]
         public User User
         {
             get
@@ -15932,7 +15964,7 @@ namespace MMBackendServiceReference2
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=13)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=14)]
         public GenderEnum UserGender
         {
             get
@@ -16381,6 +16413,28 @@ namespace MMBackendServiceReference2
         }
     }
     
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.SpeechRecognition")]
+    public enum SpeechRecognitionReason
+    {
+        
+        /// <remarks/>
+        None,
+        
+        /// <remarks/>
+        InsufficientRights,
+        
+        /// <remarks/>
+        UnknownSrEngine,
+        
+        /// <remarks/>
+        NoSrTopic,
+        
+        /// <remarks/>
+        NoSrLanguage,
+    }
+    
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -16390,11 +16444,11 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.SpeechRecognitionInputChannel inputChannel;
+        public NoteWebServiceReference.SpeechRecognitionInputChannel inputChannel;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -16407,7 +16461,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetSpeechRecognitionProfileRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.SpeechRecognitionInputChannel inputChannel, System.Nullable<GenderEnum> genderEnum, bool createIfNotExists)
+        public GetSpeechRecognitionProfileRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.SpeechRecognitionInputChannel inputChannel, System.Nullable<GenderEnum> genderEnum, bool createIfNotExists)
         {
             this.verifiedSession = verifiedSession;
             this.inputChannel = inputChannel;
@@ -16425,13 +16479,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.SpeechRecognitionProfile GetSpeechRecognitionProfileResult;
+        public NoteWebServiceReference.SpeechRecognitionProfile GetSpeechRecognitionProfileResult;
         
         public GetSpeechRecognitionProfileResponse()
         {
         }
         
-        public GetSpeechRecognitionProfileResponse(MMBackendServiceReference2.SpeechRecognitionProfile GetSpeechRecognitionProfileResult)
+        public GetSpeechRecognitionProfileResponse(NoteWebServiceReference.SpeechRecognitionProfile GetSpeechRecognitionProfileResult)
         {
             this.GetSpeechRecognitionProfileResult = GetSpeechRecognitionProfileResult;
         }
@@ -16446,7 +16500,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -16456,7 +16510,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public SetDefaultSpeechRecognitionContextRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, string contextName)
+        public SetDefaultSpeechRecognitionContextRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string contextName)
         {
             this.verifiedSession = verifiedSession;
             this.contextName = contextName;
@@ -16484,7 +16538,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -16494,7 +16548,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetDictationTemplateRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, string templateName)
+        public GetDictationTemplateRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string templateName)
         {
             this.verifiedSession = verifiedSession;
             this.templateName = templateName;
@@ -16510,13 +16564,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.ArrayOfXElement GetDictationTemplateResult;
+        public NoteWebServiceReference.ArrayOfXElement GetDictationTemplateResult;
         
         public GetDictationTemplateResponse()
         {
         }
         
-        public GetDictationTemplateResponse(MMBackendServiceReference2.ArrayOfXElement GetDictationTemplateResult)
+        public GetDictationTemplateResponse(NoteWebServiceReference.ArrayOfXElement GetDictationTemplateResult)
         {
             this.GetDictationTemplateResult = GetDictationTemplateResult;
         }
@@ -17285,7 +17339,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         public long templateId;
@@ -17294,7 +17348,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetNewDictationTemplateRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, long templateId)
+        public GetNewDictationTemplateRequest(NoteWebServiceReference.VerifiedSession verifiedSession, long templateId)
         {
             this.verifiedSession = verifiedSession;
             this.templateId = templateId;
@@ -17310,13 +17364,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.Template GetNewDictationTemplateResult;
+        public NoteWebServiceReference.Template GetNewDictationTemplateResult;
         
         public GetNewDictationTemplateResponse()
         {
         }
         
-        public GetNewDictationTemplateResponse(MMBackendServiceReference2.Template GetNewDictationTemplateResult)
+        public GetNewDictationTemplateResponse(NoteWebServiceReference.Template GetNewDictationTemplateResult)
         {
             this.GetNewDictationTemplateResult = GetNewDictationTemplateResult;
         }
@@ -17331,13 +17385,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         public GetDictationTemplatesRequest()
         {
         }
         
-        public GetDictationTemplatesRequest(MMBackendServiceReference2.VerifiedSession verifiedSession)
+        public GetDictationTemplatesRequest(NoteWebServiceReference.VerifiedSession verifiedSession)
         {
             this.verifiedSession = verifiedSession;
         }
@@ -17353,13 +17407,13 @@ namespace MMBackendServiceReference2
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.NewDictationLogic")]
-        public MMBackendServiceReference2.Template[] GetDictationTemplatesResult;
+        public NoteWebServiceReference.Template[] GetDictationTemplatesResult;
         
         public GetDictationTemplatesResponse()
         {
         }
         
-        public GetDictationTemplatesResponse(MMBackendServiceReference2.Template[] GetDictationTemplatesResult)
+        public GetDictationTemplatesResponse(NoteWebServiceReference.Template[] GetDictationTemplatesResult)
         {
             this.GetDictationTemplatesResult = GetDictationTemplatesResult;
         }
@@ -17374,13 +17428,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         public GetDictationNoteTemplatesRequest()
         {
         }
         
-        public GetDictationNoteTemplatesRequest(MMBackendServiceReference2.VerifiedSession verifiedSession)
+        public GetDictationNoteTemplatesRequest(NoteWebServiceReference.VerifiedSession verifiedSession)
         {
             this.verifiedSession = verifiedSession;
         }
@@ -17396,13 +17450,13 @@ namespace MMBackendServiceReference2
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.NewDictationLogic")]
-        public MMBackendServiceReference2.NoteTemplate[] GetDictationNoteTemplatesResult;
+        public NoteWebServiceReference.NoteTemplate[] GetDictationNoteTemplatesResult;
         
         public GetDictationNoteTemplatesResponse()
         {
         }
         
-        public GetDictationNoteTemplatesResponse(MMBackendServiceReference2.NoteTemplate[] GetDictationNoteTemplatesResult)
+        public GetDictationNoteTemplatesResponse(NoteWebServiceReference.NoteTemplate[] GetDictationNoteTemplatesResult)
         {
             this.GetDictationNoteTemplatesResult = GetDictationNoteTemplatesResult;
         }
@@ -17417,7 +17471,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         public long templateId;
@@ -17426,7 +17480,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetNewDictationNoteTemplateRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, long templateId)
+        public GetNewDictationNoteTemplateRequest(NoteWebServiceReference.VerifiedSession verifiedSession, long templateId)
         {
             this.verifiedSession = verifiedSession;
             this.templateId = templateId;
@@ -17442,13 +17496,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.NoteTemplate GetNewDictationNoteTemplateResult;
+        public NoteWebServiceReference.NoteTemplate GetNewDictationNoteTemplateResult;
         
         public GetNewDictationNoteTemplateResponse()
         {
         }
         
-        public GetNewDictationNoteTemplateResponse(MMBackendServiceReference2.NoteTemplate GetNewDictationNoteTemplateResult)
+        public GetNewDictationNoteTemplateResponse(NoteWebServiceReference.NoteTemplate GetNewDictationNoteTemplateResult)
         {
             this.GetNewDictationNoteTemplateResult = GetNewDictationNoteTemplateResult;
         }
@@ -17463,13 +17517,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedUser;
+        public NoteWebServiceReference.VerifiedSession verifiedUser;
         
         public GetAllGroupsRequest()
         {
         }
         
-        public GetAllGroupsRequest(MMBackendServiceReference2.VerifiedSession verifiedUser)
+        public GetAllGroupsRequest(NoteWebServiceReference.VerifiedSession verifiedUser)
         {
             this.verifiedUser = verifiedUser;
         }
@@ -17486,13 +17540,13 @@ namespace MMBackendServiceReference2
         [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
             "")]
-        public MMBackendServiceReference2.Group[] GetAllGroupsResult;
+        public NoteWebServiceReference.Group[] GetAllGroupsResult;
         
         public GetAllGroupsResponse()
         {
         }
         
-        public GetAllGroupsResponse(MMBackendServiceReference2.Group[] GetAllGroupsResult)
+        public GetAllGroupsResponse(NoteWebServiceReference.Group[] GetAllGroupsResult)
         {
             this.GetAllGroupsResult = GetAllGroupsResult;
         }
@@ -17507,13 +17561,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedUser;
+        public NoteWebServiceReference.VerifiedSession verifiedUser;
         
         public GetGroupsRequest()
         {
         }
         
-        public GetGroupsRequest(MMBackendServiceReference2.VerifiedSession verifiedUser)
+        public GetGroupsRequest(NoteWebServiceReference.VerifiedSession verifiedUser)
         {
             this.verifiedUser = verifiedUser;
         }
@@ -17530,13 +17584,13 @@ namespace MMBackendServiceReference2
         [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.ClientS" +
             "ideTypes")]
-        public MMBackendServiceReference2.GroupWithPath[] GetGroupsResult;
+        public NoteWebServiceReference.GroupWithPath[] GetGroupsResult;
         
         public GetGroupsResponse()
         {
         }
         
-        public GetGroupsResponse(MMBackendServiceReference2.GroupWithPath[] GetGroupsResult)
+        public GetGroupsResponse(NoteWebServiceReference.GroupWithPath[] GetGroupsResult)
         {
             this.GetGroupsResult = GetGroupsResult;
         }
@@ -17551,13 +17605,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedUser;
+        public NoteWebServiceReference.VerifiedSession verifiedUser;
         
         public GetGroupHierarchyRequest()
         {
         }
         
-        public GetGroupHierarchyRequest(MMBackendServiceReference2.VerifiedSession verifiedUser)
+        public GetGroupHierarchyRequest(NoteWebServiceReference.VerifiedSession verifiedUser)
         {
             this.verifiedUser = verifiedUser;
         }
@@ -17574,13 +17628,13 @@ namespace MMBackendServiceReference2
         [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
             "")]
-        public MMBackendServiceReference2.Group[] GetGroupHierarchyResult;
+        public NoteWebServiceReference.Group[] GetGroupHierarchyResult;
         
         public GetGroupHierarchyResponse()
         {
         }
         
-        public GetGroupHierarchyResponse(MMBackendServiceReference2.Group[] GetGroupHierarchyResult)
+        public GetGroupHierarchyResponse(NoteWebServiceReference.Group[] GetGroupHierarchyResult)
         {
             this.GetGroupHierarchyResult = GetGroupHierarchyResult;
         }
@@ -17595,7 +17649,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedUser;
+        public NoteWebServiceReference.VerifiedSession verifiedUser;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -17609,7 +17663,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetQualifiedUsersRequest(MMBackendServiceReference2.VerifiedSession verifiedUser, string rightCategory, string rightName)
+        public GetQualifiedUsersRequest(NoteWebServiceReference.VerifiedSession verifiedUser, string rightCategory, string rightName)
         {
             this.verifiedUser = verifiedUser;
             this.rightCategory = rightCategory;
@@ -17628,13 +17682,13 @@ namespace MMBackendServiceReference2
         [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
             "")]
-        public MMBackendServiceReference2.User[] GetQualifiedUsersResult;
+        public NoteWebServiceReference.User[] GetQualifiedUsersResult;
         
         public GetQualifiedUsersResponse()
         {
         }
         
-        public GetQualifiedUsersResponse(MMBackendServiceReference2.User[] GetQualifiedUsersResult)
+        public GetQualifiedUsersResponse(NoteWebServiceReference.User[] GetQualifiedUsersResult)
         {
             this.GetQualifiedUsersResult = GetQualifiedUsersResult;
         }
@@ -17738,11 +17792,11 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.SuspendedDocument suspendedDocument;
+        public NoteWebServiceReference.SuspendedDocument suspendedDocument;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
         public long createdDuration;
@@ -17751,7 +17805,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public CreateSuspendedDocumentRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.SuspendedDocument suspendedDocument, long createdDuration)
+        public CreateSuspendedDocumentRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.SuspendedDocument suspendedDocument, long createdDuration)
         {
             this.verifiedSession = verifiedSession;
             this.suspendedDocument = suspendedDocument;
@@ -17788,11 +17842,11 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.SuspendedDocument suspendedDocument;
+        public NoteWebServiceReference.SuspendedDocument suspendedDocument;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
         public long updateDuration;
@@ -17801,7 +17855,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public UpdateSuspendedDocumentRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.SuspendedDocument suspendedDocument, long updateDuration)
+        public UpdateSuspendedDocumentRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.SuspendedDocument suspendedDocument, long updateDuration)
         {
             this.verifiedSession = verifiedSession;
             this.suspendedDocument = suspendedDocument;
@@ -17838,7 +17892,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -17848,7 +17902,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetSuspendedDocumentRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, string externalUID)
+        public GetSuspendedDocumentRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string externalUID)
         {
             this.verifiedSession = verifiedSession;
             this.externalUID = externalUID;
@@ -17864,13 +17918,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.SuspendedDocument GetSuspendedDocumentResult;
+        public NoteWebServiceReference.SuspendedDocument GetSuspendedDocumentResult;
         
         public GetSuspendedDocumentResponse()
         {
         }
         
-        public GetSuspendedDocumentResponse(MMBackendServiceReference2.SuspendedDocument GetSuspendedDocumentResult)
+        public GetSuspendedDocumentResponse(NoteWebServiceReference.SuspendedDocument GetSuspendedDocumentResult)
         {
             this.GetSuspendedDocumentResult = GetSuspendedDocumentResult;
         }
@@ -17885,7 +17939,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -17895,7 +17949,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetListOfSuspendedDocumentsRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, string authorName)
+        public GetListOfSuspendedDocumentsRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string authorName)
         {
             this.verifiedSession = verifiedSession;
             this.authorName = authorName;
@@ -17933,7 +17987,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -17943,7 +17997,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public CloseSuspendedDocumentRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, string documentId)
+        public CloseSuspendedDocumentRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string documentId)
         {
             this.verifiedSession = verifiedSession;
             this.documentId = documentId;
@@ -17971,7 +18025,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -17981,7 +18035,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public RemoveSuspendedDocumentRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, string externalUID)
+        public RemoveSuspendedDocumentRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string externalUID)
         {
             this.verifiedSession = verifiedSession;
             this.externalUID = externalUID;
@@ -18017,17 +18071,17 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.AutoText autoText;
+        public NoteWebServiceReference.AutoText autoText;
         
         public AddOrUpdateAutoTextRequest()
         {
         }
         
-        public AddOrUpdateAutoTextRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.AutoText autoText)
+        public AddOrUpdateAutoTextRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.AutoText autoText)
         {
             this.verifiedSession = verifiedSession;
             this.autoText = autoText;
@@ -18063,7 +18117,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         public bool includePhraseManagedAutoTexts;
@@ -18075,7 +18129,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetAllAutoTextsRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, bool includePhraseManagedAutoTexts, bool includeGroupPhraseManagedAutoTexts)
+        public GetAllAutoTextsRequest(NoteWebServiceReference.VerifiedSession verifiedSession, bool includePhraseManagedAutoTexts, bool includeGroupPhraseManagedAutoTexts)
         {
             this.verifiedSession = verifiedSession;
             this.includePhraseManagedAutoTexts = includePhraseManagedAutoTexts;
@@ -18094,13 +18148,13 @@ namespace MMBackendServiceReference2
         [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Speech" +
             "Recognition")]
-        public MMBackendServiceReference2.AutoText[] GetAllAutoTextsResult;
+        public NoteWebServiceReference.AutoText[] GetAllAutoTextsResult;
         
         public GetAllAutoTextsResponse()
         {
         }
         
-        public GetAllAutoTextsResponse(MMBackendServiceReference2.AutoText[] GetAllAutoTextsResult)
+        public GetAllAutoTextsResponse(NoteWebServiceReference.AutoText[] GetAllAutoTextsResult)
         {
             this.GetAllAutoTextsResult = GetAllAutoTextsResult;
         }
@@ -18115,7 +18169,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         public long autoTextId;
@@ -18124,7 +18178,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public DeleteAutoTextRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, long autoTextId)
+        public DeleteAutoTextRequest(NoteWebServiceReference.VerifiedSession verifiedSession, long autoTextId)
         {
             this.verifiedSession = verifiedSession;
             this.autoTextId = autoTextId;
@@ -18641,13 +18695,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Speech" +
             "Recognition")]
-        public MMBackendServiceReference2.SpeechRecognitionStatistic[] stat;
+        public NoteWebServiceReference.SpeechRecognitionStatistic[] stat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
         public bool updateStatus;
@@ -18659,7 +18713,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public RegisterSpeechRecognitionStatisticsRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.SpeechRecognitionStatistic[] stat, bool updateStatus, bool accumulateLength)
+        public RegisterSpeechRecognitionStatisticsRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.SpeechRecognitionStatistic[] stat, bool updateStatus, bool accumulateLength)
         {
             this.verifiedSession = verifiedSession;
             this.stat = stat;
@@ -18697,7 +18751,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedUser;
+        public NoteWebServiceReference.VerifiedSession verifiedUser;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -18707,7 +18761,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetTriggerActionsRequest(MMBackendServiceReference2.VerifiedSession verifiedUser, string applicationName)
+        public GetTriggerActionsRequest(NoteWebServiceReference.VerifiedSession verifiedUser, string applicationName)
         {
             this.verifiedUser = verifiedUser;
             this.applicationName = applicationName;
@@ -18725,13 +18779,13 @@ namespace MMBackendServiceReference2
         [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Speech" +
             "Recognition")]
-        public MMBackendServiceReference2.TriggerAction[] GetTriggerActionsResult;
+        public NoteWebServiceReference.TriggerAction[] GetTriggerActionsResult;
         
         public GetTriggerActionsResponse()
         {
         }
         
-        public GetTriggerActionsResponse(MMBackendServiceReference2.TriggerAction[] GetTriggerActionsResult)
+        public GetTriggerActionsResponse(NoteWebServiceReference.TriggerAction[] GetTriggerActionsResult)
         {
             this.GetTriggerActionsResult = GetTriggerActionsResult;
         }
@@ -18746,13 +18800,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedUser;
+        public NoteWebServiceReference.VerifiedSession verifiedUser;
         
         public GetManagerTriggerActionsRequest()
         {
         }
         
-        public GetManagerTriggerActionsRequest(MMBackendServiceReference2.VerifiedSession verifiedUser)
+        public GetManagerTriggerActionsRequest(NoteWebServiceReference.VerifiedSession verifiedUser)
         {
             this.verifiedUser = verifiedUser;
         }
@@ -18769,13 +18823,13 @@ namespace MMBackendServiceReference2
         [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Speech" +
             "Recognition")]
-        public MMBackendServiceReference2.TriggerAction[] GetManagerTriggerActionsResult;
+        public NoteWebServiceReference.TriggerAction[] GetManagerTriggerActionsResult;
         
         public GetManagerTriggerActionsResponse()
         {
         }
         
-        public GetManagerTriggerActionsResponse(MMBackendServiceReference2.TriggerAction[] GetManagerTriggerActionsResult)
+        public GetManagerTriggerActionsResponse(NoteWebServiceReference.TriggerAction[] GetManagerTriggerActionsResult)
         {
             this.GetManagerTriggerActionsResult = GetManagerTriggerActionsResult;
         }
@@ -18790,13 +18844,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedUser;
+        public NoteWebServiceReference.VerifiedSession verifiedUser;
         
         public GetCommandSubstitutionsRequest()
         {
         }
         
-        public GetCommandSubstitutionsRequest(MMBackendServiceReference2.VerifiedSession verifiedUser)
+        public GetCommandSubstitutionsRequest(NoteWebServiceReference.VerifiedSession verifiedUser)
         {
             this.verifiedUser = verifiedUser;
         }
@@ -18813,13 +18867,13 @@ namespace MMBackendServiceReference2
         [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Speech" +
             "Recognition")]
-        public MMBackendServiceReference2.CommandSubstitution[] GetCommandSubstitutionsResult;
+        public NoteWebServiceReference.CommandSubstitution[] GetCommandSubstitutionsResult;
         
         public GetCommandSubstitutionsResponse()
         {
         }
         
-        public GetCommandSubstitutionsResponse(MMBackendServiceReference2.CommandSubstitution[] GetCommandSubstitutionsResult)
+        public GetCommandSubstitutionsResponse(NoteWebServiceReference.CommandSubstitution[] GetCommandSubstitutionsResult)
         {
             this.GetCommandSubstitutionsResult = GetCommandSubstitutionsResult;
         }
@@ -18834,7 +18888,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         public long userId;
@@ -18843,7 +18897,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetUserRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, long userId)
+        public GetUserRequest(NoteWebServiceReference.VerifiedSession verifiedSession, long userId)
         {
             this.verifiedSession = verifiedSession;
             this.userId = userId;
@@ -18859,13 +18913,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.User GetUserResult;
+        public NoteWebServiceReference.User GetUserResult;
         
         public GetUserResponse()
         {
         }
         
-        public GetUserResponse(MMBackendServiceReference2.User GetUserResult)
+        public GetUserResponse(NoteWebServiceReference.User GetUserResult)
         {
             this.GetUserResult = GetUserResult;
         }
@@ -18880,7 +18934,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -18894,7 +18948,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public ReadKPIValueRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, string jobName, string column)
+        public ReadKPIValueRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string jobName, string column)
         {
             this.verifiedSession = verifiedSession;
             this.jobName = jobName;
@@ -18932,7 +18986,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         public int count;
@@ -18941,7 +18995,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetStatisticsRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, int count)
+        public GetStatisticsRequest(NoteWebServiceReference.VerifiedSession verifiedSession, int count)
         {
             this.verifiedSession = verifiedSession;
             this.count = count;
@@ -18959,13 +19013,13 @@ namespace MMBackendServiceReference2
         [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Speech" +
             "Recognition")]
-        public MMBackendServiceReference2.SpeechRecognitionStatistic[] GetStatisticsResult;
+        public NoteWebServiceReference.SpeechRecognitionStatistic[] GetStatisticsResult;
         
         public GetStatisticsResponse()
         {
         }
         
-        public GetStatisticsResponse(MMBackendServiceReference2.SpeechRecognitionStatistic[] GetStatisticsResult)
+        public GetStatisticsResponse(NoteWebServiceReference.SpeechRecognitionStatistic[] GetStatisticsResult)
         {
             this.GetStatisticsResult = GetStatisticsResult;
         }
@@ -18980,7 +19034,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -18990,7 +19044,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetStatisticsLastModifiedRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, string Uid)
+        public GetStatisticsLastModifiedRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string Uid)
         {
             this.verifiedSession = verifiedSession;
             this.Uid = Uid;
@@ -19404,7 +19458,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -19422,7 +19476,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetParametersRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, string name, string categoryName, string subname)
+        public GetParametersRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string name, string categoryName, string subname)
         {
             this.verifiedSession = verifiedSession;
             this.name = name;
@@ -19442,13 +19496,13 @@ namespace MMBackendServiceReference2
         [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
             ".Parameters")]
-        public MMBackendServiceReference2.Parameter[] GetParametersResult;
+        public NoteWebServiceReference.Parameter[] GetParametersResult;
         
         public GetParametersResponse()
         {
         }
         
-        public GetParametersResponse(MMBackendServiceReference2.Parameter[] GetParametersResult)
+        public GetParametersResponse(NoteWebServiceReference.Parameter[] GetParametersResult)
         {
             this.GetParametersResult = GetParametersResult;
         }
@@ -19463,19 +19517,19 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
             ".Parameters")]
-        public MMBackendServiceReference2.Parameter[] parameters;
+        public NoteWebServiceReference.Parameter[] parameters;
         
         public SaveAllParametersRequest()
         {
         }
         
-        public SaveAllParametersRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.Parameter[] parameters)
+        public SaveAllParametersRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.Parameter[] parameters)
         {
             this.verifiedSession = verifiedSession;
             this.parameters = parameters;
@@ -19503,17 +19557,17 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.Parameter parameter;
+        public NoteWebServiceReference.Parameter parameter;
         
         public SetParameterRequest()
         {
         }
         
-        public SetParameterRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.Parameter parameter)
+        public SetParameterRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.Parameter parameter)
         {
             this.verifiedSession = verifiedSession;
             this.parameter = parameter;
@@ -19617,19 +19671,19 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
             ".Parameters")]
-        public MMBackendServiceReference2.Parameter[] parameters;
+        public NoteWebServiceReference.Parameter[] parameters;
         
         public SaveAllParametersWithErrorRequest()
         {
         }
         
-        public SaveAllParametersWithErrorRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.Parameter[] parameters)
+        public SaveAllParametersWithErrorRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.Parameter[] parameters)
         {
             this.verifiedSession = verifiedSession;
             this.parameters = parameters;
@@ -19645,13 +19699,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.SaveParameterResult SaveAllParametersWithErrorResult;
+        public NoteWebServiceReference.SaveParameterResult SaveAllParametersWithErrorResult;
         
         public SaveAllParametersWithErrorResponse()
         {
         }
         
-        public SaveAllParametersWithErrorResponse(MMBackendServiceReference2.SaveParameterResult SaveAllParametersWithErrorResult)
+        public SaveAllParametersWithErrorResponse(NoteWebServiceReference.SaveParameterResult SaveAllParametersWithErrorResult)
         {
             this.SaveAllParametersWithErrorResult = SaveAllParametersWithErrorResult;
         }
@@ -19694,13 +19748,13 @@ namespace MMBackendServiceReference2
         [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
             ".Parameters")]
-        public MMBackendServiceReference2.Parameter[] GetSystemParametersResult;
+        public NoteWebServiceReference.Parameter[] GetSystemParametersResult;
         
         public GetSystemParametersResponse()
         {
         }
         
-        public GetSystemParametersResponse(MMBackendServiceReference2.Parameter[] GetSystemParametersResult)
+        public GetSystemParametersResponse(NoteWebServiceReference.Parameter[] GetSystemParametersResult)
         {
             this.GetSystemParametersResult = GetSystemParametersResult;
         }
@@ -19715,7 +19769,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -19729,7 +19783,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetApplicationParametersRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, string applicationName, string parameterCategory)
+        public GetApplicationParametersRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string applicationName, string parameterCategory)
         {
             this.verifiedSession = verifiedSession;
             this.applicationName = applicationName;
@@ -19748,13 +19802,13 @@ namespace MMBackendServiceReference2
         [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
             ".Parameters")]
-        public MMBackendServiceReference2.Parameter[] GetApplicationParametersResult;
+        public NoteWebServiceReference.Parameter[] GetApplicationParametersResult;
         
         public GetApplicationParametersResponse()
         {
         }
         
-        public GetApplicationParametersResponse(MMBackendServiceReference2.Parameter[] GetApplicationParametersResult)
+        public GetApplicationParametersResponse(NoteWebServiceReference.Parameter[] GetApplicationParametersResult)
         {
             this.GetApplicationParametersResult = GetApplicationParametersResult;
         }
@@ -19769,7 +19823,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -19779,7 +19833,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetApplicationParametersForAllCategoriesRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, string applicationName)
+        public GetApplicationParametersForAllCategoriesRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string applicationName)
         {
             this.verifiedSession = verifiedSession;
             this.applicationName = applicationName;
@@ -19797,13 +19851,13 @@ namespace MMBackendServiceReference2
         [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
         [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
             ".Parameters")]
-        public MMBackendServiceReference2.Parameter[] GetApplicationParametersForAllCategoriesResult;
+        public NoteWebServiceReference.Parameter[] GetApplicationParametersForAllCategoriesResult;
         
         public GetApplicationParametersForAllCategoriesResponse()
         {
         }
         
-        public GetApplicationParametersForAllCategoriesResponse(MMBackendServiceReference2.Parameter[] GetApplicationParametersForAllCategoriesResult)
+        public GetApplicationParametersForAllCategoriesResponse(NoteWebServiceReference.Parameter[] GetApplicationParametersForAllCategoriesResult)
         {
             this.GetApplicationParametersForAllCategoriesResult = GetApplicationParametersForAllCategoriesResult;
         }
@@ -19818,7 +19872,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         public long autoTextId;
@@ -19827,7 +19881,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetAutoTextRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, long autoTextId)
+        public GetAutoTextRequest(NoteWebServiceReference.VerifiedSession verifiedSession, long autoTextId)
         {
             this.verifiedSession = verifiedSession;
             this.autoTextId = autoTextId;
@@ -19843,13 +19897,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.AutoText GetAutoTextResult;
+        public NoteWebServiceReference.AutoText GetAutoTextResult;
         
         public GetAutoTextResponse()
         {
         }
         
-        public GetAutoTextResponse(MMBackendServiceReference2.AutoText GetAutoTextResult)
+        public GetAutoTextResponse(NoteWebServiceReference.AutoText GetAutoTextResult)
         {
             this.GetAutoTextResult = GetAutoTextResult;
         }
@@ -19864,7 +19918,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         public long audioNoteId;
@@ -19877,7 +19931,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public AudioNoteExistsRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, long audioNoteId, string externalUid)
+        public AudioNoteExistsRequest(NoteWebServiceReference.VerifiedSession verifiedSession, long audioNoteId, string externalUid)
         {
             this.verifiedSession = verifiedSession;
             this.audioNoteId = audioNoteId;
@@ -19914,7 +19968,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedUser;
+        public NoteWebServiceReference.VerifiedSession verifiedUser;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         public long audioNoteId;
@@ -19930,7 +19984,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetAudioNoteByIdRequest(MMBackendServiceReference2.VerifiedSession verifiedUser, long audioNoteId, string externalUid, bool includeBinary)
+        public GetAudioNoteByIdRequest(NoteWebServiceReference.VerifiedSession verifiedUser, long audioNoteId, string externalUid, bool includeBinary)
         {
             this.verifiedUser = verifiedUser;
             this.audioNoteId = audioNoteId;
@@ -19948,13 +20002,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.AudioNote GetAudioNoteByIdResult;
+        public NoteWebServiceReference.AudioNote GetAudioNoteByIdResult;
         
         public GetAudioNoteByIdResponse()
         {
         }
         
-        public GetAudioNoteByIdResponse(MMBackendServiceReference2.AudioNote GetAudioNoteByIdResult)
+        public GetAudioNoteByIdResponse(NoteWebServiceReference.AudioNote GetAudioNoteByIdResult)
         {
             this.GetAudioNoteByIdResult = GetAudioNoteByIdResult;
         }
@@ -19969,7 +20023,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -19979,7 +20033,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetNoteRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, string externalUid)
+        public GetNoteRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string externalUid)
         {
             this.verifiedSession = verifiedSession;
             this.externalUid = externalUid;
@@ -19995,13 +20049,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.Note GetNoteResult;
+        public NoteWebServiceReference.Note GetNoteResult;
         
         public GetNoteResponse()
         {
         }
         
-        public GetNoteResponse(MMBackendServiceReference2.Note GetNoteResult)
+        public GetNoteResponse(NoteWebServiceReference.Note GetNoteResult)
         {
             this.GetNoteResult = GetNoteResult;
         }
@@ -20016,7 +20070,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         public long noteId;
@@ -20032,7 +20086,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetNoteResultRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, long noteId, string externalUid, bool lockNote)
+        public GetNoteResultRequest(NoteWebServiceReference.VerifiedSession verifiedSession, long noteId, string externalUid, bool lockNote)
         {
             this.verifiedSession = verifiedSession;
             this.noteId = noteId;
@@ -20050,13 +20104,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.NoteResult GetNoteResultResult;
+        public NoteWebServiceReference.NoteResult GetNoteResultResult;
         
         public GetNoteResultResponse()
         {
         }
         
-        public GetNoteResultResponse(MMBackendServiceReference2.NoteResult GetNoteResultResult)
+        public GetNoteResultResponse(NoteWebServiceReference.NoteResult GetNoteResultResult)
         {
             this.GetNoteResultResult = GetNoteResultResult;
         }
@@ -20071,7 +20125,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         public long noteId;
@@ -20084,7 +20138,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetAudioNoteBinaryByUidRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, long noteId, string externalUid)
+        public GetAudioNoteBinaryByUidRequest(NoteWebServiceReference.VerifiedSession verifiedSession, long noteId, string externalUid)
         {
             this.verifiedSession = verifiedSession;
             this.noteId = noteId;
@@ -20121,7 +20175,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         public long audioNoteId;
@@ -20144,7 +20198,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetAudioNoteResultByIdRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, long audioNoteId, string externalUid, bool lockNote, string password, bool includeBinary)
+        public GetAudioNoteResultByIdRequest(NoteWebServiceReference.VerifiedSession verifiedSession, long audioNoteId, string externalUid, bool lockNote, string password, bool includeBinary)
         {
             this.verifiedSession = verifiedSession;
             this.audioNoteId = audioNoteId;
@@ -20164,13 +20218,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.AudioNoteResult GetAudioNoteResultByIdResult;
+        public NoteWebServiceReference.AudioNoteResult GetAudioNoteResultByIdResult;
         
         public GetAudioNoteResultByIdResponse()
         {
         }
         
-        public GetAudioNoteResultByIdResponse(MMBackendServiceReference2.AudioNoteResult GetAudioNoteResultByIdResult)
+        public GetAudioNoteResultByIdResponse(NoteWebServiceReference.AudioNoteResult GetAudioNoteResultByIdResult)
         {
             this.GetAudioNoteResultByIdResult = GetAudioNoteResultByIdResult;
         }
@@ -20185,7 +20239,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         public long noteId;
@@ -20201,7 +20255,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public GetSpeechNoteResultByIdRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, long noteId, string externalUid, bool lockNote)
+        public GetSpeechNoteResultByIdRequest(NoteWebServiceReference.VerifiedSession verifiedSession, long noteId, string externalUid, bool lockNote)
         {
             this.verifiedSession = verifiedSession;
             this.noteId = noteId;
@@ -20219,13 +20273,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.SpeechNoteResult GetSpeechNoteResultByIdResult;
+        public NoteWebServiceReference.SpeechNoteResult GetSpeechNoteResultByIdResult;
         
         public GetSpeechNoteResultByIdResponse()
         {
         }
         
-        public GetSpeechNoteResultByIdResponse(MMBackendServiceReference2.SpeechNoteResult GetSpeechNoteResultByIdResult)
+        public GetSpeechNoteResultByIdResponse(NoteWebServiceReference.SpeechNoteResult GetSpeechNoteResultByIdResult)
         {
             this.GetSpeechNoteResultByIdResult = GetSpeechNoteResultByIdResult;
         }
@@ -20240,11 +20294,11 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.AudioNote audioNote;
+        public NoteWebServiceReference.AudioNote audioNote;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
         public long duration;
@@ -20262,7 +20316,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public UpdateAudioNoteRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.AudioNote audioNote, long duration, long timeAgo, bool releaseLock, bool forceOverWrite)
+        public UpdateAudioNoteRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.AudioNote audioNote, long duration, long timeAgo, bool releaseLock, bool forceOverWrite)
         {
             this.verifiedSession = verifiedSession;
             this.audioNote = audioNote;
@@ -20282,13 +20336,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.AudioNoteResult UpdateAudioNoteResult;
+        public NoteWebServiceReference.AudioNoteResult UpdateAudioNoteResult;
         
         public UpdateAudioNoteResponse()
         {
         }
         
-        public UpdateAudioNoteResponse(MMBackendServiceReference2.AudioNoteResult UpdateAudioNoteResult)
+        public UpdateAudioNoteResponse(NoteWebServiceReference.AudioNoteResult UpdateAudioNoteResult)
         {
             this.UpdateAudioNoteResult = UpdateAudioNoteResult;
         }
@@ -20303,11 +20357,11 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.AudioNote audioNote;
+        public NoteWebServiceReference.AudioNote audioNote;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
         public long duration;
@@ -20316,13 +20370,13 @@ namespace MMBackendServiceReference2
         public long timeAgo;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=4)]
-        public MMBackendServiceReference2.NoteValidationRules ignoreTheseRules;
+        public NoteWebServiceReference.NoteValidationRules ignoreTheseRules;
         
         public DeleteAudioNoteRequest()
         {
         }
         
-        public DeleteAudioNoteRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.AudioNote audioNote, long duration, long timeAgo, MMBackendServiceReference2.NoteValidationRules ignoreTheseRules)
+        public DeleteAudioNoteRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.AudioNote audioNote, long duration, long timeAgo, NoteWebServiceReference.NoteValidationRules ignoreTheseRules)
         {
             this.verifiedSession = verifiedSession;
             this.audioNote = audioNote;
@@ -20341,13 +20395,13 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.AudioNoteResult DeleteAudioNoteResult;
+        public NoteWebServiceReference.AudioNoteResult DeleteAudioNoteResult;
         
         public DeleteAudioNoteResponse()
         {
         }
         
-        public DeleteAudioNoteResponse(MMBackendServiceReference2.AudioNoteResult DeleteAudioNoteResult)
+        public DeleteAudioNoteResponse(NoteWebServiceReference.AudioNoteResult DeleteAudioNoteResult)
         {
             this.DeleteAudioNoteResult = DeleteAudioNoteResult;
         }
@@ -20362,7 +20416,7 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -20372,7 +20426,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public DeleteNoteRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, string externalUid)
+        public DeleteNoteRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string externalUid)
         {
             this.verifiedSession = verifiedSession;
             this.externalUid = externalUid;
@@ -20400,11 +20454,11 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.VerifiedSession verifiedSession;
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.AudioNote audioNote;
+        public NoteWebServiceReference.AudioNote audioNote;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
         public long duration;
@@ -20419,7 +20473,7 @@ namespace MMBackendServiceReference2
         {
         }
         
-        public CreateAudioNoteRequest(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.AudioNote audioNote, long duration, long timeAgo, bool isLocalCopy)
+        public CreateAudioNoteRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.AudioNote audioNote, long duration, long timeAgo, bool isLocalCopy)
         {
             this.verifiedSession = verifiedSession;
             this.audioNote = audioNote;
@@ -20438,26 +20492,26 @@ namespace MMBackendServiceReference2
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public MMBackendServiceReference2.AudioNoteResult CreateAudioNoteResult;
+        public NoteWebServiceReference.AudioNoteResult CreateAudioNoteResult;
         
         public CreateAudioNoteResponse()
         {
         }
         
-        public CreateAudioNoteResponse(MMBackendServiceReference2.AudioNoteResult CreateAudioNoteResult)
+        public CreateAudioNoteResponse(NoteWebServiceReference.AudioNoteResult CreateAudioNoteResult)
         {
             this.CreateAudioNoteResult = CreateAudioNoteResult;
         }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    public interface NoteWebServiceChannel : MMBackendServiceReference2.NoteWebService, System.ServiceModel.IClientChannel
+    public interface NoteWebServiceChannel : NoteWebServiceReference.NoteWebService, System.ServiceModel.IClientChannel
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    public partial class NoteWebServiceClient : System.ServiceModel.ClientBase<MMBackendServiceReference2.NoteWebService>, MMBackendServiceReference2.NoteWebService
+    public partial class NoteWebServiceClient : System.ServiceModel.ClientBase<NoteWebServiceReference.NoteWebService>, NoteWebServiceReference.NoteWebService
     {
         
         /// <summary>
@@ -20501,1202 +20555,1202 @@ namespace MMBackendServiceReference2
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.LockAudioNoteResponse> MMBackendServiceReference2.NoteWebService.LockAudioNoteAsync(MMBackendServiceReference2.LockAudioNoteRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.LockAudioNoteResponse> NoteWebServiceReference.NoteWebService.LockAudioNoteAsync(NoteWebServiceReference.LockAudioNoteRequest request)
         {
             return base.Channel.LockAudioNoteAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.LockAudioNoteResponse> LockAudioNoteAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.AudioNote audioNote, bool useLockTimeSlice)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.LockAudioNoteResponse> LockAudioNoteAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.AudioNote audioNote, bool useLockTimeSlice)
         {
-            MMBackendServiceReference2.LockAudioNoteRequest inValue = new MMBackendServiceReference2.LockAudioNoteRequest();
+            NoteWebServiceReference.LockAudioNoteRequest inValue = new NoteWebServiceReference.LockAudioNoteRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.audioNote = audioNote;
             inValue.useLockTimeSlice = useLockTimeSlice;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).LockAudioNoteAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).LockAudioNoteAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.UnlockAudioNoteResponse> MMBackendServiceReference2.NoteWebService.UnlockAudioNoteAsync(MMBackendServiceReference2.UnlockAudioNoteRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.UnlockAudioNoteResponse> NoteWebServiceReference.NoteWebService.UnlockAudioNoteAsync(NoteWebServiceReference.UnlockAudioNoteRequest request)
         {
             return base.Channel.UnlockAudioNoteAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.UnlockAudioNoteResponse> UnlockAudioNoteAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.AudioNote audioNote)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.UnlockAudioNoteResponse> UnlockAudioNoteAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.AudioNote audioNote)
         {
-            MMBackendServiceReference2.UnlockAudioNoteRequest inValue = new MMBackendServiceReference2.UnlockAudioNoteRequest();
+            NoteWebServiceReference.UnlockAudioNoteRequest inValue = new NoteWebServiceReference.UnlockAudioNoteRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.audioNote = audioNote;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).UnlockAudioNoteAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).UnlockAudioNoteAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.LockSpeechNoteResponse> MMBackendServiceReference2.NoteWebService.LockSpeechNoteAsync(MMBackendServiceReference2.LockSpeechNoteRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.LockSpeechNoteResponse> NoteWebServiceReference.NoteWebService.LockSpeechNoteAsync(NoteWebServiceReference.LockSpeechNoteRequest request)
         {
             return base.Channel.LockSpeechNoteAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.LockSpeechNoteResponse> LockSpeechNoteAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.SpeechNote speechNote, bool useLockTimeSlice)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.LockSpeechNoteResponse> LockSpeechNoteAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.SpeechNote speechNote, bool useLockTimeSlice)
         {
-            MMBackendServiceReference2.LockSpeechNoteRequest inValue = new MMBackendServiceReference2.LockSpeechNoteRequest();
+            NoteWebServiceReference.LockSpeechNoteRequest inValue = new NoteWebServiceReference.LockSpeechNoteRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.speechNote = speechNote;
             inValue.useLockTimeSlice = useLockTimeSlice;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).LockSpeechNoteAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).LockSpeechNoteAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.UnlockSpeechNoteResponse> MMBackendServiceReference2.NoteWebService.UnlockSpeechNoteAsync(MMBackendServiceReference2.UnlockSpeechNoteRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.UnlockSpeechNoteResponse> NoteWebServiceReference.NoteWebService.UnlockSpeechNoteAsync(NoteWebServiceReference.UnlockSpeechNoteRequest request)
         {
             return base.Channel.UnlockSpeechNoteAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.UnlockSpeechNoteResponse> UnlockSpeechNoteAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.SpeechNote speechNote)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.UnlockSpeechNoteResponse> UnlockSpeechNoteAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.SpeechNote speechNote)
         {
-            MMBackendServiceReference2.UnlockSpeechNoteRequest inValue = new MMBackendServiceReference2.UnlockSpeechNoteRequest();
+            NoteWebServiceReference.UnlockSpeechNoteRequest inValue = new NoteWebServiceReference.UnlockSpeechNoteRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.speechNote = speechNote;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).UnlockSpeechNoteAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).UnlockSpeechNoteAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.CreateSpeechNoteResponse> MMBackendServiceReference2.NoteWebService.CreateSpeechNoteAsync(MMBackendServiceReference2.CreateSpeechNoteRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.CreateSpeechNoteResponse> NoteWebServiceReference.NoteWebService.CreateSpeechNoteAsync(NoteWebServiceReference.CreateSpeechNoteRequest request)
         {
             return base.Channel.CreateSpeechNoteAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.CreateSpeechNoteResponse> CreateSpeechNoteAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.SpeechNote speechNote, long createdDuration)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.CreateSpeechNoteResponse> CreateSpeechNoteAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.SpeechNote speechNote, long createdDuration)
         {
-            MMBackendServiceReference2.CreateSpeechNoteRequest inValue = new MMBackendServiceReference2.CreateSpeechNoteRequest();
+            NoteWebServiceReference.CreateSpeechNoteRequest inValue = new NoteWebServiceReference.CreateSpeechNoteRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.speechNote = speechNote;
             inValue.createdDuration = createdDuration;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).CreateSpeechNoteAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).CreateSpeechNoteAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.UpdateSpeechNoteResponse> MMBackendServiceReference2.NoteWebService.UpdateSpeechNoteAsync(MMBackendServiceReference2.UpdateSpeechNoteRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.UpdateSpeechNoteResponse> NoteWebServiceReference.NoteWebService.UpdateSpeechNoteAsync(NoteWebServiceReference.UpdateSpeechNoteRequest request)
         {
             return base.Channel.UpdateSpeechNoteAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.UpdateSpeechNoteResponse> UpdateSpeechNoteAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.SpeechNote speechNote, long updateDuration, bool forceOverWrite)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.UpdateSpeechNoteResponse> UpdateSpeechNoteAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.SpeechNote speechNote, long updateDuration, bool forceOverWrite)
         {
-            MMBackendServiceReference2.UpdateSpeechNoteRequest inValue = new MMBackendServiceReference2.UpdateSpeechNoteRequest();
+            NoteWebServiceReference.UpdateSpeechNoteRequest inValue = new NoteWebServiceReference.UpdateSpeechNoteRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.speechNote = speechNote;
             inValue.updateDuration = updateDuration;
             inValue.forceOverWrite = forceOverWrite;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).UpdateSpeechNoteAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).UpdateSpeechNoteAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetSpeechNoteResponse> MMBackendServiceReference2.NoteWebService.GetSpeechNoteAsync(MMBackendServiceReference2.GetSpeechNoteRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechNoteResponse> NoteWebServiceReference.NoteWebService.GetSpeechNoteAsync(NoteWebServiceReference.GetSpeechNoteRequest request)
         {
             return base.Channel.GetSpeechNoteAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetSpeechNoteResponse> GetSpeechNoteAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, long id, string externalUid)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechNoteResponse> GetSpeechNoteAsync(NoteWebServiceReference.VerifiedSession verifiedSession, long id, string externalUid)
         {
-            MMBackendServiceReference2.GetSpeechNoteRequest inValue = new MMBackendServiceReference2.GetSpeechNoteRequest();
+            NoteWebServiceReference.GetSpeechNoteRequest inValue = new NoteWebServiceReference.GetSpeechNoteRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.id = id;
             inValue.externalUid = externalUid;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetSpeechNoteAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetSpeechNoteAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetSpeechNoteStatusResponse> MMBackendServiceReference2.NoteWebService.GetSpeechNoteStatusAsync(MMBackendServiceReference2.GetSpeechNoteStatusRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechNoteStatusResponse> NoteWebServiceReference.NoteWebService.GetSpeechNoteStatusAsync(NoteWebServiceReference.GetSpeechNoteStatusRequest request)
         {
             return base.Channel.GetSpeechNoteStatusAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetSpeechNoteStatusResponse> GetSpeechNoteStatusAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, long id, string externalUid)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechNoteStatusResponse> GetSpeechNoteStatusAsync(NoteWebServiceReference.VerifiedSession verifiedSession, long id, string externalUid)
         {
-            MMBackendServiceReference2.GetSpeechNoteStatusRequest inValue = new MMBackendServiceReference2.GetSpeechNoteStatusRequest();
+            NoteWebServiceReference.GetSpeechNoteStatusRequest inValue = new NoteWebServiceReference.GetSpeechNoteStatusRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.id = id;
             inValue.externalUid = externalUid;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetSpeechNoteStatusAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetSpeechNoteStatusAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.DeleteSpeechNoteResponse> MMBackendServiceReference2.NoteWebService.DeleteSpeechNoteAsync(MMBackendServiceReference2.DeleteSpeechNoteRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteSpeechNoteResponse> NoteWebServiceReference.NoteWebService.DeleteSpeechNoteAsync(NoteWebServiceReference.DeleteSpeechNoteRequest request)
         {
             return base.Channel.DeleteSpeechNoteAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.DeleteSpeechNoteResponse> DeleteSpeechNoteAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.SpeechNote speechNote, MMBackendServiceReference2.NoteValidationRules ignoreTheseRules)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.DeleteSpeechNoteResponse> DeleteSpeechNoteAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.SpeechNote speechNote, NoteWebServiceReference.NoteValidationRules ignoreTheseRules)
         {
-            MMBackendServiceReference2.DeleteSpeechNoteRequest inValue = new MMBackendServiceReference2.DeleteSpeechNoteRequest();
+            NoteWebServiceReference.DeleteSpeechNoteRequest inValue = new NoteWebServiceReference.DeleteSpeechNoteRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.speechNote = speechNote;
             inValue.ignoreTheseRules = ignoreTheseRules;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).DeleteSpeechNoteAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).DeleteSpeechNoteAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.FindNotesResponse> MMBackendServiceReference2.NoteWebService.FindNotesAsync(MMBackendServiceReference2.FindNotesRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.FindNotesResponse> NoteWebServiceReference.NoteWebService.FindNotesAsync(NoteWebServiceReference.FindNotesRequest request)
         {
             return base.Channel.FindNotesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.FindNotesResponse> FindNotesAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.NoteSearchQuery noteSearchQuery)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.FindNotesResponse> FindNotesAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.NoteSearchQuery noteSearchQuery)
         {
-            MMBackendServiceReference2.FindNotesRequest inValue = new MMBackendServiceReference2.FindNotesRequest();
+            NoteWebServiceReference.FindNotesRequest inValue = new NoteWebServiceReference.FindNotesRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.noteSearchQuery = noteSearchQuery;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).FindNotesAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).FindNotesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.FindNotesCountResponse> MMBackendServiceReference2.NoteWebService.FindNotesCountAsync(MMBackendServiceReference2.FindNotesCountRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.FindNotesCountResponse> NoteWebServiceReference.NoteWebService.FindNotesCountAsync(NoteWebServiceReference.FindNotesCountRequest request)
         {
             return base.Channel.FindNotesCountAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.FindNotesCountResponse> FindNotesCountAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.NoteSearchQuery noteSearchQuery)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.FindNotesCountResponse> FindNotesCountAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.NoteSearchQuery noteSearchQuery)
         {
-            MMBackendServiceReference2.FindNotesCountRequest inValue = new MMBackendServiceReference2.FindNotesCountRequest();
+            NoteWebServiceReference.FindNotesCountRequest inValue = new NoteWebServiceReference.FindNotesCountRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.noteSearchQuery = noteSearchQuery;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).FindNotesCountAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).FindNotesCountAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.FindNotesLengthResponse> MMBackendServiceReference2.NoteWebService.FindNotesLengthAsync(MMBackendServiceReference2.FindNotesLengthRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.FindNotesLengthResponse> NoteWebServiceReference.NoteWebService.FindNotesLengthAsync(NoteWebServiceReference.FindNotesLengthRequest request)
         {
             return base.Channel.FindNotesLengthAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.FindNotesLengthResponse> FindNotesLengthAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.NoteSearchQuery noteSearchQuery)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.FindNotesLengthResponse> FindNotesLengthAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.NoteSearchQuery noteSearchQuery)
         {
-            MMBackendServiceReference2.FindNotesLengthRequest inValue = new MMBackendServiceReference2.FindNotesLengthRequest();
+            NoteWebServiceReference.FindNotesLengthRequest inValue = new NoteWebServiceReference.FindNotesLengthRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.noteSearchQuery = noteSearchQuery;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).FindNotesLengthAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).FindNotesLengthAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.FindNotesInfoResponse> MMBackendServiceReference2.NoteWebService.FindNotesInfoAsync(MMBackendServiceReference2.FindNotesInfoRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.FindNotesInfoResponse> NoteWebServiceReference.NoteWebService.FindNotesInfoAsync(NoteWebServiceReference.FindNotesInfoRequest request)
         {
             return base.Channel.FindNotesInfoAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.FindNotesInfoResponse> FindNotesInfoAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.NoteSearchQuery noteSearchQuery)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.FindNotesInfoResponse> FindNotesInfoAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.NoteSearchQuery noteSearchQuery)
         {
-            MMBackendServiceReference2.FindNotesInfoRequest inValue = new MMBackendServiceReference2.FindNotesInfoRequest();
+            NoteWebServiceReference.FindNotesInfoRequest inValue = new NoteWebServiceReference.FindNotesInfoRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.noteSearchQuery = noteSearchQuery;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).FindNotesInfoAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).FindNotesInfoAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.ChangeUserPasswordResponse> MMBackendServiceReference2.NoteWebService.ChangeUserPasswordAsync(MMBackendServiceReference2.ChangeUserPasswordRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.ChangeUserPasswordResponse> NoteWebServiceReference.NoteWebService.ChangeUserPasswordAsync(NoteWebServiceReference.ChangeUserPasswordRequest request)
         {
             return base.Channel.ChangeUserPasswordAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.ChangeUserPasswordResponse> ChangeUserPasswordAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, string oldPassword, string newPassword)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.ChangeUserPasswordResponse> ChangeUserPasswordAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string oldPassword, string newPassword)
         {
-            MMBackendServiceReference2.ChangeUserPasswordRequest inValue = new MMBackendServiceReference2.ChangeUserPasswordRequest();
+            NoteWebServiceReference.ChangeUserPasswordRequest inValue = new NoteWebServiceReference.ChangeUserPasswordRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.oldPassword = oldPassword;
             inValue.newPassword = newPassword;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).ChangeUserPasswordAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).ChangeUserPasswordAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.UpdateSimpleUserPropertiesResponse> MMBackendServiceReference2.NoteWebService.UpdateSimpleUserPropertiesAsync(MMBackendServiceReference2.UpdateSimpleUserPropertiesRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.UpdateSimpleUserPropertiesResponse> NoteWebServiceReference.NoteWebService.UpdateSimpleUserPropertiesAsync(NoteWebServiceReference.UpdateSimpleUserPropertiesRequest request)
         {
             return base.Channel.UpdateSimpleUserPropertiesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.UpdateSimpleUserPropertiesResponse> UpdateSimpleUserPropertiesAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.User changedUser)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.UpdateSimpleUserPropertiesResponse> UpdateSimpleUserPropertiesAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.User changedUser)
         {
-            MMBackendServiceReference2.UpdateSimpleUserPropertiesRequest inValue = new MMBackendServiceReference2.UpdateSimpleUserPropertiesRequest();
+            NoteWebServiceReference.UpdateSimpleUserPropertiesRequest inValue = new NoteWebServiceReference.UpdateSimpleUserPropertiesRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.changedUser = changedUser;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).UpdateSimpleUserPropertiesAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).UpdateSimpleUserPropertiesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetQuickNoteUidResponse> MMBackendServiceReference2.NoteWebService.GetQuickNoteUidAsync(MMBackendServiceReference2.GetQuickNoteUidRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetQuickNoteUidResponse> NoteWebServiceReference.NoteWebService.GetQuickNoteUidAsync(NoteWebServiceReference.GetQuickNoteUidRequest request)
         {
             return base.Channel.GetQuickNoteUidAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetQuickNoteUidResponse> GetQuickNoteUidAsync(MMBackendServiceReference2.VerifiedSession verifiedSession)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetQuickNoteUidResponse> GetQuickNoteUidAsync(NoteWebServiceReference.VerifiedSession verifiedSession)
         {
-            MMBackendServiceReference2.GetQuickNoteUidRequest inValue = new MMBackendServiceReference2.GetQuickNoteUidRequest();
+            NoteWebServiceReference.GetQuickNoteUidRequest inValue = new NoteWebServiceReference.GetQuickNoteUidRequest();
             inValue.verifiedSession = verifiedSession;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetQuickNoteUidAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetQuickNoteUidAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetApplicationsResponse> MMBackendServiceReference2.NoteWebService.GetApplicationsAsync(MMBackendServiceReference2.GetApplicationsRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetApplicationsResponse> NoteWebServiceReference.NoteWebService.GetApplicationsAsync(NoteWebServiceReference.GetApplicationsRequest request)
         {
             return base.Channel.GetApplicationsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetApplicationsResponse> GetApplicationsAsync()
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetApplicationsResponse> GetApplicationsAsync()
         {
-            MMBackendServiceReference2.GetApplicationsRequest inValue = new MMBackendServiceReference2.GetApplicationsRequest();
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetApplicationsAsync(inValue);
+            NoteWebServiceReference.GetApplicationsRequest inValue = new NoteWebServiceReference.GetApplicationsRequest();
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetApplicationsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.CreateOrUpdateTriggerActionResponse> MMBackendServiceReference2.NoteWebService.CreateOrUpdateTriggerActionAsync(MMBackendServiceReference2.CreateOrUpdateTriggerActionRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.CreateOrUpdateTriggerActionResponse> NoteWebServiceReference.NoteWebService.CreateOrUpdateTriggerActionAsync(NoteWebServiceReference.CreateOrUpdateTriggerActionRequest request)
         {
             return base.Channel.CreateOrUpdateTriggerActionAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.CreateOrUpdateTriggerActionResponse> CreateOrUpdateTriggerActionAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.TriggerAction triggerAction)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.CreateOrUpdateTriggerActionResponse> CreateOrUpdateTriggerActionAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.TriggerAction triggerAction)
         {
-            MMBackendServiceReference2.CreateOrUpdateTriggerActionRequest inValue = new MMBackendServiceReference2.CreateOrUpdateTriggerActionRequest();
+            NoteWebServiceReference.CreateOrUpdateTriggerActionRequest inValue = new NoteWebServiceReference.CreateOrUpdateTriggerActionRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.triggerAction = triggerAction;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).CreateOrUpdateTriggerActionAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).CreateOrUpdateTriggerActionAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.DeleteTriggerActionResponse> MMBackendServiceReference2.NoteWebService.DeleteTriggerActionAsync(MMBackendServiceReference2.DeleteTriggerActionRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteTriggerActionResponse> NoteWebServiceReference.NoteWebService.DeleteTriggerActionAsync(NoteWebServiceReference.DeleteTriggerActionRequest request)
         {
             return base.Channel.DeleteTriggerActionAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.DeleteTriggerActionResponse> DeleteTriggerActionAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.TriggerAction triggerAction)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.DeleteTriggerActionResponse> DeleteTriggerActionAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.TriggerAction triggerAction)
         {
-            MMBackendServiceReference2.DeleteTriggerActionRequest inValue = new MMBackendServiceReference2.DeleteTriggerActionRequest();
+            NoteWebServiceReference.DeleteTriggerActionRequest inValue = new NoteWebServiceReference.DeleteTriggerActionRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.triggerAction = triggerAction;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).DeleteTriggerActionAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).DeleteTriggerActionAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetTriggerActionCategoriesResponse> MMBackendServiceReference2.NoteWebService.GetTriggerActionCategoriesAsync(MMBackendServiceReference2.GetTriggerActionCategoriesRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetTriggerActionCategoriesResponse> NoteWebServiceReference.NoteWebService.GetTriggerActionCategoriesAsync(NoteWebServiceReference.GetTriggerActionCategoriesRequest request)
         {
             return base.Channel.GetTriggerActionCategoriesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetTriggerActionCategoriesResponse> GetTriggerActionCategoriesAsync(MMBackendServiceReference2.VerifiedSession verifiedSession)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetTriggerActionCategoriesResponse> GetTriggerActionCategoriesAsync(NoteWebServiceReference.VerifiedSession verifiedSession)
         {
-            MMBackendServiceReference2.GetTriggerActionCategoriesRequest inValue = new MMBackendServiceReference2.GetTriggerActionCategoriesRequest();
+            NoteWebServiceReference.GetTriggerActionCategoriesRequest inValue = new NoteWebServiceReference.GetTriggerActionCategoriesRequest();
             inValue.verifiedSession = verifiedSession;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetTriggerActionCategoriesAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetTriggerActionCategoriesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SetAudioNoteStatusResponse> MMBackendServiceReference2.NoteWebService.SetAudioNoteStatusAsync(MMBackendServiceReference2.SetAudioNoteStatusRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetAudioNoteStatusResponse> NoteWebServiceReference.NoteWebService.SetAudioNoteStatusAsync(NoteWebServiceReference.SetAudioNoteStatusRequest request)
         {
             return base.Channel.SetAudioNoteStatusAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.SetAudioNoteStatusResponse> SetAudioNoteStatusAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, string externalUid, MMBackendServiceReference2.NoteStatus noteStatus)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.SetAudioNoteStatusResponse> SetAudioNoteStatusAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string externalUid, NoteWebServiceReference.NoteStatus noteStatus)
         {
-            MMBackendServiceReference2.SetAudioNoteStatusRequest inValue = new MMBackendServiceReference2.SetAudioNoteStatusRequest();
+            NoteWebServiceReference.SetAudioNoteStatusRequest inValue = new NoteWebServiceReference.SetAudioNoteStatusRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.externalUid = externalUid;
             inValue.noteStatus = noteStatus;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).SetAudioNoteStatusAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).SetAudioNoteStatusAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.TuneContextResponse> MMBackendServiceReference2.NoteWebService.TuneContextAsync(MMBackendServiceReference2.TuneContextRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.TuneContextResponse> NoteWebServiceReference.NoteWebService.TuneContextAsync(NoteWebServiceReference.TuneContextRequest request)
         {
             return base.Channel.TuneContextAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.TuneContextResponse> TuneContextAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.TuningDocument[] documents)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.TuneContextResponse> TuneContextAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.TuningDocument[] documents)
         {
-            MMBackendServiceReference2.TuneContextRequest inValue = new MMBackendServiceReference2.TuneContextRequest();
+            NoteWebServiceReference.TuneContextRequest inValue = new NoteWebServiceReference.TuneContextRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.documents = documents;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).TuneContextAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).TuneContextAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetUnknownWordsResponse> MMBackendServiceReference2.NoteWebService.GetUnknownWordsAsync(MMBackendServiceReference2.GetUnknownWordsRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetUnknownWordsResponse> NoteWebServiceReference.NoteWebService.GetUnknownWordsAsync(NoteWebServiceReference.GetUnknownWordsRequest request)
         {
             return base.Channel.GetUnknownWordsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetUnknownWordsResponse> GetUnknownWordsAsync(MMBackendServiceReference2.VerifiedSession verifiedSession)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetUnknownWordsResponse> GetUnknownWordsAsync(NoteWebServiceReference.VerifiedSession verifiedSession)
         {
-            MMBackendServiceReference2.GetUnknownWordsRequest inValue = new MMBackendServiceReference2.GetUnknownWordsRequest();
+            NoteWebServiceReference.GetUnknownWordsRequest inValue = new NoteWebServiceReference.GetUnknownWordsRequest();
             inValue.verifiedSession = verifiedSession;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetUnknownWordsAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetUnknownWordsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SaveClientInfoResponse> MMBackendServiceReference2.NoteWebService.SaveClientInfoAsync(MMBackendServiceReference2.SaveClientInfoRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.SaveClientInfoResponse> NoteWebServiceReference.NoteWebService.SaveClientInfoAsync(NoteWebServiceReference.SaveClientInfoRequest request)
         {
             return base.Channel.SaveClientInfoAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.SaveClientInfoResponse> SaveClientInfoAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.ClientInfo clientInfo)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.SaveClientInfoResponse> SaveClientInfoAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.ClientInfo clientInfo)
         {
-            MMBackendServiceReference2.SaveClientInfoRequest inValue = new MMBackendServiceReference2.SaveClientInfoRequest();
+            NoteWebServiceReference.SaveClientInfoRequest inValue = new NoteWebServiceReference.SaveClientInfoRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.clientInfo = clientInfo;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).SaveClientInfoAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).SaveClientInfoAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.UpdateNoteClientIdResponse> MMBackendServiceReference2.NoteWebService.UpdateNoteClientIdAsync(MMBackendServiceReference2.UpdateNoteClientIdRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.UpdateNoteClientIdResponse> NoteWebServiceReference.NoteWebService.UpdateNoteClientIdAsync(NoteWebServiceReference.UpdateNoteClientIdRequest request)
         {
             return base.Channel.UpdateNoteClientIdAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.UpdateNoteClientIdResponse> UpdateNoteClientIdAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, string currentClientId, string newClientId)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.UpdateNoteClientIdResponse> UpdateNoteClientIdAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string currentClientId, string newClientId)
         {
-            MMBackendServiceReference2.UpdateNoteClientIdRequest inValue = new MMBackendServiceReference2.UpdateNoteClientIdRequest();
+            NoteWebServiceReference.UpdateNoteClientIdRequest inValue = new NoteWebServiceReference.UpdateNoteClientIdRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.currentClientId = currentClientId;
             inValue.newClientId = newClientId;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).UpdateNoteClientIdAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).UpdateNoteClientIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.DeleteAllAutosavedDocumentsResponse> MMBackendServiceReference2.NoteWebService.DeleteAllAutosavedDocumentsAsync(MMBackendServiceReference2.DeleteAllAutosavedDocumentsRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteAllAutosavedDocumentsResponse> NoteWebServiceReference.NoteWebService.DeleteAllAutosavedDocumentsAsync(NoteWebServiceReference.DeleteAllAutosavedDocumentsRequest request)
         {
             return base.Channel.DeleteAllAutosavedDocumentsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.DeleteAllAutosavedDocumentsResponse> DeleteAllAutosavedDocumentsAsync(MMBackendServiceReference2.VerifiedSession verifiedSession)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.DeleteAllAutosavedDocumentsResponse> DeleteAllAutosavedDocumentsAsync(NoteWebServiceReference.VerifiedSession verifiedSession)
         {
-            MMBackendServiceReference2.DeleteAllAutosavedDocumentsRequest inValue = new MMBackendServiceReference2.DeleteAllAutosavedDocumentsRequest();
+            NoteWebServiceReference.DeleteAllAutosavedDocumentsRequest inValue = new NoteWebServiceReference.DeleteAllAutosavedDocumentsRequest();
             inValue.verifiedSession = verifiedSession;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).DeleteAllAutosavedDocumentsAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).DeleteAllAutosavedDocumentsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetSpeechNoteFromLinkedNoteIdResponse> MMBackendServiceReference2.NoteWebService.GetSpeechNoteFromLinkedNoteIdAsync(MMBackendServiceReference2.GetSpeechNoteFromLinkedNoteIdRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechNoteFromLinkedNoteIdResponse> NoteWebServiceReference.NoteWebService.GetSpeechNoteFromLinkedNoteIdAsync(NoteWebServiceReference.GetSpeechNoteFromLinkedNoteIdRequest request)
         {
             return base.Channel.GetSpeechNoteFromLinkedNoteIdAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetSpeechNoteFromLinkedNoteIdResponse> GetSpeechNoteFromLinkedNoteIdAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, long linkedNoteId)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechNoteFromLinkedNoteIdResponse> GetSpeechNoteFromLinkedNoteIdAsync(NoteWebServiceReference.VerifiedSession verifiedSession, long linkedNoteId)
         {
-            MMBackendServiceReference2.GetSpeechNoteFromLinkedNoteIdRequest inValue = new MMBackendServiceReference2.GetSpeechNoteFromLinkedNoteIdRequest();
+            NoteWebServiceReference.GetSpeechNoteFromLinkedNoteIdRequest inValue = new NoteWebServiceReference.GetSpeechNoteFromLinkedNoteIdRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.linkedNoteId = linkedNoteId;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetSpeechNoteFromLinkedNoteIdAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetSpeechNoteFromLinkedNoteIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetMessageForUserResponse> MMBackendServiceReference2.NoteWebService.GetMessageForUserAsync(MMBackendServiceReference2.GetMessageForUserRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetMessageForUserResponse> NoteWebServiceReference.NoteWebService.GetMessageForUserAsync(NoteWebServiceReference.GetMessageForUserRequest request)
         {
             return base.Channel.GetMessageForUserAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetMessageForUserResponse> GetMessageForUserAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, string clientVersion)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetMessageForUserResponse> GetMessageForUserAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string clientVersion)
         {
-            MMBackendServiceReference2.GetMessageForUserRequest inValue = new MMBackendServiceReference2.GetMessageForUserRequest();
+            NoteWebServiceReference.GetMessageForUserRequest inValue = new NoteWebServiceReference.GetMessageForUserRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.clientVersion = clientVersion;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetMessageForUserAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetMessageForUserAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.MessageResponseResponse> MMBackendServiceReference2.NoteWebService.MessageResponseAsync(MMBackendServiceReference2.MessageResponseRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.MessageResponseResponse> NoteWebServiceReference.NoteWebService.MessageResponseAsync(NoteWebServiceReference.MessageResponseRequest request)
         {
             return base.Channel.MessageResponseAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.MessageResponseResponse> MessageResponseAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.MessageResponse response)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.MessageResponseResponse> MessageResponseAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.MessageResponse response)
         {
-            MMBackendServiceReference2.MessageResponseRequest inValue = new MMBackendServiceReference2.MessageResponseRequest();
+            NoteWebServiceReference.MessageResponseRequest inValue = new NoteWebServiceReference.MessageResponseRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.response = response;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).MessageResponseAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).MessageResponseAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.RegisterListenResponse> MMBackendServiceReference2.NoteWebService.RegisterListenAsync(MMBackendServiceReference2.RegisterListenRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.RegisterListenResponse> NoteWebServiceReference.NoteWebService.RegisterListenAsync(NoteWebServiceReference.RegisterListenRequest request)
         {
             return base.Channel.RegisterListenAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.RegisterListenResponse> RegisterListenAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, long noteId)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.RegisterListenResponse> RegisterListenAsync(NoteWebServiceReference.VerifiedSession verifiedSession, long noteId)
         {
-            MMBackendServiceReference2.RegisterListenRequest inValue = new MMBackendServiceReference2.RegisterListenRequest();
+            NoteWebServiceReference.RegisterListenRequest inValue = new NoteWebServiceReference.RegisterListenRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.noteId = noteId;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).RegisterListenAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).RegisterListenAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.LoginByDomainResponse> MMBackendServiceReference2.NoteWebService.LoginByDomainAsync(MMBackendServiceReference2.LoginByDomainRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.LoginByDomainResponse> NoteWebServiceReference.NoteWebService.LoginByDomainAsync(NoteWebServiceReference.LoginByDomainRequest request)
         {
             return base.Channel.LoginByDomainAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.LoginByDomainResponse> LoginByDomainAsync(string username, string domainName, string[] domainGroups, string usersFullName, string externalUid)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.LoginByDomainResponse> LoginByDomainAsync(string username, string domainName, string[] domainGroups, string usersFullName, string externalUid)
         {
-            MMBackendServiceReference2.LoginByDomainRequest inValue = new MMBackendServiceReference2.LoginByDomainRequest();
+            NoteWebServiceReference.LoginByDomainRequest inValue = new NoteWebServiceReference.LoginByDomainRequest();
             inValue.username = username;
             inValue.domainName = domainName;
             inValue.domainGroups = domainGroups;
             inValue.usersFullName = usersFullName;
             inValue.externalUid = externalUid;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).LoginByDomainAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).LoginByDomainAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetADSearchGroupNamesResponse> MMBackendServiceReference2.NoteWebService.GetADSearchGroupNamesAsync(MMBackendServiceReference2.GetADSearchGroupNamesRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetADSearchGroupNamesResponse> NoteWebServiceReference.NoteWebService.GetADSearchGroupNamesAsync(NoteWebServiceReference.GetADSearchGroupNamesRequest request)
         {
             return base.Channel.GetADSearchGroupNamesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetADSearchGroupNamesResponse> GetADSearchGroupNamesAsync()
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetADSearchGroupNamesResponse> GetADSearchGroupNamesAsync()
         {
-            MMBackendServiceReference2.GetADSearchGroupNamesRequest inValue = new MMBackendServiceReference2.GetADSearchGroupNamesRequest();
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetADSearchGroupNamesAsync(inValue);
+            NoteWebServiceReference.GetADSearchGroupNamesRequest inValue = new NoteWebServiceReference.GetADSearchGroupNamesRequest();
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetADSearchGroupNamesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.LoginResponse> MMBackendServiceReference2.NoteWebService.LoginAsync(MMBackendServiceReference2.LoginRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.LoginResponse> NoteWebServiceReference.NoteWebService.LoginAsync(NoteWebServiceReference.LoginRequest request)
         {
             return base.Channel.LoginAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.LoginResponse> LoginAsync(string username, string password)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.LoginResponse> LoginAsync(string username, string password)
         {
-            MMBackendServiceReference2.LoginRequest inValue = new MMBackendServiceReference2.LoginRequest();
+            NoteWebServiceReference.LoginRequest inValue = new NoteWebServiceReference.LoginRequest();
             inValue.username = username;
             inValue.password = password;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).LoginAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).LoginAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetCurrentUserResponse> MMBackendServiceReference2.NoteWebService.GetCurrentUserAsync(MMBackendServiceReference2.GetCurrentUserRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetCurrentUserResponse> NoteWebServiceReference.NoteWebService.GetCurrentUserAsync(NoteWebServiceReference.GetCurrentUserRequest request)
         {
             return base.Channel.GetCurrentUserAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetCurrentUserResponse> GetCurrentUserAsync(MMBackendServiceReference2.VerifiedSession verifiedSession)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetCurrentUserResponse> GetCurrentUserAsync(NoteWebServiceReference.VerifiedSession verifiedSession)
         {
-            MMBackendServiceReference2.GetCurrentUserRequest inValue = new MMBackendServiceReference2.GetCurrentUserRequest();
+            NoteWebServiceReference.GetCurrentUserRequest inValue = new NoteWebServiceReference.GetCurrentUserRequest();
             inValue.verifiedSession = verifiedSession;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetCurrentUserAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetCurrentUserAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.VerifyUserResponse> MMBackendServiceReference2.NoteWebService.VerifyUserAsync(MMBackendServiceReference2.VerifyUserRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.VerifyUserResponse> NoteWebServiceReference.NoteWebService.VerifyUserAsync(NoteWebServiceReference.VerifyUserRequest request)
         {
             return base.Channel.VerifyUserAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.VerifyUserResponse> VerifyUserAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, string loginName)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.VerifyUserResponse> VerifyUserAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string loginName)
         {
-            MMBackendServiceReference2.VerifyUserRequest inValue = new MMBackendServiceReference2.VerifyUserRequest();
+            NoteWebServiceReference.VerifyUserRequest inValue = new NoteWebServiceReference.VerifyUserRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.loginName = loginName;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).VerifyUserAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).VerifyUserAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SetCurrentUserResponse> MMBackendServiceReference2.NoteWebService.SetCurrentUserAsync(MMBackendServiceReference2.SetCurrentUserRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentUserResponse> NoteWebServiceReference.NoteWebService.SetCurrentUserAsync(NoteWebServiceReference.SetCurrentUserRequest request)
         {
             return base.Channel.SetCurrentUserAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.SetCurrentUserResponse> SetCurrentUserAsync(string username)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentUserResponse> SetCurrentUserAsync(string username)
         {
-            MMBackendServiceReference2.SetCurrentUserRequest inValue = new MMBackendServiceReference2.SetCurrentUserRequest();
+            NoteWebServiceReference.SetCurrentUserRequest inValue = new NoteWebServiceReference.SetCurrentUserRequest();
             inValue.username = username;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).SetCurrentUserAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).SetCurrentUserAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SetCurrentUserWithSignatureResponse> MMBackendServiceReference2.NoteWebService.SetCurrentUserWithSignatureAsync(MMBackendServiceReference2.SetCurrentUserWithSignatureRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentUserWithSignatureResponse> NoteWebServiceReference.NoteWebService.SetCurrentUserWithSignatureAsync(NoteWebServiceReference.SetCurrentUserWithSignatureRequest request)
         {
             return base.Channel.SetCurrentUserWithSignatureAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.SetCurrentUserWithSignatureResponse> SetCurrentUserWithSignatureAsync(string username, string payLoad, string keyName, string signature)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentUserWithSignatureResponse> SetCurrentUserWithSignatureAsync(string username, string payLoad, string keyName, string signature)
         {
-            MMBackendServiceReference2.SetCurrentUserWithSignatureRequest inValue = new MMBackendServiceReference2.SetCurrentUserWithSignatureRequest();
+            NoteWebServiceReference.SetCurrentUserWithSignatureRequest inValue = new NoteWebServiceReference.SetCurrentUserWithSignatureRequest();
             inValue.username = username;
             inValue.payLoad = payLoad;
             inValue.keyName = keyName;
             inValue.signature = signature;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).SetCurrentUserWithSignatureAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).SetCurrentUserWithSignatureAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SetCurrentUserWithFullNameResponse> MMBackendServiceReference2.NoteWebService.SetCurrentUserWithFullNameAsync(MMBackendServiceReference2.SetCurrentUserWithFullNameRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentUserWithFullNameResponse> NoteWebServiceReference.NoteWebService.SetCurrentUserWithFullNameAsync(NoteWebServiceReference.SetCurrentUserWithFullNameRequest request)
         {
             return base.Channel.SetCurrentUserWithFullNameAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.SetCurrentUserWithFullNameResponse> SetCurrentUserWithFullNameAsync(string fullname)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentUserWithFullNameResponse> SetCurrentUserWithFullNameAsync(string fullname)
         {
-            MMBackendServiceReference2.SetCurrentUserWithFullNameRequest inValue = new MMBackendServiceReference2.SetCurrentUserWithFullNameRequest();
+            NoteWebServiceReference.SetCurrentUserWithFullNameRequest inValue = new NoteWebServiceReference.SetCurrentUserWithFullNameRequest();
             inValue.fullname = fullname;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).SetCurrentUserWithFullNameAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).SetCurrentUserWithFullNameAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SetCurrentUserAndGroupResponse> MMBackendServiceReference2.NoteWebService.SetCurrentUserAndGroupAsync(MMBackendServiceReference2.SetCurrentUserAndGroupRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentUserAndGroupResponse> NoteWebServiceReference.NoteWebService.SetCurrentUserAndGroupAsync(NoteWebServiceReference.SetCurrentUserAndGroupRequest request)
         {
             return base.Channel.SetCurrentUserAndGroupAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.SetCurrentUserAndGroupResponse> SetCurrentUserAndGroupAsync(string username, string groupUid)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentUserAndGroupResponse> SetCurrentUserAndGroupAsync(string username, string groupUid)
         {
-            MMBackendServiceReference2.SetCurrentUserAndGroupRequest inValue = new MMBackendServiceReference2.SetCurrentUserAndGroupRequest();
+            NoteWebServiceReference.SetCurrentUserAndGroupRequest inValue = new NoteWebServiceReference.SetCurrentUserAndGroupRequest();
             inValue.username = username;
             inValue.groupUid = groupUid;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).SetCurrentUserAndGroupAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).SetCurrentUserAndGroupAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SetCurrentUserStandAloneResponse> MMBackendServiceReference2.NoteWebService.SetCurrentUserStandAloneAsync(MMBackendServiceReference2.SetCurrentUserStandAloneRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentUserStandAloneResponse> NoteWebServiceReference.NoteWebService.SetCurrentUserStandAloneAsync(NoteWebServiceReference.SetCurrentUserStandAloneRequest request)
         {
             return base.Channel.SetCurrentUserStandAloneAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.SetCurrentUserStandAloneResponse> SetCurrentUserStandAloneAsync(string username)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentUserStandAloneResponse> SetCurrentUserStandAloneAsync(string username)
         {
-            MMBackendServiceReference2.SetCurrentUserStandAloneRequest inValue = new MMBackendServiceReference2.SetCurrentUserStandAloneRequest();
+            NoteWebServiceReference.SetCurrentUserStandAloneRequest inValue = new NoteWebServiceReference.SetCurrentUserStandAloneRequest();
             inValue.username = username;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).SetCurrentUserStandAloneAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).SetCurrentUserStandAloneAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetCurrentGroupResponse> MMBackendServiceReference2.NoteWebService.GetCurrentGroupAsync(MMBackendServiceReference2.GetCurrentGroupRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetCurrentGroupResponse> NoteWebServiceReference.NoteWebService.GetCurrentGroupAsync(NoteWebServiceReference.GetCurrentGroupRequest request)
         {
             return base.Channel.GetCurrentGroupAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetCurrentGroupResponse> GetCurrentGroupAsync(MMBackendServiceReference2.VerifiedSession verifiedUser)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetCurrentGroupResponse> GetCurrentGroupAsync(NoteWebServiceReference.VerifiedSession verifiedUser)
         {
-            MMBackendServiceReference2.GetCurrentGroupRequest inValue = new MMBackendServiceReference2.GetCurrentGroupRequest();
+            NoteWebServiceReference.GetCurrentGroupRequest inValue = new NoteWebServiceReference.GetCurrentGroupRequest();
             inValue.verifiedUser = verifiedUser;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetCurrentGroupAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetCurrentGroupAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SetCurrentGroupResponse> MMBackendServiceReference2.NoteWebService.SetCurrentGroupAsync(MMBackendServiceReference2.SetCurrentGroupRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentGroupResponse> NoteWebServiceReference.NoteWebService.SetCurrentGroupAsync(NoteWebServiceReference.SetCurrentGroupRequest request)
         {
             return base.Channel.SetCurrentGroupAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.SetCurrentGroupResponse> SetCurrentGroupAsync(MMBackendServiceReference2.VerifiedSession verifiedUser, MMBackendServiceReference2.GroupWithPath currentGroup)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentGroupResponse> SetCurrentGroupAsync(NoteWebServiceReference.VerifiedSession verifiedUser, NoteWebServiceReference.GroupWithPath currentGroup)
         {
-            MMBackendServiceReference2.SetCurrentGroupRequest inValue = new MMBackendServiceReference2.SetCurrentGroupRequest();
+            NoteWebServiceReference.SetCurrentGroupRequest inValue = new NoteWebServiceReference.SetCurrentGroupRequest();
             inValue.verifiedUser = verifiedUser;
             inValue.currentGroup = currentGroup;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).SetCurrentGroupAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).SetCurrentGroupAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetRightsResponse> MMBackendServiceReference2.NoteWebService.GetRightsAsync(MMBackendServiceReference2.GetRightsRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetRightsResponse> NoteWebServiceReference.NoteWebService.GetRightsAsync(NoteWebServiceReference.GetRightsRequest request)
         {
             return base.Channel.GetRightsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetRightsResponse> GetRightsAsync(MMBackendServiceReference2.VerifiedSession verifiedUser, string categoryName)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetRightsResponse> GetRightsAsync(NoteWebServiceReference.VerifiedSession verifiedUser, string categoryName)
         {
-            MMBackendServiceReference2.GetRightsRequest inValue = new MMBackendServiceReference2.GetRightsRequest();
+            NoteWebServiceReference.GetRightsRequest inValue = new NoteWebServiceReference.GetRightsRequest();
             inValue.verifiedUser = verifiedUser;
             inValue.categoryName = categoryName;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetRightsAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetRightsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SetRolesResponse> MMBackendServiceReference2.NoteWebService.SetRolesAsync(MMBackendServiceReference2.SetRolesRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetRolesResponse> NoteWebServiceReference.NoteWebService.SetRolesAsync(NoteWebServiceReference.SetRolesRequest request)
         {
             return base.Channel.SetRolesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.SetRolesResponse> SetRolesAsync(MMBackendServiceReference2.VerifiedSession verifiedUser, string[] addRoles, string[] deleteRoles)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.SetRolesResponse> SetRolesAsync(NoteWebServiceReference.VerifiedSession verifiedUser, string[] addRoles, string[] deleteRoles)
         {
-            MMBackendServiceReference2.SetRolesRequest inValue = new MMBackendServiceReference2.SetRolesRequest();
+            NoteWebServiceReference.SetRolesRequest inValue = new NoteWebServiceReference.SetRolesRequest();
             inValue.verifiedUser = verifiedUser;
             inValue.addRoles = addRoles;
             inValue.deleteRoles = deleteRoles;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).SetRolesAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).SetRolesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetServerNameResponse> MMBackendServiceReference2.NoteWebService.GetServerNameAsync(MMBackendServiceReference2.GetServerNameRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetServerNameResponse> NoteWebServiceReference.NoteWebService.GetServerNameAsync(NoteWebServiceReference.GetServerNameRequest request)
         {
             return base.Channel.GetServerNameAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetServerNameResponse> GetServerNameAsync(MMBackendServiceReference2.VerifiedSession verifiedUser)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetServerNameResponse> GetServerNameAsync(NoteWebServiceReference.VerifiedSession verifiedUser)
         {
-            MMBackendServiceReference2.GetServerNameRequest inValue = new MMBackendServiceReference2.GetServerNameRequest();
+            NoteWebServiceReference.GetServerNameRequest inValue = new NoteWebServiceReference.GetServerNameRequest();
             inValue.verifiedUser = verifiedUser;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetServerNameAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetServerNameAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SaveFileResponse> MMBackendServiceReference2.NoteWebService.SaveFileAsync(MMBackendServiceReference2.SaveFileRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.SaveFileResponse> NoteWebServiceReference.NoteWebService.SaveFileAsync(NoteWebServiceReference.SaveFileRequest request)
         {
             return base.Channel.SaveFileAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.SaveFileResponse> SaveFileAsync(MMBackendServiceReference2.VerifiedSession verifiedUser, string uid, byte[] bytes, int binaryType)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.SaveFileResponse> SaveFileAsync(NoteWebServiceReference.VerifiedSession verifiedUser, string uid, byte[] bytes, int binaryType)
         {
-            MMBackendServiceReference2.SaveFileRequest inValue = new MMBackendServiceReference2.SaveFileRequest();
+            NoteWebServiceReference.SaveFileRequest inValue = new NoteWebServiceReference.SaveFileRequest();
             inValue.verifiedUser = verifiedUser;
             inValue.uid = uid;
             inValue.bytes = bytes;
             inValue.binaryType = binaryType;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).SaveFileAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).SaveFileAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.LoadFileResponse> MMBackendServiceReference2.NoteWebService.LoadFileAsync(MMBackendServiceReference2.LoadFileRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.LoadFileResponse> NoteWebServiceReference.NoteWebService.LoadFileAsync(NoteWebServiceReference.LoadFileRequest request)
         {
             return base.Channel.LoadFileAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.LoadFileResponse> LoadFileAsync(MMBackendServiceReference2.VerifiedSession verifiedUser, string uid)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.LoadFileResponse> LoadFileAsync(NoteWebServiceReference.VerifiedSession verifiedUser, string uid)
         {
-            MMBackendServiceReference2.LoadFileRequest inValue = new MMBackendServiceReference2.LoadFileRequest();
+            NoteWebServiceReference.LoadFileRequest inValue = new NoteWebServiceReference.LoadFileRequest();
             inValue.verifiedUser = verifiedUser;
             inValue.uid = uid;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).LoadFileAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).LoadFileAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.LoadFileByIdResponse> MMBackendServiceReference2.NoteWebService.LoadFileByIdAsync(MMBackendServiceReference2.LoadFileByIdRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.LoadFileByIdResponse> NoteWebServiceReference.NoteWebService.LoadFileByIdAsync(NoteWebServiceReference.LoadFileByIdRequest request)
         {
             return base.Channel.LoadFileByIdAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.LoadFileByIdResponse> LoadFileByIdAsync(MMBackendServiceReference2.VerifiedSession verifiedUser, long id)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.LoadFileByIdResponse> LoadFileByIdAsync(NoteWebServiceReference.VerifiedSession verifiedUser, long id)
         {
-            MMBackendServiceReference2.LoadFileByIdRequest inValue = new MMBackendServiceReference2.LoadFileByIdRequest();
+            NoteWebServiceReference.LoadFileByIdRequest inValue = new NoteWebServiceReference.LoadFileByIdRequest();
             inValue.verifiedUser = verifiedUser;
             inValue.id = id;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).LoadFileByIdAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).LoadFileByIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.DeleteFileResponse> MMBackendServiceReference2.NoteWebService.DeleteFileAsync(MMBackendServiceReference2.DeleteFileRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteFileResponse> NoteWebServiceReference.NoteWebService.DeleteFileAsync(NoteWebServiceReference.DeleteFileRequest request)
         {
             return base.Channel.DeleteFileAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.DeleteFileResponse> DeleteFileAsync(MMBackendServiceReference2.VerifiedSession verifiedUser, string uid)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.DeleteFileResponse> DeleteFileAsync(NoteWebServiceReference.VerifiedSession verifiedUser, string uid)
         {
-            MMBackendServiceReference2.DeleteFileRequest inValue = new MMBackendServiceReference2.DeleteFileRequest();
+            NoteWebServiceReference.DeleteFileRequest inValue = new NoteWebServiceReference.DeleteFileRequest();
             inValue.verifiedUser = verifiedUser;
             inValue.uid = uid;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).DeleteFileAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).DeleteFileAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.FileExistsResponse> MMBackendServiceReference2.NoteWebService.FileExistsAsync(MMBackendServiceReference2.FileExistsRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.FileExistsResponse> NoteWebServiceReference.NoteWebService.FileExistsAsync(NoteWebServiceReference.FileExistsRequest request)
         {
             return base.Channel.FileExistsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.FileExistsResponse> FileExistsAsync(MMBackendServiceReference2.VerifiedSession verifiedUser, string uid)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.FileExistsResponse> FileExistsAsync(NoteWebServiceReference.VerifiedSession verifiedUser, string uid)
         {
-            MMBackendServiceReference2.FileExistsRequest inValue = new MMBackendServiceReference2.FileExistsRequest();
+            NoteWebServiceReference.FileExistsRequest inValue = new NoteWebServiceReference.FileExistsRequest();
             inValue.verifiedUser = verifiedUser;
             inValue.uid = uid;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).FileExistsAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).FileExistsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.NoteExistsResponse> MMBackendServiceReference2.NoteWebService.NoteExistsAsync(MMBackendServiceReference2.NoteExistsRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.NoteExistsResponse> NoteWebServiceReference.NoteWebService.NoteExistsAsync(NoteWebServiceReference.NoteExistsRequest request)
         {
             return base.Channel.NoteExistsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.NoteExistsResponse> NoteExistsAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, string uid)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.NoteExistsResponse> NoteExistsAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string uid)
         {
-            MMBackendServiceReference2.NoteExistsRequest inValue = new MMBackendServiceReference2.NoteExistsRequest();
+            NoteWebServiceReference.NoteExistsRequest inValue = new NoteWebServiceReference.NoteExistsRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.uid = uid;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).NoteExistsAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).NoteExistsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetAutoRecoveredNotesResponse> MMBackendServiceReference2.NoteWebService.GetAutoRecoveredNotesAsync(MMBackendServiceReference2.GetAutoRecoveredNotesRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetAutoRecoveredNotesResponse> NoteWebServiceReference.NoteWebService.GetAutoRecoveredNotesAsync(NoteWebServiceReference.GetAutoRecoveredNotesRequest request)
         {
             return base.Channel.GetAutoRecoveredNotesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetAutoRecoveredNotesResponse> GetAutoRecoveredNotesAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, string uid)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetAutoRecoveredNotesResponse> GetAutoRecoveredNotesAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string uid)
         {
-            MMBackendServiceReference2.GetAutoRecoveredNotesRequest inValue = new MMBackendServiceReference2.GetAutoRecoveredNotesRequest();
+            NoteWebServiceReference.GetAutoRecoveredNotesRequest inValue = new NoteWebServiceReference.GetAutoRecoveredNotesRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.uid = uid;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetAutoRecoveredNotesAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetAutoRecoveredNotesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SaveClientLogFileResponse> MMBackendServiceReference2.NoteWebService.SaveClientLogFileAsync(MMBackendServiceReference2.SaveClientLogFileRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.SaveClientLogFileResponse> NoteWebServiceReference.NoteWebService.SaveClientLogFileAsync(NoteWebServiceReference.SaveClientLogFileRequest request)
         {
             return base.Channel.SaveClientLogFileAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.SaveClientLogFileResponse> SaveClientLogFileAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.ClientLogFile clientLogFile)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.SaveClientLogFileResponse> SaveClientLogFileAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.ClientLogFile clientLogFile)
         {
-            MMBackendServiceReference2.SaveClientLogFileRequest inValue = new MMBackendServiceReference2.SaveClientLogFileRequest();
+            NoteWebServiceReference.SaveClientLogFileRequest inValue = new NoteWebServiceReference.SaveClientLogFileRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.clientLogFile = clientLogFile;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).SaveClientLogFileAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).SaveClientLogFileAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetDictationAttributeResponse> MMBackendServiceReference2.NoteWebService.GetDictationAttributeAsync(MMBackendServiceReference2.GetDictationAttributeRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetDictationAttributeResponse> NoteWebServiceReference.NoteWebService.GetDictationAttributeAsync(NoteWebServiceReference.GetDictationAttributeRequest request)
         {
             return base.Channel.GetDictationAttributeAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetDictationAttributeResponse> GetDictationAttributeAsync(MMBackendServiceReference2.VerifiedSession verifiedUser, string dictationName, string attributeName)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetDictationAttributeResponse> GetDictationAttributeAsync(NoteWebServiceReference.VerifiedSession verifiedUser, string dictationName, string attributeName)
         {
-            MMBackendServiceReference2.GetDictationAttributeRequest inValue = new MMBackendServiceReference2.GetDictationAttributeRequest();
+            NoteWebServiceReference.GetDictationAttributeRequest inValue = new NoteWebServiceReference.GetDictationAttributeRequest();
             inValue.verifiedUser = verifiedUser;
             inValue.dictationName = dictationName;
             inValue.attributeName = attributeName;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetDictationAttributeAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetDictationAttributeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SetDictationAttributeResponse> MMBackendServiceReference2.NoteWebService.SetDictationAttributeAsync(MMBackendServiceReference2.SetDictationAttributeRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetDictationAttributeResponse> NoteWebServiceReference.NoteWebService.SetDictationAttributeAsync(NoteWebServiceReference.SetDictationAttributeRequest request)
         {
             return base.Channel.SetDictationAttributeAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.SetDictationAttributeResponse> SetDictationAttributeAsync(MMBackendServiceReference2.VerifiedSession verifiedUser, string dictationName, string attributeName, string attributeValue)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.SetDictationAttributeResponse> SetDictationAttributeAsync(NoteWebServiceReference.VerifiedSession verifiedUser, string dictationName, string attributeName, string attributeValue)
         {
-            MMBackendServiceReference2.SetDictationAttributeRequest inValue = new MMBackendServiceReference2.SetDictationAttributeRequest();
+            NoteWebServiceReference.SetDictationAttributeRequest inValue = new NoteWebServiceReference.SetDictationAttributeRequest();
             inValue.verifiedUser = verifiedUser;
             inValue.dictationName = dictationName;
             inValue.attributeName = attributeName;
             inValue.attributeValue = attributeValue;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).SetDictationAttributeAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).SetDictationAttributeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetDictationFieldsResponse> MMBackendServiceReference2.NoteWebService.GetDictationFieldsAsync(MMBackendServiceReference2.GetDictationFieldsRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetDictationFieldsResponse> NoteWebServiceReference.NoteWebService.GetDictationFieldsAsync(NoteWebServiceReference.GetDictationFieldsRequest request)
         {
             return base.Channel.GetDictationFieldsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetDictationFieldsResponse> GetDictationFieldsAsync(MMBackendServiceReference2.VerifiedSession verifiedSession)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetDictationFieldsResponse> GetDictationFieldsAsync(NoteWebServiceReference.VerifiedSession verifiedSession)
         {
-            MMBackendServiceReference2.GetDictationFieldsRequest inValue = new MMBackendServiceReference2.GetDictationFieldsRequest();
+            NoteWebServiceReference.GetDictationFieldsRequest inValue = new NoteWebServiceReference.GetDictationFieldsRequest();
             inValue.verifiedSession = verifiedSession;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetDictationFieldsAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetDictationFieldsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetContextForProfileResponse> MMBackendServiceReference2.NoteWebService.GetContextForProfileAsync(MMBackendServiceReference2.GetContextForProfileRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetContextForProfileResponse> NoteWebServiceReference.NoteWebService.GetContextForProfileAsync(NoteWebServiceReference.GetContextForProfileRequest request)
         {
             return base.Channel.GetContextForProfileAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetContextForProfileResponse> GetContextForProfileAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, string profileName)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetContextForProfileResponse> GetContextForProfileAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string profileName)
         {
-            MMBackendServiceReference2.GetContextForProfileRequest inValue = new MMBackendServiceReference2.GetContextForProfileRequest();
+            NoteWebServiceReference.GetContextForProfileRequest inValue = new NoteWebServiceReference.GetContextForProfileRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.profileName = profileName;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetContextForProfileAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetContextForProfileAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetSpeechRecognitionProfileResponse> MMBackendServiceReference2.NoteWebService.GetSpeechRecognitionProfileAsync(MMBackendServiceReference2.GetSpeechRecognitionProfileRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechRecognitionProfileResponse> NoteWebServiceReference.NoteWebService.GetSpeechRecognitionProfileAsync(NoteWebServiceReference.GetSpeechRecognitionProfileRequest request)
         {
             return base.Channel.GetSpeechRecognitionProfileAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetSpeechRecognitionProfileResponse> GetSpeechRecognitionProfileAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.SpeechRecognitionInputChannel inputChannel, System.Nullable<GenderEnum> genderEnum, bool createIfNotExists)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechRecognitionProfileResponse> GetSpeechRecognitionProfileAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.SpeechRecognitionInputChannel inputChannel, System.Nullable<GenderEnum> genderEnum, bool createIfNotExists)
         {
-            MMBackendServiceReference2.GetSpeechRecognitionProfileRequest inValue = new MMBackendServiceReference2.GetSpeechRecognitionProfileRequest();
+            NoteWebServiceReference.GetSpeechRecognitionProfileRequest inValue = new NoteWebServiceReference.GetSpeechRecognitionProfileRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.inputChannel = inputChannel;
             inValue.genderEnum = genderEnum;
             inValue.createIfNotExists = createIfNotExists;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetSpeechRecognitionProfileAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetSpeechRecognitionProfileAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SetDefaultSpeechRecognitionContextResponse> MMBackendServiceReference2.NoteWebService.SetDefaultSpeechRecognitionContextAsync(MMBackendServiceReference2.SetDefaultSpeechRecognitionContextRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetDefaultSpeechRecognitionContextResponse> NoteWebServiceReference.NoteWebService.SetDefaultSpeechRecognitionContextAsync(NoteWebServiceReference.SetDefaultSpeechRecognitionContextRequest request)
         {
             return base.Channel.SetDefaultSpeechRecognitionContextAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.SetDefaultSpeechRecognitionContextResponse> SetDefaultSpeechRecognitionContextAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, string contextName)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.SetDefaultSpeechRecognitionContextResponse> SetDefaultSpeechRecognitionContextAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string contextName)
         {
-            MMBackendServiceReference2.SetDefaultSpeechRecognitionContextRequest inValue = new MMBackendServiceReference2.SetDefaultSpeechRecognitionContextRequest();
+            NoteWebServiceReference.SetDefaultSpeechRecognitionContextRequest inValue = new NoteWebServiceReference.SetDefaultSpeechRecognitionContextRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.contextName = contextName;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).SetDefaultSpeechRecognitionContextAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).SetDefaultSpeechRecognitionContextAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetDictationTemplateResponse> MMBackendServiceReference2.NoteWebService.GetDictationTemplateAsync(MMBackendServiceReference2.GetDictationTemplateRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetDictationTemplateResponse> NoteWebServiceReference.NoteWebService.GetDictationTemplateAsync(NoteWebServiceReference.GetDictationTemplateRequest request)
         {
             return base.Channel.GetDictationTemplateAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetDictationTemplateResponse> GetDictationTemplateAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, string templateName)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetDictationTemplateResponse> GetDictationTemplateAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string templateName)
         {
-            MMBackendServiceReference2.GetDictationTemplateRequest inValue = new MMBackendServiceReference2.GetDictationTemplateRequest();
+            NoteWebServiceReference.GetDictationTemplateRequest inValue = new NoteWebServiceReference.GetDictationTemplateRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.templateName = templateName;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetDictationTemplateAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetDictationTemplateAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetNewDictationTemplateResponse> MMBackendServiceReference2.NoteWebService.GetNewDictationTemplateAsync(MMBackendServiceReference2.GetNewDictationTemplateRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetNewDictationTemplateResponse> NoteWebServiceReference.NoteWebService.GetNewDictationTemplateAsync(NoteWebServiceReference.GetNewDictationTemplateRequest request)
         {
             return base.Channel.GetNewDictationTemplateAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetNewDictationTemplateResponse> GetNewDictationTemplateAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, long templateId)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetNewDictationTemplateResponse> GetNewDictationTemplateAsync(NoteWebServiceReference.VerifiedSession verifiedSession, long templateId)
         {
-            MMBackendServiceReference2.GetNewDictationTemplateRequest inValue = new MMBackendServiceReference2.GetNewDictationTemplateRequest();
+            NoteWebServiceReference.GetNewDictationTemplateRequest inValue = new NoteWebServiceReference.GetNewDictationTemplateRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.templateId = templateId;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetNewDictationTemplateAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetNewDictationTemplateAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetDictationTemplatesResponse> MMBackendServiceReference2.NoteWebService.GetDictationTemplatesAsync(MMBackendServiceReference2.GetDictationTemplatesRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetDictationTemplatesResponse> NoteWebServiceReference.NoteWebService.GetDictationTemplatesAsync(NoteWebServiceReference.GetDictationTemplatesRequest request)
         {
             return base.Channel.GetDictationTemplatesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetDictationTemplatesResponse> GetDictationTemplatesAsync(MMBackendServiceReference2.VerifiedSession verifiedSession)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetDictationTemplatesResponse> GetDictationTemplatesAsync(NoteWebServiceReference.VerifiedSession verifiedSession)
         {
-            MMBackendServiceReference2.GetDictationTemplatesRequest inValue = new MMBackendServiceReference2.GetDictationTemplatesRequest();
+            NoteWebServiceReference.GetDictationTemplatesRequest inValue = new NoteWebServiceReference.GetDictationTemplatesRequest();
             inValue.verifiedSession = verifiedSession;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetDictationTemplatesAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetDictationTemplatesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetDictationNoteTemplatesResponse> MMBackendServiceReference2.NoteWebService.GetDictationNoteTemplatesAsync(MMBackendServiceReference2.GetDictationNoteTemplatesRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetDictationNoteTemplatesResponse> NoteWebServiceReference.NoteWebService.GetDictationNoteTemplatesAsync(NoteWebServiceReference.GetDictationNoteTemplatesRequest request)
         {
             return base.Channel.GetDictationNoteTemplatesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetDictationNoteTemplatesResponse> GetDictationNoteTemplatesAsync(MMBackendServiceReference2.VerifiedSession verifiedSession)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetDictationNoteTemplatesResponse> GetDictationNoteTemplatesAsync(NoteWebServiceReference.VerifiedSession verifiedSession)
         {
-            MMBackendServiceReference2.GetDictationNoteTemplatesRequest inValue = new MMBackendServiceReference2.GetDictationNoteTemplatesRequest();
+            NoteWebServiceReference.GetDictationNoteTemplatesRequest inValue = new NoteWebServiceReference.GetDictationNoteTemplatesRequest();
             inValue.verifiedSession = verifiedSession;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetDictationNoteTemplatesAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetDictationNoteTemplatesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetNewDictationNoteTemplateResponse> MMBackendServiceReference2.NoteWebService.GetNewDictationNoteTemplateAsync(MMBackendServiceReference2.GetNewDictationNoteTemplateRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetNewDictationNoteTemplateResponse> NoteWebServiceReference.NoteWebService.GetNewDictationNoteTemplateAsync(NoteWebServiceReference.GetNewDictationNoteTemplateRequest request)
         {
             return base.Channel.GetNewDictationNoteTemplateAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetNewDictationNoteTemplateResponse> GetNewDictationNoteTemplateAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, long templateId)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetNewDictationNoteTemplateResponse> GetNewDictationNoteTemplateAsync(NoteWebServiceReference.VerifiedSession verifiedSession, long templateId)
         {
-            MMBackendServiceReference2.GetNewDictationNoteTemplateRequest inValue = new MMBackendServiceReference2.GetNewDictationNoteTemplateRequest();
+            NoteWebServiceReference.GetNewDictationNoteTemplateRequest inValue = new NoteWebServiceReference.GetNewDictationNoteTemplateRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.templateId = templateId;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetNewDictationNoteTemplateAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetNewDictationNoteTemplateAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetAllGroupsResponse> MMBackendServiceReference2.NoteWebService.GetAllGroupsAsync(MMBackendServiceReference2.GetAllGroupsRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetAllGroupsResponse> NoteWebServiceReference.NoteWebService.GetAllGroupsAsync(NoteWebServiceReference.GetAllGroupsRequest request)
         {
             return base.Channel.GetAllGroupsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetAllGroupsResponse> GetAllGroupsAsync(MMBackendServiceReference2.VerifiedSession verifiedUser)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetAllGroupsResponse> GetAllGroupsAsync(NoteWebServiceReference.VerifiedSession verifiedUser)
         {
-            MMBackendServiceReference2.GetAllGroupsRequest inValue = new MMBackendServiceReference2.GetAllGroupsRequest();
+            NoteWebServiceReference.GetAllGroupsRequest inValue = new NoteWebServiceReference.GetAllGroupsRequest();
             inValue.verifiedUser = verifiedUser;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetAllGroupsAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetAllGroupsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetGroupsResponse> MMBackendServiceReference2.NoteWebService.GetGroupsAsync(MMBackendServiceReference2.GetGroupsRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetGroupsResponse> NoteWebServiceReference.NoteWebService.GetGroupsAsync(NoteWebServiceReference.GetGroupsRequest request)
         {
             return base.Channel.GetGroupsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetGroupsResponse> GetGroupsAsync(MMBackendServiceReference2.VerifiedSession verifiedUser)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetGroupsResponse> GetGroupsAsync(NoteWebServiceReference.VerifiedSession verifiedUser)
         {
-            MMBackendServiceReference2.GetGroupsRequest inValue = new MMBackendServiceReference2.GetGroupsRequest();
+            NoteWebServiceReference.GetGroupsRequest inValue = new NoteWebServiceReference.GetGroupsRequest();
             inValue.verifiedUser = verifiedUser;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetGroupsAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetGroupsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetGroupHierarchyResponse> MMBackendServiceReference2.NoteWebService.GetGroupHierarchyAsync(MMBackendServiceReference2.GetGroupHierarchyRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetGroupHierarchyResponse> NoteWebServiceReference.NoteWebService.GetGroupHierarchyAsync(NoteWebServiceReference.GetGroupHierarchyRequest request)
         {
             return base.Channel.GetGroupHierarchyAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetGroupHierarchyResponse> GetGroupHierarchyAsync(MMBackendServiceReference2.VerifiedSession verifiedUser)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetGroupHierarchyResponse> GetGroupHierarchyAsync(NoteWebServiceReference.VerifiedSession verifiedUser)
         {
-            MMBackendServiceReference2.GetGroupHierarchyRequest inValue = new MMBackendServiceReference2.GetGroupHierarchyRequest();
+            NoteWebServiceReference.GetGroupHierarchyRequest inValue = new NoteWebServiceReference.GetGroupHierarchyRequest();
             inValue.verifiedUser = verifiedUser;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetGroupHierarchyAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetGroupHierarchyAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetQualifiedUsersResponse> MMBackendServiceReference2.NoteWebService.GetQualifiedUsersAsync(MMBackendServiceReference2.GetQualifiedUsersRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetQualifiedUsersResponse> NoteWebServiceReference.NoteWebService.GetQualifiedUsersAsync(NoteWebServiceReference.GetQualifiedUsersRequest request)
         {
             return base.Channel.GetQualifiedUsersAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetQualifiedUsersResponse> GetQualifiedUsersAsync(MMBackendServiceReference2.VerifiedSession verifiedUser, string rightCategory, string rightName)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetQualifiedUsersResponse> GetQualifiedUsersAsync(NoteWebServiceReference.VerifiedSession verifiedUser, string rightCategory, string rightName)
         {
-            MMBackendServiceReference2.GetQualifiedUsersRequest inValue = new MMBackendServiceReference2.GetQualifiedUsersRequest();
+            NoteWebServiceReference.GetQualifiedUsersRequest inValue = new NoteWebServiceReference.GetQualifiedUsersRequest();
             inValue.verifiedUser = verifiedUser;
             inValue.rightCategory = rightCategory;
             inValue.rightName = rightName;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetQualifiedUsersAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetQualifiedUsersAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.CreateSuspendedDocumentResponse> MMBackendServiceReference2.NoteWebService.CreateSuspendedDocumentAsync(MMBackendServiceReference2.CreateSuspendedDocumentRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.CreateSuspendedDocumentResponse> NoteWebServiceReference.NoteWebService.CreateSuspendedDocumentAsync(NoteWebServiceReference.CreateSuspendedDocumentRequest request)
         {
             return base.Channel.CreateSuspendedDocumentAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.CreateSuspendedDocumentResponse> CreateSuspendedDocumentAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.SuspendedDocument suspendedDocument, long createdDuration)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.CreateSuspendedDocumentResponse> CreateSuspendedDocumentAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.SuspendedDocument suspendedDocument, long createdDuration)
         {
-            MMBackendServiceReference2.CreateSuspendedDocumentRequest inValue = new MMBackendServiceReference2.CreateSuspendedDocumentRequest();
+            NoteWebServiceReference.CreateSuspendedDocumentRequest inValue = new NoteWebServiceReference.CreateSuspendedDocumentRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.suspendedDocument = suspendedDocument;
             inValue.createdDuration = createdDuration;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).CreateSuspendedDocumentAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).CreateSuspendedDocumentAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.UpdateSuspendedDocumentResponse> MMBackendServiceReference2.NoteWebService.UpdateSuspendedDocumentAsync(MMBackendServiceReference2.UpdateSuspendedDocumentRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.UpdateSuspendedDocumentResponse> NoteWebServiceReference.NoteWebService.UpdateSuspendedDocumentAsync(NoteWebServiceReference.UpdateSuspendedDocumentRequest request)
         {
             return base.Channel.UpdateSuspendedDocumentAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.UpdateSuspendedDocumentResponse> UpdateSuspendedDocumentAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.SuspendedDocument suspendedDocument, long updateDuration)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.UpdateSuspendedDocumentResponse> UpdateSuspendedDocumentAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.SuspendedDocument suspendedDocument, long updateDuration)
         {
-            MMBackendServiceReference2.UpdateSuspendedDocumentRequest inValue = new MMBackendServiceReference2.UpdateSuspendedDocumentRequest();
+            NoteWebServiceReference.UpdateSuspendedDocumentRequest inValue = new NoteWebServiceReference.UpdateSuspendedDocumentRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.suspendedDocument = suspendedDocument;
             inValue.updateDuration = updateDuration;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).UpdateSuspendedDocumentAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).UpdateSuspendedDocumentAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetSuspendedDocumentResponse> MMBackendServiceReference2.NoteWebService.GetSuspendedDocumentAsync(MMBackendServiceReference2.GetSuspendedDocumentRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetSuspendedDocumentResponse> NoteWebServiceReference.NoteWebService.GetSuspendedDocumentAsync(NoteWebServiceReference.GetSuspendedDocumentRequest request)
         {
             return base.Channel.GetSuspendedDocumentAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetSuspendedDocumentResponse> GetSuspendedDocumentAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, string externalUID)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetSuspendedDocumentResponse> GetSuspendedDocumentAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string externalUID)
         {
-            MMBackendServiceReference2.GetSuspendedDocumentRequest inValue = new MMBackendServiceReference2.GetSuspendedDocumentRequest();
+            NoteWebServiceReference.GetSuspendedDocumentRequest inValue = new NoteWebServiceReference.GetSuspendedDocumentRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.externalUID = externalUID;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetSuspendedDocumentAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetSuspendedDocumentAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetListOfSuspendedDocumentsResponse> MMBackendServiceReference2.NoteWebService.GetListOfSuspendedDocumentsAsync(MMBackendServiceReference2.GetListOfSuspendedDocumentsRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetListOfSuspendedDocumentsResponse> NoteWebServiceReference.NoteWebService.GetListOfSuspendedDocumentsAsync(NoteWebServiceReference.GetListOfSuspendedDocumentsRequest request)
         {
             return base.Channel.GetListOfSuspendedDocumentsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetListOfSuspendedDocumentsResponse> GetListOfSuspendedDocumentsAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, string authorName)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetListOfSuspendedDocumentsResponse> GetListOfSuspendedDocumentsAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string authorName)
         {
-            MMBackendServiceReference2.GetListOfSuspendedDocumentsRequest inValue = new MMBackendServiceReference2.GetListOfSuspendedDocumentsRequest();
+            NoteWebServiceReference.GetListOfSuspendedDocumentsRequest inValue = new NoteWebServiceReference.GetListOfSuspendedDocumentsRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.authorName = authorName;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetListOfSuspendedDocumentsAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetListOfSuspendedDocumentsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.CloseSuspendedDocumentResponse> MMBackendServiceReference2.NoteWebService.CloseSuspendedDocumentAsync(MMBackendServiceReference2.CloseSuspendedDocumentRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.CloseSuspendedDocumentResponse> NoteWebServiceReference.NoteWebService.CloseSuspendedDocumentAsync(NoteWebServiceReference.CloseSuspendedDocumentRequest request)
         {
             return base.Channel.CloseSuspendedDocumentAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.CloseSuspendedDocumentResponse> CloseSuspendedDocumentAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, string documentId)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.CloseSuspendedDocumentResponse> CloseSuspendedDocumentAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string documentId)
         {
-            MMBackendServiceReference2.CloseSuspendedDocumentRequest inValue = new MMBackendServiceReference2.CloseSuspendedDocumentRequest();
+            NoteWebServiceReference.CloseSuspendedDocumentRequest inValue = new NoteWebServiceReference.CloseSuspendedDocumentRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.documentId = documentId;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).CloseSuspendedDocumentAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).CloseSuspendedDocumentAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.RemoveSuspendedDocumentResponse> MMBackendServiceReference2.NoteWebService.RemoveSuspendedDocumentAsync(MMBackendServiceReference2.RemoveSuspendedDocumentRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.RemoveSuspendedDocumentResponse> NoteWebServiceReference.NoteWebService.RemoveSuspendedDocumentAsync(NoteWebServiceReference.RemoveSuspendedDocumentRequest request)
         {
             return base.Channel.RemoveSuspendedDocumentAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.RemoveSuspendedDocumentResponse> RemoveSuspendedDocumentAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, string externalUID)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.RemoveSuspendedDocumentResponse> RemoveSuspendedDocumentAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string externalUID)
         {
-            MMBackendServiceReference2.RemoveSuspendedDocumentRequest inValue = new MMBackendServiceReference2.RemoveSuspendedDocumentRequest();
+            NoteWebServiceReference.RemoveSuspendedDocumentRequest inValue = new NoteWebServiceReference.RemoveSuspendedDocumentRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.externalUID = externalUID;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).RemoveSuspendedDocumentAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).RemoveSuspendedDocumentAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.AddOrUpdateAutoTextResponse> MMBackendServiceReference2.NoteWebService.AddOrUpdateAutoTextAsync(MMBackendServiceReference2.AddOrUpdateAutoTextRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.AddOrUpdateAutoTextResponse> NoteWebServiceReference.NoteWebService.AddOrUpdateAutoTextAsync(NoteWebServiceReference.AddOrUpdateAutoTextRequest request)
         {
             return base.Channel.AddOrUpdateAutoTextAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.AddOrUpdateAutoTextResponse> AddOrUpdateAutoTextAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.AutoText autoText)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.AddOrUpdateAutoTextResponse> AddOrUpdateAutoTextAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.AutoText autoText)
         {
-            MMBackendServiceReference2.AddOrUpdateAutoTextRequest inValue = new MMBackendServiceReference2.AddOrUpdateAutoTextRequest();
+            NoteWebServiceReference.AddOrUpdateAutoTextRequest inValue = new NoteWebServiceReference.AddOrUpdateAutoTextRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.autoText = autoText;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).AddOrUpdateAutoTextAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).AddOrUpdateAutoTextAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetAllAutoTextsResponse> MMBackendServiceReference2.NoteWebService.GetAllAutoTextsAsync(MMBackendServiceReference2.GetAllAutoTextsRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetAllAutoTextsResponse> NoteWebServiceReference.NoteWebService.GetAllAutoTextsAsync(NoteWebServiceReference.GetAllAutoTextsRequest request)
         {
             return base.Channel.GetAllAutoTextsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetAllAutoTextsResponse> GetAllAutoTextsAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, bool includePhraseManagedAutoTexts, bool includeGroupPhraseManagedAutoTexts)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetAllAutoTextsResponse> GetAllAutoTextsAsync(NoteWebServiceReference.VerifiedSession verifiedSession, bool includePhraseManagedAutoTexts, bool includeGroupPhraseManagedAutoTexts)
         {
-            MMBackendServiceReference2.GetAllAutoTextsRequest inValue = new MMBackendServiceReference2.GetAllAutoTextsRequest();
+            NoteWebServiceReference.GetAllAutoTextsRequest inValue = new NoteWebServiceReference.GetAllAutoTextsRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.includePhraseManagedAutoTexts = includePhraseManagedAutoTexts;
             inValue.includeGroupPhraseManagedAutoTexts = includeGroupPhraseManagedAutoTexts;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetAllAutoTextsAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetAllAutoTextsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.DeleteAutoTextResponse> MMBackendServiceReference2.NoteWebService.DeleteAutoTextAsync(MMBackendServiceReference2.DeleteAutoTextRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteAutoTextResponse> NoteWebServiceReference.NoteWebService.DeleteAutoTextAsync(NoteWebServiceReference.DeleteAutoTextRequest request)
         {
             return base.Channel.DeleteAutoTextAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.DeleteAutoTextResponse> DeleteAutoTextAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, long autoTextId)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.DeleteAutoTextResponse> DeleteAutoTextAsync(NoteWebServiceReference.VerifiedSession verifiedSession, long autoTextId)
         {
-            MMBackendServiceReference2.DeleteAutoTextRequest inValue = new MMBackendServiceReference2.DeleteAutoTextRequest();
+            NoteWebServiceReference.DeleteAutoTextRequest inValue = new NoteWebServiceReference.DeleteAutoTextRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.autoTextId = autoTextId;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).DeleteAutoTextAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).DeleteAutoTextAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.RegisterSpeechRecognitionStatisticsResponse> MMBackendServiceReference2.NoteWebService.RegisterSpeechRecognitionStatisticsAsync(MMBackendServiceReference2.RegisterSpeechRecognitionStatisticsRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.RegisterSpeechRecognitionStatisticsResponse> NoteWebServiceReference.NoteWebService.RegisterSpeechRecognitionStatisticsAsync(NoteWebServiceReference.RegisterSpeechRecognitionStatisticsRequest request)
         {
             return base.Channel.RegisterSpeechRecognitionStatisticsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.RegisterSpeechRecognitionStatisticsResponse> RegisterSpeechRecognitionStatisticsAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.SpeechRecognitionStatistic[] stat, bool updateStatus, bool accumulateLength)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.RegisterSpeechRecognitionStatisticsResponse> RegisterSpeechRecognitionStatisticsAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.SpeechRecognitionStatistic[] stat, bool updateStatus, bool accumulateLength)
         {
-            MMBackendServiceReference2.RegisterSpeechRecognitionStatisticsRequest inValue = new MMBackendServiceReference2.RegisterSpeechRecognitionStatisticsRequest();
+            NoteWebServiceReference.RegisterSpeechRecognitionStatisticsRequest inValue = new NoteWebServiceReference.RegisterSpeechRecognitionStatisticsRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.stat = stat;
             inValue.updateStatus = updateStatus;
             inValue.accumulateLength = accumulateLength;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).RegisterSpeechRecognitionStatisticsAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).RegisterSpeechRecognitionStatisticsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetTriggerActionsResponse> MMBackendServiceReference2.NoteWebService.GetTriggerActionsAsync(MMBackendServiceReference2.GetTriggerActionsRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetTriggerActionsResponse> NoteWebServiceReference.NoteWebService.GetTriggerActionsAsync(NoteWebServiceReference.GetTriggerActionsRequest request)
         {
             return base.Channel.GetTriggerActionsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetTriggerActionsResponse> GetTriggerActionsAsync(MMBackendServiceReference2.VerifiedSession verifiedUser, string applicationName)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetTriggerActionsResponse> GetTriggerActionsAsync(NoteWebServiceReference.VerifiedSession verifiedUser, string applicationName)
         {
-            MMBackendServiceReference2.GetTriggerActionsRequest inValue = new MMBackendServiceReference2.GetTriggerActionsRequest();
+            NoteWebServiceReference.GetTriggerActionsRequest inValue = new NoteWebServiceReference.GetTriggerActionsRequest();
             inValue.verifiedUser = verifiedUser;
             inValue.applicationName = applicationName;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetTriggerActionsAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetTriggerActionsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetManagerTriggerActionsResponse> MMBackendServiceReference2.NoteWebService.GetManagerTriggerActionsAsync(MMBackendServiceReference2.GetManagerTriggerActionsRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetManagerTriggerActionsResponse> NoteWebServiceReference.NoteWebService.GetManagerTriggerActionsAsync(NoteWebServiceReference.GetManagerTriggerActionsRequest request)
         {
             return base.Channel.GetManagerTriggerActionsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetManagerTriggerActionsResponse> GetManagerTriggerActionsAsync(MMBackendServiceReference2.VerifiedSession verifiedUser)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetManagerTriggerActionsResponse> GetManagerTriggerActionsAsync(NoteWebServiceReference.VerifiedSession verifiedUser)
         {
-            MMBackendServiceReference2.GetManagerTriggerActionsRequest inValue = new MMBackendServiceReference2.GetManagerTriggerActionsRequest();
+            NoteWebServiceReference.GetManagerTriggerActionsRequest inValue = new NoteWebServiceReference.GetManagerTriggerActionsRequest();
             inValue.verifiedUser = verifiedUser;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetManagerTriggerActionsAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetManagerTriggerActionsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetCommandSubstitutionsResponse> MMBackendServiceReference2.NoteWebService.GetCommandSubstitutionsAsync(MMBackendServiceReference2.GetCommandSubstitutionsRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetCommandSubstitutionsResponse> NoteWebServiceReference.NoteWebService.GetCommandSubstitutionsAsync(NoteWebServiceReference.GetCommandSubstitutionsRequest request)
         {
             return base.Channel.GetCommandSubstitutionsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetCommandSubstitutionsResponse> GetCommandSubstitutionsAsync(MMBackendServiceReference2.VerifiedSession verifiedUser)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetCommandSubstitutionsResponse> GetCommandSubstitutionsAsync(NoteWebServiceReference.VerifiedSession verifiedUser)
         {
-            MMBackendServiceReference2.GetCommandSubstitutionsRequest inValue = new MMBackendServiceReference2.GetCommandSubstitutionsRequest();
+            NoteWebServiceReference.GetCommandSubstitutionsRequest inValue = new NoteWebServiceReference.GetCommandSubstitutionsRequest();
             inValue.verifiedUser = verifiedUser;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetCommandSubstitutionsAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetCommandSubstitutionsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetUserResponse> MMBackendServiceReference2.NoteWebService.GetUserAsync(MMBackendServiceReference2.GetUserRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetUserResponse> NoteWebServiceReference.NoteWebService.GetUserAsync(NoteWebServiceReference.GetUserRequest request)
         {
             return base.Channel.GetUserAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetUserResponse> GetUserAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, long userId)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetUserResponse> GetUserAsync(NoteWebServiceReference.VerifiedSession verifiedSession, long userId)
         {
-            MMBackendServiceReference2.GetUserRequest inValue = new MMBackendServiceReference2.GetUserRequest();
+            NoteWebServiceReference.GetUserRequest inValue = new NoteWebServiceReference.GetUserRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.userId = userId;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetUserAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetUserAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.ReadKPIValueResponse> MMBackendServiceReference2.NoteWebService.ReadKPIValueAsync(MMBackendServiceReference2.ReadKPIValueRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.ReadKPIValueResponse> NoteWebServiceReference.NoteWebService.ReadKPIValueAsync(NoteWebServiceReference.ReadKPIValueRequest request)
         {
             return base.Channel.ReadKPIValueAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.ReadKPIValueResponse> ReadKPIValueAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, string jobName, string column)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.ReadKPIValueResponse> ReadKPIValueAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string jobName, string column)
         {
-            MMBackendServiceReference2.ReadKPIValueRequest inValue = new MMBackendServiceReference2.ReadKPIValueRequest();
+            NoteWebServiceReference.ReadKPIValueRequest inValue = new NoteWebServiceReference.ReadKPIValueRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.jobName = jobName;
             inValue.column = column;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).ReadKPIValueAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).ReadKPIValueAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetStatisticsResponse> MMBackendServiceReference2.NoteWebService.GetStatisticsAsync(MMBackendServiceReference2.GetStatisticsRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetStatisticsResponse> NoteWebServiceReference.NoteWebService.GetStatisticsAsync(NoteWebServiceReference.GetStatisticsRequest request)
         {
             return base.Channel.GetStatisticsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetStatisticsResponse> GetStatisticsAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, int count)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetStatisticsResponse> GetStatisticsAsync(NoteWebServiceReference.VerifiedSession verifiedSession, int count)
         {
-            MMBackendServiceReference2.GetStatisticsRequest inValue = new MMBackendServiceReference2.GetStatisticsRequest();
+            NoteWebServiceReference.GetStatisticsRequest inValue = new NoteWebServiceReference.GetStatisticsRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.count = count;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetStatisticsAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetStatisticsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetStatisticsLastModifiedResponse> MMBackendServiceReference2.NoteWebService.GetStatisticsLastModifiedAsync(MMBackendServiceReference2.GetStatisticsLastModifiedRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetStatisticsLastModifiedResponse> NoteWebServiceReference.NoteWebService.GetStatisticsLastModifiedAsync(NoteWebServiceReference.GetStatisticsLastModifiedRequest request)
         {
             return base.Channel.GetStatisticsLastModifiedAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetStatisticsLastModifiedResponse> GetStatisticsLastModifiedAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, string Uid)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetStatisticsLastModifiedResponse> GetStatisticsLastModifiedAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string Uid)
         {
-            MMBackendServiceReference2.GetStatisticsLastModifiedRequest inValue = new MMBackendServiceReference2.GetStatisticsLastModifiedRequest();
+            NoteWebServiceReference.GetStatisticsLastModifiedRequest inValue = new NoteWebServiceReference.GetStatisticsLastModifiedRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.Uid = Uid;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetStatisticsLastModifiedAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetStatisticsLastModifiedAsync(inValue);
         }
         
         public System.Threading.Tasks.Task<bool> IsAliveAsync()
@@ -21705,194 +21759,194 @@ namespace MMBackendServiceReference2
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetParametersResponse> MMBackendServiceReference2.NoteWebService.GetParametersAsync(MMBackendServiceReference2.GetParametersRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetParametersResponse> NoteWebServiceReference.NoteWebService.GetParametersAsync(NoteWebServiceReference.GetParametersRequest request)
         {
             return base.Channel.GetParametersAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetParametersResponse> GetParametersAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, string name, string categoryName, string subname)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetParametersResponse> GetParametersAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string name, string categoryName, string subname)
         {
-            MMBackendServiceReference2.GetParametersRequest inValue = new MMBackendServiceReference2.GetParametersRequest();
+            NoteWebServiceReference.GetParametersRequest inValue = new NoteWebServiceReference.GetParametersRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.name = name;
             inValue.categoryName = categoryName;
             inValue.subname = subname;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetParametersAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetParametersAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SaveAllParametersResponse> MMBackendServiceReference2.NoteWebService.SaveAllParametersAsync(MMBackendServiceReference2.SaveAllParametersRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.SaveAllParametersResponse> NoteWebServiceReference.NoteWebService.SaveAllParametersAsync(NoteWebServiceReference.SaveAllParametersRequest request)
         {
             return base.Channel.SaveAllParametersAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.SaveAllParametersResponse> SaveAllParametersAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.Parameter[] parameters)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.SaveAllParametersResponse> SaveAllParametersAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.Parameter[] parameters)
         {
-            MMBackendServiceReference2.SaveAllParametersRequest inValue = new MMBackendServiceReference2.SaveAllParametersRequest();
+            NoteWebServiceReference.SaveAllParametersRequest inValue = new NoteWebServiceReference.SaveAllParametersRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.parameters = parameters;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).SaveAllParametersAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).SaveAllParametersAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SetParameterResponse> MMBackendServiceReference2.NoteWebService.SetParameterAsync(MMBackendServiceReference2.SetParameterRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetParameterResponse> NoteWebServiceReference.NoteWebService.SetParameterAsync(NoteWebServiceReference.SetParameterRequest request)
         {
             return base.Channel.SetParameterAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.SetParameterResponse> SetParameterAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.Parameter parameter)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.SetParameterResponse> SetParameterAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.Parameter parameter)
         {
-            MMBackendServiceReference2.SetParameterRequest inValue = new MMBackendServiceReference2.SetParameterRequest();
+            NoteWebServiceReference.SetParameterRequest inValue = new NoteWebServiceReference.SetParameterRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.parameter = parameter;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).SetParameterAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).SetParameterAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.SaveAllParametersWithErrorResponse> MMBackendServiceReference2.NoteWebService.SaveAllParametersWithErrorAsync(MMBackendServiceReference2.SaveAllParametersWithErrorRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.SaveAllParametersWithErrorResponse> NoteWebServiceReference.NoteWebService.SaveAllParametersWithErrorAsync(NoteWebServiceReference.SaveAllParametersWithErrorRequest request)
         {
             return base.Channel.SaveAllParametersWithErrorAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.SaveAllParametersWithErrorResponse> SaveAllParametersWithErrorAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.Parameter[] parameters)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.SaveAllParametersWithErrorResponse> SaveAllParametersWithErrorAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.Parameter[] parameters)
         {
-            MMBackendServiceReference2.SaveAllParametersWithErrorRequest inValue = new MMBackendServiceReference2.SaveAllParametersWithErrorRequest();
+            NoteWebServiceReference.SaveAllParametersWithErrorRequest inValue = new NoteWebServiceReference.SaveAllParametersWithErrorRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.parameters = parameters;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).SaveAllParametersWithErrorAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).SaveAllParametersWithErrorAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetSystemParametersResponse> MMBackendServiceReference2.NoteWebService.GetSystemParametersAsync(MMBackendServiceReference2.GetSystemParametersRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetSystemParametersResponse> NoteWebServiceReference.NoteWebService.GetSystemParametersAsync(NoteWebServiceReference.GetSystemParametersRequest request)
         {
             return base.Channel.GetSystemParametersAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetSystemParametersResponse> GetSystemParametersAsync(string categoryName, string subName)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetSystemParametersResponse> GetSystemParametersAsync(string categoryName, string subName)
         {
-            MMBackendServiceReference2.GetSystemParametersRequest inValue = new MMBackendServiceReference2.GetSystemParametersRequest();
+            NoteWebServiceReference.GetSystemParametersRequest inValue = new NoteWebServiceReference.GetSystemParametersRequest();
             inValue.categoryName = categoryName;
             inValue.subName = subName;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetSystemParametersAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetSystemParametersAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetApplicationParametersResponse> MMBackendServiceReference2.NoteWebService.GetApplicationParametersAsync(MMBackendServiceReference2.GetApplicationParametersRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetApplicationParametersResponse> NoteWebServiceReference.NoteWebService.GetApplicationParametersAsync(NoteWebServiceReference.GetApplicationParametersRequest request)
         {
             return base.Channel.GetApplicationParametersAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetApplicationParametersResponse> GetApplicationParametersAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, string applicationName, string parameterCategory)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetApplicationParametersResponse> GetApplicationParametersAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string applicationName, string parameterCategory)
         {
-            MMBackendServiceReference2.GetApplicationParametersRequest inValue = new MMBackendServiceReference2.GetApplicationParametersRequest();
+            NoteWebServiceReference.GetApplicationParametersRequest inValue = new NoteWebServiceReference.GetApplicationParametersRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.applicationName = applicationName;
             inValue.parameterCategory = parameterCategory;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetApplicationParametersAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetApplicationParametersAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetApplicationParametersForAllCategoriesResponse> MMBackendServiceReference2.NoteWebService.GetApplicationParametersForAllCategoriesAsync(MMBackendServiceReference2.GetApplicationParametersForAllCategoriesRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetApplicationParametersForAllCategoriesResponse> NoteWebServiceReference.NoteWebService.GetApplicationParametersForAllCategoriesAsync(NoteWebServiceReference.GetApplicationParametersForAllCategoriesRequest request)
         {
             return base.Channel.GetApplicationParametersForAllCategoriesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetApplicationParametersForAllCategoriesResponse> GetApplicationParametersForAllCategoriesAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, string applicationName)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetApplicationParametersForAllCategoriesResponse> GetApplicationParametersForAllCategoriesAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string applicationName)
         {
-            MMBackendServiceReference2.GetApplicationParametersForAllCategoriesRequest inValue = new MMBackendServiceReference2.GetApplicationParametersForAllCategoriesRequest();
+            NoteWebServiceReference.GetApplicationParametersForAllCategoriesRequest inValue = new NoteWebServiceReference.GetApplicationParametersForAllCategoriesRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.applicationName = applicationName;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetApplicationParametersForAllCategoriesAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetApplicationParametersForAllCategoriesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetAutoTextResponse> MMBackendServiceReference2.NoteWebService.GetAutoTextAsync(MMBackendServiceReference2.GetAutoTextRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetAutoTextResponse> NoteWebServiceReference.NoteWebService.GetAutoTextAsync(NoteWebServiceReference.GetAutoTextRequest request)
         {
             return base.Channel.GetAutoTextAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetAutoTextResponse> GetAutoTextAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, long autoTextId)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetAutoTextResponse> GetAutoTextAsync(NoteWebServiceReference.VerifiedSession verifiedSession, long autoTextId)
         {
-            MMBackendServiceReference2.GetAutoTextRequest inValue = new MMBackendServiceReference2.GetAutoTextRequest();
+            NoteWebServiceReference.GetAutoTextRequest inValue = new NoteWebServiceReference.GetAutoTextRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.autoTextId = autoTextId;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetAutoTextAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetAutoTextAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.AudioNoteExistsResponse> MMBackendServiceReference2.NoteWebService.AudioNoteExistsAsync(MMBackendServiceReference2.AudioNoteExistsRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.AudioNoteExistsResponse> NoteWebServiceReference.NoteWebService.AudioNoteExistsAsync(NoteWebServiceReference.AudioNoteExistsRequest request)
         {
             return base.Channel.AudioNoteExistsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.AudioNoteExistsResponse> AudioNoteExistsAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, long audioNoteId, string externalUid)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.AudioNoteExistsResponse> AudioNoteExistsAsync(NoteWebServiceReference.VerifiedSession verifiedSession, long audioNoteId, string externalUid)
         {
-            MMBackendServiceReference2.AudioNoteExistsRequest inValue = new MMBackendServiceReference2.AudioNoteExistsRequest();
+            NoteWebServiceReference.AudioNoteExistsRequest inValue = new NoteWebServiceReference.AudioNoteExistsRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.audioNoteId = audioNoteId;
             inValue.externalUid = externalUid;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).AudioNoteExistsAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).AudioNoteExistsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetAudioNoteByIdResponse> MMBackendServiceReference2.NoteWebService.GetAudioNoteByIdAsync(MMBackendServiceReference2.GetAudioNoteByIdRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetAudioNoteByIdResponse> NoteWebServiceReference.NoteWebService.GetAudioNoteByIdAsync(NoteWebServiceReference.GetAudioNoteByIdRequest request)
         {
             return base.Channel.GetAudioNoteByIdAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetAudioNoteByIdResponse> GetAudioNoteByIdAsync(MMBackendServiceReference2.VerifiedSession verifiedUser, long audioNoteId, string externalUid, bool includeBinary)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetAudioNoteByIdResponse> GetAudioNoteByIdAsync(NoteWebServiceReference.VerifiedSession verifiedUser, long audioNoteId, string externalUid, bool includeBinary)
         {
-            MMBackendServiceReference2.GetAudioNoteByIdRequest inValue = new MMBackendServiceReference2.GetAudioNoteByIdRequest();
+            NoteWebServiceReference.GetAudioNoteByIdRequest inValue = new NoteWebServiceReference.GetAudioNoteByIdRequest();
             inValue.verifiedUser = verifiedUser;
             inValue.audioNoteId = audioNoteId;
             inValue.externalUid = externalUid;
             inValue.includeBinary = includeBinary;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetAudioNoteByIdAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetAudioNoteByIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetNoteResponse> MMBackendServiceReference2.NoteWebService.GetNoteAsync(MMBackendServiceReference2.GetNoteRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetNoteResponse> NoteWebServiceReference.NoteWebService.GetNoteAsync(NoteWebServiceReference.GetNoteRequest request)
         {
             return base.Channel.GetNoteAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetNoteResponse> GetNoteAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, string externalUid)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetNoteResponse> GetNoteAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string externalUid)
         {
-            MMBackendServiceReference2.GetNoteRequest inValue = new MMBackendServiceReference2.GetNoteRequest();
+            NoteWebServiceReference.GetNoteRequest inValue = new NoteWebServiceReference.GetNoteRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.externalUid = externalUid;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetNoteAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetNoteAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetNoteResultResponse> MMBackendServiceReference2.NoteWebService.GetNoteResultAsync(MMBackendServiceReference2.GetNoteResultRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetNoteResultResponse> NoteWebServiceReference.NoteWebService.GetNoteResultAsync(NoteWebServiceReference.GetNoteResultRequest request)
         {
             return base.Channel.GetNoteResultAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetNoteResultResponse> GetNoteResultAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, long noteId, string externalUid, bool lockNote)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetNoteResultResponse> GetNoteResultAsync(NoteWebServiceReference.VerifiedSession verifiedSession, long noteId, string externalUid, bool lockNote)
         {
-            MMBackendServiceReference2.GetNoteResultRequest inValue = new MMBackendServiceReference2.GetNoteResultRequest();
+            NoteWebServiceReference.GetNoteResultRequest inValue = new NoteWebServiceReference.GetNoteResultRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.noteId = noteId;
             inValue.externalUid = externalUid;
             inValue.lockNote = lockNote;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetNoteResultAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetNoteResultAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetAudioNoteBinaryByUidResponse> MMBackendServiceReference2.NoteWebService.GetAudioNoteBinaryByUidAsync(MMBackendServiceReference2.GetAudioNoteBinaryByUidRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetAudioNoteBinaryByUidResponse> NoteWebServiceReference.NoteWebService.GetAudioNoteBinaryByUidAsync(NoteWebServiceReference.GetAudioNoteBinaryByUidRequest request)
         {
             return base.Channel.GetAudioNoteBinaryByUidAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetAudioNoteBinaryByUidResponse> GetAudioNoteBinaryByUidAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, long noteId, string externalUid)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetAudioNoteBinaryByUidResponse> GetAudioNoteBinaryByUidAsync(NoteWebServiceReference.VerifiedSession verifiedSession, long noteId, string externalUid)
         {
-            MMBackendServiceReference2.GetAudioNoteBinaryByUidRequest inValue = new MMBackendServiceReference2.GetAudioNoteBinaryByUidRequest();
+            NoteWebServiceReference.GetAudioNoteBinaryByUidRequest inValue = new NoteWebServiceReference.GetAudioNoteBinaryByUidRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.noteId = noteId;
             inValue.externalUid = externalUid;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetAudioNoteBinaryByUidAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetAudioNoteBinaryByUidAsync(inValue);
         }
         
         public System.Threading.Tasks.Task SetAudioNoteBinaryAsync(System.IO.Stream binaryStream)
@@ -21901,103 +21955,103 @@ namespace MMBackendServiceReference2
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetAudioNoteResultByIdResponse> MMBackendServiceReference2.NoteWebService.GetAudioNoteResultByIdAsync(MMBackendServiceReference2.GetAudioNoteResultByIdRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetAudioNoteResultByIdResponse> NoteWebServiceReference.NoteWebService.GetAudioNoteResultByIdAsync(NoteWebServiceReference.GetAudioNoteResultByIdRequest request)
         {
             return base.Channel.GetAudioNoteResultByIdAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetAudioNoteResultByIdResponse> GetAudioNoteResultByIdAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, long audioNoteId, string externalUid, bool lockNote, string password, bool includeBinary)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetAudioNoteResultByIdResponse> GetAudioNoteResultByIdAsync(NoteWebServiceReference.VerifiedSession verifiedSession, long audioNoteId, string externalUid, bool lockNote, string password, bool includeBinary)
         {
-            MMBackendServiceReference2.GetAudioNoteResultByIdRequest inValue = new MMBackendServiceReference2.GetAudioNoteResultByIdRequest();
+            NoteWebServiceReference.GetAudioNoteResultByIdRequest inValue = new NoteWebServiceReference.GetAudioNoteResultByIdRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.audioNoteId = audioNoteId;
             inValue.externalUid = externalUid;
             inValue.lockNote = lockNote;
             inValue.password = password;
             inValue.includeBinary = includeBinary;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetAudioNoteResultByIdAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetAudioNoteResultByIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.GetSpeechNoteResultByIdResponse> MMBackendServiceReference2.NoteWebService.GetSpeechNoteResultByIdAsync(MMBackendServiceReference2.GetSpeechNoteResultByIdRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechNoteResultByIdResponse> NoteWebServiceReference.NoteWebService.GetSpeechNoteResultByIdAsync(NoteWebServiceReference.GetSpeechNoteResultByIdRequest request)
         {
             return base.Channel.GetSpeechNoteResultByIdAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.GetSpeechNoteResultByIdResponse> GetSpeechNoteResultByIdAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, long noteId, string externalUid, bool lockNote)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechNoteResultByIdResponse> GetSpeechNoteResultByIdAsync(NoteWebServiceReference.VerifiedSession verifiedSession, long noteId, string externalUid, bool lockNote)
         {
-            MMBackendServiceReference2.GetSpeechNoteResultByIdRequest inValue = new MMBackendServiceReference2.GetSpeechNoteResultByIdRequest();
+            NoteWebServiceReference.GetSpeechNoteResultByIdRequest inValue = new NoteWebServiceReference.GetSpeechNoteResultByIdRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.noteId = noteId;
             inValue.externalUid = externalUid;
             inValue.lockNote = lockNote;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).GetSpeechNoteResultByIdAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetSpeechNoteResultByIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.UpdateAudioNoteResponse> MMBackendServiceReference2.NoteWebService.UpdateAudioNoteAsync(MMBackendServiceReference2.UpdateAudioNoteRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.UpdateAudioNoteResponse> NoteWebServiceReference.NoteWebService.UpdateAudioNoteAsync(NoteWebServiceReference.UpdateAudioNoteRequest request)
         {
             return base.Channel.UpdateAudioNoteAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.UpdateAudioNoteResponse> UpdateAudioNoteAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.AudioNote audioNote, long duration, long timeAgo, bool releaseLock, bool forceOverWrite)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.UpdateAudioNoteResponse> UpdateAudioNoteAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.AudioNote audioNote, long duration, long timeAgo, bool releaseLock, bool forceOverWrite)
         {
-            MMBackendServiceReference2.UpdateAudioNoteRequest inValue = new MMBackendServiceReference2.UpdateAudioNoteRequest();
+            NoteWebServiceReference.UpdateAudioNoteRequest inValue = new NoteWebServiceReference.UpdateAudioNoteRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.audioNote = audioNote;
             inValue.duration = duration;
             inValue.timeAgo = timeAgo;
             inValue.releaseLock = releaseLock;
             inValue.forceOverWrite = forceOverWrite;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).UpdateAudioNoteAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).UpdateAudioNoteAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.DeleteAudioNoteResponse> MMBackendServiceReference2.NoteWebService.DeleteAudioNoteAsync(MMBackendServiceReference2.DeleteAudioNoteRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteAudioNoteResponse> NoteWebServiceReference.NoteWebService.DeleteAudioNoteAsync(NoteWebServiceReference.DeleteAudioNoteRequest request)
         {
             return base.Channel.DeleteAudioNoteAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.DeleteAudioNoteResponse> DeleteAudioNoteAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.AudioNote audioNote, long duration, long timeAgo, MMBackendServiceReference2.NoteValidationRules ignoreTheseRules)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.DeleteAudioNoteResponse> DeleteAudioNoteAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.AudioNote audioNote, long duration, long timeAgo, NoteWebServiceReference.NoteValidationRules ignoreTheseRules)
         {
-            MMBackendServiceReference2.DeleteAudioNoteRequest inValue = new MMBackendServiceReference2.DeleteAudioNoteRequest();
+            NoteWebServiceReference.DeleteAudioNoteRequest inValue = new NoteWebServiceReference.DeleteAudioNoteRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.audioNote = audioNote;
             inValue.duration = duration;
             inValue.timeAgo = timeAgo;
             inValue.ignoreTheseRules = ignoreTheseRules;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).DeleteAudioNoteAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).DeleteAudioNoteAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.DeleteNoteResponse> MMBackendServiceReference2.NoteWebService.DeleteNoteAsync(MMBackendServiceReference2.DeleteNoteRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteNoteResponse> NoteWebServiceReference.NoteWebService.DeleteNoteAsync(NoteWebServiceReference.DeleteNoteRequest request)
         {
             return base.Channel.DeleteNoteAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.DeleteNoteResponse> DeleteNoteAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, string externalUid)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.DeleteNoteResponse> DeleteNoteAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string externalUid)
         {
-            MMBackendServiceReference2.DeleteNoteRequest inValue = new MMBackendServiceReference2.DeleteNoteRequest();
+            NoteWebServiceReference.DeleteNoteRequest inValue = new NoteWebServiceReference.DeleteNoteRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.externalUid = externalUid;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).DeleteNoteAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).DeleteNoteAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MMBackendServiceReference2.CreateAudioNoteResponse> MMBackendServiceReference2.NoteWebService.CreateAudioNoteAsync(MMBackendServiceReference2.CreateAudioNoteRequest request)
+        System.Threading.Tasks.Task<NoteWebServiceReference.CreateAudioNoteResponse> NoteWebServiceReference.NoteWebService.CreateAudioNoteAsync(NoteWebServiceReference.CreateAudioNoteRequest request)
         {
             return base.Channel.CreateAudioNoteAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MMBackendServiceReference2.CreateAudioNoteResponse> CreateAudioNoteAsync(MMBackendServiceReference2.VerifiedSession verifiedSession, MMBackendServiceReference2.AudioNote audioNote, long duration, long timeAgo, bool isLocalCopy)
+        public System.Threading.Tasks.Task<NoteWebServiceReference.CreateAudioNoteResponse> CreateAudioNoteAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.AudioNote audioNote, long duration, long timeAgo, bool isLocalCopy)
         {
-            MMBackendServiceReference2.CreateAudioNoteRequest inValue = new MMBackendServiceReference2.CreateAudioNoteRequest();
+            NoteWebServiceReference.CreateAudioNoteRequest inValue = new NoteWebServiceReference.CreateAudioNoteRequest();
             inValue.verifiedSession = verifiedSession;
             inValue.audioNote = audioNote;
             inValue.duration = duration;
             inValue.timeAgo = timeAgo;
             inValue.isLocalCopy = isLocalCopy;
-            return ((MMBackendServiceReference2.NoteWebService)(this)).CreateAudioNoteAsync(inValue);
+            return ((NoteWebServiceReference.NoteWebService)(this)).CreateAudioNoteAsync(inValue);
         }
         
         public virtual System.Threading.Tasks.Task OpenAsync()

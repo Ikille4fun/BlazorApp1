@@ -1,4 +1,4 @@
-﻿using MMBackendServiceReference1;
+﻿using NoteWebServiceReference;
 using System;
 
 namespace BlazorApp1.Server.Components
@@ -13,14 +13,11 @@ namespace BlazorApp1.Server.Components
                 new NoteWebServiceClient();
 
             // this is what it does when called
-            var tempLoginResult = backend.LoginAsync(username, password);
-            //var tempLoginResult = backend.LoginAsync("Alex", "alex");
+            var tempLoginResult = backend.LoginAsync(username, password).Result.LoginResult;
 
-            //backend.CreateAudioNoteAsync(tempLoginResult.Result.LoginResult, new AudioNote(), 1, 0, false);
+            Console.WriteLine("Server/ServicesAccess.cs: " + tempLoginResult);
 
-            Console.WriteLine("Server/ServicesAccess.cs: " + tempLoginResult.Result.LoginResult);
-
-            return tempLoginResult.Result.LoginResult;
+            return tempLoginResult;
         }
 
         // Service call to backend to make a AudioNote

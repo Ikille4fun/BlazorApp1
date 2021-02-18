@@ -1,0 +1,121 @@
+﻿@page "/lists/notelist"
+@using BlazorApp1.Shared.Components.Models.NoteList
+
+@inject NavigationManager NavigationManager
+@inject HttpClient HttpClient
+
+<h3>NoteList</h3>
+
+<div class="container mx-auto my-3 bg-dark text-white" style="width:550px">
+
+    @* Headline *@
+    <div class="row">
+        <div class="col-1">
+            <img src="/Pictures/micIcon.png" class="rounded float-left; my-2" style="width: 30px; height: 30px" />
+        </div>
+        <div class="col">
+            <h1>AudioNote</h1>
+        </div>
+        <div class="col">
+            <p class="pt-3">title</p>
+        </div>
+        <div class="col">
+            <p class="pt-3">@LDmodel.Username</p>
+        </div>
+    </div>
+
+    @* Body *@
+    <div>
+
+        @if (NLDmodels == null)
+        {
+            <p>
+                <em>
+                    Loading...
+                </em>
+            </p>
+        }
+        else
+        {
+            <table class="table">
+
+                @* table header *@
+                <thead>
+                <tr>
+                    <th></th>
+                    <th>id</th>
+                    <th>status</th>
+                    <th>created</th>
+                    <th>length</th>
+                    <th>author</th>
+
+                </tr>
+                </thead>
+
+                @* table body *@
+                <tbody>
+                @foreach (var NLDmodel in NLDmodels)
+                {
+                    <tr>
+                        <td>@NLDmodel.Icon</td>
+                        <td>@NLDmodel.Id</td>
+                        <td>@NLDmodel.Status</td>
+                        <td>@NLDmodel.Created</td>
+                        <td>@NLDmodel.Length</td>
+                        <td>@NLDmodel.Author</td>
+                    </tr>
+                }
+                </tbody>
+
+            </table>
+        }
+
+        @* footer *@
+        <div>
+            <button class="btn btn-primary" onclick="@Create()">add</button>
+            <button class="btn btn-primary" onclick="Update()">refresh</button>
+        </div>
+
+    </div>
+
+</div>
+
+@code { 
+    private LoginData LDmodel = new LoginData();
+
+    private NoteListData[] NLDmodels;
+
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            NLDmodels = await HttpClient.GetFromJsonAsync<NoteListData[]>("/api/notelist/update");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
+    }
+
+    private async Task Create()
+    {
+
+    }
+
+    //private async Task Update()
+    //{
+    //    try
+    //    {
+    //        NLDmodels = await HttpClient.GetFromJsonAsync<NoteListData[]>("/api/notelist/update");
+    //    }
+    //    catch (Exception e)
+    //    {
+    //        Console.WriteLine(e);
+    //        throw;
+    //    }
+    //}
+
+}

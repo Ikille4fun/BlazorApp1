@@ -1,16 +1,19 @@
 ﻿{
   "ProviderId": "Microsoft.VisualStudio.ConnectedService.Wcf",
   "Version": "15.0.40203.910",
+  "GettingStartedDocument": {
+    "Uri": "https://go.microsoft.com/fwlink/?linkid=858517"
+  },
   "ExtendedData": {
     "inputs": [
-      "http://localhost:10012/NoteWebService.svc"
+      "http://192.168.114.111/mmserver/notewebservice.svc"
     ],
     "collectionTypes": [
       "System.Array",
       "System.Collections.Generic.Dictionary`2"
     ],
     "namespaceMappings": [
-      "*, MMBackendServiceReference1"
+      "*, NoteWebServiceReference"
     ],
     "targetFramework": "net5.0",
     "typeReuseMode": "None"

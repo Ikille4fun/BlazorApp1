@@ -1,15 +1,15 @@
-﻿using System;
-using BlazorApp1.Server.Components;
+﻿using BlazorApp1.Server.Components;
 using BlazorApp1.Shared.Components.Models.Account;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text.Json;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace BlazorApp1.Server.Controllers
 {
+    // the Uri to her is "api/" is the first part of the path, "[controller]" points to this controller class
+    // and the third points to the given function
     [Route("api/[controller]")]
     [ApiController]
     public class LoginController : ControllerBase
@@ -31,7 +31,7 @@ namespace BlazorApp1.Server.Controllers
         // POST api/<LoginController>
         [HttpPost]
         [Route("login")]
-        public Object Post([FromBody] Login login)
+        public Object Post([FromBody] LoginData login)
         {
             ServicesAccess s = new ServicesAccess();
             var result = s.CallServiceRefLogin(login.Username, login.Password);

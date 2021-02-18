@@ -16,8 +16,8 @@ namespace BlazorApp1.Client
             builder.RootComponents.Add<App>("#app");
 
             builder.Services
-                .AddScoped<IAccountService, AccountService>()
-                .AddScoped<IHttpService, HttpService>()
+                //.AddScoped<IAccountService, AccountService>()
+                //.AddScoped<IHttpService, HttpService>()
                 .AddScoped<ILocalStorageService, LocalStorageService>();
 
             // default configure http client
@@ -38,10 +38,10 @@ namespace BlazorApp1.Client
             //    return new HttpClient() { BaseAddress = apiUrl };
             //});
 
-            var host = builder.Build();
+            //var host = builder.Build();
 
-            var accountService = host.Services.GetRequiredService<IAccountService>();
-            await accountService.Initialize();
+            //var accountService = host.Services.GetRequiredService<IAccountService>();
+            //await accountService.Initialize();
 
             await builder.Build().RunAsync();
         }

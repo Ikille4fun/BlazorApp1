@@ -1,26 +1,24 @@
 ﻿@page "/account/login"
-@using BlazorApp1.Shared.Components.Models.Account
-@inject IAccountService AccountService
+
 @inject NavigationManager NavigationManager
-@using System.Net.Http
 @inject HttpClient HttpClient
 
 <div class="card">
     <h1 class="card-header">Login</h1>
     <div class="card-body">
-        <EditForm Model="@model" OnSubmit="TLogin">
+        <EditForm Model="@LDmodel" OnSubmit="CLogin">
             <DataAnnotationsValidator />
             <div class="form-group">
                 <label for="username">Username:</label>
                 @*<input @Value="UserName" class="form-control" id="username" placeholder="Enter username" />*@
-                <InputText @bind-Value="model.Username" class="form-control" id="username" placeholder="Enter username"/>
-                <ValidationMessage For="@(() => model.Username)"/>
+                <InputText @bind-Value="LDmodel.Username" class="form-control" id="username" placeholder="Enter username"/>
+                <ValidationMessage For="@(() => LDmodel.Username)"/>
             </div>
             <div class="form-group">
                 <label for="pwd">Password:</label>
                 @*<input @Value="Password" class="form-control" id="password" placeholder="Enter password" type="password" />*@
-                <InputText @bind-Value="model.Password" class="form-control" id="password" placeholder="Enter password" type="password"/>
-                <ValidationMessage For="@(() => model.Password)"/>
+                <InputText @bind-Value="LDmodel.Password" class="form-control" id="password" placeholder="Enter password" type="password"/>
+                <ValidationMessage For="@(() => LDmodel.Password)"/>
             </div>
             <button class="btn btn-primary" type="submit" value="submit">Login</button>
             <button class="btn btn-primary" onclick="close()">Close</button>
@@ -31,14 +29,22 @@
 
 @code {
 
-    private Login model = new Login();
+    private LoginData LDmodel = new LoginData();
 
-    private async Task TLogin()
+    private async Task CLogin()
     {
         try
         {
-            await HttpClient.PostAsJsonAsync("api/login", (model.Username, model.Password));
-            //NavigationManager.NavigateTo("/audionote");
+            // in the requestUri: "api/" is the first part of the path, "[controller]" points to this controller class and the third points to the function
+            LDmodel.VerifiedSession = await HttpClient.PostAsJsonAsync("/api/login/login", LDmodel);
+
+            Console.WriteLine("er der noget i den: " + LDmodel.VerifiedSession);
+
+            // if login route to NoteList
+            if (LDmodel.VerifiedSession != null) // not working
+            {
+                NavigationManager.NavigateTo("Lists/notelist");
+            }
         }
         catch (Exception e)
         {
@@ -46,20 +52,4 @@
             throw;
         }
     }
-
-    private async void CLogin()
-    {
-        try
-        {
-            await AccountService.Login(model);
-            var returnUrl = NavigationManager.QueryString("returnUrl") ?? "";
-            NavigationManager.NavigateTo(returnUrl);
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine("MMLogin.razor" + e);
-            throw;
-        }
-    }
-
 }

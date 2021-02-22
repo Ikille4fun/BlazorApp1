@@ -4,6 +4,7 @@ namespace BlazorApp1.Shared.Components.Models.NoteList
 {
     public class NoteListData
     {
+        // Items in the NoteList
         public int Icon { get; set; }
 
         public int Id { get; set; }

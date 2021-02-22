@@ -38,12 +38,10 @@ else
 
 @code {
     private WeatherForecast[] forecasts;
-    private NoteListData[] NLDmodels;
 
     protected override async Task OnInitializedAsync()
     {
         forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
-        NLDmodels = await Http.GetFromJsonAsync<NoteListData[]>("/api/notelist/update");
     }
 
 }

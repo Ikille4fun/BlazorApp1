@@ -1,6 +1,8 @@
-﻿using BlazorApp1.Shared.Components.Models.NoteList;
+﻿using BlazorApp1.Server.Components;
+using BlazorApp1.Shared.Components.Models.NoteList;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using NoteWebServiceReference;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,7 +24,8 @@ namespace BlazorApp1.Server.Controllers
         }
 
         // GET: api/<NoteListDataController>
-        [Route("update")]
+        // For testing only
+        [Route("tupdate")]
         [HttpGet]
         public IEnumerable<NoteListData> Get()
         {
@@ -35,6 +38,19 @@ namespace BlazorApp1.Server.Controllers
                 Length = 60,
                 Author = "Alex"
             }).ToArray();
+        }
+
+        //
+        [Route("update")]
+        [HttpGet]
+        public List<Note> GetNoteListData([FromBody] NoteSearchQuery noteSearchQuery)
+        {
+            ServicesAccess s = new ServicesAccess();
+            var result = s.CallServiceRefFindNotes("","", noteSearchQuery);
+
+            Console.WriteLine("Server/LoginController.cs: " + result);
+
+            return result;
         }
 
         // GET api/<NoteListDataController>/5

@@ -1,6 +1,7 @@
 ﻿@page "/lists/notelist"
 @using BlazorApp1.Shared.Components.Models.NoteList
 
+@inject Blazored.SessionStorage.ISessionStorageService sessionStorage
 @inject NavigationManager NavigationManager
 @inject HttpClient HttpClient
 
@@ -20,14 +21,14 @@
             <p class="pt-3">title</p>
         </div>
         <div class="col">
-            <p class="pt-3">@LDmodel.Username</p>
+            <p class="pt-3">@_loginData.Username</p>
         </div>
     </div>
 
     @* Body *@
     <div>
 
-        @if (NLDmodels == null)
+        @if (_noteListDatas == null)
         {
             <p>
                 <em>
@@ -54,15 +55,15 @@
 
                 @* table body *@
                 <tbody>
-                @foreach (var NLDmodel in NLDmodels)
+                @foreach (var noteListData in _noteListDatas)
                 {
                     <tr>
-                        <td>@NLDmodel.Icon</td>
-                        <td>@NLDmodel.Id</td>
-                        <td>@NLDmodel.Status</td>
-                        <td>@NLDmodel.Created</td>
-                        <td>@NLDmodel.Length</td>
-                        <td>@NLDmodel.Author</td>
+                        <td>@noteListData.Icon</td>
+                        <td>@noteListData.Id</td>
+                        <td>@noteListData.Status</td>
+                        <td>@noteListData.Created</td>
+                        <td>@noteListData.Length</td>
+                        <td>@noteListData.Author</td>
                     </tr>
                 }
                 </tbody>
@@ -72,26 +73,60 @@
 
         @* footer *@
         <div>
-            <button class="btn btn-primary" onclick="@Create()">add</button>
-            <button class="btn btn-primary" onclick="Update()">refresh</button>
+            <button class="btn btn-primary" @onclick="Create">add</button>
+            <button class="btn btn-primary" @onclick="Refresh">refresh</button>
+            <div class="search-container">
+                <form onsubmit="Search()">
+                    <input type="text" placeholder="Search..." id="Search"/>
+                    <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
         </div>
 
     </div>
 
 </div>
 
-@code { 
-    private LoginData LDmodel = new LoginData();
+@code {
 
-    private NoteListData[] NLDmodels;
+    private LoginData _loginData = new LoginData();
 
+    private NoteListData[] _noteListDatas;
 
+    /*  */
 
     protected override async Task OnInitializedAsync()
     {
+        _loginData.Username = await sessionStorage.GetItemAsync<string>("Username");
+        _loginData.Password = await sessionStorage.GetItemAsync<string>("Password");
+        //var _VerifiedSession = await sessionStorage.GetItemAsync<object>("VerifiedSession");
+
+        Console.WriteLine("MMNoteList Test of sessionstorage L96: " + _loginData.Username);
+        Console.WriteLine("MMNoteList Test of sessionstorage: " + _loginData.Password);
+        //Console.WriteLine("Test of sessionstorage: " + _VerifiedSession);
+
+        await Refresh();
+    }
+
+    private async Task Create()
+    {
+        NavigationManager.NavigateTo("Audio/audionote");
+    }
+
+    private async Task Refresh()
+    {
         try
         {
-            NLDmodels = await HttpClient.GetFromJsonAsync<NoteListData[]>("/api/notelist/update");
+            Console.WriteLine("MMNoteList Test of sessionstorage L112: " + _loginData.Username);
+            Console.WriteLine("MMNoteList Test of sessionstorage: " + _loginData.Password);
+
+            // Http call to get a verifiedSession from LoginController
+            await HttpClient.PostAsJsonAsync("/api/login/login", _loginData);
+
+            // Http call to get Notes from NoteListController
+            var _snoteListDatas = await HttpClient.GetAsync("api/NoteListData/update");
+
+            Console.WriteLine("MMNoteList Get NoteList: " + _noteListDatas);
         }
         catch (Exception e)
         {
@@ -100,22 +135,9 @@
         }
     }
 
-    private async Task Create()
-    {
-
-    }
-
-    //private async Task Update()
+    //private async Task Search()
     //{
-    //    try
-    //    {
-    //        NLDmodels = await HttpClient.GetFromJsonAsync<NoteListData[]>("/api/notelist/update");
-    //    }
-    //    catch (Exception e)
-    //    {
-    //        Console.WriteLine(e);
-    //        throw;
-    //    }
+    //    Console.WriteLine("køre den her?");
     //}
 
 }

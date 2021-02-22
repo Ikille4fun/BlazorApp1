@@ -1,5 +1,7 @@
 ﻿using NoteWebServiceReference;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace BlazorApp1.Server.Components
 {
@@ -21,16 +23,27 @@ namespace BlazorApp1.Server.Components
         }
 
         // Service call to backend to make a AudioNote
-        private void CallServiceRefCreateAudioNote(object sender, EventArgs e)
+        public List<Note> CallServiceRefFindNotes(string username, string password, NoteSearchQuery noteSearchQuery)
         {
             // this is to access the backend through the service reference
-            MMBackendServiceReference2.AudioNoteResult audioNoteResult = 
-                new MMBackendServiceReference2.AudioNoteResult();
+            NoteWebServiceClient backend = 
+                new NoteWebServiceClient();
 
-            // this is what it does when called
-            
+            /* this is what it does when called */
+
+            // login call to MMBackend to get verifiedSession
+            var tempLoginResult = backend.LoginAsync(username, password).Result.LoginResult;
+
+            // call to MMBackend to FindNotes
+            var tempFindNote = backend.FindNotesAsync(tempLoginResult, noteSearchQuery).Result.FindNotesResult;
+
+            return tempFindNote.ToList();
         }
 
+        private void CallServiceRefCreateAudioNote()
+        {
+
+        }
 
     }
 }

@@ -6,9 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CoreWCF.Http" Version="0.2.0-alpha" />
-    <PackageReference Include="CoreWCF.NetTcp" Version="0.2.0-alpha" />
-    <PackageReference Include="CoreWCF.Primitives" Version="0.2.0-alpha" />
+    <PackageReference Include="Blazored.SessionStorage" Version="1.0.13" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.ProtectedBrowserStorage" Version="5.0.0-rc.1.20451.17" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="5.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.3" PrivateAssets="all" />
     <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />

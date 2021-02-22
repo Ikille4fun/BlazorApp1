@@ -1,55 +1,81 @@
 ﻿@page "/account/login"
+@using System.Net
 
+@inject Blazored.SessionStorage.ISessionStorageService sessionStorage
 @inject NavigationManager NavigationManager
 @inject HttpClient HttpClient
 
 <div class="card">
     <h1 class="card-header">Login</h1>
     <div class="card-body">
-        <EditForm Model="@LDmodel" OnSubmit="CLogin">
+        <EditForm Model="@_loginData" OnSubmit="CLogin">
             <DataAnnotationsValidator />
             <div class="form-group">
                 <label for="username">Username:</label>
-                @*<input @Value="UserName" class="form-control" id="username" placeholder="Enter username" />*@
-                <InputText @bind-Value="LDmodel.Username" class="form-control" id="username" placeholder="Enter username"/>
-                <ValidationMessage For="@(() => LDmodel.Username)"/>
+                <InputText @bind-Value="_loginData.Username" class="form-control" id="username" placeholder="Enter username"/>
+                <ValidationMessage For="@(() => _loginData.Username)"/>
             </div>
             <div class="form-group">
                 <label for="pwd">Password:</label>
-                @*<input @Value="Password" class="form-control" id="password" placeholder="Enter password" type="password" />*@
-                <InputText @bind-Value="LDmodel.Password" class="form-control" id="password" placeholder="Enter password" type="password"/>
-                <ValidationMessage For="@(() => LDmodel.Password)"/>
+                <InputText @bind-Value="_loginData.Password" class="form-control" id="password" placeholder="Enter password" type="password"/>
+                <ValidationMessage For="@(() => _loginData.Password)"/>
             </div>
             <button class="btn btn-primary" type="submit" value="submit">Login</button>
-            <button class="btn btn-primary" onclick="close()">Close</button>
+            <button class="btn btn-primary" @onclick="Close">Close</button>
         </EditForm>
     </div>
 </div>
 
-
 @code {
 
-    private LoginData LDmodel = new LoginData();
+    private LoginData _loginData = new LoginData();
+
+    protected override async Task OnInitializedAsync()
+    {
+
+    }
 
     private async Task CLogin()
     {
+
         try
         {
-            // in the requestUri: "api/" is the first part of the path, "[controller]" points to this controller class and the third points to the function
-            LDmodel.VerifiedSession = await HttpClient.PostAsJsonAsync("/api/login/login", LDmodel);
+            // Http call to local backend
+            var verifiedSession = await HttpClient.PostAsJsonAsync("/api/login/login", _loginData);
 
-            Console.WriteLine("er der noget i den: " + LDmodel.VerifiedSession);
+            Console.WriteLine("What dos it contain: " + verifiedSession);
 
-            // if login route to NoteList
-            if (LDmodel.VerifiedSession != null) // not working
+            // if login == Ok then route to NoteList
+            if (verifiedSession.StatusCode == HttpStatusCode.OK)
             {
+                // Save username, password and verifiedSession in sessionStorage
+                await sessionStorage.SetItemAsync("Username", _loginData.Username);
+                await sessionStorage.SetItemAsync("Password", _loginData.Password);
+                await sessionStorage.SetItemAsync("VerifiedSession", verifiedSession);
+
+                //var _Username = await sessionStorage.GetItemAsync<string>("Username");
+                //var _Password = await sessionStorage.GetItemAsync<string>("Password");
+                //var _VerifiedSession = await sessionStorage.GetItemAsync<object>("VerifiedSession");
+
+                //Console.WriteLine("MMLogin Test of sessionstorage: " + _Username);
+                //Console.WriteLine("MMLogin Test of sessionstorage: " + _Password);
+                //Console.WriteLine("MMLogin Test of sessionstorage: " + _VerifiedSession);
+
+
+                // Route to NoteList side
                 NavigationManager.NavigateTo("Lists/notelist");
             }
+            // else { something }
         }
         catch (Exception e)
         {
             Console.WriteLine("MMLogin.razor" + e);
             throw;
         }
+    }
+
+    private async Task Close()
+    {
+
     }
 }

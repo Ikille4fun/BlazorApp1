@@ -17,6 +17,7 @@ namespace BlazorApp1.Client
             builder.RootComponents.Add<App>("#app");
 
             builder.Services
+                .AddScoped<IAlertService, AlertService>()
                 .AddScoped<ILocalStorageService, LocalStorageService>();
 
             builder.Services.AddBlazoredSessionStorage(config =>

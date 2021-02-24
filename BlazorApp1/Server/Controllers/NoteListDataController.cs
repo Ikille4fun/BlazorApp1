@@ -25,7 +25,7 @@ namespace BlazorApp1.Server.Controllers
 
         // GET: api/<NoteListDataController>
         // For testing only
-        [Route("tupdate")]
+        [Route("testupdate")]
         [HttpGet]
         public IEnumerable<NoteListData> Get()
         {
@@ -40,19 +40,6 @@ namespace BlazorApp1.Server.Controllers
             }).ToArray();
         }
 
-        //
-        [Route("update")]
-        [HttpGet]
-        public List<Note> GetNoteListData([FromBody] NoteSearchQuery noteSearchQuery)
-        {
-            ServicesAccess s = new ServicesAccess();
-            var result = s.CallServiceRefFindNotes("","", noteSearchQuery);
-
-            Console.WriteLine("Server/LoginController.cs: " + result);
-
-            return result;
-        }
-
         // GET api/<NoteListDataController>/5
         [HttpGet("{id}")]
         public string Get(int id)
@@ -61,9 +48,19 @@ namespace BlazorApp1.Server.Controllers
         }
 
         // POST api/<NoteListDataController>
+        [Route("update")]
         [HttpPost]
-        public void Post([FromBody] string value)
+        public List<Note> PostNoteListData([FromBody] VS_NSQ vsNsq)
         {
+            ServicesAccess s = new ServicesAccess();
+
+            NoteSearchQuery noteSearchQuery = new NoteSearchQuery();
+
+            var result = s.CallServiceRefFindNotes(vsNsq.verifiedSession, noteSearchQuery);
+
+            Console.WriteLine("Server/NoteListController.cs update: " + result);
+
+            return result;
         }
 
         // PUT api/<NoteListDataController>/5

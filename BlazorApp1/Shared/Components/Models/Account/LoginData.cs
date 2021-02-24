@@ -4,7 +4,7 @@ namespace BlazorApp1.Shared.Components.Models.Account
 {
     public class LoginData
     {
-        [Required] 
+        [Required]
         public string Username { get; set; } = null;
 
         [Required] 

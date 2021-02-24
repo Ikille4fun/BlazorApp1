@@ -2,8 +2,10 @@
 
 @using Microsoft.AspNetCore.Mvc.TagHelpers
 @using Microsoft.Extensions.WebEncoders.Testing
+@using BlazorApp1.Shared.Components.Models.Audio
 
-@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@inject HttpClient HttpClient
 @inject IJSRuntime Js;
 
 <div class="container mx-auto my-3 bg-dark text-white" style="width:550px">
@@ -17,15 +19,15 @@
             <h1>AudioNote</h1>
         </div>
         <div class="col">
-            <p class="pt-3">@Role placeholder</p>
+            <p class="pt-3">placeholder</p>
         </div>
         <div class="col">
-            <p class="pt-3">@model.Username</p>
+            <p class="pt-3">@_loginData.Username</p>
         </div>
     </div>
 
     @* Body *@
-    <EditForm Model="@model" OnSubmit="Submit">
+    <EditForm Model="@_loginData" OnSubmit="Ready">
         @* Navn *@
         <div class="row">
             <div class="col-3">
@@ -115,8 +117,8 @@
         <div class="row p-2">
             <div title="Edit-controls" class="btn-group">
                 <button class="btn btn-primary" type="submit" value="submit">Ready</button>
-                <button class="btn btn-primary" onclick="" id="suspend">Suspend</button>
-                <button class="btn btn-primary" onclick="" id="cancel">Cancel</button>
+                <button class="btn btn-primary" @onclick="Suspend" id="suspend">Suspend</button>
+                <button class="btn btn-primary" @onclick="Cancel" id="cancel">Cancel</button>
             </div>
         </div>
     </EditForm>
@@ -124,22 +126,9 @@
 
 @code {
 
-    private LoginData model = new LoginData();
+    private LoginData _loginData = new LoginData();
 
-    private async Task Submit()
-    {
-
-    }
-
-    @*test code*@
-
-
-    @*test code*@
-
-    @*Audio-text inputs*@
-
-    public string Role { get; set; }
-
+    private AudioData _audioData = new AudioData();
 
     @*Audio-controls buttons*@
 
@@ -178,5 +167,35 @@
 
     @*Edit-controls buttons*@
 
+    private async Task Ready()
+    {
+        try
+        {
+            var result = await HttpClient.PostAsJsonAsync("api/AudioData/ready", _audioData);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
+    }
+
+    private async Task Suspend()
+    {
+        try
+        {
+            var result = await HttpClient.PostAsJsonAsync("api/AudioData/suspend", _audioData);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
+    }
+
+    private async Task Cancel()
+    {
+        NavigationManager.NavigateTo("Lists/notelist");
+    }
 
 }

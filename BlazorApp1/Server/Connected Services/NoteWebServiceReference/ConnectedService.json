@@ -6,7 +6,7 @@
   },
   "ExtendedData": {
     "inputs": [
-      "http://192.168.114.111/mmserver/notewebservice.svc"
+      "http://localhost:10012/NoteWebService.svc"
     ],
     "collectionTypes": [
       "System.Array",

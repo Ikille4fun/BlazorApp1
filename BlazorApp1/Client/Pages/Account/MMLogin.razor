@@ -1,9 +1,12 @@
 ﻿@page "/account/login"
 @using System.Net
+@using System.IO
 
 @inject Blazored.SessionStorage.ISessionStorageService sessionStorage
-@inject NavigationManager NavigationManager
 @inject HttpClient HttpClient
+
+@inject NavigationManager NavigationManager
+@inject IAlertService AlertService
 
 <div class="card">
     <h1 class="card-header">Login</h1>
@@ -12,15 +15,21 @@
             <DataAnnotationsValidator />
             <div class="form-group">
                 <label for="username">Username:</label>
-                <InputText @bind-Value="_loginData.Username" class="form-control" id="username" placeholder="Enter username"/>
-                <ValidationMessage For="@(() => _loginData.Username)"/>
+                <InputText @bind-Value="_loginData.Username" class="form-control" placeholder="Enter username" />
+                <ValidationMessage For="@(() => _loginData.Username)" />
             </div>
             <div class="form-group">
                 <label for="pwd">Password:</label>
-                <InputText @bind-Value="_loginData.Password" class="form-control" id="password" placeholder="Enter password" type="password"/>
-                <ValidationMessage For="@(() => _loginData.Password)"/>
+                <InputText @bind-Value="_loginData.Password" class="form-control" placeholder="Enter password" type="password" />
+                <ValidationMessage For="@(() => _loginData.Password)" />
             </div>
-            <button class="btn btn-primary" type="submit" value="submit">Login</button>
+            <button disabled="@loading" class="btn btn-primary" type="submit">
+                @*@if (loading)
+                {
+                    <span class="spinner-border spinner-border-sm mr-1"></span>
+                }*@
+                Login
+            </button>
             <button class="btn btn-primary" @onclick="Close">Close</button>
         </EditForm>
     </div>
@@ -30,6 +39,8 @@
 
     private LoginData _loginData = new LoginData();
 
+    private bool loading;
+
     protected override async Task OnInitializedAsync()
     {
 
@@ -37,6 +48,10 @@
 
     private async Task CLogin()
     {
+        // reset alerts on login
+        AlertService.Clear();
+
+        //loading = true;
 
         try
         {
@@ -50,17 +65,15 @@
             {
                 // Save username, password and verifiedSession in sessionStorage
                 await sessionStorage.SetItemAsync("Username", _loginData.Username);
+
+                /* only use in demo/testing, password is save in plain text!!!! */
                 await sessionStorage.SetItemAsync("Password", _loginData.Password);
-                await sessionStorage.SetItemAsync("VerifiedSession", verifiedSession);
 
-                //var _Username = await sessionStorage.GetItemAsync<string>("Username");
-                //var _Password = await sessionStorage.GetItemAsync<string>("Password");
-                //var _VerifiedSession = await sessionStorage.GetItemAsync<object>("VerifiedSession");
+                StreamReader reader = new StreamReader(verifiedSession.Content.ReadAsStream());
 
-                //Console.WriteLine("MMLogin Test of sessionstorage: " + _Username);
-                //Console.WriteLine("MMLogin Test of sessionstorage: " + _Password);
-                //Console.WriteLine("MMLogin Test of sessionstorage: " + _VerifiedSession);
+                string temp3 = reader.ReadToEnd();
 
+                await sessionStorage.SetItemAsync("VerifiedSession", temp3);
 
                 // Route to NoteList side
                 NavigationManager.NavigateTo("Lists/notelist");
@@ -69,8 +82,12 @@
         }
         catch (Exception e)
         {
-            Console.WriteLine("MMLogin.razor" + e);
-            throw;
+            AlertService.Error(e.Message);
+            loading = false;
+            StateHasChanged();
+
+            //Console.WriteLine("MMLogin.razor" + e);
+            //throw;
         }
     }
 

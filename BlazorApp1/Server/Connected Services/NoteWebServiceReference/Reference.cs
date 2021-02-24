@@ -102,1692 +102,6 @@ namespace NoteWebServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.NewDictationLogic")]
-    public partial class NoteTemplateField
-    {
-        
-        private int accessAuthorField;
-        
-        private bool accessAuthorFieldSpecified;
-        
-        private int accessListenerField;
-        
-        private bool accessListenerFieldSpecified;
-        
-        private int accessSupervisorField;
-        
-        private bool accessSupervisorFieldSpecified;
-        
-        private int accessTranscriberField;
-        
-        private bool accessTranscriberFieldSpecified;
-        
-        private string dataBindingField;
-        
-        private string dataTypeField;
-        
-        private string defaultValueField;
-        
-        private string descriptionField;
-        
-        private bool enableApplicationSeedingField;
-        
-        private bool enableApplicationSeedingFieldSpecified;
-        
-        private long idField;
-        
-        private bool idFieldSpecified;
-        
-        private bool mandatoryField;
-        
-        private bool mandatoryFieldSpecified;
-        
-        private System.Nullable<int> maxLengthField;
-        
-        private bool maxLengthFieldSpecified;
-        
-        private string nameField;
-        
-        private string nameStyleField;
-        
-        private NoteTemplate parentNoteTemplateField;
-        
-        private string rangeField;
-        
-        private bool rememberValueField;
-        
-        private bool rememberValueFieldSpecified;
-        
-        private int sectionField;
-        
-        private bool sectionFieldSpecified;
-        
-        private int sortOrderField;
-        
-        private bool sortOrderFieldSpecified;
-        
-        private string validationMethodField;
-        
-        private string valueStyleField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public int AccessAuthor
-        {
-            get
-            {
-                return this.accessAuthorField;
-            }
-            set
-            {
-                this.accessAuthorField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool AccessAuthorSpecified
-        {
-            get
-            {
-                return this.accessAuthorFieldSpecified;
-            }
-            set
-            {
-                this.accessAuthorFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public int AccessListener
-        {
-            get
-            {
-                return this.accessListenerField;
-            }
-            set
-            {
-                this.accessListenerField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool AccessListenerSpecified
-        {
-            get
-            {
-                return this.accessListenerFieldSpecified;
-            }
-            set
-            {
-                this.accessListenerFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public int AccessSupervisor
-        {
-            get
-            {
-                return this.accessSupervisorField;
-            }
-            set
-            {
-                this.accessSupervisorField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool AccessSupervisorSpecified
-        {
-            get
-            {
-                return this.accessSupervisorFieldSpecified;
-            }
-            set
-            {
-                this.accessSupervisorFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public int AccessTranscriber
-        {
-            get
-            {
-                return this.accessTranscriberField;
-            }
-            set
-            {
-                this.accessTranscriberField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool AccessTranscriberSpecified
-        {
-            get
-            {
-                return this.accessTranscriberFieldSpecified;
-            }
-            set
-            {
-                this.accessTranscriberFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=4)]
-        public string DataBinding
-        {
-            get
-            {
-                return this.dataBindingField;
-            }
-            set
-            {
-                this.dataBindingField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=5)]
-        public string DataType
-        {
-            get
-            {
-                return this.dataTypeField;
-            }
-            set
-            {
-                this.dataTypeField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=6)]
-        public string DefaultValue
-        {
-            get
-            {
-                return this.defaultValueField;
-            }
-            set
-            {
-                this.defaultValueField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=7)]
-        public string Description
-        {
-            get
-            {
-                return this.descriptionField;
-            }
-            set
-            {
-                this.descriptionField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
-        public bool EnableApplicationSeeding
-        {
-            get
-            {
-                return this.enableApplicationSeedingField;
-            }
-            set
-            {
-                this.enableApplicationSeedingField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool EnableApplicationSeedingSpecified
-        {
-            get
-            {
-                return this.enableApplicationSeedingFieldSpecified;
-            }
-            set
-            {
-                this.enableApplicationSeedingFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=9)]
-        public long Id
-        {
-            get
-            {
-                return this.idField;
-            }
-            set
-            {
-                this.idField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool IdSpecified
-        {
-            get
-            {
-                return this.idFieldSpecified;
-            }
-            set
-            {
-                this.idFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=10)]
-        public bool Mandatory
-        {
-            get
-            {
-                return this.mandatoryField;
-            }
-            set
-            {
-                this.mandatoryField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool MandatorySpecified
-        {
-            get
-            {
-                return this.mandatoryFieldSpecified;
-            }
-            set
-            {
-                this.mandatoryFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=11)]
-        public System.Nullable<int> MaxLength
-        {
-            get
-            {
-                return this.maxLengthField;
-            }
-            set
-            {
-                this.maxLengthField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool MaxLengthSpecified
-        {
-            get
-            {
-                return this.maxLengthFieldSpecified;
-            }
-            set
-            {
-                this.maxLengthFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=12)]
-        public string Name
-        {
-            get
-            {
-                return this.nameField;
-            }
-            set
-            {
-                this.nameField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=13)]
-        public string NameStyle
-        {
-            get
-            {
-                return this.nameStyleField;
-            }
-            set
-            {
-                this.nameStyleField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=14)]
-        public NoteTemplate ParentNoteTemplate
-        {
-            get
-            {
-                return this.parentNoteTemplateField;
-            }
-            set
-            {
-                this.parentNoteTemplateField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=15)]
-        public string Range
-        {
-            get
-            {
-                return this.rangeField;
-            }
-            set
-            {
-                this.rangeField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=16)]
-        public bool RememberValue
-        {
-            get
-            {
-                return this.rememberValueField;
-            }
-            set
-            {
-                this.rememberValueField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool RememberValueSpecified
-        {
-            get
-            {
-                return this.rememberValueFieldSpecified;
-            }
-            set
-            {
-                this.rememberValueFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=17)]
-        public int Section
-        {
-            get
-            {
-                return this.sectionField;
-            }
-            set
-            {
-                this.sectionField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool SectionSpecified
-        {
-            get
-            {
-                return this.sectionFieldSpecified;
-            }
-            set
-            {
-                this.sectionFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=18)]
-        public int SortOrder
-        {
-            get
-            {
-                return this.sortOrderField;
-            }
-            set
-            {
-                this.sortOrderField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool SortOrderSpecified
-        {
-            get
-            {
-                return this.sortOrderFieldSpecified;
-            }
-            set
-            {
-                this.sortOrderFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=19)]
-        public string ValidationMethod
-        {
-            get
-            {
-                return this.validationMethodField;
-            }
-            set
-            {
-                this.validationMethodField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=20)]
-        public string ValueStyle
-        {
-            get
-            {
-                return this.valueStyleField;
-            }
-            set
-            {
-                this.valueStyleField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.NewDictationLogic")]
-    public partial class NoteTemplate
-    {
-        
-        private string descriptionField;
-        
-        private bool globalField;
-        
-        private bool globalFieldSpecified;
-        
-        private long idField;
-        
-        private bool idFieldSpecified;
-        
-        private int integrationCodeField;
-        
-        private bool integrationCodeFieldSpecified;
-        
-        private string languageIdField;
-        
-        private string nameField;
-        
-        private NoteTypeEnum noteTypesField;
-        
-        private bool noteTypesFieldSpecified;
-        
-        private string parametersField;
-        
-        private Group[] templateGroupsField;
-        
-        private NoteTemplateField[] templateItemsField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=0)]
-        public string Description
-        {
-            get
-            {
-                return this.descriptionField;
-            }
-            set
-            {
-                this.descriptionField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public bool Global
-        {
-            get
-            {
-                return this.globalField;
-            }
-            set
-            {
-                this.globalField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool GlobalSpecified
-        {
-            get
-            {
-                return this.globalFieldSpecified;
-            }
-            set
-            {
-                this.globalFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public long Id
-        {
-            get
-            {
-                return this.idField;
-            }
-            set
-            {
-                this.idField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool IdSpecified
-        {
-            get
-            {
-                return this.idFieldSpecified;
-            }
-            set
-            {
-                this.idFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public int IntegrationCode
-        {
-            get
-            {
-                return this.integrationCodeField;
-            }
-            set
-            {
-                this.integrationCodeField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool IntegrationCodeSpecified
-        {
-            get
-            {
-                return this.integrationCodeFieldSpecified;
-            }
-            set
-            {
-                this.integrationCodeFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=4)]
-        public string LanguageId
-        {
-            get
-            {
-                return this.languageIdField;
-            }
-            set
-            {
-                this.languageIdField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=5)]
-        public string Name
-        {
-            get
-            {
-                return this.nameField;
-            }
-            set
-            {
-                this.nameField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
-        public NoteTypeEnum NoteTypes
-        {
-            get
-            {
-                return this.noteTypesField;
-            }
-            set
-            {
-                this.noteTypesField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool NoteTypesSpecified
-        {
-            get
-            {
-                return this.noteTypesFieldSpecified;
-            }
-            set
-            {
-                this.noteTypesFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=7)]
-        public string Parameters
-        {
-            get
-            {
-                return this.parametersField;
-            }
-            set
-            {
-                this.parametersField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=8)]
-        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
-            "")]
-        public Group[] TemplateGroups
-        {
-            get
-            {
-                return this.templateGroupsField;
-            }
-            set
-            {
-                this.templateGroupsField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=9)]
-        public NoteTemplateField[] TemplateItems
-        {
-            get
-            {
-                return this.templateItemsField;
-            }
-            set
-            {
-                this.templateItemsField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.FlagsAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
-        "")]
-    public enum NoteTypeEnum
-    {
-        
-        /// <remarks/>
-        Unknown = 1,
-        
-        /// <remarks/>
-        AudioNote = 2,
-        
-        /// <remarks/>
-        SpeechNote = 4,
-        
-        /// <remarks/>
-        VideoNote = 8,
-        
-        /// <remarks/>
-        QuickNote = 16,
-        
-        /// <remarks/>
-        IntegrationNote = 32,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
-        "")]
-    public partial class Group : HasId
-    {
-        
-        private Group[] childrenField;
-        
-        private string codeField;
-        
-        private CommandSubstitution[] commandSubstitutionsField;
-        
-        private string descriptionField;
-        
-        private string externalUidField;
-        
-        private string nameField;
-        
-        private Group parentField;
-        
-        private string pathField;
-        
-        private bool readOnlyField;
-        
-        private bool readOnlyFieldSpecified;
-        
-        private Role[] rolesField;
-        
-        private SpeechRecognitionContext speechRecognitionContextField;
-        
-        private SpeechRecognitionInputChannel speechRecognitionInputChannelField;
-        
-        private StatusEnum statusField;
-        
-        private bool statusFieldSpecified;
-        
-        private User[] usersField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=0)]
-        public Group[] Children
-        {
-            get
-            {
-                return this.childrenField;
-            }
-            set
-            {
-                this.childrenField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=1)]
-        public string Code
-        {
-            get
-            {
-                return this.codeField;
-            }
-            set
-            {
-                this.codeField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=2)]
-        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Speech" +
-            "Recognition")]
-        public CommandSubstitution[] CommandSubstitutions
-        {
-            get
-            {
-                return this.commandSubstitutionsField;
-            }
-            set
-            {
-                this.commandSubstitutionsField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=3)]
-        public string Description
-        {
-            get
-            {
-                return this.descriptionField;
-            }
-            set
-            {
-                this.descriptionField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=4)]
-        public string ExternalUid
-        {
-            get
-            {
-                return this.externalUidField;
-            }
-            set
-            {
-                this.externalUidField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=5)]
-        public string Name
-        {
-            get
-            {
-                return this.nameField;
-            }
-            set
-            {
-                this.nameField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=6)]
-        public Group Parent
-        {
-            get
-            {
-                return this.parentField;
-            }
-            set
-            {
-                this.parentField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=7)]
-        public string Path
-        {
-            get
-            {
-                return this.pathField;
-            }
-            set
-            {
-                this.pathField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
-        public bool ReadOnly
-        {
-            get
-            {
-                return this.readOnlyField;
-            }
-            set
-            {
-                this.readOnlyField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ReadOnlySpecified
-        {
-            get
-            {
-                return this.readOnlyFieldSpecified;
-            }
-            set
-            {
-                this.readOnlyFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=9)]
-        public Role[] Roles
-        {
-            get
-            {
-                return this.rolesField;
-            }
-            set
-            {
-                this.rolesField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=10)]
-        public SpeechRecognitionContext SpeechRecognitionContext
-        {
-            get
-            {
-                return this.speechRecognitionContextField;
-            }
-            set
-            {
-                this.speechRecognitionContextField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=11)]
-        public SpeechRecognitionInputChannel SpeechRecognitionInputChannel
-        {
-            get
-            {
-                return this.speechRecognitionInputChannelField;
-            }
-            set
-            {
-                this.speechRecognitionInputChannelField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=12)]
-        public StatusEnum Status
-        {
-            get
-            {
-                return this.statusField;
-            }
-            set
-            {
-                this.statusField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool StatusSpecified
-        {
-            get
-            {
-                return this.statusFieldSpecified;
-            }
-            set
-            {
-                this.statusFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=13)]
-        public User[] Users
-        {
-            get
-            {
-                return this.usersField;
-            }
-            set
-            {
-                this.usersField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Speech" +
-        "Recognition")]
-    public partial class CommandSubstitution
-    {
-        
-        private Group groupField;
-        
-        private long idField;
-        
-        private bool idFieldSpecified;
-        
-        private string languageIdField;
-        
-        private string substitutionField;
-        
-        private string textField;
-        
-        private SubstitutionType typeField;
-        
-        private bool typeFieldSpecified;
-        
-        private User userField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=0)]
-        public Group Group
-        {
-            get
-            {
-                return this.groupField;
-            }
-            set
-            {
-                this.groupField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public long Id
-        {
-            get
-            {
-                return this.idField;
-            }
-            set
-            {
-                this.idField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool IdSpecified
-        {
-            get
-            {
-                return this.idFieldSpecified;
-            }
-            set
-            {
-                this.idFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=2)]
-        public string LanguageId
-        {
-            get
-            {
-                return this.languageIdField;
-            }
-            set
-            {
-                this.languageIdField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=3)]
-        public string Substitution
-        {
-            get
-            {
-                return this.substitutionField;
-            }
-            set
-            {
-                this.substitutionField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=4)]
-        public string Text
-        {
-            get
-            {
-                return this.textField;
-            }
-            set
-            {
-                this.textField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-        public SubstitutionType Type
-        {
-            get
-            {
-                return this.typeField;
-            }
-            set
-            {
-                this.typeField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool TypeSpecified
-        {
-            get
-            {
-                return this.typeFieldSpecified;
-            }
-            set
-            {
-                this.typeFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=6)]
-        public User User
-        {
-            get
-            {
-                return this.userField;
-            }
-            set
-            {
-                this.userField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Speech" +
-        "Recognition")]
-    public enum SubstitutionType
-    {
-        
-        /// <remarks/>
-        Replacement,
-        
-        /// <remarks/>
-        Alternative,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
-        "")]
-    public partial class User : HasId
-    {
-        
-        private SpeechRecognitionContext[] contextsField;
-        
-        private Group defaultGroupField;
-        
-        private string emailField;
-        
-        private string externalUidField;
-        
-        private string fullNameField;
-        
-        private GenderEnum genderField;
-        
-        private bool genderFieldSpecified;
-        
-        private Group[] groupsField;
-        
-        private SpeechRecognitionInputChannel[] inputChannelField;
-        
-        private LanguageEnum languageField;
-        
-        private bool languageFieldSpecified;
-        
-        private string passwordField;
-        
-        private System.Nullable<System.DateTime> passwordExpiredField;
-        
-        private bool passwordExpiredFieldSpecified;
-        
-        private bool passwordSetField;
-        
-        private bool passwordSetFieldSpecified;
-        
-        private Role[] rolesField;
-        
-        private StatusEnum statusField;
-        
-        private bool statusFieldSpecified;
-        
-        private string[] userNamesField;
-        
-        private UserName[] userNamesInfoField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=0)]
-        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Speech" +
-            "Recognition")]
-        public SpeechRecognitionContext[] Contexts
-        {
-            get
-            {
-                return this.contextsField;
-            }
-            set
-            {
-                this.contextsField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=1)]
-        public Group DefaultGroup
-        {
-            get
-            {
-                return this.defaultGroupField;
-            }
-            set
-            {
-                this.defaultGroupField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=2)]
-        public string Email
-        {
-            get
-            {
-                return this.emailField;
-            }
-            set
-            {
-                this.emailField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=3)]
-        public string ExternalUid
-        {
-            get
-            {
-                return this.externalUidField;
-            }
-            set
-            {
-                this.externalUidField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=4)]
-        public string FullName
-        {
-            get
-            {
-                return this.fullNameField;
-            }
-            set
-            {
-                this.fullNameField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-        public GenderEnum Gender
-        {
-            get
-            {
-                return this.genderField;
-            }
-            set
-            {
-                this.genderField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool GenderSpecified
-        {
-            get
-            {
-                return this.genderFieldSpecified;
-            }
-            set
-            {
-                this.genderFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=6)]
-        public Group[] Groups
-        {
-            get
-            {
-                return this.groupsField;
-            }
-            set
-            {
-                this.groupsField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=7)]
-        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Speech" +
-            "Recognition")]
-        public SpeechRecognitionInputChannel[] InputChannel
-        {
-            get
-            {
-                return this.inputChannelField;
-            }
-            set
-            {
-                this.inputChannelField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
-        public LanguageEnum Language
-        {
-            get
-            {
-                return this.languageField;
-            }
-            set
-            {
-                this.languageField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LanguageSpecified
-        {
-            get
-            {
-                return this.languageFieldSpecified;
-            }
-            set
-            {
-                this.languageFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=9)]
-        public string Password
-        {
-            get
-            {
-                return this.passwordField;
-            }
-            set
-            {
-                this.passwordField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=10)]
-        public System.Nullable<System.DateTime> PasswordExpired
-        {
-            get
-            {
-                return this.passwordExpiredField;
-            }
-            set
-            {
-                this.passwordExpiredField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool PasswordExpiredSpecified
-        {
-            get
-            {
-                return this.passwordExpiredFieldSpecified;
-            }
-            set
-            {
-                this.passwordExpiredFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=11)]
-        public bool PasswordSet
-        {
-            get
-            {
-                return this.passwordSetField;
-            }
-            set
-            {
-                this.passwordSetField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool PasswordSetSpecified
-        {
-            get
-            {
-                return this.passwordSetFieldSpecified;
-            }
-            set
-            {
-                this.passwordSetFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=12)]
-        public Role[] Roles
-        {
-            get
-            {
-                return this.rolesField;
-            }
-            set
-            {
-                this.rolesField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=13)]
-        public StatusEnum Status
-        {
-            get
-            {
-                return this.statusField;
-            }
-            set
-            {
-                this.statusField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool StatusSpecified
-        {
-            get
-            {
-                return this.statusFieldSpecified;
-            }
-            set
-            {
-                this.statusFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=14)]
-        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays")]
-        public string[] UserNames
-        {
-            get
-            {
-                return this.userNamesField;
-            }
-            set
-            {
-                this.userNamesField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=15)]
-        public UserName[] UserNamesInfo
-        {
-            get
-            {
-                return this.userNamesInfoField;
-            }
-            set
-            {
-                this.userNamesInfoField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Speech" +
-        "Recognition")]
-    public partial class SpeechRecognitionContext
-    {
-        
-        private string contextNameField;
-        
-        private long idField;
-        
-        private bool idFieldSpecified;
-        
-        private string languageIdField;
-        
-        private bool statusField;
-        
-        private bool statusFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=0)]
-        public string ContextName
-        {
-            get
-            {
-                return this.contextNameField;
-            }
-            set
-            {
-                this.contextNameField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public long Id
-        {
-            get
-            {
-                return this.idField;
-            }
-            set
-            {
-                this.idField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool IdSpecified
-        {
-            get
-            {
-                return this.idFieldSpecified;
-            }
-            set
-            {
-                this.idFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=2)]
-        public string LanguageId
-        {
-            get
-            {
-                return this.languageIdField;
-            }
-            set
-            {
-                this.languageIdField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public bool Status
-        {
-            get
-            {
-                return this.statusField;
-            }
-            set
-            {
-                this.statusField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool StatusSpecified
-        {
-            get
-            {
-                return this.statusFieldSpecified;
-            }
-            set
-            {
-                this.statusFieldSpecified = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.UserLogic")]
-    public enum GenderEnum
-    {
-        
-        /// <remarks/>
-        Undefined,
-        
-        /// <remarks/>
-        Male,
-        
-        /// <remarks/>
-        Female,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Speech" +
         "Recognition")]
     public partial class SpeechRecognitionInputChannel
@@ -2060,31 +374,527 @@ namespace NoteWebServiceReference
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
-        "")]
-    public enum LanguageEnum
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Speech" +
+        "Recognition")]
+    public partial class SpeechRecognitionContext
     {
         
-        /// <remarks/>
-        Undefined,
+        private string contextNameField;
+        
+        private long idField;
+        
+        private bool idFieldSpecified;
+        
+        private string languageIdField;
+        
+        private bool statusField;
+        
+        private bool statusFieldSpecified;
         
         /// <remarks/>
-        Dansk,
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=0)]
+        public string ContextName
+        {
+            get
+            {
+                return this.contextNameField;
+            }
+            set
+            {
+                this.contextNameField = value;
+            }
+        }
         
         /// <remarks/>
-        Norsk,
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public long Id
+        {
+            get
+            {
+                return this.idField;
+            }
+            set
+            {
+                this.idField = value;
+            }
+        }
         
         /// <remarks/>
-        Svensk,
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool IdSpecified
+        {
+            get
+            {
+                return this.idFieldSpecified;
+            }
+            set
+            {
+                this.idFieldSpecified = value;
+            }
+        }
         
         /// <remarks/>
-        English,
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=2)]
+        public string LanguageId
+        {
+            get
+            {
+                return this.languageIdField;
+            }
+            set
+            {
+                this.languageIdField = value;
+            }
+        }
         
         /// <remarks/>
-        NorskBokml,
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public bool Status
+        {
+            get
+            {
+                return this.statusField;
+            }
+            set
+            {
+                this.statusField = value;
+            }
+        }
         
         /// <remarks/>
-        NorskNynorsk,
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool StatusSpecified
+        {
+            get
+            {
+                return this.statusFieldSpecified;
+            }
+            set
+            {
+                this.statusFieldSpecified = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Speech" +
+        "Recognition")]
+    public partial class CommandSubstitution
+    {
+        
+        private Group groupField;
+        
+        private long idField;
+        
+        private bool idFieldSpecified;
+        
+        private string languageIdField;
+        
+        private string substitutionField;
+        
+        private string textField;
+        
+        private SubstitutionType typeField;
+        
+        private bool typeFieldSpecified;
+        
+        private User userField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=0)]
+        public Group Group
+        {
+            get
+            {
+                return this.groupField;
+            }
+            set
+            {
+                this.groupField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public long Id
+        {
+            get
+            {
+                return this.idField;
+            }
+            set
+            {
+                this.idField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool IdSpecified
+        {
+            get
+            {
+                return this.idFieldSpecified;
+            }
+            set
+            {
+                this.idFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=2)]
+        public string LanguageId
+        {
+            get
+            {
+                return this.languageIdField;
+            }
+            set
+            {
+                this.languageIdField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=3)]
+        public string Substitution
+        {
+            get
+            {
+                return this.substitutionField;
+            }
+            set
+            {
+                this.substitutionField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=4)]
+        public string Text
+        {
+            get
+            {
+                return this.textField;
+            }
+            set
+            {
+                this.textField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public SubstitutionType Type
+        {
+            get
+            {
+                return this.typeField;
+            }
+            set
+            {
+                this.typeField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool TypeSpecified
+        {
+            get
+            {
+                return this.typeFieldSpecified;
+            }
+            set
+            {
+                this.typeFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=6)]
+        public User User
+        {
+            get
+            {
+                return this.userField;
+            }
+            set
+            {
+                this.userField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
+        "")]
+    public partial class Group : HasId
+    {
+        
+        private Group[] childrenField;
+        
+        private string codeField;
+        
+        private CommandSubstitution[] commandSubstitutionsField;
+        
+        private string descriptionField;
+        
+        private string externalUidField;
+        
+        private string nameField;
+        
+        private Group parentField;
+        
+        private string pathField;
+        
+        private bool readOnlyField;
+        
+        private bool readOnlyFieldSpecified;
+        
+        private Role[] rolesField;
+        
+        private SpeechRecognitionContext speechRecognitionContextField;
+        
+        private SpeechRecognitionInputChannel speechRecognitionInputChannelField;
+        
+        private StatusEnum statusField;
+        
+        private bool statusFieldSpecified;
+        
+        private User[] usersField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=0)]
+        public Group[] Children
+        {
+            get
+            {
+                return this.childrenField;
+            }
+            set
+            {
+                this.childrenField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=1)]
+        public string Code
+        {
+            get
+            {
+                return this.codeField;
+            }
+            set
+            {
+                this.codeField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=2)]
+        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Speech" +
+            "Recognition")]
+        public CommandSubstitution[] CommandSubstitutions
+        {
+            get
+            {
+                return this.commandSubstitutionsField;
+            }
+            set
+            {
+                this.commandSubstitutionsField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=3)]
+        public string Description
+        {
+            get
+            {
+                return this.descriptionField;
+            }
+            set
+            {
+                this.descriptionField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=4)]
+        public string ExternalUid
+        {
+            get
+            {
+                return this.externalUidField;
+            }
+            set
+            {
+                this.externalUidField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=5)]
+        public string Name
+        {
+            get
+            {
+                return this.nameField;
+            }
+            set
+            {
+                this.nameField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=6)]
+        public Group Parent
+        {
+            get
+            {
+                return this.parentField;
+            }
+            set
+            {
+                this.parentField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=7)]
+        public string Path
+        {
+            get
+            {
+                return this.pathField;
+            }
+            set
+            {
+                this.pathField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
+        public bool ReadOnly
+        {
+            get
+            {
+                return this.readOnlyField;
+            }
+            set
+            {
+                this.readOnlyField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool ReadOnlySpecified
+        {
+            get
+            {
+                return this.readOnlyFieldSpecified;
+            }
+            set
+            {
+                this.readOnlyFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=9)]
+        public Role[] Roles
+        {
+            get
+            {
+                return this.rolesField;
+            }
+            set
+            {
+                this.rolesField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=10)]
+        public SpeechRecognitionContext SpeechRecognitionContext
+        {
+            get
+            {
+                return this.speechRecognitionContextField;
+            }
+            set
+            {
+                this.speechRecognitionContextField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=11)]
+        public SpeechRecognitionInputChannel SpeechRecognitionInputChannel
+        {
+            get
+            {
+                return this.speechRecognitionInputChannelField;
+            }
+            set
+            {
+                this.speechRecognitionInputChannelField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=12)]
+        public StatusEnum Status
+        {
+            get
+            {
+                return this.statusField;
+            }
+            set
+            {
+                this.statusField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool StatusSpecified
+        {
+            get
+            {
+                return this.statusFieldSpecified;
+            }
+            set
+            {
+                this.statusFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=13)]
+        public User[] Users
+        {
+            get
+            {
+                return this.usersField;
+            }
+            set
+            {
+                this.usersField = value;
+            }
+        }
     }
     
     /// <remarks/>
@@ -2206,8 +1016,8 @@ namespace NoteWebServiceReference
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(UserName))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(Right))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(Role))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Group))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(User))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Group))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ParameterValue))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(SystemParameterValue))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
@@ -2670,6 +1480,415 @@ namespace NoteWebServiceReference
     }
     
     /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
+        "")]
+    public partial class User : HasId
+    {
+        
+        private SpeechRecognitionContext[] contextsField;
+        
+        private Group defaultGroupField;
+        
+        private string emailField;
+        
+        private string externalUidField;
+        
+        private string fullNameField;
+        
+        private GenderEnum genderField;
+        
+        private bool genderFieldSpecified;
+        
+        private Group[] groupsField;
+        
+        private SpeechRecognitionInputChannel[] inputChannelField;
+        
+        private LanguageEnum languageField;
+        
+        private bool languageFieldSpecified;
+        
+        private string passwordField;
+        
+        private System.Nullable<System.DateTime> passwordExpiredField;
+        
+        private bool passwordExpiredFieldSpecified;
+        
+        private bool passwordSetField;
+        
+        private bool passwordSetFieldSpecified;
+        
+        private Role[] rolesField;
+        
+        private StatusEnum statusField;
+        
+        private bool statusFieldSpecified;
+        
+        private string[] userNamesField;
+        
+        private UserName[] userNamesInfoField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=0)]
+        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Speech" +
+            "Recognition")]
+        public SpeechRecognitionContext[] Contexts
+        {
+            get
+            {
+                return this.contextsField;
+            }
+            set
+            {
+                this.contextsField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=1)]
+        public Group DefaultGroup
+        {
+            get
+            {
+                return this.defaultGroupField;
+            }
+            set
+            {
+                this.defaultGroupField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=2)]
+        public string Email
+        {
+            get
+            {
+                return this.emailField;
+            }
+            set
+            {
+                this.emailField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=3)]
+        public string ExternalUid
+        {
+            get
+            {
+                return this.externalUidField;
+            }
+            set
+            {
+                this.externalUidField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=4)]
+        public string FullName
+        {
+            get
+            {
+                return this.fullNameField;
+            }
+            set
+            {
+                this.fullNameField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public GenderEnum Gender
+        {
+            get
+            {
+                return this.genderField;
+            }
+            set
+            {
+                this.genderField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool GenderSpecified
+        {
+            get
+            {
+                return this.genderFieldSpecified;
+            }
+            set
+            {
+                this.genderFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=6)]
+        public Group[] Groups
+        {
+            get
+            {
+                return this.groupsField;
+            }
+            set
+            {
+                this.groupsField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=7)]
+        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Speech" +
+            "Recognition")]
+        public SpeechRecognitionInputChannel[] InputChannel
+        {
+            get
+            {
+                return this.inputChannelField;
+            }
+            set
+            {
+                this.inputChannelField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
+        public LanguageEnum Language
+        {
+            get
+            {
+                return this.languageField;
+            }
+            set
+            {
+                this.languageField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool LanguageSpecified
+        {
+            get
+            {
+                return this.languageFieldSpecified;
+            }
+            set
+            {
+                this.languageFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=9)]
+        public string Password
+        {
+            get
+            {
+                return this.passwordField;
+            }
+            set
+            {
+                this.passwordField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=10)]
+        public System.Nullable<System.DateTime> PasswordExpired
+        {
+            get
+            {
+                return this.passwordExpiredField;
+            }
+            set
+            {
+                this.passwordExpiredField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool PasswordExpiredSpecified
+        {
+            get
+            {
+                return this.passwordExpiredFieldSpecified;
+            }
+            set
+            {
+                this.passwordExpiredFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=11)]
+        public bool PasswordSet
+        {
+            get
+            {
+                return this.passwordSetField;
+            }
+            set
+            {
+                this.passwordSetField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool PasswordSetSpecified
+        {
+            get
+            {
+                return this.passwordSetFieldSpecified;
+            }
+            set
+            {
+                this.passwordSetFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=12)]
+        public Role[] Roles
+        {
+            get
+            {
+                return this.rolesField;
+            }
+            set
+            {
+                this.rolesField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=13)]
+        public StatusEnum Status
+        {
+            get
+            {
+                return this.statusField;
+            }
+            set
+            {
+                this.statusField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool StatusSpecified
+        {
+            get
+            {
+                return this.statusFieldSpecified;
+            }
+            set
+            {
+                this.statusFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=14)]
+        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays")]
+        public string[] UserNames
+        {
+            get
+            {
+                return this.userNamesField;
+            }
+            set
+            {
+                this.userNamesField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=15)]
+        public UserName[] UserNamesInfo
+        {
+            get
+            {
+                return this.userNamesInfoField;
+            }
+            set
+            {
+                this.userNamesInfoField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.UserLogic")]
+    public enum GenderEnum
+    {
+        
+        /// <remarks/>
+        Undefined,
+        
+        /// <remarks/>
+        Male,
+        
+        /// <remarks/>
+        Female,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
+        "")]
+    public enum LanguageEnum
+    {
+        
+        /// <remarks/>
+        Undefined,
+        
+        /// <remarks/>
+        Dansk,
+        
+        /// <remarks/>
+        Norsk,
+        
+        /// <remarks/>
+        Svensk,
+        
+        /// <remarks/>
+        English,
+        
+        /// <remarks/>
+        NorskBokml,
+        
+        /// <remarks/>
+        NorskNynorsk,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
+        "")]
+    public enum StatusEnum
+    {
+        
+        /// <remarks/>
+        Active,
+        
+        /// <remarks/>
+        Inactive,
+    }
+    
+    /// <remarks/>
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(SystemParameterValue))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -2722,32 +1941,280 @@ namespace NoteWebServiceReference
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
-        "")]
-    public enum StatusEnum
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Speech" +
+        "Recognition")]
+    public enum SubstitutionType
     {
         
         /// <remarks/>
-        Active,
+        Replacement,
         
         /// <remarks/>
-        Inactive,
+        Alternative,
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Parameter))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ParameterCategory))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
+        ".Parameters")]
+    public partial class ParameterPart
+    {
+        
+        private string parameterNameField;
+        
+        private ParameterCategory parentCategoryField;
+        
+        private string partNameField;
+        
+        private string idField;
+        
+        private string refField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=0)]
+        public string ParameterName
+        {
+            get
+            {
+                return this.parameterNameField;
+            }
+            set
+            {
+                this.parameterNameField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=1)]
+        public ParameterCategory ParentCategory
+        {
+            get
+            {
+                return this.parentCategoryField;
+            }
+            set
+            {
+                this.parentCategoryField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=2)]
+        public string PartName
+        {
+            get
+            {
+                return this.partNameField;
+            }
+            set
+            {
+                this.partNameField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute(Form=System.Xml.Schema.XmlSchemaForm.Qualified, Namespace="http://schemas.microsoft.com/2003/10/Serialization/", DataType="ID")]
+        public string Id
+        {
+            get
+            {
+                return this.idField;
+            }
+            set
+            {
+                this.idField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute(Form=System.Xml.Schema.XmlSchemaForm.Qualified, Namespace="http://schemas.microsoft.com/2003/10/Serialization/", DataType="IDREF")]
+        public string Ref
+        {
+            get
+            {
+                return this.refField;
+            }
+            set
+            {
+                this.refField = value;
+            }
+        }
     }
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
-        "")]
-    public partial class NoteTag
+        ".Parameters")]
+    public partial class ParameterCategory : ParameterPart
     {
+        
+        private ParameterPart[] childrenField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=0)]
+        public ParameterPart[] Children
+        {
+            get
+            {
+                return this.childrenField;
+            }
+            set
+            {
+                this.childrenField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
+        ".Parameters")]
+    public partial class Parameter : ParameterPart
+    {
+        
+        private string categoryNameField;
+        
+        private TypeCode dataTypeField;
+        
+        private bool dataTypeFieldSpecified;
+        
+        private string defaultValueField;
+        
+        private string descriptionField;
+        
+        private string fieldField;
+        
+        private long id1Field;
+        
+        private bool id1FieldSpecified;
         
         private string nameField;
         
-        private string valueField;
+        private byte[] rowVersionField;
+        
+        private string subNameField;
+        
+        private ParameterValue[] valuesField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=0)]
+        public string CategoryName
+        {
+            get
+            {
+                return this.categoryNameField;
+            }
+            set
+            {
+                this.categoryNameField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public TypeCode DataType
+        {
+            get
+            {
+                return this.dataTypeField;
+            }
+            set
+            {
+                this.dataTypeField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool DataTypeSpecified
+        {
+            get
+            {
+                return this.dataTypeFieldSpecified;
+            }
+            set
+            {
+                this.dataTypeFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=2)]
+        public string DefaultValue
+        {
+            get
+            {
+                return this.defaultValueField;
+            }
+            set
+            {
+                this.defaultValueField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=3)]
+        public string Description
+        {
+            get
+            {
+                return this.descriptionField;
+            }
+            set
+            {
+                this.descriptionField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=4)]
+        public string Field
+        {
+            get
+            {
+                return this.fieldField;
+            }
+            set
+            {
+                this.fieldField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Id", Order=5)]
+        public long Id1
+        {
+            get
+            {
+                return this.id1Field;
+            }
+            set
+            {
+                this.id1Field = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool Id1Specified
+        {
+            get
+            {
+                return this.id1FieldSpecified;
+            }
+            set
+            {
+                this.id1FieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=6)]
         public string Name
         {
             get
@@ -2761,17 +2228,1448 @@ namespace NoteWebServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=1)]
-        public string Value
+        [System.Xml.Serialization.XmlElementAttribute(DataType="base64Binary", IsNullable=true, Order=7)]
+        public byte[] RowVersion
         {
             get
             {
-                return this.valueField;
+                return this.rowVersionField;
             }
             set
             {
-                this.valueField = value;
+                this.rowVersionField = value;
             }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=8)]
+        public string SubName
+        {
+            get
+            {
+                return this.subNameField;
+            }
+            set
+            {
+                this.subNameField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=9)]
+        public ParameterValue[] Values
+        {
+            get
+            {
+                return this.valuesField;
+            }
+            set
+            {
+                this.valuesField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/System")]
+    public enum TypeCode
+    {
+        
+        /// <remarks/>
+        Empty,
+        
+        /// <remarks/>
+        Object,
+        
+        /// <remarks/>
+        DBNull,
+        
+        /// <remarks/>
+        Boolean,
+        
+        /// <remarks/>
+        Char,
+        
+        /// <remarks/>
+        SByte,
+        
+        /// <remarks/>
+        Byte,
+        
+        /// <remarks/>
+        Int16,
+        
+        /// <remarks/>
+        UInt16,
+        
+        /// <remarks/>
+        Int32,
+        
+        /// <remarks/>
+        UInt32,
+        
+        /// <remarks/>
+        Int64,
+        
+        /// <remarks/>
+        UInt64,
+        
+        /// <remarks/>
+        Single,
+        
+        /// <remarks/>
+        Double,
+        
+        /// <remarks/>
+        Decimal,
+        
+        /// <remarks/>
+        DateTime,
+        
+        /// <remarks/>
+        String,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.BusinessLogic.Authentica" +
+        "tion")]
+    public partial class VerifiedSession
+    {
+        
+        private IntegrationCode integrationCodeField;
+        
+        private bool integrationCodeFieldSpecified;
+        
+        private long loginGroupIdField;
+        
+        private bool loginGroupIdFieldSpecified;
+        
+        private long loginUserIdField;
+        
+        private bool loginUserIdFieldSpecified;
+        
+        private string nonceField;
+        
+        private bool passwordExpiredField;
+        
+        private bool passwordExpiredFieldSpecified;
+        
+        private System.Nullable<long> timeField;
+        
+        private bool timeFieldSpecified;
+        
+        private bool validatedByProprietaryLoginField;
+        
+        private bool validatedByProprietaryLoginFieldSpecified;
+        
+        private string vendorField;
+        
+        private long verifyKeyField;
+        
+        private bool verifyKeyFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public IntegrationCode IntegrationCode
+        {
+            get
+            {
+                return this.integrationCodeField;
+            }
+            set
+            {
+                this.integrationCodeField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool IntegrationCodeSpecified
+        {
+            get
+            {
+                return this.integrationCodeFieldSpecified;
+            }
+            set
+            {
+                this.integrationCodeFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public long LoginGroupId
+        {
+            get
+            {
+                return this.loginGroupIdField;
+            }
+            set
+            {
+                this.loginGroupIdField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool LoginGroupIdSpecified
+        {
+            get
+            {
+                return this.loginGroupIdFieldSpecified;
+            }
+            set
+            {
+                this.loginGroupIdFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public long LoginUserId
+        {
+            get
+            {
+                return this.loginUserIdField;
+            }
+            set
+            {
+                this.loginUserIdField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool LoginUserIdSpecified
+        {
+            get
+            {
+                return this.loginUserIdFieldSpecified;
+            }
+            set
+            {
+                this.loginUserIdFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=3)]
+        public string Nonce
+        {
+            get
+            {
+                return this.nonceField;
+            }
+            set
+            {
+                this.nonceField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public bool PasswordExpired
+        {
+            get
+            {
+                return this.passwordExpiredField;
+            }
+            set
+            {
+                this.passwordExpiredField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool PasswordExpiredSpecified
+        {
+            get
+            {
+                return this.passwordExpiredFieldSpecified;
+            }
+            set
+            {
+                this.passwordExpiredFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=5)]
+        public System.Nullable<long> Time
+        {
+            get
+            {
+                return this.timeField;
+            }
+            set
+            {
+                this.timeField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool TimeSpecified
+        {
+            get
+            {
+                return this.timeFieldSpecified;
+            }
+            set
+            {
+                this.timeFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
+        public bool ValidatedByProprietaryLogin
+        {
+            get
+            {
+                return this.validatedByProprietaryLoginField;
+            }
+            set
+            {
+                this.validatedByProprietaryLoginField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool ValidatedByProprietaryLoginSpecified
+        {
+            get
+            {
+                return this.validatedByProprietaryLoginFieldSpecified;
+            }
+            set
+            {
+                this.validatedByProprietaryLoginFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=7)]
+        public string Vendor
+        {
+            get
+            {
+                return this.vendorField;
+            }
+            set
+            {
+                this.vendorField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
+        public long VerifyKey
+        {
+            get
+            {
+                return this.verifyKeyField;
+            }
+            set
+            {
+                this.verifyKeyField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool VerifyKeySpecified
+        {
+            get
+            {
+                return this.verifyKeyFieldSpecified;
+            }
+            set
+            {
+                this.verifyKeyFieldSpecified = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.BusinessLogic.Authentica" +
+        "tion")]
+    public enum IntegrationCode
+    {
+        
+        /// <remarks/>
+        Integration,
+        
+        /// <remarks/>
+        StandAlone,
+        
+        /// <remarks/>
+        StandaloneAndIntegration,
+    }
+    
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="NoteWebServiceReference.NoteWebService")]
+    public interface NoteWebService
+    {
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetParameters", ReplyAction="http://tempuri.org/NoteWebService/GetParametersResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetParametersCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetParametersResponse> GetParametersAsync(NoteWebServiceReference.GetParametersRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SaveAllParameters", ReplyAction="http://tempuri.org/NoteWebService/SaveAllParametersResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SaveAllParametersCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.SaveAllParametersResponse> SaveAllParametersAsync(NoteWebServiceReference.SaveAllParametersRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetParameter", ReplyAction="http://tempuri.org/NoteWebService/SetParameterResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetParameterCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetParameterResponse> SetParameterAsync(NoteWebServiceReference.SetParameterRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SaveAllParametersWithError", ReplyAction="http://tempuri.org/NoteWebService/SaveAllParametersWithErrorResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SaveAllParametersWithErrorCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.SaveAllParametersWithErrorResponse> SaveAllParametersWithErrorAsync(NoteWebServiceReference.SaveAllParametersWithErrorRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetSystemParameters", ReplyAction="http://tempuri.org/NoteWebService/GetSystemParametersResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetSystemParametersCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetSystemParametersResponse> GetSystemParametersAsync(NoteWebServiceReference.GetSystemParametersRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetApplicationParameters", ReplyAction="http://tempuri.org/NoteWebService/GetApplicationParametersResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetApplicationParametersCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetApplicationParametersResponse> GetApplicationParametersAsync(NoteWebServiceReference.GetApplicationParametersRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetApplicationParametersForAllCategories", ReplyAction="http://tempuri.org/NoteWebService/GetApplicationParametersForAllCategoriesRespons" +
+            "e")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetApplicationParametersForAllCategoriesCustomF" +
+            "aultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetApplicationParametersForAllCategoriesResponse> GetApplicationParametersForAllCategoriesAsync(NoteWebServiceReference.GetApplicationParametersForAllCategoriesRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetAutoText", ReplyAction="http://tempuri.org/NoteWebService/GetAutoTextResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetAutoTextCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetAutoTextResponse> GetAutoTextAsync(NoteWebServiceReference.GetAutoTextRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/AudioNoteExists", ReplyAction="http://tempuri.org/NoteWebService/AudioNoteExistsResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/AudioNoteExistsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.AudioNoteExistsResponse> AudioNoteExistsAsync(NoteWebServiceReference.AudioNoteExistsRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetAudioNoteById", ReplyAction="http://tempuri.org/NoteWebService/GetAudioNoteByIdResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetAudioNoteByIdCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetAudioNoteByIdResponse> GetAudioNoteByIdAsync(NoteWebServiceReference.GetAudioNoteByIdRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetNote", ReplyAction="http://tempuri.org/NoteWebService/GetNoteResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetNoteResponse> GetNoteAsync(NoteWebServiceReference.GetNoteRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetNoteResult", ReplyAction="http://tempuri.org/NoteWebService/GetNoteResultResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetNoteResultCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetNoteResultResponse> GetNoteResultAsync(NoteWebServiceReference.GetNoteResultRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetAudioNoteBinaryByUid", ReplyAction="http://tempuri.org/NoteWebService/GetAudioNoteBinaryByUidResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetAudioNoteBinaryByUidCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetAudioNoteBinaryByUidResponse> GetAudioNoteBinaryByUidAsync(NoteWebServiceReference.GetAudioNoteBinaryByUidRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetAudioNoteBinary", ReplyAction="http://tempuri.org/NoteWebService/SetAudioNoteBinaryResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetAudioNoteBinaryCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task SetAudioNoteBinaryAsync(System.IO.Stream binaryStream);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetAudioNoteResultById", ReplyAction="http://tempuri.org/NoteWebService/GetAudioNoteResultByIdResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetAudioNoteResultByIdCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetAudioNoteResultByIdResponse> GetAudioNoteResultByIdAsync(NoteWebServiceReference.GetAudioNoteResultByIdRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetSpeechNoteResultById", ReplyAction="http://tempuri.org/NoteWebService/GetSpeechNoteResultByIdResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetSpeechNoteResultByIdCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechNoteResultByIdResponse> GetSpeechNoteResultByIdAsync(NoteWebServiceReference.GetSpeechNoteResultByIdRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/UpdateAudioNote", ReplyAction="http://tempuri.org/NoteWebService/UpdateAudioNoteResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/UpdateAudioNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.UpdateAudioNoteResponse> UpdateAudioNoteAsync(NoteWebServiceReference.UpdateAudioNoteRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/DeleteAudioNote", ReplyAction="http://tempuri.org/NoteWebService/DeleteAudioNoteResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/DeleteAudioNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteAudioNoteResponse> DeleteAudioNoteAsync(NoteWebServiceReference.DeleteAudioNoteRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/DeleteNote", ReplyAction="http://tempuri.org/NoteWebService/DeleteNoteResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/DeleteNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteNoteResponse> DeleteNoteAsync(NoteWebServiceReference.DeleteNoteRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/CreateAudioNote", ReplyAction="http://tempuri.org/NoteWebService/CreateAudioNoteResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/CreateAudioNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.CreateAudioNoteResponse> CreateAudioNoteAsync(NoteWebServiceReference.CreateAudioNoteRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/LockAudioNote", ReplyAction="http://tempuri.org/NoteWebService/LockAudioNoteResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/LockAudioNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.LockAudioNoteResponse> LockAudioNoteAsync(NoteWebServiceReference.LockAudioNoteRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/UnlockAudioNote", ReplyAction="http://tempuri.org/NoteWebService/UnlockAudioNoteResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/UnlockAudioNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.UnlockAudioNoteResponse> UnlockAudioNoteAsync(NoteWebServiceReference.UnlockAudioNoteRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/LockSpeechNote", ReplyAction="http://tempuri.org/NoteWebService/LockSpeechNoteResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/LockSpeechNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.LockSpeechNoteResponse> LockSpeechNoteAsync(NoteWebServiceReference.LockSpeechNoteRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/UnlockSpeechNote", ReplyAction="http://tempuri.org/NoteWebService/UnlockSpeechNoteResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/UnlockSpeechNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.UnlockSpeechNoteResponse> UnlockSpeechNoteAsync(NoteWebServiceReference.UnlockSpeechNoteRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/CreateSpeechNote", ReplyAction="http://tempuri.org/NoteWebService/CreateSpeechNoteResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/CreateSpeechNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.CreateSpeechNoteResponse> CreateSpeechNoteAsync(NoteWebServiceReference.CreateSpeechNoteRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/UpdateSpeechNote", ReplyAction="http://tempuri.org/NoteWebService/UpdateSpeechNoteResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/UpdateSpeechNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.UpdateSpeechNoteResponse> UpdateSpeechNoteAsync(NoteWebServiceReference.UpdateSpeechNoteRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetSpeechNote", ReplyAction="http://tempuri.org/NoteWebService/GetSpeechNoteResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetSpeechNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechNoteResponse> GetSpeechNoteAsync(NoteWebServiceReference.GetSpeechNoteRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetSpeechNoteStatus", ReplyAction="http://tempuri.org/NoteWebService/GetSpeechNoteStatusResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetSpeechNoteStatusCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechNoteStatusResponse> GetSpeechNoteStatusAsync(NoteWebServiceReference.GetSpeechNoteStatusRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/DeleteSpeechNote", ReplyAction="http://tempuri.org/NoteWebService/DeleteSpeechNoteResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/DeleteSpeechNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteSpeechNoteResponse> DeleteSpeechNoteAsync(NoteWebServiceReference.DeleteSpeechNoteRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/FindNotes", ReplyAction="http://tempuri.org/NoteWebService/FindNotesResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/FindNotesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.FindNotesResponse> FindNotesAsync(NoteWebServiceReference.FindNotesRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/FindNotesCount", ReplyAction="http://tempuri.org/NoteWebService/FindNotesCountResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/FindNotesCountCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.FindNotesCountResponse> FindNotesCountAsync(NoteWebServiceReference.FindNotesCountRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/FindNotesLength", ReplyAction="http://tempuri.org/NoteWebService/FindNotesLengthResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/FindNotesLengthCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.FindNotesLengthResponse> FindNotesLengthAsync(NoteWebServiceReference.FindNotesLengthRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/FindNotesInfo", ReplyAction="http://tempuri.org/NoteWebService/FindNotesInfoResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/FindNotesInfoCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.FindNotesInfoResponse> FindNotesInfoAsync(NoteWebServiceReference.FindNotesInfoRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/ChangeUserPassword", ReplyAction="http://tempuri.org/NoteWebService/ChangeUserPasswordResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/ChangeUserPasswordCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.ChangeUserPasswordResponse> ChangeUserPasswordAsync(NoteWebServiceReference.ChangeUserPasswordRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/UpdateSimpleUserProperties", ReplyAction="http://tempuri.org/NoteWebService/UpdateSimpleUserPropertiesResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/UpdateSimpleUserPropertiesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.UpdateSimpleUserPropertiesResponse> UpdateSimpleUserPropertiesAsync(NoteWebServiceReference.UpdateSimpleUserPropertiesRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetQuickNoteUid", ReplyAction="http://tempuri.org/NoteWebService/GetQuickNoteUidResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetQuickNoteUidCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetQuickNoteUidResponse> GetQuickNoteUidAsync(NoteWebServiceReference.GetQuickNoteUidRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetApplications", ReplyAction="http://tempuri.org/NoteWebService/GetApplicationsResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetApplicationsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetApplicationsResponse> GetApplicationsAsync(NoteWebServiceReference.GetApplicationsRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/CreateOrUpdateTriggerAction", ReplyAction="http://tempuri.org/NoteWebService/CreateOrUpdateTriggerActionResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/CreateOrUpdateTriggerActionCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.CreateOrUpdateTriggerActionResponse> CreateOrUpdateTriggerActionAsync(NoteWebServiceReference.CreateOrUpdateTriggerActionRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/DeleteTriggerAction", ReplyAction="http://tempuri.org/NoteWebService/DeleteTriggerActionResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/DeleteTriggerActionCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteTriggerActionResponse> DeleteTriggerActionAsync(NoteWebServiceReference.DeleteTriggerActionRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetTriggerActionCategories", ReplyAction="http://tempuri.org/NoteWebService/GetTriggerActionCategoriesResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetTriggerActionCategoriesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetTriggerActionCategoriesResponse> GetTriggerActionCategoriesAsync(NoteWebServiceReference.GetTriggerActionCategoriesRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetAudioNoteStatus", ReplyAction="http://tempuri.org/NoteWebService/SetAudioNoteStatusResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetAudioNoteStatusCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetAudioNoteStatusResponse> SetAudioNoteStatusAsync(NoteWebServiceReference.SetAudioNoteStatusRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/TuneContext", ReplyAction="http://tempuri.org/NoteWebService/TuneContextResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/TuneContextCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.TuneContextResponse> TuneContextAsync(NoteWebServiceReference.TuneContextRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetUnknownWords", ReplyAction="http://tempuri.org/NoteWebService/GetUnknownWordsResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetUnknownWordsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetUnknownWordsResponse> GetUnknownWordsAsync(NoteWebServiceReference.GetUnknownWordsRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SaveClientInfo", ReplyAction="http://tempuri.org/NoteWebService/SaveClientInfoResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SaveClientInfoCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.SaveClientInfoResponse> SaveClientInfoAsync(NoteWebServiceReference.SaveClientInfoRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/UpdateNoteClientId", ReplyAction="http://tempuri.org/NoteWebService/UpdateNoteClientIdResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/UpdateNoteClientIdCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.UpdateNoteClientIdResponse> UpdateNoteClientIdAsync(NoteWebServiceReference.UpdateNoteClientIdRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/DeleteAllAutosavedDocuments", ReplyAction="http://tempuri.org/NoteWebService/DeleteAllAutosavedDocumentsResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/DeleteAllAutosavedDocumentsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteAllAutosavedDocumentsResponse> DeleteAllAutosavedDocumentsAsync(NoteWebServiceReference.DeleteAllAutosavedDocumentsRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetSpeechNoteFromLinkedNoteId", ReplyAction="http://tempuri.org/NoteWebService/GetSpeechNoteFromLinkedNoteIdResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetSpeechNoteFromLinkedNoteIdCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechNoteFromLinkedNoteIdResponse> GetSpeechNoteFromLinkedNoteIdAsync(NoteWebServiceReference.GetSpeechNoteFromLinkedNoteIdRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetMessageForUser", ReplyAction="http://tempuri.org/NoteWebService/GetMessageForUserResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetMessageForUserCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetMessageForUserResponse> GetMessageForUserAsync(NoteWebServiceReference.GetMessageForUserRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/MessageResponse", ReplyAction="http://tempuri.org/NoteWebService/MessageResponseResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/MessageResponseCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.MessageResponseResponse> MessageResponseAsync(NoteWebServiceReference.MessageResponseRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/RegisterListen", ReplyAction="http://tempuri.org/NoteWebService/RegisterListenResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/RegisterListenCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.RegisterListenResponse> RegisterListenAsync(NoteWebServiceReference.RegisterListenRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/LoginByDomain", ReplyAction="http://tempuri.org/NoteWebService/LoginByDomainResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/LoginByDomainCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.LoginByDomainResponse> LoginByDomainAsync(NoteWebServiceReference.LoginByDomainRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetADSearchGroupNames", ReplyAction="http://tempuri.org/NoteWebService/GetADSearchGroupNamesResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetADSearchGroupNamesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetADSearchGroupNamesResponse> GetADSearchGroupNamesAsync(NoteWebServiceReference.GetADSearchGroupNamesRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/Login", ReplyAction="http://tempuri.org/NoteWebService/LoginResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/LoginCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.LoginResponse> LoginAsync(NoteWebServiceReference.LoginRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetCurrentUser", ReplyAction="http://tempuri.org/NoteWebService/GetCurrentUserResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetCurrentUserCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetCurrentUserResponse> GetCurrentUserAsync(NoteWebServiceReference.GetCurrentUserRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/VerifyUser", ReplyAction="http://tempuri.org/NoteWebService/VerifyUserResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/VerifyUserCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.VerifyUserResponse> VerifyUserAsync(NoteWebServiceReference.VerifyUserRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetCurrentUser", ReplyAction="http://tempuri.org/NoteWebService/SetCurrentUserResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetCurrentUserCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentUserResponse> SetCurrentUserAsync(NoteWebServiceReference.SetCurrentUserRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetCurrentUserWithSignature", ReplyAction="http://tempuri.org/NoteWebService/SetCurrentUserWithSignatureResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetCurrentUserWithSignatureCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentUserWithSignatureResponse> SetCurrentUserWithSignatureAsync(NoteWebServiceReference.SetCurrentUserWithSignatureRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetCurrentUserWithFullName", ReplyAction="http://tempuri.org/NoteWebService/SetCurrentUserWithFullNameResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetCurrentUserWithFullNameCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentUserWithFullNameResponse> SetCurrentUserWithFullNameAsync(NoteWebServiceReference.SetCurrentUserWithFullNameRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetCurrentUserAndGroup", ReplyAction="http://tempuri.org/NoteWebService/SetCurrentUserAndGroupResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetCurrentUserAndGroupCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentUserAndGroupResponse> SetCurrentUserAndGroupAsync(NoteWebServiceReference.SetCurrentUserAndGroupRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetCurrentUserStandAlone", ReplyAction="http://tempuri.org/NoteWebService/SetCurrentUserStandAloneResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetCurrentUserStandAloneCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentUserStandAloneResponse> SetCurrentUserStandAloneAsync(NoteWebServiceReference.SetCurrentUserStandAloneRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetCurrentGroup", ReplyAction="http://tempuri.org/NoteWebService/GetCurrentGroupResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetCurrentGroupCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetCurrentGroupResponse> GetCurrentGroupAsync(NoteWebServiceReference.GetCurrentGroupRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetCurrentGroup", ReplyAction="http://tempuri.org/NoteWebService/SetCurrentGroupResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetCurrentGroupCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentGroupResponse> SetCurrentGroupAsync(NoteWebServiceReference.SetCurrentGroupRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetRights", ReplyAction="http://tempuri.org/NoteWebService/GetRightsResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetRightsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetRightsResponse> GetRightsAsync(NoteWebServiceReference.GetRightsRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetRoles", ReplyAction="http://tempuri.org/NoteWebService/SetRolesResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetRolesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetRolesResponse> SetRolesAsync(NoteWebServiceReference.SetRolesRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetServerName", ReplyAction="http://tempuri.org/NoteWebService/GetServerNameResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetServerNameCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetServerNameResponse> GetServerNameAsync(NoteWebServiceReference.GetServerNameRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SaveFile", ReplyAction="http://tempuri.org/NoteWebService/SaveFileResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SaveFileCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.SaveFileResponse> SaveFileAsync(NoteWebServiceReference.SaveFileRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/LoadFile", ReplyAction="http://tempuri.org/NoteWebService/LoadFileResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/LoadFileCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.LoadFileResponse> LoadFileAsync(NoteWebServiceReference.LoadFileRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/LoadFileById", ReplyAction="http://tempuri.org/NoteWebService/LoadFileByIdResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/LoadFileByIdCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.LoadFileByIdResponse> LoadFileByIdAsync(NoteWebServiceReference.LoadFileByIdRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/DeleteFile", ReplyAction="http://tempuri.org/NoteWebService/DeleteFileResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/DeleteFileCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteFileResponse> DeleteFileAsync(NoteWebServiceReference.DeleteFileRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/FileExists", ReplyAction="http://tempuri.org/NoteWebService/FileExistsResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/FileExistsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.FileExistsResponse> FileExistsAsync(NoteWebServiceReference.FileExistsRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/NoteExists", ReplyAction="http://tempuri.org/NoteWebService/NoteExistsResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/NoteExistsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.NoteExistsResponse> NoteExistsAsync(NoteWebServiceReference.NoteExistsRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetAutoRecoveredNotes", ReplyAction="http://tempuri.org/NoteWebService/GetAutoRecoveredNotesResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetAutoRecoveredNotesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetAutoRecoveredNotesResponse> GetAutoRecoveredNotesAsync(NoteWebServiceReference.GetAutoRecoveredNotesRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SaveClientLogFile", ReplyAction="http://tempuri.org/NoteWebService/SaveClientLogFileResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SaveClientLogFileCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.SaveClientLogFileResponse> SaveClientLogFileAsync(NoteWebServiceReference.SaveClientLogFileRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetDictationAttribute", ReplyAction="http://tempuri.org/NoteWebService/GetDictationAttributeResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetDictationAttributeCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetDictationAttributeResponse> GetDictationAttributeAsync(NoteWebServiceReference.GetDictationAttributeRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetDictationAttribute", ReplyAction="http://tempuri.org/NoteWebService/SetDictationAttributeResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetDictationAttributeCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetDictationAttributeResponse> SetDictationAttributeAsync(NoteWebServiceReference.SetDictationAttributeRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetDictationFields", ReplyAction="http://tempuri.org/NoteWebService/GetDictationFieldsResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetDictationFieldsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetDictationFieldsResponse> GetDictationFieldsAsync(NoteWebServiceReference.GetDictationFieldsRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetContextForProfile", ReplyAction="http://tempuri.org/NoteWebService/GetContextForProfileResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetContextForProfileCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetContextForProfileResponse> GetContextForProfileAsync(NoteWebServiceReference.GetContextForProfileRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetSpeechRecognitionProfile", ReplyAction="http://tempuri.org/NoteWebService/GetSpeechRecognitionProfileResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetSpeechRecognitionProfileCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechRecognitionProfileResponse> GetSpeechRecognitionProfileAsync(NoteWebServiceReference.GetSpeechRecognitionProfileRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetDefaultSpeechRecognitionContext", ReplyAction="http://tempuri.org/NoteWebService/SetDefaultSpeechRecognitionContextResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetDefaultSpeechRecognitionContextCustomFaultFa" +
+            "ult", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetDefaultSpeechRecognitionContextResponse> SetDefaultSpeechRecognitionContextAsync(NoteWebServiceReference.SetDefaultSpeechRecognitionContextRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetDictationTemplate", ReplyAction="http://tempuri.org/NoteWebService/GetDictationTemplateResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetDictationTemplateCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetDictationTemplateResponse> GetDictationTemplateAsync(NoteWebServiceReference.GetDictationTemplateRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetNewDictationTemplate", ReplyAction="http://tempuri.org/NoteWebService/GetNewDictationTemplateResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetNewDictationTemplateCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetNewDictationTemplateResponse> GetNewDictationTemplateAsync(NoteWebServiceReference.GetNewDictationTemplateRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetDictationTemplates", ReplyAction="http://tempuri.org/NoteWebService/GetDictationTemplatesResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetDictationTemplatesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetDictationTemplatesResponse> GetDictationTemplatesAsync(NoteWebServiceReference.GetDictationTemplatesRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetDictationNoteTemplates", ReplyAction="http://tempuri.org/NoteWebService/GetDictationNoteTemplatesResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetDictationNoteTemplatesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetDictationNoteTemplatesResponse> GetDictationNoteTemplatesAsync(NoteWebServiceReference.GetDictationNoteTemplatesRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetNewDictationNoteTemplate", ReplyAction="http://tempuri.org/NoteWebService/GetNewDictationNoteTemplateResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetNewDictationNoteTemplateCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetNewDictationNoteTemplateResponse> GetNewDictationNoteTemplateAsync(NoteWebServiceReference.GetNewDictationNoteTemplateRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetAllGroups", ReplyAction="http://tempuri.org/NoteWebService/GetAllGroupsResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetAllGroupsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetAllGroupsResponse> GetAllGroupsAsync(NoteWebServiceReference.GetAllGroupsRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetGroups", ReplyAction="http://tempuri.org/NoteWebService/GetGroupsResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetGroupsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetGroupsResponse> GetGroupsAsync(NoteWebServiceReference.GetGroupsRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetGroupHierarchy", ReplyAction="http://tempuri.org/NoteWebService/GetGroupHierarchyResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetGroupHierarchyCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetGroupHierarchyResponse> GetGroupHierarchyAsync(NoteWebServiceReference.GetGroupHierarchyRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetQualifiedUsers", ReplyAction="http://tempuri.org/NoteWebService/GetQualifiedUsersResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetQualifiedUsersCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetQualifiedUsersResponse> GetQualifiedUsersAsync(NoteWebServiceReference.GetQualifiedUsersRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/CreateSuspendedDocument", ReplyAction="http://tempuri.org/NoteWebService/CreateSuspendedDocumentResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/CreateSuspendedDocumentCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.CreateSuspendedDocumentResponse> CreateSuspendedDocumentAsync(NoteWebServiceReference.CreateSuspendedDocumentRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/UpdateSuspendedDocument", ReplyAction="http://tempuri.org/NoteWebService/UpdateSuspendedDocumentResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/UpdateSuspendedDocumentCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.UpdateSuspendedDocumentResponse> UpdateSuspendedDocumentAsync(NoteWebServiceReference.UpdateSuspendedDocumentRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetSuspendedDocument", ReplyAction="http://tempuri.org/NoteWebService/GetSuspendedDocumentResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetSuspendedDocumentCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetSuspendedDocumentResponse> GetSuspendedDocumentAsync(NoteWebServiceReference.GetSuspendedDocumentRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetListOfSuspendedDocuments", ReplyAction="http://tempuri.org/NoteWebService/GetListOfSuspendedDocumentsResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetListOfSuspendedDocumentsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetListOfSuspendedDocumentsResponse> GetListOfSuspendedDocumentsAsync(NoteWebServiceReference.GetListOfSuspendedDocumentsRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/CloseSuspendedDocument", ReplyAction="http://tempuri.org/NoteWebService/CloseSuspendedDocumentResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/CloseSuspendedDocumentCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.CloseSuspendedDocumentResponse> CloseSuspendedDocumentAsync(NoteWebServiceReference.CloseSuspendedDocumentRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/RemoveSuspendedDocument", ReplyAction="http://tempuri.org/NoteWebService/RemoveSuspendedDocumentResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/RemoveSuspendedDocumentCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.RemoveSuspendedDocumentResponse> RemoveSuspendedDocumentAsync(NoteWebServiceReference.RemoveSuspendedDocumentRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/AddOrUpdateAutoText", ReplyAction="http://tempuri.org/NoteWebService/AddOrUpdateAutoTextResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/AddOrUpdateAutoTextCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.AddOrUpdateAutoTextResponse> AddOrUpdateAutoTextAsync(NoteWebServiceReference.AddOrUpdateAutoTextRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetAllAutoTexts", ReplyAction="http://tempuri.org/NoteWebService/GetAllAutoTextsResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetAllAutoTextsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetAllAutoTextsResponse> GetAllAutoTextsAsync(NoteWebServiceReference.GetAllAutoTextsRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/DeleteAutoText", ReplyAction="http://tempuri.org/NoteWebService/DeleteAutoTextResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/DeleteAutoTextCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteAutoTextResponse> DeleteAutoTextAsync(NoteWebServiceReference.DeleteAutoTextRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/RegisterSpeechRecognitionStatistics", ReplyAction="http://tempuri.org/NoteWebService/RegisterSpeechRecognitionStatisticsResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/RegisterSpeechRecognitionStatisticsCustomFaultF" +
+            "ault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.RegisterSpeechRecognitionStatisticsResponse> RegisterSpeechRecognitionStatisticsAsync(NoteWebServiceReference.RegisterSpeechRecognitionStatisticsRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetTriggerActions", ReplyAction="http://tempuri.org/NoteWebService/GetTriggerActionsResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetTriggerActionsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetTriggerActionsResponse> GetTriggerActionsAsync(NoteWebServiceReference.GetTriggerActionsRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetManagerTriggerActions", ReplyAction="http://tempuri.org/NoteWebService/GetManagerTriggerActionsResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetManagerTriggerActionsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetManagerTriggerActionsResponse> GetManagerTriggerActionsAsync(NoteWebServiceReference.GetManagerTriggerActionsRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetCommandSubstitutions", ReplyAction="http://tempuri.org/NoteWebService/GetCommandSubstitutionsResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetCommandSubstitutionsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetCommandSubstitutionsResponse> GetCommandSubstitutionsAsync(NoteWebServiceReference.GetCommandSubstitutionsRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetUser", ReplyAction="http://tempuri.org/NoteWebService/GetUserResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetUserCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetUserResponse> GetUserAsync(NoteWebServiceReference.GetUserRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/ReadKPIValue", ReplyAction="http://tempuri.org/NoteWebService/ReadKPIValueResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/ReadKPIValueCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.ReadKPIValueResponse> ReadKPIValueAsync(NoteWebServiceReference.ReadKPIValueRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetStatistics", ReplyAction="http://tempuri.org/NoteWebService/GetStatisticsResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetStatisticsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetStatisticsResponse> GetStatisticsAsync(NoteWebServiceReference.GetStatisticsRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetStatisticsLastModified", ReplyAction="http://tempuri.org/NoteWebService/GetStatisticsLastModifiedResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetStatisticsLastModifiedCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetStatisticsLastModifiedResponse> GetStatisticsLastModifiedAsync(NoteWebServiceReference.GetStatisticsLastModifiedRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/IsAlive", ReplyAction="http://tempuri.org/NoteWebService/IsAliveResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/IsAliveCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
+        System.Threading.Tasks.Task<bool> IsAliveAsync();
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetParameters", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetParametersRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string name;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string categoryName;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=3)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string subname;
+        
+        public GetParametersRequest()
+        {
+        }
+        
+        public GetParametersRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string name, string categoryName, string subname)
+        {
+            this.verifiedSession = verifiedSession;
+            this.name = name;
+            this.categoryName = categoryName;
+            this.subname = subname;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetParametersResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetParametersResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
+        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
+            ".Parameters")]
+        public NoteWebServiceReference.Parameter[] GetParametersResult;
+        
+        public GetParametersResponse()
+        {
+        }
+        
+        public GetParametersResponse(NoteWebServiceReference.Parameter[] GetParametersResult)
+        {
+            this.GetParametersResult = GetParametersResult;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="SaveAllParameters", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class SaveAllParametersRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
+        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
+            ".Parameters")]
+        public NoteWebServiceReference.Parameter[] parameters;
+        
+        public SaveAllParametersRequest()
+        {
+        }
+        
+        public SaveAllParametersRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.Parameter[] parameters)
+        {
+            this.verifiedSession = verifiedSession;
+            this.parameters = parameters;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="SaveAllParametersResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class SaveAllParametersResponse
+    {
+        
+        public SaveAllParametersResponse()
+        {
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="SetParameter", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class SetParameterRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.Parameter parameter;
+        
+        public SetParameterRequest()
+        {
+        }
+        
+        public SetParameterRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.Parameter parameter)
+        {
+            this.verifiedSession = verifiedSession;
+            this.parameter = parameter;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="SetParameterResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class SetParameterResponse
+    {
+        
+        public SetParameterResponse()
+        {
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.Parameters")]
+    public partial class SaveParameterResult
+    {
+        
+        private Parameter[] faultedParametersField;
+        
+        private bool successField;
+        
+        private bool successFieldSpecified;
+        
+        private Parameter[] updatedParametersField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=0)]
+        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
+            ".Parameters")]
+        public Parameter[] FaultedParameters
+        {
+            get
+            {
+                return this.faultedParametersField;
+            }
+            set
+            {
+                this.faultedParametersField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public bool Success
+        {
+            get
+            {
+                return this.successField;
+            }
+            set
+            {
+                this.successField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool SuccessSpecified
+        {
+            get
+            {
+                return this.successFieldSpecified;
+            }
+            set
+            {
+                this.successFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=2)]
+        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
+            ".Parameters")]
+        public Parameter[] UpdatedParameters
+        {
+            get
+            {
+                return this.updatedParametersField;
+            }
+            set
+            {
+                this.updatedParametersField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="SaveAllParametersWithError", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class SaveAllParametersWithErrorRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
+        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
+            ".Parameters")]
+        public NoteWebServiceReference.Parameter[] parameters;
+        
+        public SaveAllParametersWithErrorRequest()
+        {
+        }
+        
+        public SaveAllParametersWithErrorRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.Parameter[] parameters)
+        {
+            this.verifiedSession = verifiedSession;
+            this.parameters = parameters;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="SaveAllParametersWithErrorResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class SaveAllParametersWithErrorResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.SaveParameterResult SaveAllParametersWithErrorResult;
+        
+        public SaveAllParametersWithErrorResponse()
+        {
+        }
+        
+        public SaveAllParametersWithErrorResponse(NoteWebServiceReference.SaveParameterResult SaveAllParametersWithErrorResult)
+        {
+            this.SaveAllParametersWithErrorResult = SaveAllParametersWithErrorResult;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetSystemParameters", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetSystemParametersRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string categoryName;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string subName;
+        
+        public GetSystemParametersRequest()
+        {
+        }
+        
+        public GetSystemParametersRequest(string categoryName, string subName)
+        {
+            this.categoryName = categoryName;
+            this.subName = subName;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetSystemParametersResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetSystemParametersResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
+        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
+            ".Parameters")]
+        public NoteWebServiceReference.Parameter[] GetSystemParametersResult;
+        
+        public GetSystemParametersResponse()
+        {
+        }
+        
+        public GetSystemParametersResponse(NoteWebServiceReference.Parameter[] GetSystemParametersResult)
+        {
+            this.GetSystemParametersResult = GetSystemParametersResult;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetApplicationParameters", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetApplicationParametersRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string applicationName;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string parameterCategory;
+        
+        public GetApplicationParametersRequest()
+        {
+        }
+        
+        public GetApplicationParametersRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string applicationName, string parameterCategory)
+        {
+            this.verifiedSession = verifiedSession;
+            this.applicationName = applicationName;
+            this.parameterCategory = parameterCategory;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetApplicationParametersResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetApplicationParametersResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
+        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
+            ".Parameters")]
+        public NoteWebServiceReference.Parameter[] GetApplicationParametersResult;
+        
+        public GetApplicationParametersResponse()
+        {
+        }
+        
+        public GetApplicationParametersResponse(NoteWebServiceReference.Parameter[] GetApplicationParametersResult)
+        {
+            this.GetApplicationParametersResult = GetApplicationParametersResult;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetApplicationParametersForAllCategories", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetApplicationParametersForAllCategoriesRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string applicationName;
+        
+        public GetApplicationParametersForAllCategoriesRequest()
+        {
+        }
+        
+        public GetApplicationParametersForAllCategoriesRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string applicationName)
+        {
+            this.verifiedSession = verifiedSession;
+            this.applicationName = applicationName;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetApplicationParametersForAllCategoriesResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetApplicationParametersForAllCategoriesResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
+        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
+            ".Parameters")]
+        public NoteWebServiceReference.Parameter[] GetApplicationParametersForAllCategoriesResult;
+        
+        public GetApplicationParametersForAllCategoriesResponse()
+        {
+        }
+        
+        public GetApplicationParametersForAllCategoriesResponse(NoteWebServiceReference.Parameter[] GetApplicationParametersForAllCategoriesResult)
+        {
+            this.GetApplicationParametersForAllCategoriesResult = GetApplicationParametersForAllCategoriesResult;
         }
     }
     
@@ -2780,21 +3678,118 @@ namespace NoteWebServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Speech" +
         "Recognition")]
-    public partial class Engine
+    public partial class AutoText
     {
+        
+        private string descriptionField;
+        
+        private bool globalField;
+        
+        private bool globalFieldSpecified;
+        
+        private string[] groupNamesField;
+        
+        private Group[] groupsField;
         
         private long idField;
         
         private bool idFieldSpecified;
         
+        private bool isPrivateField;
+        
+        private bool isPrivateFieldSpecified;
+        
+        private string languageIdField;
+        
+        private System.DateTime lastUpdatedField;
+        
+        private bool lastUpdatedFieldSpecified;
+        
         private string nameField;
         
-        private string id1Field;
+        private string phoneticField;
         
-        private string refField;
+        private string spokenNameField;
+        
+        private string textField;
+        
+        private byte[] textEncodedField;
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=0)]
+        public string Description
+        {
+            get
+            {
+                return this.descriptionField;
+            }
+            set
+            {
+                this.descriptionField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public bool Global
+        {
+            get
+            {
+                return this.globalField;
+            }
+            set
+            {
+                this.globalField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool GlobalSpecified
+        {
+            get
+            {
+                return this.globalFieldSpecified;
+            }
+            set
+            {
+                this.globalFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=2)]
+        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays")]
+        public string[] GroupNames
+        {
+            get
+            {
+                return this.groupNamesField;
+            }
+            set
+            {
+                this.groupNamesField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=3)]
+        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
+            "")]
+        public Group[] Groups
+        {
+            get
+            {
+                return this.groupsField;
+            }
+            set
+            {
+                this.groupsField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
         public long Id
         {
             get
@@ -2822,7 +3817,77 @@ namespace NoteWebServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public bool IsPrivate
+        {
+            get
+            {
+                return this.isPrivateField;
+            }
+            set
+            {
+                this.isPrivateField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool IsPrivateSpecified
+        {
+            get
+            {
+                return this.isPrivateFieldSpecified;
+            }
+            set
+            {
+                this.isPrivateFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=6)]
+        public string LanguageId
+        {
+            get
+            {
+                return this.languageIdField;
+            }
+            set
+            {
+                this.languageIdField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
+        public System.DateTime LastUpdated
+        {
+            get
+            {
+                return this.lastUpdatedField;
+            }
+            set
+            {
+                this.lastUpdatedField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool LastUpdatedSpecified
+        {
+            get
+            {
+                return this.lastUpdatedFieldSpecified;
+            }
+            set
+            {
+                this.lastUpdatedFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=8)]
         public string Name
         {
             get
@@ -2836,114 +3901,35 @@ namespace NoteWebServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute("Id", Form=System.Xml.Schema.XmlSchemaForm.Qualified, Namespace="http://schemas.microsoft.com/2003/10/Serialization/", DataType="ID")]
-        public string Id1
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=9)]
+        public string Phonetic
         {
             get
             {
-                return this.id1Field;
+                return this.phoneticField;
             }
             set
             {
-                this.id1Field = value;
+                this.phoneticField = value;
             }
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute(Form=System.Xml.Schema.XmlSchemaForm.Qualified, Namespace="http://schemas.microsoft.com/2003/10/Serialization/", DataType="IDREF")]
-        public string Ref
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=10)]
+        public string SpokenName
         {
             get
             {
-                return this.refField;
+                return this.spokenNameField;
             }
             set
             {
-                this.refField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.DomainModel.SpeechRecogn" +
-        "ition")]
-    public partial class InterActiveDocument
-    {
-        
-        private byte[] audioDataField;
-        
-        private byte[] correctionsField;
-        
-        private string metadataField;
-        
-        private string rtfTextField;
-        
-        private string textField;
-        
-        private InterActiveDocumentDocumentType textFormatField;
-        
-        private bool textFormatFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="base64Binary", IsNullable=true, Order=0)]
-        public byte[] AudioData
-        {
-            get
-            {
-                return this.audioDataField;
-            }
-            set
-            {
-                this.audioDataField = value;
+                this.spokenNameField = value;
             }
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="base64Binary", IsNullable=true, Order=1)]
-        public byte[] Corrections
-        {
-            get
-            {
-                return this.correctionsField;
-            }
-            set
-            {
-                this.correctionsField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=2)]
-        public string Metadata
-        {
-            get
-            {
-                return this.metadataField;
-            }
-            set
-            {
-                this.metadataField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=3)]
-        public string RtfText
-        {
-            get
-            {
-                return this.rtfTextField;
-            }
-            set
-            {
-                this.rtfTextField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=4)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=11)]
         public string Text
         {
             get
@@ -2957,69 +3943,137 @@ namespace NoteWebServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-        public InterActiveDocumentDocumentType TextFormat
+        [System.Xml.Serialization.XmlElementAttribute(DataType="base64Binary", IsNullable=true, Order=12)]
+        public byte[] TextEncoded
         {
             get
             {
-                return this.textFormatField;
+                return this.textEncodedField;
             }
             set
             {
-                this.textFormatField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool TextFormatSpecified
-        {
-            get
-            {
-                return this.textFormatFieldSpecified;
-            }
-            set
-            {
-                this.textFormatFieldSpecified = value;
+                this.textEncodedField = value;
             }
         }
     }
     
-    /// <remarks/>
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="InterActiveDocument.DocumentType", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.DomainModel.SpeechRecogn" +
-        "ition")]
-    public enum InterActiveDocumentDocumentType
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetAutoText", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetAutoTextRequest
     {
         
-        /// <remarks/>
-        RTF,
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
         
-        /// <remarks/>
-        RTFv2,
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        public long autoTextId;
+        
+        public GetAutoTextRequest()
+        {
+        }
+        
+        public GetAutoTextRequest(NoteWebServiceReference.VerifiedSession verifiedSession, long autoTextId)
+        {
+            this.verifiedSession = verifiedSession;
+            this.autoTextId = autoTextId;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetAutoTextResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetAutoTextResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.AutoText GetAutoTextResult;
+        
+        public GetAutoTextResponse()
+        {
+        }
+        
+        public GetAutoTextResponse(NoteWebServiceReference.AutoText GetAutoTextResult)
+        {
+            this.GetAutoTextResult = GetAutoTextResult;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="AudioNoteExists", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class AudioNoteExistsRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        public long audioNoteId;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string externalUid;
+        
+        public AudioNoteExistsRequest()
+        {
+        }
+        
+        public AudioNoteExistsRequest(NoteWebServiceReference.VerifiedSession verifiedSession, long audioNoteId, string externalUid)
+        {
+            this.verifiedSession = verifiedSession;
+            this.audioNoteId = audioNoteId;
+            this.externalUid = externalUid;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="AudioNoteExistsResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class AudioNoteExistsResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        public bool AudioNoteExistsResult;
+        
+        public AudioNoteExistsResponse()
+        {
+        }
+        
+        public AudioNoteExistsResponse(bool AudioNoteExistsResult)
+        {
+            this.AudioNoteExistsResult = AudioNoteExistsResult;
+        }
     }
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Speech" +
-        "Recognition")]
-    public partial class SpeechNote
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Digita" +
+        "lDictation")]
+    public partial class AudioNote
     {
         
-        private System.Nullable<int> audioLengthField;
+        private string audioFormatField;
+        
+        private int audioLengthField;
         
         private bool audioLengthFieldSpecified;
         
-        private string authorNameField;
+        private int audioPositionField;
+        
+        private bool audioPositionFieldSpecified;
         
         private Binary binaryField;
         
-        private InterActiveDocument documentField;
-        
-        private Engine engineField;
-        
-        private string formatField;
+        private string fileExtensionField;
         
         private long idField;
         
@@ -3027,9 +4081,27 @@ namespace NoteWebServiceReference
         
         private Note noteField;
         
+        private int transcriptionPositionField;
+        
+        private bool transcriptionPositionFieldSpecified;
+        
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=0)]
-        public System.Nullable<int> AudioLength
+        public string AudioFormat
+        {
+            get
+            {
+                return this.audioFormatField;
+            }
+            set
+            {
+                this.audioFormatField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public int AudioLength
         {
             get
             {
@@ -3056,21 +4128,35 @@ namespace NoteWebServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=1)]
-        public string AuthorName
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public int AudioPosition
         {
             get
             {
-                return this.authorNameField;
+                return this.audioPositionField;
             }
             set
             {
-                this.authorNameField = value;
+                this.audioPositionField = value;
             }
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=2)]
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool AudioPositionSpecified
+        {
+            get
+            {
+                return this.audioPositionFieldSpecified;
+            }
+            set
+            {
+                this.audioPositionFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=3)]
         public Binary Binary
         {
             get
@@ -3084,49 +4170,21 @@ namespace NoteWebServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=3)]
-        public InterActiveDocument Document
-        {
-            get
-            {
-                return this.documentField;
-            }
-            set
-            {
-                this.documentField = value;
-            }
-        }
-        
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=4)]
-        public Engine Engine
+        public string FileExtension
         {
             get
             {
-                return this.engineField;
+                return this.fileExtensionField;
             }
             set
             {
-                this.engineField = value;
+                this.fileExtensionField = value;
             }
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=5)]
-        public string Format
-        {
-            get
-            {
-                return this.formatField;
-            }
-            set
-            {
-                this.formatField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
         public long Id
         {
             get
@@ -3154,7 +4212,7 @@ namespace NoteWebServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=7)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=6)]
         public Note Note
         {
             get
@@ -3164,6 +4222,34 @@ namespace NoteWebServiceReference
             set
             {
                 this.noteField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
+        public int TranscriptionPosition
+        {
+            get
+            {
+                return this.transcriptionPositionField;
+            }
+            set
+            {
+                this.transcriptionPositionField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool TranscriptionPositionSpecified
+        {
+            get
+            {
+                return this.transcriptionPositionFieldSpecified;
+            }
+            set
+            {
+                this.transcriptionPositionFieldSpecified = value;
             }
         }
     }
@@ -4147,26 +5233,73 @@ namespace NoteWebServiceReference
     }
     
     /// <remarks/>
+    [System.FlagsAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Digita" +
-        "lDictation")]
-    public partial class AudioNote
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
+        "")]
+    public enum NoteTypeEnum
     {
         
-        private string audioFormatField;
+        /// <remarks/>
+        Unknown = 1,
         
-        private int audioLengthField;
+        /// <remarks/>
+        AudioNote = 2,
+        
+        /// <remarks/>
+        SpeechNote = 4,
+        
+        /// <remarks/>
+        VideoNote = 8,
+        
+        /// <remarks/>
+        QuickNote = 16,
+        
+        /// <remarks/>
+        IntegrationNote = 32,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
+        "")]
+    public enum PreProcessState
+    {
+        
+        /// <remarks/>
+        Unknown,
+        
+        /// <remarks/>
+        Waiting,
+        
+        /// <remarks/>
+        Processing,
+        
+        /// <remarks/>
+        Finished,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Speech" +
+        "Recognition")]
+    public partial class SpeechNote
+    {
+        
+        private System.Nullable<int> audioLengthField;
         
         private bool audioLengthFieldSpecified;
         
-        private int audioPositionField;
-        
-        private bool audioPositionFieldSpecified;
+        private string authorNameField;
         
         private Binary binaryField;
         
-        private string fileExtensionField;
+        private InterActiveDocument documentField;
+        
+        private Engine engineField;
+        
+        private string formatField;
         
         private long idField;
         
@@ -4174,27 +5307,9 @@ namespace NoteWebServiceReference
         
         private Note noteField;
         
-        private int transcriptionPositionField;
-        
-        private bool transcriptionPositionFieldSpecified;
-        
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=0)]
-        public string AudioFormat
-        {
-            get
-            {
-                return this.audioFormatField;
-            }
-            set
-            {
-                this.audioFormatField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public int AudioLength
+        public System.Nullable<int> AudioLength
         {
             get
             {
@@ -4221,35 +5336,21 @@ namespace NoteWebServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public int AudioPosition
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=1)]
+        public string AuthorName
         {
             get
             {
-                return this.audioPositionField;
+                return this.authorNameField;
             }
             set
             {
-                this.audioPositionField = value;
+                this.authorNameField = value;
             }
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool AudioPositionSpecified
-        {
-            get
-            {
-                return this.audioPositionFieldSpecified;
-            }
-            set
-            {
-                this.audioPositionFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=3)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=2)]
         public Binary Binary
         {
             get
@@ -4263,21 +5364,49 @@ namespace NoteWebServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=4)]
-        public string FileExtension
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=3)]
+        public InterActiveDocument Document
         {
             get
             {
-                return this.fileExtensionField;
+                return this.documentField;
             }
             set
             {
-                this.fileExtensionField = value;
+                this.documentField = value;
             }
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=4)]
+        public Engine Engine
+        {
+            get
+            {
+                return this.engineField;
+            }
+            set
+            {
+                this.engineField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=5)]
+        public string Format
+        {
+            get
+            {
+                return this.formatField;
+            }
+            set
+            {
+                this.formatField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
         public long Id
         {
             get
@@ -4305,7 +5434,7 @@ namespace NoteWebServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=6)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=7)]
         public Note Note
         {
             get
@@ -4317,71 +5446,230 @@ namespace NoteWebServiceReference
                 this.noteField = value;
             }
         }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.DomainModel.SpeechRecogn" +
+        "ition")]
+    public partial class InterActiveDocument
+    {
+        
+        private byte[] audioDataField;
+        
+        private byte[] correctionsField;
+        
+        private string metadataField;
+        
+        private string rtfTextField;
+        
+        private string textField;
+        
+        private InterActiveDocumentDocumentType textFormatField;
+        
+        private bool textFormatFieldSpecified;
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
-        public int TranscriptionPosition
+        [System.Xml.Serialization.XmlElementAttribute(DataType="base64Binary", IsNullable=true, Order=0)]
+        public byte[] AudioData
         {
             get
             {
-                return this.transcriptionPositionField;
+                return this.audioDataField;
             }
             set
             {
-                this.transcriptionPositionField = value;
+                this.audioDataField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="base64Binary", IsNullable=true, Order=1)]
+        public byte[] Corrections
+        {
+            get
+            {
+                return this.correctionsField;
+            }
+            set
+            {
+                this.correctionsField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=2)]
+        public string Metadata
+        {
+            get
+            {
+                return this.metadataField;
+            }
+            set
+            {
+                this.metadataField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=3)]
+        public string RtfText
+        {
+            get
+            {
+                return this.rtfTextField;
+            }
+            set
+            {
+                this.rtfTextField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=4)]
+        public string Text
+        {
+            get
+            {
+                return this.textField;
+            }
+            set
+            {
+                this.textField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public InterActiveDocumentDocumentType TextFormat
+        {
+            get
+            {
+                return this.textFormatField;
+            }
+            set
+            {
+                this.textFormatField = value;
             }
         }
         
         /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool TranscriptionPositionSpecified
+        public bool TextFormatSpecified
         {
             get
             {
-                return this.transcriptionPositionFieldSpecified;
+                return this.textFormatFieldSpecified;
             }
             set
             {
-                this.transcriptionPositionFieldSpecified = value;
+                this.textFormatFieldSpecified = value;
             }
         }
     }
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.BusinessLogic.Authentica" +
-        "tion")]
-    public enum IntegrationCode
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="InterActiveDocument.DocumentType", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.DomainModel.SpeechRecogn" +
+        "ition")]
+    public enum InterActiveDocumentDocumentType
     {
         
         /// <remarks/>
-        Integration,
+        RTF,
         
         /// <remarks/>
-        StandAlone,
-        
-        /// <remarks/>
-        StandaloneAndIntegration,
+        RTFv2,
     }
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
-        "")]
-    public enum PreProcessState
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Speech" +
+        "Recognition")]
+    public partial class Engine
     {
         
-        /// <remarks/>
-        Unknown,
+        private long idField;
+        
+        private bool idFieldSpecified;
+        
+        private string nameField;
+        
+        private string id1Field;
+        
+        private string refField;
         
         /// <remarks/>
-        Waiting,
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public long Id
+        {
+            get
+            {
+                return this.idField;
+            }
+            set
+            {
+                this.idField = value;
+            }
+        }
         
         /// <remarks/>
-        Processing,
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool IdSpecified
+        {
+            get
+            {
+                return this.idFieldSpecified;
+            }
+            set
+            {
+                this.idFieldSpecified = value;
+            }
+        }
         
         /// <remarks/>
-        Finished,
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=1)]
+        public string Name
+        {
+            get
+            {
+                return this.nameField;
+            }
+            set
+            {
+                this.nameField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute("Id", Form=System.Xml.Schema.XmlSchemaForm.Qualified, Namespace="http://schemas.microsoft.com/2003/10/Serialization/", DataType="ID")]
+        public string Id1
+        {
+            get
+            {
+                return this.id1Field;
+            }
+            set
+            {
+                this.id1Field = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute(Form=System.Xml.Schema.XmlSchemaForm.Qualified, Namespace="http://schemas.microsoft.com/2003/10/Serialization/", DataType="IDREF")]
+        public string Ref
+        {
+            get
+            {
+                return this.refField;
+            }
+            set
+            {
+                this.refField = value;
+            }
+        }
     }
     
     /// <remarks/>
@@ -4422,46 +5710,152 @@ namespace NoteWebServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.BusinessLogic.Authentica" +
-        "tion")]
-    public partial class VerifiedSession
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
+        "")]
+    public partial class NoteTag
     {
         
-        private IntegrationCode integrationCodeField;
+        private string nameField;
+        
+        private string valueField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=0)]
+        public string Name
+        {
+            get
+            {
+                return this.nameField;
+            }
+            set
+            {
+                this.nameField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=1)]
+        public string Value
+        {
+            get
+            {
+                return this.valueField;
+            }
+            set
+            {
+                this.valueField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.NewDictationLogic")]
+    public partial class NoteTemplate
+    {
+        
+        private string descriptionField;
+        
+        private bool globalField;
+        
+        private bool globalFieldSpecified;
+        
+        private long idField;
+        
+        private bool idFieldSpecified;
+        
+        private int integrationCodeField;
         
         private bool integrationCodeFieldSpecified;
         
-        private long loginGroupIdField;
+        private string languageIdField;
         
-        private bool loginGroupIdFieldSpecified;
+        private string nameField;
         
-        private long loginUserIdField;
+        private NoteTypeEnum noteTypesField;
         
-        private bool loginUserIdFieldSpecified;
+        private bool noteTypesFieldSpecified;
         
-        private string nonceField;
+        private string parametersField;
         
-        private bool passwordExpiredField;
+        private Group[] templateGroupsField;
         
-        private bool passwordExpiredFieldSpecified;
-        
-        private System.Nullable<long> timeField;
-        
-        private bool timeFieldSpecified;
-        
-        private bool validatedByProprietaryLoginField;
-        
-        private bool validatedByProprietaryLoginFieldSpecified;
-        
-        private string vendorField;
-        
-        private long verifyKeyField;
-        
-        private bool verifyKeyFieldSpecified;
+        private NoteTemplateField[] templateItemsField;
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public IntegrationCode IntegrationCode
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=0)]
+        public string Description
+        {
+            get
+            {
+                return this.descriptionField;
+            }
+            set
+            {
+                this.descriptionField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public bool Global
+        {
+            get
+            {
+                return this.globalField;
+            }
+            set
+            {
+                this.globalField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool GlobalSpecified
+        {
+            get
+            {
+                return this.globalFieldSpecified;
+            }
+            set
+            {
+                this.globalFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public long Id
+        {
+            get
+            {
+                return this.idField;
+            }
+            set
+            {
+                this.idField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool IdSpecified
+        {
+            get
+            {
+                return this.idFieldSpecified;
+            }
+            set
+            {
+                this.idFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public int IntegrationCode
         {
             get
             {
@@ -4488,846 +5882,1611 @@ namespace NoteWebServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public long LoginGroupId
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=4)]
+        public string LanguageId
         {
             get
             {
-                return this.loginGroupIdField;
+                return this.languageIdField;
             }
             set
             {
-                this.loginGroupIdField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LoginGroupIdSpecified
-        {
-            get
-            {
-                return this.loginGroupIdFieldSpecified;
-            }
-            set
-            {
-                this.loginGroupIdFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public long LoginUserId
-        {
-            get
-            {
-                return this.loginUserIdField;
-            }
-            set
-            {
-                this.loginUserIdField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LoginUserIdSpecified
-        {
-            get
-            {
-                return this.loginUserIdFieldSpecified;
-            }
-            set
-            {
-                this.loginUserIdFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=3)]
-        public string Nonce
-        {
-            get
-            {
-                return this.nonceField;
-            }
-            set
-            {
-                this.nonceField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public bool PasswordExpired
-        {
-            get
-            {
-                return this.passwordExpiredField;
-            }
-            set
-            {
-                this.passwordExpiredField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool PasswordExpiredSpecified
-        {
-            get
-            {
-                return this.passwordExpiredFieldSpecified;
-            }
-            set
-            {
-                this.passwordExpiredFieldSpecified = value;
+                this.languageIdField = value;
             }
         }
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=5)]
-        public System.Nullable<long> Time
+        public string Name
         {
             get
             {
-                return this.timeField;
+                return this.nameField;
             }
             set
             {
-                this.timeField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool TimeSpecified
-        {
-            get
-            {
-                return this.timeFieldSpecified;
-            }
-            set
-            {
-                this.timeFieldSpecified = value;
+                this.nameField = value;
             }
         }
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=6)]
-        public bool ValidatedByProprietaryLogin
+        public NoteTypeEnum NoteTypes
         {
             get
             {
-                return this.validatedByProprietaryLoginField;
+                return this.noteTypesField;
             }
             set
             {
-                this.validatedByProprietaryLoginField = value;
+                this.noteTypesField = value;
             }
         }
         
         /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ValidatedByProprietaryLoginSpecified
+        public bool NoteTypesSpecified
         {
             get
             {
-                return this.validatedByProprietaryLoginFieldSpecified;
+                return this.noteTypesFieldSpecified;
             }
             set
             {
-                this.validatedByProprietaryLoginFieldSpecified = value;
+                this.noteTypesFieldSpecified = value;
             }
         }
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=7)]
-        public string Vendor
+        public string Parameters
         {
             get
             {
-                return this.vendorField;
+                return this.parametersField;
             }
             set
             {
-                this.vendorField = value;
+                this.parametersField = value;
             }
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
-        public long VerifyKey
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=8)]
+        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
+            "")]
+        public Group[] TemplateGroups
         {
             get
             {
-                return this.verifyKeyField;
+                return this.templateGroupsField;
             }
             set
             {
-                this.verifyKeyField = value;
+                this.templateGroupsField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=9)]
+        public NoteTemplateField[] TemplateItems
+        {
+            get
+            {
+                return this.templateItemsField;
+            }
+            set
+            {
+                this.templateItemsField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.NewDictationLogic")]
+    public partial class NoteTemplateField
+    {
+        
+        private int accessAuthorField;
+        
+        private bool accessAuthorFieldSpecified;
+        
+        private int accessListenerField;
+        
+        private bool accessListenerFieldSpecified;
+        
+        private int accessSupervisorField;
+        
+        private bool accessSupervisorFieldSpecified;
+        
+        private int accessTranscriberField;
+        
+        private bool accessTranscriberFieldSpecified;
+        
+        private string dataBindingField;
+        
+        private string dataTypeField;
+        
+        private string defaultValueField;
+        
+        private string descriptionField;
+        
+        private bool enableApplicationSeedingField;
+        
+        private bool enableApplicationSeedingFieldSpecified;
+        
+        private long idField;
+        
+        private bool idFieldSpecified;
+        
+        private bool mandatoryField;
+        
+        private bool mandatoryFieldSpecified;
+        
+        private System.Nullable<int> maxLengthField;
+        
+        private bool maxLengthFieldSpecified;
+        
+        private string nameField;
+        
+        private string nameStyleField;
+        
+        private NoteTemplate parentNoteTemplateField;
+        
+        private string rangeField;
+        
+        private bool rememberValueField;
+        
+        private bool rememberValueFieldSpecified;
+        
+        private int sectionField;
+        
+        private bool sectionFieldSpecified;
+        
+        private int sortOrderField;
+        
+        private bool sortOrderFieldSpecified;
+        
+        private string validationMethodField;
+        
+        private string valueStyleField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public int AccessAuthor
+        {
+            get
+            {
+                return this.accessAuthorField;
+            }
+            set
+            {
+                this.accessAuthorField = value;
             }
         }
         
         /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool VerifyKeySpecified
+        public bool AccessAuthorSpecified
         {
             get
             {
-                return this.verifyKeyFieldSpecified;
+                return this.accessAuthorFieldSpecified;
             }
             set
             {
-                this.verifyKeyFieldSpecified = value;
+                this.accessAuthorFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public int AccessListener
+        {
+            get
+            {
+                return this.accessListenerField;
+            }
+            set
+            {
+                this.accessListenerField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool AccessListenerSpecified
+        {
+            get
+            {
+                return this.accessListenerFieldSpecified;
+            }
+            set
+            {
+                this.accessListenerFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public int AccessSupervisor
+        {
+            get
+            {
+                return this.accessSupervisorField;
+            }
+            set
+            {
+                this.accessSupervisorField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool AccessSupervisorSpecified
+        {
+            get
+            {
+                return this.accessSupervisorFieldSpecified;
+            }
+            set
+            {
+                this.accessSupervisorFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public int AccessTranscriber
+        {
+            get
+            {
+                return this.accessTranscriberField;
+            }
+            set
+            {
+                this.accessTranscriberField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool AccessTranscriberSpecified
+        {
+            get
+            {
+                return this.accessTranscriberFieldSpecified;
+            }
+            set
+            {
+                this.accessTranscriberFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=4)]
+        public string DataBinding
+        {
+            get
+            {
+                return this.dataBindingField;
+            }
+            set
+            {
+                this.dataBindingField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=5)]
+        public string DataType
+        {
+            get
+            {
+                return this.dataTypeField;
+            }
+            set
+            {
+                this.dataTypeField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=6)]
+        public string DefaultValue
+        {
+            get
+            {
+                return this.defaultValueField;
+            }
+            set
+            {
+                this.defaultValueField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=7)]
+        public string Description
+        {
+            get
+            {
+                return this.descriptionField;
+            }
+            set
+            {
+                this.descriptionField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
+        public bool EnableApplicationSeeding
+        {
+            get
+            {
+                return this.enableApplicationSeedingField;
+            }
+            set
+            {
+                this.enableApplicationSeedingField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool EnableApplicationSeedingSpecified
+        {
+            get
+            {
+                return this.enableApplicationSeedingFieldSpecified;
+            }
+            set
+            {
+                this.enableApplicationSeedingFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=9)]
+        public long Id
+        {
+            get
+            {
+                return this.idField;
+            }
+            set
+            {
+                this.idField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool IdSpecified
+        {
+            get
+            {
+                return this.idFieldSpecified;
+            }
+            set
+            {
+                this.idFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=10)]
+        public bool Mandatory
+        {
+            get
+            {
+                return this.mandatoryField;
+            }
+            set
+            {
+                this.mandatoryField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool MandatorySpecified
+        {
+            get
+            {
+                return this.mandatoryFieldSpecified;
+            }
+            set
+            {
+                this.mandatoryFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=11)]
+        public System.Nullable<int> MaxLength
+        {
+            get
+            {
+                return this.maxLengthField;
+            }
+            set
+            {
+                this.maxLengthField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool MaxLengthSpecified
+        {
+            get
+            {
+                return this.maxLengthFieldSpecified;
+            }
+            set
+            {
+                this.maxLengthFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=12)]
+        public string Name
+        {
+            get
+            {
+                return this.nameField;
+            }
+            set
+            {
+                this.nameField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=13)]
+        public string NameStyle
+        {
+            get
+            {
+                return this.nameStyleField;
+            }
+            set
+            {
+                this.nameStyleField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=14)]
+        public NoteTemplate ParentNoteTemplate
+        {
+            get
+            {
+                return this.parentNoteTemplateField;
+            }
+            set
+            {
+                this.parentNoteTemplateField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=15)]
+        public string Range
+        {
+            get
+            {
+                return this.rangeField;
+            }
+            set
+            {
+                this.rangeField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=16)]
+        public bool RememberValue
+        {
+            get
+            {
+                return this.rememberValueField;
+            }
+            set
+            {
+                this.rememberValueField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool RememberValueSpecified
+        {
+            get
+            {
+                return this.rememberValueFieldSpecified;
+            }
+            set
+            {
+                this.rememberValueFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=17)]
+        public int Section
+        {
+            get
+            {
+                return this.sectionField;
+            }
+            set
+            {
+                this.sectionField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool SectionSpecified
+        {
+            get
+            {
+                return this.sectionFieldSpecified;
+            }
+            set
+            {
+                this.sectionFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=18)]
+        public int SortOrder
+        {
+            get
+            {
+                return this.sortOrderField;
+            }
+            set
+            {
+                this.sortOrderField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool SortOrderSpecified
+        {
+            get
+            {
+                return this.sortOrderFieldSpecified;
+            }
+            set
+            {
+                this.sortOrderFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=19)]
+        public string ValidationMethod
+        {
+            get
+            {
+                return this.validationMethodField;
+            }
+            set
+            {
+                this.validationMethodField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=20)]
+        public string ValueStyle
+        {
+            get
+            {
+                return this.valueStyleField;
+            }
+            set
+            {
+                this.valueStyleField = value;
             }
         }
     }
     
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="NoteWebServiceReference.NoteWebService")]
-    public interface NoteWebService
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetAudioNoteById", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetAudioNoteByIdRequest
     {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/LockAudioNote", ReplyAction="http://tempuri.org/NoteWebService/LockAudioNoteResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/LockAudioNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.LockAudioNoteResponse> LockAudioNoteAsync(NoteWebServiceReference.LockAudioNoteRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/UnlockAudioNote", ReplyAction="http://tempuri.org/NoteWebService/UnlockAudioNoteResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/UnlockAudioNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.UnlockAudioNoteResponse> UnlockAudioNoteAsync(NoteWebServiceReference.UnlockAudioNoteRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/LockSpeechNote", ReplyAction="http://tempuri.org/NoteWebService/LockSpeechNoteResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/LockSpeechNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.LockSpeechNoteResponse> LockSpeechNoteAsync(NoteWebServiceReference.LockSpeechNoteRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/UnlockSpeechNote", ReplyAction="http://tempuri.org/NoteWebService/UnlockSpeechNoteResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/UnlockSpeechNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.UnlockSpeechNoteResponse> UnlockSpeechNoteAsync(NoteWebServiceReference.UnlockSpeechNoteRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/CreateSpeechNote", ReplyAction="http://tempuri.org/NoteWebService/CreateSpeechNoteResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/CreateSpeechNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.CreateSpeechNoteResponse> CreateSpeechNoteAsync(NoteWebServiceReference.CreateSpeechNoteRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/UpdateSpeechNote", ReplyAction="http://tempuri.org/NoteWebService/UpdateSpeechNoteResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/UpdateSpeechNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.UpdateSpeechNoteResponse> UpdateSpeechNoteAsync(NoteWebServiceReference.UpdateSpeechNoteRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetSpeechNote", ReplyAction="http://tempuri.org/NoteWebService/GetSpeechNoteResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetSpeechNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechNoteResponse> GetSpeechNoteAsync(NoteWebServiceReference.GetSpeechNoteRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetSpeechNoteStatus", ReplyAction="http://tempuri.org/NoteWebService/GetSpeechNoteStatusResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetSpeechNoteStatusCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechNoteStatusResponse> GetSpeechNoteStatusAsync(NoteWebServiceReference.GetSpeechNoteStatusRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/DeleteSpeechNote", ReplyAction="http://tempuri.org/NoteWebService/DeleteSpeechNoteResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/DeleteSpeechNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteSpeechNoteResponse> DeleteSpeechNoteAsync(NoteWebServiceReference.DeleteSpeechNoteRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/FindNotes", ReplyAction="http://tempuri.org/NoteWebService/FindNotesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/FindNotesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.FindNotesResponse> FindNotesAsync(NoteWebServiceReference.FindNotesRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/FindNotesCount", ReplyAction="http://tempuri.org/NoteWebService/FindNotesCountResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/FindNotesCountCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.FindNotesCountResponse> FindNotesCountAsync(NoteWebServiceReference.FindNotesCountRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/FindNotesLength", ReplyAction="http://tempuri.org/NoteWebService/FindNotesLengthResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/FindNotesLengthCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.FindNotesLengthResponse> FindNotesLengthAsync(NoteWebServiceReference.FindNotesLengthRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/FindNotesInfo", ReplyAction="http://tempuri.org/NoteWebService/FindNotesInfoResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/FindNotesInfoCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.FindNotesInfoResponse> FindNotesInfoAsync(NoteWebServiceReference.FindNotesInfoRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/ChangeUserPassword", ReplyAction="http://tempuri.org/NoteWebService/ChangeUserPasswordResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/ChangeUserPasswordCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.ChangeUserPasswordResponse> ChangeUserPasswordAsync(NoteWebServiceReference.ChangeUserPasswordRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/UpdateSimpleUserProperties", ReplyAction="http://tempuri.org/NoteWebService/UpdateSimpleUserPropertiesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/UpdateSimpleUserPropertiesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.UpdateSimpleUserPropertiesResponse> UpdateSimpleUserPropertiesAsync(NoteWebServiceReference.UpdateSimpleUserPropertiesRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetQuickNoteUid", ReplyAction="http://tempuri.org/NoteWebService/GetQuickNoteUidResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetQuickNoteUidCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetQuickNoteUidResponse> GetQuickNoteUidAsync(NoteWebServiceReference.GetQuickNoteUidRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetApplications", ReplyAction="http://tempuri.org/NoteWebService/GetApplicationsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetApplicationsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetApplicationsResponse> GetApplicationsAsync(NoteWebServiceReference.GetApplicationsRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/CreateOrUpdateTriggerAction", ReplyAction="http://tempuri.org/NoteWebService/CreateOrUpdateTriggerActionResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/CreateOrUpdateTriggerActionCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.CreateOrUpdateTriggerActionResponse> CreateOrUpdateTriggerActionAsync(NoteWebServiceReference.CreateOrUpdateTriggerActionRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/DeleteTriggerAction", ReplyAction="http://tempuri.org/NoteWebService/DeleteTriggerActionResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/DeleteTriggerActionCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteTriggerActionResponse> DeleteTriggerActionAsync(NoteWebServiceReference.DeleteTriggerActionRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetTriggerActionCategories", ReplyAction="http://tempuri.org/NoteWebService/GetTriggerActionCategoriesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetTriggerActionCategoriesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetTriggerActionCategoriesResponse> GetTriggerActionCategoriesAsync(NoteWebServiceReference.GetTriggerActionCategoriesRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetAudioNoteStatus", ReplyAction="http://tempuri.org/NoteWebService/SetAudioNoteStatusResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetAudioNoteStatusCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.SetAudioNoteStatusResponse> SetAudioNoteStatusAsync(NoteWebServiceReference.SetAudioNoteStatusRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/TuneContext", ReplyAction="http://tempuri.org/NoteWebService/TuneContextResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/TuneContextCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.TuneContextResponse> TuneContextAsync(NoteWebServiceReference.TuneContextRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetUnknownWords", ReplyAction="http://tempuri.org/NoteWebService/GetUnknownWordsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetUnknownWordsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetUnknownWordsResponse> GetUnknownWordsAsync(NoteWebServiceReference.GetUnknownWordsRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SaveClientInfo", ReplyAction="http://tempuri.org/NoteWebService/SaveClientInfoResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SaveClientInfoCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.SaveClientInfoResponse> SaveClientInfoAsync(NoteWebServiceReference.SaveClientInfoRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/UpdateNoteClientId", ReplyAction="http://tempuri.org/NoteWebService/UpdateNoteClientIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/UpdateNoteClientIdCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.UpdateNoteClientIdResponse> UpdateNoteClientIdAsync(NoteWebServiceReference.UpdateNoteClientIdRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/DeleteAllAutosavedDocuments", ReplyAction="http://tempuri.org/NoteWebService/DeleteAllAutosavedDocumentsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/DeleteAllAutosavedDocumentsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteAllAutosavedDocumentsResponse> DeleteAllAutosavedDocumentsAsync(NoteWebServiceReference.DeleteAllAutosavedDocumentsRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetSpeechNoteFromLinkedNoteId", ReplyAction="http://tempuri.org/NoteWebService/GetSpeechNoteFromLinkedNoteIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetSpeechNoteFromLinkedNoteIdCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechNoteFromLinkedNoteIdResponse> GetSpeechNoteFromLinkedNoteIdAsync(NoteWebServiceReference.GetSpeechNoteFromLinkedNoteIdRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetMessageForUser", ReplyAction="http://tempuri.org/NoteWebService/GetMessageForUserResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetMessageForUserCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetMessageForUserResponse> GetMessageForUserAsync(NoteWebServiceReference.GetMessageForUserRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/MessageResponse", ReplyAction="http://tempuri.org/NoteWebService/MessageResponseResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/MessageResponseCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.MessageResponseResponse> MessageResponseAsync(NoteWebServiceReference.MessageResponseRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/RegisterListen", ReplyAction="http://tempuri.org/NoteWebService/RegisterListenResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/RegisterListenCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.RegisterListenResponse> RegisterListenAsync(NoteWebServiceReference.RegisterListenRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/LoginByDomain", ReplyAction="http://tempuri.org/NoteWebService/LoginByDomainResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/LoginByDomainCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.LoginByDomainResponse> LoginByDomainAsync(NoteWebServiceReference.LoginByDomainRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetADSearchGroupNames", ReplyAction="http://tempuri.org/NoteWebService/GetADSearchGroupNamesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetADSearchGroupNamesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetADSearchGroupNamesResponse> GetADSearchGroupNamesAsync(NoteWebServiceReference.GetADSearchGroupNamesRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/Login", ReplyAction="http://tempuri.org/NoteWebService/LoginResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/LoginCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.LoginResponse> LoginAsync(NoteWebServiceReference.LoginRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetCurrentUser", ReplyAction="http://tempuri.org/NoteWebService/GetCurrentUserResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetCurrentUserCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetCurrentUserResponse> GetCurrentUserAsync(NoteWebServiceReference.GetCurrentUserRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/VerifyUser", ReplyAction="http://tempuri.org/NoteWebService/VerifyUserResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/VerifyUserCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.VerifyUserResponse> VerifyUserAsync(NoteWebServiceReference.VerifyUserRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetCurrentUser", ReplyAction="http://tempuri.org/NoteWebService/SetCurrentUserResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetCurrentUserCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentUserResponse> SetCurrentUserAsync(NoteWebServiceReference.SetCurrentUserRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetCurrentUserWithSignature", ReplyAction="http://tempuri.org/NoteWebService/SetCurrentUserWithSignatureResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetCurrentUserWithSignatureCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentUserWithSignatureResponse> SetCurrentUserWithSignatureAsync(NoteWebServiceReference.SetCurrentUserWithSignatureRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetCurrentUserWithFullName", ReplyAction="http://tempuri.org/NoteWebService/SetCurrentUserWithFullNameResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetCurrentUserWithFullNameCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentUserWithFullNameResponse> SetCurrentUserWithFullNameAsync(NoteWebServiceReference.SetCurrentUserWithFullNameRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetCurrentUserAndGroup", ReplyAction="http://tempuri.org/NoteWebService/SetCurrentUserAndGroupResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetCurrentUserAndGroupCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentUserAndGroupResponse> SetCurrentUserAndGroupAsync(NoteWebServiceReference.SetCurrentUserAndGroupRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetCurrentUserStandAlone", ReplyAction="http://tempuri.org/NoteWebService/SetCurrentUserStandAloneResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetCurrentUserStandAloneCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentUserStandAloneResponse> SetCurrentUserStandAloneAsync(NoteWebServiceReference.SetCurrentUserStandAloneRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetCurrentGroup", ReplyAction="http://tempuri.org/NoteWebService/GetCurrentGroupResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetCurrentGroupCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetCurrentGroupResponse> GetCurrentGroupAsync(NoteWebServiceReference.GetCurrentGroupRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetCurrentGroup", ReplyAction="http://tempuri.org/NoteWebService/SetCurrentGroupResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetCurrentGroupCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.SetCurrentGroupResponse> SetCurrentGroupAsync(NoteWebServiceReference.SetCurrentGroupRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetRights", ReplyAction="http://tempuri.org/NoteWebService/GetRightsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetRightsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetRightsResponse> GetRightsAsync(NoteWebServiceReference.GetRightsRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetRoles", ReplyAction="http://tempuri.org/NoteWebService/SetRolesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetRolesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.SetRolesResponse> SetRolesAsync(NoteWebServiceReference.SetRolesRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetServerName", ReplyAction="http://tempuri.org/NoteWebService/GetServerNameResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetServerNameCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetServerNameResponse> GetServerNameAsync(NoteWebServiceReference.GetServerNameRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SaveFile", ReplyAction="http://tempuri.org/NoteWebService/SaveFileResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SaveFileCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.SaveFileResponse> SaveFileAsync(NoteWebServiceReference.SaveFileRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/LoadFile", ReplyAction="http://tempuri.org/NoteWebService/LoadFileResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/LoadFileCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.LoadFileResponse> LoadFileAsync(NoteWebServiceReference.LoadFileRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/LoadFileById", ReplyAction="http://tempuri.org/NoteWebService/LoadFileByIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/LoadFileByIdCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.LoadFileByIdResponse> LoadFileByIdAsync(NoteWebServiceReference.LoadFileByIdRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/DeleteFile", ReplyAction="http://tempuri.org/NoteWebService/DeleteFileResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/DeleteFileCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteFileResponse> DeleteFileAsync(NoteWebServiceReference.DeleteFileRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/FileExists", ReplyAction="http://tempuri.org/NoteWebService/FileExistsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/FileExistsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.FileExistsResponse> FileExistsAsync(NoteWebServiceReference.FileExistsRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/NoteExists", ReplyAction="http://tempuri.org/NoteWebService/NoteExistsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/NoteExistsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.NoteExistsResponse> NoteExistsAsync(NoteWebServiceReference.NoteExistsRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetAutoRecoveredNotes", ReplyAction="http://tempuri.org/NoteWebService/GetAutoRecoveredNotesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetAutoRecoveredNotesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetAutoRecoveredNotesResponse> GetAutoRecoveredNotesAsync(NoteWebServiceReference.GetAutoRecoveredNotesRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SaveClientLogFile", ReplyAction="http://tempuri.org/NoteWebService/SaveClientLogFileResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SaveClientLogFileCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.SaveClientLogFileResponse> SaveClientLogFileAsync(NoteWebServiceReference.SaveClientLogFileRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetDictationAttribute", ReplyAction="http://tempuri.org/NoteWebService/GetDictationAttributeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetDictationAttributeCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetDictationAttributeResponse> GetDictationAttributeAsync(NoteWebServiceReference.GetDictationAttributeRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetDictationAttribute", ReplyAction="http://tempuri.org/NoteWebService/SetDictationAttributeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetDictationAttributeCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.SetDictationAttributeResponse> SetDictationAttributeAsync(NoteWebServiceReference.SetDictationAttributeRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetDictationFields", ReplyAction="http://tempuri.org/NoteWebService/GetDictationFieldsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetDictationFieldsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetDictationFieldsResponse> GetDictationFieldsAsync(NoteWebServiceReference.GetDictationFieldsRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetContextForProfile", ReplyAction="http://tempuri.org/NoteWebService/GetContextForProfileResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetContextForProfileCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetContextForProfileResponse> GetContextForProfileAsync(NoteWebServiceReference.GetContextForProfileRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetSpeechRecognitionProfile", ReplyAction="http://tempuri.org/NoteWebService/GetSpeechRecognitionProfileResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetSpeechRecognitionProfileCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechRecognitionProfileResponse> GetSpeechRecognitionProfileAsync(NoteWebServiceReference.GetSpeechRecognitionProfileRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetDefaultSpeechRecognitionContext", ReplyAction="http://tempuri.org/NoteWebService/SetDefaultSpeechRecognitionContextResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetDefaultSpeechRecognitionContextCustomFaultFa" +
-            "ult", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.SetDefaultSpeechRecognitionContextResponse> SetDefaultSpeechRecognitionContextAsync(NoteWebServiceReference.SetDefaultSpeechRecognitionContextRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetDictationTemplate", ReplyAction="http://tempuri.org/NoteWebService/GetDictationTemplateResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetDictationTemplateCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetDictationTemplateResponse> GetDictationTemplateAsync(NoteWebServiceReference.GetDictationTemplateRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetNewDictationTemplate", ReplyAction="http://tempuri.org/NoteWebService/GetNewDictationTemplateResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetNewDictationTemplateCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetNewDictationTemplateResponse> GetNewDictationTemplateAsync(NoteWebServiceReference.GetNewDictationTemplateRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetDictationTemplates", ReplyAction="http://tempuri.org/NoteWebService/GetDictationTemplatesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetDictationTemplatesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetDictationTemplatesResponse> GetDictationTemplatesAsync(NoteWebServiceReference.GetDictationTemplatesRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetDictationNoteTemplates", ReplyAction="http://tempuri.org/NoteWebService/GetDictationNoteTemplatesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetDictationNoteTemplatesCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetDictationNoteTemplatesResponse> GetDictationNoteTemplatesAsync(NoteWebServiceReference.GetDictationNoteTemplatesRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetNewDictationNoteTemplate", ReplyAction="http://tempuri.org/NoteWebService/GetNewDictationNoteTemplateResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetNewDictationNoteTemplateCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetNewDictationNoteTemplateResponse> GetNewDictationNoteTemplateAsync(NoteWebServiceReference.GetNewDictationNoteTemplateRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetAllGroups", ReplyAction="http://tempuri.org/NoteWebService/GetAllGroupsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetAllGroupsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetAllGroupsResponse> GetAllGroupsAsync(NoteWebServiceReference.GetAllGroupsRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetGroups", ReplyAction="http://tempuri.org/NoteWebService/GetGroupsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetGroupsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetGroupsResponse> GetGroupsAsync(NoteWebServiceReference.GetGroupsRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetGroupHierarchy", ReplyAction="http://tempuri.org/NoteWebService/GetGroupHierarchyResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetGroupHierarchyCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetGroupHierarchyResponse> GetGroupHierarchyAsync(NoteWebServiceReference.GetGroupHierarchyRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetQualifiedUsers", ReplyAction="http://tempuri.org/NoteWebService/GetQualifiedUsersResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetQualifiedUsersCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetQualifiedUsersResponse> GetQualifiedUsersAsync(NoteWebServiceReference.GetQualifiedUsersRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/CreateSuspendedDocument", ReplyAction="http://tempuri.org/NoteWebService/CreateSuspendedDocumentResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/CreateSuspendedDocumentCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.CreateSuspendedDocumentResponse> CreateSuspendedDocumentAsync(NoteWebServiceReference.CreateSuspendedDocumentRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/UpdateSuspendedDocument", ReplyAction="http://tempuri.org/NoteWebService/UpdateSuspendedDocumentResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/UpdateSuspendedDocumentCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.UpdateSuspendedDocumentResponse> UpdateSuspendedDocumentAsync(NoteWebServiceReference.UpdateSuspendedDocumentRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetSuspendedDocument", ReplyAction="http://tempuri.org/NoteWebService/GetSuspendedDocumentResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetSuspendedDocumentCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetSuspendedDocumentResponse> GetSuspendedDocumentAsync(NoteWebServiceReference.GetSuspendedDocumentRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetListOfSuspendedDocuments", ReplyAction="http://tempuri.org/NoteWebService/GetListOfSuspendedDocumentsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetListOfSuspendedDocumentsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetListOfSuspendedDocumentsResponse> GetListOfSuspendedDocumentsAsync(NoteWebServiceReference.GetListOfSuspendedDocumentsRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/CloseSuspendedDocument", ReplyAction="http://tempuri.org/NoteWebService/CloseSuspendedDocumentResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/CloseSuspendedDocumentCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.CloseSuspendedDocumentResponse> CloseSuspendedDocumentAsync(NoteWebServiceReference.CloseSuspendedDocumentRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/RemoveSuspendedDocument", ReplyAction="http://tempuri.org/NoteWebService/RemoveSuspendedDocumentResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/RemoveSuspendedDocumentCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.RemoveSuspendedDocumentResponse> RemoveSuspendedDocumentAsync(NoteWebServiceReference.RemoveSuspendedDocumentRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/AddOrUpdateAutoText", ReplyAction="http://tempuri.org/NoteWebService/AddOrUpdateAutoTextResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/AddOrUpdateAutoTextCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.AddOrUpdateAutoTextResponse> AddOrUpdateAutoTextAsync(NoteWebServiceReference.AddOrUpdateAutoTextRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetAllAutoTexts", ReplyAction="http://tempuri.org/NoteWebService/GetAllAutoTextsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetAllAutoTextsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetAllAutoTextsResponse> GetAllAutoTextsAsync(NoteWebServiceReference.GetAllAutoTextsRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/DeleteAutoText", ReplyAction="http://tempuri.org/NoteWebService/DeleteAutoTextResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/DeleteAutoTextCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteAutoTextResponse> DeleteAutoTextAsync(NoteWebServiceReference.DeleteAutoTextRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/RegisterSpeechRecognitionStatistics", ReplyAction="http://tempuri.org/NoteWebService/RegisterSpeechRecognitionStatisticsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/RegisterSpeechRecognitionStatisticsCustomFaultF" +
-            "ault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.RegisterSpeechRecognitionStatisticsResponse> RegisterSpeechRecognitionStatisticsAsync(NoteWebServiceReference.RegisterSpeechRecognitionStatisticsRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetTriggerActions", ReplyAction="http://tempuri.org/NoteWebService/GetTriggerActionsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetTriggerActionsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetTriggerActionsResponse> GetTriggerActionsAsync(NoteWebServiceReference.GetTriggerActionsRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetManagerTriggerActions", ReplyAction="http://tempuri.org/NoteWebService/GetManagerTriggerActionsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetManagerTriggerActionsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetManagerTriggerActionsResponse> GetManagerTriggerActionsAsync(NoteWebServiceReference.GetManagerTriggerActionsRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetCommandSubstitutions", ReplyAction="http://tempuri.org/NoteWebService/GetCommandSubstitutionsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetCommandSubstitutionsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetCommandSubstitutionsResponse> GetCommandSubstitutionsAsync(NoteWebServiceReference.GetCommandSubstitutionsRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetUser", ReplyAction="http://tempuri.org/NoteWebService/GetUserResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetUserCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetUserResponse> GetUserAsync(NoteWebServiceReference.GetUserRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/ReadKPIValue", ReplyAction="http://tempuri.org/NoteWebService/ReadKPIValueResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/ReadKPIValueCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.ReadKPIValueResponse> ReadKPIValueAsync(NoteWebServiceReference.ReadKPIValueRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetStatistics", ReplyAction="http://tempuri.org/NoteWebService/GetStatisticsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetStatisticsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetStatisticsResponse> GetStatisticsAsync(NoteWebServiceReference.GetStatisticsRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetStatisticsLastModified", ReplyAction="http://tempuri.org/NoteWebService/GetStatisticsLastModifiedResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetStatisticsLastModifiedCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetStatisticsLastModifiedResponse> GetStatisticsLastModifiedAsync(NoteWebServiceReference.GetStatisticsLastModifiedRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/IsAlive", ReplyAction="http://tempuri.org/NoteWebService/IsAliveResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/IsAliveCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<bool> IsAliveAsync();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetParameters", ReplyAction="http://tempuri.org/NoteWebService/GetParametersResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetParametersCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetParametersResponse> GetParametersAsync(NoteWebServiceReference.GetParametersRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SaveAllParameters", ReplyAction="http://tempuri.org/NoteWebService/SaveAllParametersResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SaveAllParametersCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.SaveAllParametersResponse> SaveAllParametersAsync(NoteWebServiceReference.SaveAllParametersRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetParameter", ReplyAction="http://tempuri.org/NoteWebService/SetParameterResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetParameterCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.SetParameterResponse> SetParameterAsync(NoteWebServiceReference.SetParameterRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SaveAllParametersWithError", ReplyAction="http://tempuri.org/NoteWebService/SaveAllParametersWithErrorResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SaveAllParametersWithErrorCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.SaveAllParametersWithErrorResponse> SaveAllParametersWithErrorAsync(NoteWebServiceReference.SaveAllParametersWithErrorRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetSystemParameters", ReplyAction="http://tempuri.org/NoteWebService/GetSystemParametersResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetSystemParametersCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetSystemParametersResponse> GetSystemParametersAsync(NoteWebServiceReference.GetSystemParametersRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetApplicationParameters", ReplyAction="http://tempuri.org/NoteWebService/GetApplicationParametersResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetApplicationParametersCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetApplicationParametersResponse> GetApplicationParametersAsync(NoteWebServiceReference.GetApplicationParametersRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetApplicationParametersForAllCategories", ReplyAction="http://tempuri.org/NoteWebService/GetApplicationParametersForAllCategoriesRespons" +
-            "e")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetApplicationParametersForAllCategoriesCustomF" +
-            "aultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetApplicationParametersForAllCategoriesResponse> GetApplicationParametersForAllCategoriesAsync(NoteWebServiceReference.GetApplicationParametersForAllCategoriesRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetAutoText", ReplyAction="http://tempuri.org/NoteWebService/GetAutoTextResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetAutoTextCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetAutoTextResponse> GetAutoTextAsync(NoteWebServiceReference.GetAutoTextRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/AudioNoteExists", ReplyAction="http://tempuri.org/NoteWebService/AudioNoteExistsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/AudioNoteExistsCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.AudioNoteExistsResponse> AudioNoteExistsAsync(NoteWebServiceReference.AudioNoteExistsRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetAudioNoteById", ReplyAction="http://tempuri.org/NoteWebService/GetAudioNoteByIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetAudioNoteByIdCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetAudioNoteByIdResponse> GetAudioNoteByIdAsync(NoteWebServiceReference.GetAudioNoteByIdRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetNote", ReplyAction="http://tempuri.org/NoteWebService/GetNoteResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetNoteResponse> GetNoteAsync(NoteWebServiceReference.GetNoteRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetNoteResult", ReplyAction="http://tempuri.org/NoteWebService/GetNoteResultResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetNoteResultCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetNoteResultResponse> GetNoteResultAsync(NoteWebServiceReference.GetNoteResultRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetAudioNoteBinaryByUid", ReplyAction="http://tempuri.org/NoteWebService/GetAudioNoteBinaryByUidResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetAudioNoteBinaryByUidCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetAudioNoteBinaryByUidResponse> GetAudioNoteBinaryByUidAsync(NoteWebServiceReference.GetAudioNoteBinaryByUidRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/SetAudioNoteBinary", ReplyAction="http://tempuri.org/NoteWebService/SetAudioNoteBinaryResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/SetAudioNoteBinaryCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task SetAudioNoteBinaryAsync(System.IO.Stream binaryStream);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetAudioNoteResultById", ReplyAction="http://tempuri.org/NoteWebService/GetAudioNoteResultByIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetAudioNoteResultByIdCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetAudioNoteResultByIdResponse> GetAudioNoteResultByIdAsync(NoteWebServiceReference.GetAudioNoteResultByIdRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/GetSpeechNoteResultById", ReplyAction="http://tempuri.org/NoteWebService/GetSpeechNoteResultByIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/GetSpeechNoteResultByIdCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechNoteResultByIdResponse> GetSpeechNoteResultByIdAsync(NoteWebServiceReference.GetSpeechNoteResultByIdRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/UpdateAudioNote", ReplyAction="http://tempuri.org/NoteWebService/UpdateAudioNoteResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/UpdateAudioNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.UpdateAudioNoteResponse> UpdateAudioNoteAsync(NoteWebServiceReference.UpdateAudioNoteRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/DeleteAudioNote", ReplyAction="http://tempuri.org/NoteWebService/DeleteAudioNoteResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/DeleteAudioNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteAudioNoteResponse> DeleteAudioNoteAsync(NoteWebServiceReference.DeleteAudioNoteRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/DeleteNote", ReplyAction="http://tempuri.org/NoteWebService/DeleteNoteResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/DeleteNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteNoteResponse> DeleteNoteAsync(NoteWebServiceReference.DeleteNoteRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/NoteWebService/CreateAudioNote", ReplyAction="http://tempuri.org/NoteWebService/CreateAudioNoteResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(NoteWebServiceReference.CustomFault), Action="http://tempuri.org/NoteWebService/CreateAudioNoteCustomFaultFault", Name="CustomFault", Namespace="http://schemas.datacontract.org/2004/07/MaxManus.Backend.SpeechWebService.WCF")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HasId))]
-        System.Threading.Tasks.Task<NoteWebServiceReference.CreateAudioNoteResponse> CreateAudioNoteAsync(NoteWebServiceReference.CreateAudioNoteRequest request);
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.VerifiedSession verifiedUser;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        public long audioNoteId;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string externalUid;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=3)]
+        public bool includeBinary;
+        
+        public GetAudioNoteByIdRequest()
+        {
+        }
+        
+        public GetAudioNoteByIdRequest(NoteWebServiceReference.VerifiedSession verifiedUser, long audioNoteId, string externalUid, bool includeBinary)
+        {
+            this.verifiedUser = verifiedUser;
+            this.audioNoteId = audioNoteId;
+            this.externalUid = externalUid;
+            this.includeBinary = includeBinary;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetAudioNoteByIdResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetAudioNoteByIdResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.AudioNote GetAudioNoteByIdResult;
+        
+        public GetAudioNoteByIdResponse()
+        {
+        }
+        
+        public GetAudioNoteByIdResponse(NoteWebServiceReference.AudioNote GetAudioNoteByIdResult)
+        {
+            this.GetAudioNoteByIdResult = GetAudioNoteByIdResult;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetNote", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetNoteRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string externalUid;
+        
+        public GetNoteRequest()
+        {
+        }
+        
+        public GetNoteRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string externalUid)
+        {
+            this.verifiedSession = verifiedSession;
+            this.externalUid = externalUid;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetNoteResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetNoteResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.Note GetNoteResult;
+        
+        public GetNoteResponse()
+        {
+        }
+        
+        public GetNoteResponse(NoteWebServiceReference.Note GetNoteResult)
+        {
+            this.GetNoteResult = GetNoteResult;
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.NoteLogic")]
+    public partial class NoteResult
+    {
+        
+        private bool isReadOnlyField;
+        
+        private bool isReadOnlyFieldSpecified;
+        
+        private Note noteField;
+        
+        private NoteRole noteRoleField;
+        
+        private bool noteRoleFieldSpecified;
+        
+        private NoteReason reasonField;
+        
+        private bool reasonFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public bool IsReadOnly
+        {
+            get
+            {
+                return this.isReadOnlyField;
+            }
+            set
+            {
+                this.isReadOnlyField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool IsReadOnlySpecified
+        {
+            get
+            {
+                return this.isReadOnlyFieldSpecified;
+            }
+            set
+            {
+                this.isReadOnlyFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=1)]
+        public Note Note
+        {
+            get
+            {
+                return this.noteField;
+            }
+            set
+            {
+                this.noteField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public NoteRole NoteRole
+        {
+            get
+            {
+                return this.noteRoleField;
+            }
+            set
+            {
+                this.noteRoleField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool NoteRoleSpecified
+        {
+            get
+            {
+                return this.noteRoleFieldSpecified;
+            }
+            set
+            {
+                this.noteRoleFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public NoteReason Reason
+        {
+            get
+            {
+                return this.reasonField;
+            }
+            set
+            {
+                this.reasonField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool ReasonSpecified
+        {
+            get
+            {
+                return this.reasonFieldSpecified;
+            }
+            set
+            {
+                this.reasonFieldSpecified = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.NoteLogic")]
+    public enum NoteRole
+    {
+        
+        /// <remarks/>
+        None,
+        
+        /// <remarks/>
+        Author,
+        
+        /// <remarks/>
+        Transcriber,
+        
+        /// <remarks/>
+        Listener,
+        
+        /// <remarks/>
+        Supervisor,
+        
+        /// <remarks/>
+        Correctionist,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.NoteLogic")]
+    public enum NoteReason
+    {
+        
+        /// <remarks/>
+        None,
+        
+        /// <remarks/>
+        NoteLocked,
+        
+        /// <remarks/>
+        InsufficientRights,
+        
+        /// <remarks/>
+        NoSuchNote,
+        
+        /// <remarks/>
+        Deleted,
+        
+        /// <remarks/>
+        UpdatedBySameUser,
+        
+        /// <remarks/>
+        DeletedBySameUser,
+        
+        /// <remarks/>
+        ReadOnlyGroup,
+        
+        /// <remarks/>
+        PasswordProtected,
+        
+        /// <remarks/>
+        InvalidPassword,
+        
+        /// <remarks/>
+        NotOriginalAuthor,
+        
+        /// <remarks/>
+        FailedShowNoError,
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetNoteResult", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetNoteResultRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        public long noteId;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string externalUid;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=3)]
+        public bool lockNote;
+        
+        public GetNoteResultRequest()
+        {
+        }
+        
+        public GetNoteResultRequest(NoteWebServiceReference.VerifiedSession verifiedSession, long noteId, string externalUid, bool lockNote)
+        {
+            this.verifiedSession = verifiedSession;
+            this.noteId = noteId;
+            this.externalUid = externalUid;
+            this.lockNote = lockNote;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetNoteResultResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetNoteResultResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.NoteResult GetNoteResultResult;
+        
+        public GetNoteResultResponse()
+        {
+        }
+        
+        public GetNoteResultResponse(NoteWebServiceReference.NoteResult GetNoteResultResult)
+        {
+            this.GetNoteResultResult = GetNoteResultResult;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetAudioNoteBinaryByUid", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetAudioNoteBinaryByUidRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        public long noteId;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string externalUid;
+        
+        public GetAudioNoteBinaryByUidRequest()
+        {
+        }
+        
+        public GetAudioNoteBinaryByUidRequest(NoteWebServiceReference.VerifiedSession verifiedSession, long noteId, string externalUid)
+        {
+            this.verifiedSession = verifiedSession;
+            this.noteId = noteId;
+            this.externalUid = externalUid;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetAudioNoteBinaryByUidResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetAudioNoteBinaryByUidResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        public System.IO.Stream GetAudioNoteBinaryByUidResult;
+        
+        public GetAudioNoteBinaryByUidResponse()
+        {
+        }
+        
+        public GetAudioNoteBinaryByUidResponse(System.IO.Stream GetAudioNoteBinaryByUidResult)
+        {
+            this.GetAudioNoteBinaryByUidResult = GetAudioNoteBinaryByUidResult;
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.NoteLogic")]
+    public partial class AudioNoteResult
+    {
+        
+        private AudioNote audioNoteField;
+        
+        private bool isReadOnlyField;
+        
+        private bool isReadOnlyFieldSpecified;
+        
+        private NoteRole noteRoleField;
+        
+        private bool noteRoleFieldSpecified;
+        
+        private NoteReason reasonField;
+        
+        private bool reasonFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=0)]
+        public AudioNote AudioNote
+        {
+            get
+            {
+                return this.audioNoteField;
+            }
+            set
+            {
+                this.audioNoteField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public bool IsReadOnly
+        {
+            get
+            {
+                return this.isReadOnlyField;
+            }
+            set
+            {
+                this.isReadOnlyField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool IsReadOnlySpecified
+        {
+            get
+            {
+                return this.isReadOnlyFieldSpecified;
+            }
+            set
+            {
+                this.isReadOnlyFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public NoteRole NoteRole
+        {
+            get
+            {
+                return this.noteRoleField;
+            }
+            set
+            {
+                this.noteRoleField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool NoteRoleSpecified
+        {
+            get
+            {
+                return this.noteRoleFieldSpecified;
+            }
+            set
+            {
+                this.noteRoleFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public NoteReason Reason
+        {
+            get
+            {
+                return this.reasonField;
+            }
+            set
+            {
+                this.reasonField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool ReasonSpecified
+        {
+            get
+            {
+                return this.reasonFieldSpecified;
+            }
+            set
+            {
+                this.reasonFieldSpecified = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetAudioNoteResultById", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetAudioNoteResultByIdRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        public long audioNoteId;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string externalUid;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=3)]
+        public bool lockNote;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=4)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string password;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=5)]
+        public bool includeBinary;
+        
+        public GetAudioNoteResultByIdRequest()
+        {
+        }
+        
+        public GetAudioNoteResultByIdRequest(NoteWebServiceReference.VerifiedSession verifiedSession, long audioNoteId, string externalUid, bool lockNote, string password, bool includeBinary)
+        {
+            this.verifiedSession = verifiedSession;
+            this.audioNoteId = audioNoteId;
+            this.externalUid = externalUid;
+            this.lockNote = lockNote;
+            this.password = password;
+            this.includeBinary = includeBinary;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetAudioNoteResultByIdResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetAudioNoteResultByIdResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.AudioNoteResult GetAudioNoteResultByIdResult;
+        
+        public GetAudioNoteResultByIdResponse()
+        {
+        }
+        
+        public GetAudioNoteResultByIdResponse(NoteWebServiceReference.AudioNoteResult GetAudioNoteResultByIdResult)
+        {
+            this.GetAudioNoteResultByIdResult = GetAudioNoteResultByIdResult;
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.NoteLogic")]
+    public partial class SpeechNoteResult
+    {
+        
+        private bool isReadOnlyField;
+        
+        private bool isReadOnlyFieldSpecified;
+        
+        private NoteRole noteRoleField;
+        
+        private bool noteRoleFieldSpecified;
+        
+        private NoteReason reasonField;
+        
+        private bool reasonFieldSpecified;
+        
+        private SpeechNote speechNoteField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public bool IsReadOnly
+        {
+            get
+            {
+                return this.isReadOnlyField;
+            }
+            set
+            {
+                this.isReadOnlyField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool IsReadOnlySpecified
+        {
+            get
+            {
+                return this.isReadOnlyFieldSpecified;
+            }
+            set
+            {
+                this.isReadOnlyFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public NoteRole NoteRole
+        {
+            get
+            {
+                return this.noteRoleField;
+            }
+            set
+            {
+                this.noteRoleField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool NoteRoleSpecified
+        {
+            get
+            {
+                return this.noteRoleFieldSpecified;
+            }
+            set
+            {
+                this.noteRoleFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public NoteReason Reason
+        {
+            get
+            {
+                return this.reasonField;
+            }
+            set
+            {
+                this.reasonField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool ReasonSpecified
+        {
+            get
+            {
+                return this.reasonFieldSpecified;
+            }
+            set
+            {
+                this.reasonFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=3)]
+        public SpeechNote SpeechNote
+        {
+            get
+            {
+                return this.speechNoteField;
+            }
+            set
+            {
+                this.speechNoteField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetSpeechNoteResultById", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetSpeechNoteResultByIdRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        public long noteId;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string externalUid;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=3)]
+        public bool lockNote;
+        
+        public GetSpeechNoteResultByIdRequest()
+        {
+        }
+        
+        public GetSpeechNoteResultByIdRequest(NoteWebServiceReference.VerifiedSession verifiedSession, long noteId, string externalUid, bool lockNote)
+        {
+            this.verifiedSession = verifiedSession;
+            this.noteId = noteId;
+            this.externalUid = externalUid;
+            this.lockNote = lockNote;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetSpeechNoteResultByIdResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetSpeechNoteResultByIdResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.SpeechNoteResult GetSpeechNoteResultByIdResult;
+        
+        public GetSpeechNoteResultByIdResponse()
+        {
+        }
+        
+        public GetSpeechNoteResultByIdResponse(NoteWebServiceReference.SpeechNoteResult GetSpeechNoteResultByIdResult)
+        {
+            this.GetSpeechNoteResultByIdResult = GetSpeechNoteResultByIdResult;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="UpdateAudioNote", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class UpdateAudioNoteRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.AudioNote audioNote;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
+        public long duration;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=3)]
+        public long timeAgo;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=4)]
+        public bool releaseLock;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=5)]
+        public bool forceOverWrite;
+        
+        public UpdateAudioNoteRequest()
+        {
+        }
+        
+        public UpdateAudioNoteRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.AudioNote audioNote, long duration, long timeAgo, bool releaseLock, bool forceOverWrite)
+        {
+            this.verifiedSession = verifiedSession;
+            this.audioNote = audioNote;
+            this.duration = duration;
+            this.timeAgo = timeAgo;
+            this.releaseLock = releaseLock;
+            this.forceOverWrite = forceOverWrite;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="UpdateAudioNoteResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class UpdateAudioNoteResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.AudioNoteResult UpdateAudioNoteResult;
+        
+        public UpdateAudioNoteResponse()
+        {
+        }
+        
+        public UpdateAudioNoteResponse(NoteWebServiceReference.AudioNoteResult UpdateAudioNoteResult)
+        {
+            this.UpdateAudioNoteResult = UpdateAudioNoteResult;
+        }
+    }
+    
+    /// <remarks/>
+    [System.FlagsAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.NoteLogic")]
+    public enum NoteValidationRules
+    {
+        
+        /// <remarks/>
+        None = 1,
+        
+        /// <remarks/>
+        DeleteNotReady = 2,
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="DeleteAudioNote", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class DeleteAudioNoteRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.AudioNote audioNote;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
+        public long duration;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=3)]
+        public long timeAgo;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=4)]
+        public NoteWebServiceReference.NoteValidationRules ignoreTheseRules;
+        
+        public DeleteAudioNoteRequest()
+        {
+        }
+        
+        public DeleteAudioNoteRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.AudioNote audioNote, long duration, long timeAgo, NoteWebServiceReference.NoteValidationRules ignoreTheseRules)
+        {
+            this.verifiedSession = verifiedSession;
+            this.audioNote = audioNote;
+            this.duration = duration;
+            this.timeAgo = timeAgo;
+            this.ignoreTheseRules = ignoreTheseRules;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="DeleteAudioNoteResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class DeleteAudioNoteResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.AudioNoteResult DeleteAudioNoteResult;
+        
+        public DeleteAudioNoteResponse()
+        {
+        }
+        
+        public DeleteAudioNoteResponse(NoteWebServiceReference.AudioNoteResult DeleteAudioNoteResult)
+        {
+            this.DeleteAudioNoteResult = DeleteAudioNoteResult;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="DeleteNote", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class DeleteNoteRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string externalUid;
+        
+        public DeleteNoteRequest()
+        {
+        }
+        
+        public DeleteNoteRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string externalUid)
+        {
+            this.verifiedSession = verifiedSession;
+            this.externalUid = externalUid;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="DeleteNoteResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class DeleteNoteResponse
+    {
+        
+        public DeleteNoteResponse()
+        {
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="CreateAudioNote", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class CreateAudioNoteRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.VerifiedSession verifiedSession;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.AudioNote audioNote;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
+        public long duration;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=3)]
+        public long timeAgo;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=4)]
+        public bool isLocalCopy;
+        
+        public CreateAudioNoteRequest()
+        {
+        }
+        
+        public CreateAudioNoteRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.AudioNote audioNote, long duration, long timeAgo, bool isLocalCopy)
+        {
+            this.verifiedSession = verifiedSession;
+            this.audioNote = audioNote;
+            this.duration = duration;
+            this.timeAgo = timeAgo;
+            this.isLocalCopy = isLocalCopy;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="CreateAudioNoteResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class CreateAudioNoteResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public NoteWebServiceReference.AudioNoteResult CreateAudioNoteResult;
+        
+        public CreateAudioNoteResponse()
+        {
+        }
+        
+        public CreateAudioNoteResponse(NoteWebServiceReference.AudioNoteResult CreateAudioNoteResult)
+        {
+            this.CreateAudioNoteResult = CreateAudioNoteResult;
+        }
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -5504,194 +7663,6 @@ namespace NoteWebServiceReference
         public UnlockSpeechNoteResponse()
         {
         }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.NoteLogic")]
-    public partial class SpeechNoteResult
-    {
-        
-        private bool isReadOnlyField;
-        
-        private bool isReadOnlyFieldSpecified;
-        
-        private NoteRole noteRoleField;
-        
-        private bool noteRoleFieldSpecified;
-        
-        private NoteReason reasonField;
-        
-        private bool reasonFieldSpecified;
-        
-        private SpeechNote speechNoteField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public bool IsReadOnly
-        {
-            get
-            {
-                return this.isReadOnlyField;
-            }
-            set
-            {
-                this.isReadOnlyField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool IsReadOnlySpecified
-        {
-            get
-            {
-                return this.isReadOnlyFieldSpecified;
-            }
-            set
-            {
-                this.isReadOnlyFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public NoteRole NoteRole
-        {
-            get
-            {
-                return this.noteRoleField;
-            }
-            set
-            {
-                this.noteRoleField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool NoteRoleSpecified
-        {
-            get
-            {
-                return this.noteRoleFieldSpecified;
-            }
-            set
-            {
-                this.noteRoleFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public NoteReason Reason
-        {
-            get
-            {
-                return this.reasonField;
-            }
-            set
-            {
-                this.reasonField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ReasonSpecified
-        {
-            get
-            {
-                return this.reasonFieldSpecified;
-            }
-            set
-            {
-                this.reasonFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=3)]
-        public SpeechNote SpeechNote
-        {
-            get
-            {
-                return this.speechNoteField;
-            }
-            set
-            {
-                this.speechNoteField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.NoteLogic")]
-    public enum NoteRole
-    {
-        
-        /// <remarks/>
-        None,
-        
-        /// <remarks/>
-        Author,
-        
-        /// <remarks/>
-        Transcriber,
-        
-        /// <remarks/>
-        Listener,
-        
-        /// <remarks/>
-        Supervisor,
-        
-        /// <remarks/>
-        Correctionist,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.NoteLogic")]
-    public enum NoteReason
-    {
-        
-        /// <remarks/>
-        None,
-        
-        /// <remarks/>
-        NoteLocked,
-        
-        /// <remarks/>
-        InsufficientRights,
-        
-        /// <remarks/>
-        NoSuchNote,
-        
-        /// <remarks/>
-        Deleted,
-        
-        /// <remarks/>
-        UpdatedBySameUser,
-        
-        /// <remarks/>
-        DeletedBySameUser,
-        
-        /// <remarks/>
-        ReadOnlyGroup,
-        
-        /// <remarks/>
-        PasswordProtected,
-        
-        /// <remarks/>
-        InvalidPassword,
-        
-        /// <remarks/>
-        NotOriginalAuthor,
-        
-        /// <remarks/>
-        FailedShowNoError,
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -5900,20 +7871,6 @@ namespace NoteWebServiceReference
         {
             this.GetSpeechNoteStatusResult = GetSpeechNoteStatusResult;
         }
-    }
-    
-    /// <remarks/>
-    [System.FlagsAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.NoteLogic")]
-    public enum NoteValidationRules
-    {
-        
-        /// <remarks/>
-        None = 1,
-        
-        /// <remarks/>
-        DeleteNotReady = 2,
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -7886,126 +9843,6 @@ namespace NoteWebServiceReference
         }
     }
     
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.NoteLogic")]
-    public partial class AudioNoteResult
-    {
-        
-        private AudioNote audioNoteField;
-        
-        private bool isReadOnlyField;
-        
-        private bool isReadOnlyFieldSpecified;
-        
-        private NoteRole noteRoleField;
-        
-        private bool noteRoleFieldSpecified;
-        
-        private NoteReason reasonField;
-        
-        private bool reasonFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=0)]
-        public AudioNote AudioNote
-        {
-            get
-            {
-                return this.audioNoteField;
-            }
-            set
-            {
-                this.audioNoteField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public bool IsReadOnly
-        {
-            get
-            {
-                return this.isReadOnlyField;
-            }
-            set
-            {
-                this.isReadOnlyField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool IsReadOnlySpecified
-        {
-            get
-            {
-                return this.isReadOnlyFieldSpecified;
-            }
-            set
-            {
-                this.isReadOnlyFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public NoteRole NoteRole
-        {
-            get
-            {
-                return this.noteRoleField;
-            }
-            set
-            {
-                this.noteRoleField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool NoteRoleSpecified
-        {
-            get
-            {
-                return this.noteRoleFieldSpecified;
-            }
-            set
-            {
-                this.noteRoleFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public NoteReason Reason
-        {
-            get
-            {
-                return this.reasonField;
-            }
-            set
-            {
-                this.reasonField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ReasonSpecified
-        {
-            get
-            {
-                return this.reasonFieldSpecified;
-            }
-            set
-            {
-                this.reasonFieldSpecified = value;
-            }
-        }
-    }
-    
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -8542,126 +10379,6 @@ namespace NoteWebServiceReference
         
         public SaveClientInfoResponse()
         {
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.NoteLogic")]
-    public partial class NoteResult
-    {
-        
-        private bool isReadOnlyField;
-        
-        private bool isReadOnlyFieldSpecified;
-        
-        private Note noteField;
-        
-        private NoteRole noteRoleField;
-        
-        private bool noteRoleFieldSpecified;
-        
-        private NoteReason reasonField;
-        
-        private bool reasonFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public bool IsReadOnly
-        {
-            get
-            {
-                return this.isReadOnlyField;
-            }
-            set
-            {
-                this.isReadOnlyField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool IsReadOnlySpecified
-        {
-            get
-            {
-                return this.isReadOnlyFieldSpecified;
-            }
-            set
-            {
-                this.isReadOnlyFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=1)]
-        public Note Note
-        {
-            get
-            {
-                return this.noteField;
-            }
-            set
-            {
-                this.noteField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public NoteRole NoteRole
-        {
-            get
-            {
-                return this.noteRoleField;
-            }
-            set
-            {
-                this.noteRoleField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool NoteRoleSpecified
-        {
-            get
-            {
-                return this.noteRoleFieldSpecified;
-            }
-            set
-            {
-                this.noteRoleFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public NoteReason Reason
-        {
-            get
-            {
-                return this.reasonField;
-            }
-            set
-            {
-                this.reasonField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ReasonSpecified
-        {
-            get
-            {
-                return this.reasonFieldSpecified;
-            }
-            set
-            {
-                this.reasonFieldSpecified = value;
-            }
         }
     }
     
@@ -15997,290 +17714,6 @@ namespace NoteWebServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Speech" +
         "Recognition")]
-    public partial class AutoText
-    {
-        
-        private string descriptionField;
-        
-        private bool globalField;
-        
-        private bool globalFieldSpecified;
-        
-        private string[] groupNamesField;
-        
-        private Group[] groupsField;
-        
-        private long idField;
-        
-        private bool idFieldSpecified;
-        
-        private bool isPrivateField;
-        
-        private bool isPrivateFieldSpecified;
-        
-        private string languageIdField;
-        
-        private System.DateTime lastUpdatedField;
-        
-        private bool lastUpdatedFieldSpecified;
-        
-        private string nameField;
-        
-        private string phoneticField;
-        
-        private string spokenNameField;
-        
-        private string textField;
-        
-        private byte[] textEncodedField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=0)]
-        public string Description
-        {
-            get
-            {
-                return this.descriptionField;
-            }
-            set
-            {
-                this.descriptionField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public bool Global
-        {
-            get
-            {
-                return this.globalField;
-            }
-            set
-            {
-                this.globalField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool GlobalSpecified
-        {
-            get
-            {
-                return this.globalFieldSpecified;
-            }
-            set
-            {
-                this.globalFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=2)]
-        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays")]
-        public string[] GroupNames
-        {
-            get
-            {
-                return this.groupNamesField;
-            }
-            set
-            {
-                this.groupNamesField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=3)]
-        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
-            "")]
-        public Group[] Groups
-        {
-            get
-            {
-                return this.groupsField;
-            }
-            set
-            {
-                this.groupsField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public long Id
-        {
-            get
-            {
-                return this.idField;
-            }
-            set
-            {
-                this.idField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool IdSpecified
-        {
-            get
-            {
-                return this.idFieldSpecified;
-            }
-            set
-            {
-                this.idFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-        public bool IsPrivate
-        {
-            get
-            {
-                return this.isPrivateField;
-            }
-            set
-            {
-                this.isPrivateField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool IsPrivateSpecified
-        {
-            get
-            {
-                return this.isPrivateFieldSpecified;
-            }
-            set
-            {
-                this.isPrivateFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=6)]
-        public string LanguageId
-        {
-            get
-            {
-                return this.languageIdField;
-            }
-            set
-            {
-                this.languageIdField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
-        public System.DateTime LastUpdated
-        {
-            get
-            {
-                return this.lastUpdatedField;
-            }
-            set
-            {
-                this.lastUpdatedField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool LastUpdatedSpecified
-        {
-            get
-            {
-                return this.lastUpdatedFieldSpecified;
-            }
-            set
-            {
-                this.lastUpdatedFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=8)]
-        public string Name
-        {
-            get
-            {
-                return this.nameField;
-            }
-            set
-            {
-                this.nameField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=9)]
-        public string Phonetic
-        {
-            get
-            {
-                return this.phoneticField;
-            }
-            set
-            {
-                this.phoneticField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=10)]
-        public string SpokenName
-        {
-            get
-            {
-                return this.spokenNameField;
-            }
-            set
-            {
-                this.spokenNameField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=11)]
-        public string Text
-        {
-            get
-            {
-                return this.textField;
-            }
-            set
-            {
-                this.textField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="base64Binary", IsNullable=true, Order=12)]
-        public byte[] TextEncoded
-        {
-            get
-            {
-                return this.textEncodedField;
-            }
-            set
-            {
-                this.textEncodedField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Speech" +
-        "Recognition")]
     public partial class SpeechRecognitionGrammar
     {
         
@@ -19071,1439 +20504,6 @@ namespace NoteWebServiceReference
         }
     }
     
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
-        ".Parameters")]
-    public partial class Parameter : ParameterPart
-    {
-        
-        private string categoryNameField;
-        
-        private TypeCode dataTypeField;
-        
-        private bool dataTypeFieldSpecified;
-        
-        private string defaultValueField;
-        
-        private string descriptionField;
-        
-        private string fieldField;
-        
-        private long id1Field;
-        
-        private bool id1FieldSpecified;
-        
-        private string nameField;
-        
-        private byte[] rowVersionField;
-        
-        private string subNameField;
-        
-        private ParameterValue[] valuesField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=0)]
-        public string CategoryName
-        {
-            get
-            {
-                return this.categoryNameField;
-            }
-            set
-            {
-                this.categoryNameField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public TypeCode DataType
-        {
-            get
-            {
-                return this.dataTypeField;
-            }
-            set
-            {
-                this.dataTypeField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool DataTypeSpecified
-        {
-            get
-            {
-                return this.dataTypeFieldSpecified;
-            }
-            set
-            {
-                this.dataTypeFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=2)]
-        public string DefaultValue
-        {
-            get
-            {
-                return this.defaultValueField;
-            }
-            set
-            {
-                this.defaultValueField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=3)]
-        public string Description
-        {
-            get
-            {
-                return this.descriptionField;
-            }
-            set
-            {
-                this.descriptionField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=4)]
-        public string Field
-        {
-            get
-            {
-                return this.fieldField;
-            }
-            set
-            {
-                this.fieldField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Id", Order=5)]
-        public long Id1
-        {
-            get
-            {
-                return this.id1Field;
-            }
-            set
-            {
-                this.id1Field = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool Id1Specified
-        {
-            get
-            {
-                return this.id1FieldSpecified;
-            }
-            set
-            {
-                this.id1FieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=6)]
-        public string Name
-        {
-            get
-            {
-                return this.nameField;
-            }
-            set
-            {
-                this.nameField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="base64Binary", IsNullable=true, Order=7)]
-        public byte[] RowVersion
-        {
-            get
-            {
-                return this.rowVersionField;
-            }
-            set
-            {
-                this.rowVersionField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=8)]
-        public string SubName
-        {
-            get
-            {
-                return this.subNameField;
-            }
-            set
-            {
-                this.subNameField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=9)]
-        public ParameterValue[] Values
-        {
-            get
-            {
-                return this.valuesField;
-            }
-            set
-            {
-                this.valuesField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/System")]
-    public enum TypeCode
-    {
-        
-        /// <remarks/>
-        Empty,
-        
-        /// <remarks/>
-        Object,
-        
-        /// <remarks/>
-        DBNull,
-        
-        /// <remarks/>
-        Boolean,
-        
-        /// <remarks/>
-        Char,
-        
-        /// <remarks/>
-        SByte,
-        
-        /// <remarks/>
-        Byte,
-        
-        /// <remarks/>
-        Int16,
-        
-        /// <remarks/>
-        UInt16,
-        
-        /// <remarks/>
-        Int32,
-        
-        /// <remarks/>
-        UInt32,
-        
-        /// <remarks/>
-        Int64,
-        
-        /// <remarks/>
-        UInt64,
-        
-        /// <remarks/>
-        Single,
-        
-        /// <remarks/>
-        Double,
-        
-        /// <remarks/>
-        Decimal,
-        
-        /// <remarks/>
-        DateTime,
-        
-        /// <remarks/>
-        String,
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Parameter))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ParameterCategory))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
-        ".Parameters")]
-    public partial class ParameterPart
-    {
-        
-        private string parameterNameField;
-        
-        private ParameterCategory parentCategoryField;
-        
-        private string partNameField;
-        
-        private string idField;
-        
-        private string refField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=0)]
-        public string ParameterName
-        {
-            get
-            {
-                return this.parameterNameField;
-            }
-            set
-            {
-                this.parameterNameField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=1)]
-        public ParameterCategory ParentCategory
-        {
-            get
-            {
-                return this.parentCategoryField;
-            }
-            set
-            {
-                this.parentCategoryField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=2)]
-        public string PartName
-        {
-            get
-            {
-                return this.partNameField;
-            }
-            set
-            {
-                this.partNameField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute(Form=System.Xml.Schema.XmlSchemaForm.Qualified, Namespace="http://schemas.microsoft.com/2003/10/Serialization/", DataType="ID")]
-        public string Id
-        {
-            get
-            {
-                return this.idField;
-            }
-            set
-            {
-                this.idField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute(Form=System.Xml.Schema.XmlSchemaForm.Qualified, Namespace="http://schemas.microsoft.com/2003/10/Serialization/", DataType="IDREF")]
-        public string Ref
-        {
-            get
-            {
-                return this.refField;
-            }
-            set
-            {
-                this.refField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
-        ".Parameters")]
-    public partial class ParameterCategory : ParameterPart
-    {
-        
-        private ParameterPart[] childrenField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=0)]
-        public ParameterPart[] Children
-        {
-            get
-            {
-                return this.childrenField;
-            }
-            set
-            {
-                this.childrenField = value;
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="GetParameters", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class GetParametersRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.VerifiedSession verifiedSession;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public string name;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public string categoryName;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=3)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public string subname;
-        
-        public GetParametersRequest()
-        {
-        }
-        
-        public GetParametersRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string name, string categoryName, string subname)
-        {
-            this.verifiedSession = verifiedSession;
-            this.name = name;
-            this.categoryName = categoryName;
-            this.subname = subname;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="GetParametersResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class GetParametersResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
-        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
-            ".Parameters")]
-        public NoteWebServiceReference.Parameter[] GetParametersResult;
-        
-        public GetParametersResponse()
-        {
-        }
-        
-        public GetParametersResponse(NoteWebServiceReference.Parameter[] GetParametersResult)
-        {
-            this.GetParametersResult = GetParametersResult;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="SaveAllParameters", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class SaveAllParametersRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.VerifiedSession verifiedSession;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
-        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
-        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
-            ".Parameters")]
-        public NoteWebServiceReference.Parameter[] parameters;
-        
-        public SaveAllParametersRequest()
-        {
-        }
-        
-        public SaveAllParametersRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.Parameter[] parameters)
-        {
-            this.verifiedSession = verifiedSession;
-            this.parameters = parameters;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="SaveAllParametersResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class SaveAllParametersResponse
-    {
-        
-        public SaveAllParametersResponse()
-        {
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="SetParameter", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class SetParameterRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.VerifiedSession verifiedSession;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.Parameter parameter;
-        
-        public SetParameterRequest()
-        {
-        }
-        
-        public SetParameterRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.Parameter parameter)
-        {
-            this.verifiedSession = verifiedSession;
-            this.parameter = parameter;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="SetParameterResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class SetParameterResponse
-    {
-        
-        public SetParameterResponse()
-        {
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.Parameters")]
-    public partial class SaveParameterResult
-    {
-        
-        private Parameter[] faultedParametersField;
-        
-        private bool successField;
-        
-        private bool successFieldSpecified;
-        
-        private Parameter[] updatedParametersField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=0)]
-        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
-            ".Parameters")]
-        public Parameter[] FaultedParameters
-        {
-            get
-            {
-                return this.faultedParametersField;
-            }
-            set
-            {
-                this.faultedParametersField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public bool Success
-        {
-            get
-            {
-                return this.successField;
-            }
-            set
-            {
-                this.successField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool SuccessSpecified
-        {
-            get
-            {
-                return this.successFieldSpecified;
-            }
-            set
-            {
-                this.successFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=2)]
-        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
-            ".Parameters")]
-        public Parameter[] UpdatedParameters
-        {
-            get
-            {
-                return this.updatedParametersField;
-            }
-            set
-            {
-                this.updatedParametersField = value;
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="SaveAllParametersWithError", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class SaveAllParametersWithErrorRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.VerifiedSession verifiedSession;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
-        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
-        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
-            ".Parameters")]
-        public NoteWebServiceReference.Parameter[] parameters;
-        
-        public SaveAllParametersWithErrorRequest()
-        {
-        }
-        
-        public SaveAllParametersWithErrorRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.Parameter[] parameters)
-        {
-            this.verifiedSession = verifiedSession;
-            this.parameters = parameters;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="SaveAllParametersWithErrorResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class SaveAllParametersWithErrorResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.SaveParameterResult SaveAllParametersWithErrorResult;
-        
-        public SaveAllParametersWithErrorResponse()
-        {
-        }
-        
-        public SaveAllParametersWithErrorResponse(NoteWebServiceReference.SaveParameterResult SaveAllParametersWithErrorResult)
-        {
-            this.SaveAllParametersWithErrorResult = SaveAllParametersWithErrorResult;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="GetSystemParameters", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class GetSystemParametersRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public string categoryName;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public string subName;
-        
-        public GetSystemParametersRequest()
-        {
-        }
-        
-        public GetSystemParametersRequest(string categoryName, string subName)
-        {
-            this.categoryName = categoryName;
-            this.subName = subName;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="GetSystemParametersResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class GetSystemParametersResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
-        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
-            ".Parameters")]
-        public NoteWebServiceReference.Parameter[] GetSystemParametersResult;
-        
-        public GetSystemParametersResponse()
-        {
-        }
-        
-        public GetSystemParametersResponse(NoteWebServiceReference.Parameter[] GetSystemParametersResult)
-        {
-            this.GetSystemParametersResult = GetSystemParametersResult;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="GetApplicationParameters", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class GetApplicationParametersRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.VerifiedSession verifiedSession;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public string applicationName;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public string parameterCategory;
-        
-        public GetApplicationParametersRequest()
-        {
-        }
-        
-        public GetApplicationParametersRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string applicationName, string parameterCategory)
-        {
-            this.verifiedSession = verifiedSession;
-            this.applicationName = applicationName;
-            this.parameterCategory = parameterCategory;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="GetApplicationParametersResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class GetApplicationParametersResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
-        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
-            ".Parameters")]
-        public NoteWebServiceReference.Parameter[] GetApplicationParametersResult;
-        
-        public GetApplicationParametersResponse()
-        {
-        }
-        
-        public GetApplicationParametersResponse(NoteWebServiceReference.Parameter[] GetApplicationParametersResult)
-        {
-            this.GetApplicationParametersResult = GetApplicationParametersResult;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="GetApplicationParametersForAllCategories", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class GetApplicationParametersForAllCategoriesRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.VerifiedSession verifiedSession;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public string applicationName;
-        
-        public GetApplicationParametersForAllCategoriesRequest()
-        {
-        }
-        
-        public GetApplicationParametersForAllCategoriesRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string applicationName)
-        {
-            this.verifiedSession = verifiedSession;
-            this.applicationName = applicationName;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="GetApplicationParametersForAllCategoriesResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class GetApplicationParametersForAllCategoriesResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
-        [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/MaxManus.BusinessLogic.DomainModel.Common" +
-            ".Parameters")]
-        public NoteWebServiceReference.Parameter[] GetApplicationParametersForAllCategoriesResult;
-        
-        public GetApplicationParametersForAllCategoriesResponse()
-        {
-        }
-        
-        public GetApplicationParametersForAllCategoriesResponse(NoteWebServiceReference.Parameter[] GetApplicationParametersForAllCategoriesResult)
-        {
-            this.GetApplicationParametersForAllCategoriesResult = GetApplicationParametersForAllCategoriesResult;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="GetAutoText", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class GetAutoTextRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.VerifiedSession verifiedSession;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
-        public long autoTextId;
-        
-        public GetAutoTextRequest()
-        {
-        }
-        
-        public GetAutoTextRequest(NoteWebServiceReference.VerifiedSession verifiedSession, long autoTextId)
-        {
-            this.verifiedSession = verifiedSession;
-            this.autoTextId = autoTextId;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="GetAutoTextResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class GetAutoTextResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.AutoText GetAutoTextResult;
-        
-        public GetAutoTextResponse()
-        {
-        }
-        
-        public GetAutoTextResponse(NoteWebServiceReference.AutoText GetAutoTextResult)
-        {
-            this.GetAutoTextResult = GetAutoTextResult;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="AudioNoteExists", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class AudioNoteExistsRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.VerifiedSession verifiedSession;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
-        public long audioNoteId;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public string externalUid;
-        
-        public AudioNoteExistsRequest()
-        {
-        }
-        
-        public AudioNoteExistsRequest(NoteWebServiceReference.VerifiedSession verifiedSession, long audioNoteId, string externalUid)
-        {
-            this.verifiedSession = verifiedSession;
-            this.audioNoteId = audioNoteId;
-            this.externalUid = externalUid;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="AudioNoteExistsResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class AudioNoteExistsResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        public bool AudioNoteExistsResult;
-        
-        public AudioNoteExistsResponse()
-        {
-        }
-        
-        public AudioNoteExistsResponse(bool AudioNoteExistsResult)
-        {
-            this.AudioNoteExistsResult = AudioNoteExistsResult;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="GetAudioNoteById", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class GetAudioNoteByIdRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.VerifiedSession verifiedUser;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
-        public long audioNoteId;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public string externalUid;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=3)]
-        public bool includeBinary;
-        
-        public GetAudioNoteByIdRequest()
-        {
-        }
-        
-        public GetAudioNoteByIdRequest(NoteWebServiceReference.VerifiedSession verifiedUser, long audioNoteId, string externalUid, bool includeBinary)
-        {
-            this.verifiedUser = verifiedUser;
-            this.audioNoteId = audioNoteId;
-            this.externalUid = externalUid;
-            this.includeBinary = includeBinary;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="GetAudioNoteByIdResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class GetAudioNoteByIdResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.AudioNote GetAudioNoteByIdResult;
-        
-        public GetAudioNoteByIdResponse()
-        {
-        }
-        
-        public GetAudioNoteByIdResponse(NoteWebServiceReference.AudioNote GetAudioNoteByIdResult)
-        {
-            this.GetAudioNoteByIdResult = GetAudioNoteByIdResult;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="GetNote", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class GetNoteRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.VerifiedSession verifiedSession;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public string externalUid;
-        
-        public GetNoteRequest()
-        {
-        }
-        
-        public GetNoteRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string externalUid)
-        {
-            this.verifiedSession = verifiedSession;
-            this.externalUid = externalUid;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="GetNoteResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class GetNoteResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.Note GetNoteResult;
-        
-        public GetNoteResponse()
-        {
-        }
-        
-        public GetNoteResponse(NoteWebServiceReference.Note GetNoteResult)
-        {
-            this.GetNoteResult = GetNoteResult;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="GetNoteResult", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class GetNoteResultRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.VerifiedSession verifiedSession;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
-        public long noteId;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public string externalUid;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=3)]
-        public bool lockNote;
-        
-        public GetNoteResultRequest()
-        {
-        }
-        
-        public GetNoteResultRequest(NoteWebServiceReference.VerifiedSession verifiedSession, long noteId, string externalUid, bool lockNote)
-        {
-            this.verifiedSession = verifiedSession;
-            this.noteId = noteId;
-            this.externalUid = externalUid;
-            this.lockNote = lockNote;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="GetNoteResultResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class GetNoteResultResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.NoteResult GetNoteResultResult;
-        
-        public GetNoteResultResponse()
-        {
-        }
-        
-        public GetNoteResultResponse(NoteWebServiceReference.NoteResult GetNoteResultResult)
-        {
-            this.GetNoteResultResult = GetNoteResultResult;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="GetAudioNoteBinaryByUid", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class GetAudioNoteBinaryByUidRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.VerifiedSession verifiedSession;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
-        public long noteId;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public string externalUid;
-        
-        public GetAudioNoteBinaryByUidRequest()
-        {
-        }
-        
-        public GetAudioNoteBinaryByUidRequest(NoteWebServiceReference.VerifiedSession verifiedSession, long noteId, string externalUid)
-        {
-            this.verifiedSession = verifiedSession;
-            this.noteId = noteId;
-            this.externalUid = externalUid;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="GetAudioNoteBinaryByUidResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class GetAudioNoteBinaryByUidResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        public System.IO.Stream GetAudioNoteBinaryByUidResult;
-        
-        public GetAudioNoteBinaryByUidResponse()
-        {
-        }
-        
-        public GetAudioNoteBinaryByUidResponse(System.IO.Stream GetAudioNoteBinaryByUidResult)
-        {
-            this.GetAudioNoteBinaryByUidResult = GetAudioNoteBinaryByUidResult;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="GetAudioNoteResultById", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class GetAudioNoteResultByIdRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.VerifiedSession verifiedSession;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
-        public long audioNoteId;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public string externalUid;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=3)]
-        public bool lockNote;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=4)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public string password;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=5)]
-        public bool includeBinary;
-        
-        public GetAudioNoteResultByIdRequest()
-        {
-        }
-        
-        public GetAudioNoteResultByIdRequest(NoteWebServiceReference.VerifiedSession verifiedSession, long audioNoteId, string externalUid, bool lockNote, string password, bool includeBinary)
-        {
-            this.verifiedSession = verifiedSession;
-            this.audioNoteId = audioNoteId;
-            this.externalUid = externalUid;
-            this.lockNote = lockNote;
-            this.password = password;
-            this.includeBinary = includeBinary;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="GetAudioNoteResultByIdResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class GetAudioNoteResultByIdResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.AudioNoteResult GetAudioNoteResultByIdResult;
-        
-        public GetAudioNoteResultByIdResponse()
-        {
-        }
-        
-        public GetAudioNoteResultByIdResponse(NoteWebServiceReference.AudioNoteResult GetAudioNoteResultByIdResult)
-        {
-            this.GetAudioNoteResultByIdResult = GetAudioNoteResultByIdResult;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="GetSpeechNoteResultById", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class GetSpeechNoteResultByIdRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.VerifiedSession verifiedSession;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
-        public long noteId;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public string externalUid;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=3)]
-        public bool lockNote;
-        
-        public GetSpeechNoteResultByIdRequest()
-        {
-        }
-        
-        public GetSpeechNoteResultByIdRequest(NoteWebServiceReference.VerifiedSession verifiedSession, long noteId, string externalUid, bool lockNote)
-        {
-            this.verifiedSession = verifiedSession;
-            this.noteId = noteId;
-            this.externalUid = externalUid;
-            this.lockNote = lockNote;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="GetSpeechNoteResultByIdResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class GetSpeechNoteResultByIdResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.SpeechNoteResult GetSpeechNoteResultByIdResult;
-        
-        public GetSpeechNoteResultByIdResponse()
-        {
-        }
-        
-        public GetSpeechNoteResultByIdResponse(NoteWebServiceReference.SpeechNoteResult GetSpeechNoteResultByIdResult)
-        {
-            this.GetSpeechNoteResultByIdResult = GetSpeechNoteResultByIdResult;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="UpdateAudioNote", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class UpdateAudioNoteRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.VerifiedSession verifiedSession;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.AudioNote audioNote;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
-        public long duration;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=3)]
-        public long timeAgo;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=4)]
-        public bool releaseLock;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=5)]
-        public bool forceOverWrite;
-        
-        public UpdateAudioNoteRequest()
-        {
-        }
-        
-        public UpdateAudioNoteRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.AudioNote audioNote, long duration, long timeAgo, bool releaseLock, bool forceOverWrite)
-        {
-            this.verifiedSession = verifiedSession;
-            this.audioNote = audioNote;
-            this.duration = duration;
-            this.timeAgo = timeAgo;
-            this.releaseLock = releaseLock;
-            this.forceOverWrite = forceOverWrite;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="UpdateAudioNoteResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class UpdateAudioNoteResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.AudioNoteResult UpdateAudioNoteResult;
-        
-        public UpdateAudioNoteResponse()
-        {
-        }
-        
-        public UpdateAudioNoteResponse(NoteWebServiceReference.AudioNoteResult UpdateAudioNoteResult)
-        {
-            this.UpdateAudioNoteResult = UpdateAudioNoteResult;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="DeleteAudioNote", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class DeleteAudioNoteRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.VerifiedSession verifiedSession;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.AudioNote audioNote;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
-        public long duration;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=3)]
-        public long timeAgo;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=4)]
-        public NoteWebServiceReference.NoteValidationRules ignoreTheseRules;
-        
-        public DeleteAudioNoteRequest()
-        {
-        }
-        
-        public DeleteAudioNoteRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.AudioNote audioNote, long duration, long timeAgo, NoteWebServiceReference.NoteValidationRules ignoreTheseRules)
-        {
-            this.verifiedSession = verifiedSession;
-            this.audioNote = audioNote;
-            this.duration = duration;
-            this.timeAgo = timeAgo;
-            this.ignoreTheseRules = ignoreTheseRules;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="DeleteAudioNoteResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class DeleteAudioNoteResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.AudioNoteResult DeleteAudioNoteResult;
-        
-        public DeleteAudioNoteResponse()
-        {
-        }
-        
-        public DeleteAudioNoteResponse(NoteWebServiceReference.AudioNoteResult DeleteAudioNoteResult)
-        {
-            this.DeleteAudioNoteResult = DeleteAudioNoteResult;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="DeleteNote", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class DeleteNoteRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.VerifiedSession verifiedSession;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public string externalUid;
-        
-        public DeleteNoteRequest()
-        {
-        }
-        
-        public DeleteNoteRequest(NoteWebServiceReference.VerifiedSession verifiedSession, string externalUid)
-        {
-            this.verifiedSession = verifiedSession;
-            this.externalUid = externalUid;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="DeleteNoteResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class DeleteNoteResponse
-    {
-        
-        public DeleteNoteResponse()
-        {
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="CreateAudioNote", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class CreateAudioNoteRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.VerifiedSession verifiedSession;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.AudioNote audioNote;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
-        public long duration;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=3)]
-        public long timeAgo;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=4)]
-        public bool isLocalCopy;
-        
-        public CreateAudioNoteRequest()
-        {
-        }
-        
-        public CreateAudioNoteRequest(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.AudioNote audioNote, long duration, long timeAgo, bool isLocalCopy)
-        {
-            this.verifiedSession = verifiedSession;
-            this.audioNote = audioNote;
-            this.duration = duration;
-            this.timeAgo = timeAgo;
-            this.isLocalCopy = isLocalCopy;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="CreateAudioNoteResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class CreateAudioNoteResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public NoteWebServiceReference.AudioNoteResult CreateAudioNoteResult;
-        
-        public CreateAudioNoteResponse()
-        {
-        }
-        
-        public CreateAudioNoteResponse(NoteWebServiceReference.AudioNoteResult CreateAudioNoteResult)
-        {
-            this.CreateAudioNoteResult = CreateAudioNoteResult;
-        }
-    }
-    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     public interface NoteWebServiceChannel : NoteWebServiceReference.NoteWebService, System.ServiceModel.IClientChannel
     {
@@ -20552,6 +20552,302 @@ namespace NoteWebServiceReference
         public NoteWebServiceClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(binding, remoteAddress)
         {
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetParametersResponse> NoteWebServiceReference.NoteWebService.GetParametersAsync(NoteWebServiceReference.GetParametersRequest request)
+        {
+            return base.Channel.GetParametersAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetParametersResponse> GetParametersAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string name, string categoryName, string subname)
+        {
+            NoteWebServiceReference.GetParametersRequest inValue = new NoteWebServiceReference.GetParametersRequest();
+            inValue.verifiedSession = verifiedSession;
+            inValue.name = name;
+            inValue.categoryName = categoryName;
+            inValue.subname = subname;
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetParametersAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<NoteWebServiceReference.SaveAllParametersResponse> NoteWebServiceReference.NoteWebService.SaveAllParametersAsync(NoteWebServiceReference.SaveAllParametersRequest request)
+        {
+            return base.Channel.SaveAllParametersAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<NoteWebServiceReference.SaveAllParametersResponse> SaveAllParametersAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.Parameter[] parameters)
+        {
+            NoteWebServiceReference.SaveAllParametersRequest inValue = new NoteWebServiceReference.SaveAllParametersRequest();
+            inValue.verifiedSession = verifiedSession;
+            inValue.parameters = parameters;
+            return ((NoteWebServiceReference.NoteWebService)(this)).SaveAllParametersAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<NoteWebServiceReference.SetParameterResponse> NoteWebServiceReference.NoteWebService.SetParameterAsync(NoteWebServiceReference.SetParameterRequest request)
+        {
+            return base.Channel.SetParameterAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<NoteWebServiceReference.SetParameterResponse> SetParameterAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.Parameter parameter)
+        {
+            NoteWebServiceReference.SetParameterRequest inValue = new NoteWebServiceReference.SetParameterRequest();
+            inValue.verifiedSession = verifiedSession;
+            inValue.parameter = parameter;
+            return ((NoteWebServiceReference.NoteWebService)(this)).SetParameterAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<NoteWebServiceReference.SaveAllParametersWithErrorResponse> NoteWebServiceReference.NoteWebService.SaveAllParametersWithErrorAsync(NoteWebServiceReference.SaveAllParametersWithErrorRequest request)
+        {
+            return base.Channel.SaveAllParametersWithErrorAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<NoteWebServiceReference.SaveAllParametersWithErrorResponse> SaveAllParametersWithErrorAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.Parameter[] parameters)
+        {
+            NoteWebServiceReference.SaveAllParametersWithErrorRequest inValue = new NoteWebServiceReference.SaveAllParametersWithErrorRequest();
+            inValue.verifiedSession = verifiedSession;
+            inValue.parameters = parameters;
+            return ((NoteWebServiceReference.NoteWebService)(this)).SaveAllParametersWithErrorAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetSystemParametersResponse> NoteWebServiceReference.NoteWebService.GetSystemParametersAsync(NoteWebServiceReference.GetSystemParametersRequest request)
+        {
+            return base.Channel.GetSystemParametersAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetSystemParametersResponse> GetSystemParametersAsync(string categoryName, string subName)
+        {
+            NoteWebServiceReference.GetSystemParametersRequest inValue = new NoteWebServiceReference.GetSystemParametersRequest();
+            inValue.categoryName = categoryName;
+            inValue.subName = subName;
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetSystemParametersAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetApplicationParametersResponse> NoteWebServiceReference.NoteWebService.GetApplicationParametersAsync(NoteWebServiceReference.GetApplicationParametersRequest request)
+        {
+            return base.Channel.GetApplicationParametersAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetApplicationParametersResponse> GetApplicationParametersAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string applicationName, string parameterCategory)
+        {
+            NoteWebServiceReference.GetApplicationParametersRequest inValue = new NoteWebServiceReference.GetApplicationParametersRequest();
+            inValue.verifiedSession = verifiedSession;
+            inValue.applicationName = applicationName;
+            inValue.parameterCategory = parameterCategory;
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetApplicationParametersAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetApplicationParametersForAllCategoriesResponse> NoteWebServiceReference.NoteWebService.GetApplicationParametersForAllCategoriesAsync(NoteWebServiceReference.GetApplicationParametersForAllCategoriesRequest request)
+        {
+            return base.Channel.GetApplicationParametersForAllCategoriesAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetApplicationParametersForAllCategoriesResponse> GetApplicationParametersForAllCategoriesAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string applicationName)
+        {
+            NoteWebServiceReference.GetApplicationParametersForAllCategoriesRequest inValue = new NoteWebServiceReference.GetApplicationParametersForAllCategoriesRequest();
+            inValue.verifiedSession = verifiedSession;
+            inValue.applicationName = applicationName;
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetApplicationParametersForAllCategoriesAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetAutoTextResponse> NoteWebServiceReference.NoteWebService.GetAutoTextAsync(NoteWebServiceReference.GetAutoTextRequest request)
+        {
+            return base.Channel.GetAutoTextAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetAutoTextResponse> GetAutoTextAsync(NoteWebServiceReference.VerifiedSession verifiedSession, long autoTextId)
+        {
+            NoteWebServiceReference.GetAutoTextRequest inValue = new NoteWebServiceReference.GetAutoTextRequest();
+            inValue.verifiedSession = verifiedSession;
+            inValue.autoTextId = autoTextId;
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetAutoTextAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<NoteWebServiceReference.AudioNoteExistsResponse> NoteWebServiceReference.NoteWebService.AudioNoteExistsAsync(NoteWebServiceReference.AudioNoteExistsRequest request)
+        {
+            return base.Channel.AudioNoteExistsAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<NoteWebServiceReference.AudioNoteExistsResponse> AudioNoteExistsAsync(NoteWebServiceReference.VerifiedSession verifiedSession, long audioNoteId, string externalUid)
+        {
+            NoteWebServiceReference.AudioNoteExistsRequest inValue = new NoteWebServiceReference.AudioNoteExistsRequest();
+            inValue.verifiedSession = verifiedSession;
+            inValue.audioNoteId = audioNoteId;
+            inValue.externalUid = externalUid;
+            return ((NoteWebServiceReference.NoteWebService)(this)).AudioNoteExistsAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetAudioNoteByIdResponse> NoteWebServiceReference.NoteWebService.GetAudioNoteByIdAsync(NoteWebServiceReference.GetAudioNoteByIdRequest request)
+        {
+            return base.Channel.GetAudioNoteByIdAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetAudioNoteByIdResponse> GetAudioNoteByIdAsync(NoteWebServiceReference.VerifiedSession verifiedUser, long audioNoteId, string externalUid, bool includeBinary)
+        {
+            NoteWebServiceReference.GetAudioNoteByIdRequest inValue = new NoteWebServiceReference.GetAudioNoteByIdRequest();
+            inValue.verifiedUser = verifiedUser;
+            inValue.audioNoteId = audioNoteId;
+            inValue.externalUid = externalUid;
+            inValue.includeBinary = includeBinary;
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetAudioNoteByIdAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetNoteResponse> NoteWebServiceReference.NoteWebService.GetNoteAsync(NoteWebServiceReference.GetNoteRequest request)
+        {
+            return base.Channel.GetNoteAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetNoteResponse> GetNoteAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string externalUid)
+        {
+            NoteWebServiceReference.GetNoteRequest inValue = new NoteWebServiceReference.GetNoteRequest();
+            inValue.verifiedSession = verifiedSession;
+            inValue.externalUid = externalUid;
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetNoteAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetNoteResultResponse> NoteWebServiceReference.NoteWebService.GetNoteResultAsync(NoteWebServiceReference.GetNoteResultRequest request)
+        {
+            return base.Channel.GetNoteResultAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetNoteResultResponse> GetNoteResultAsync(NoteWebServiceReference.VerifiedSession verifiedSession, long noteId, string externalUid, bool lockNote)
+        {
+            NoteWebServiceReference.GetNoteResultRequest inValue = new NoteWebServiceReference.GetNoteResultRequest();
+            inValue.verifiedSession = verifiedSession;
+            inValue.noteId = noteId;
+            inValue.externalUid = externalUid;
+            inValue.lockNote = lockNote;
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetNoteResultAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetAudioNoteBinaryByUidResponse> NoteWebServiceReference.NoteWebService.GetAudioNoteBinaryByUidAsync(NoteWebServiceReference.GetAudioNoteBinaryByUidRequest request)
+        {
+            return base.Channel.GetAudioNoteBinaryByUidAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetAudioNoteBinaryByUidResponse> GetAudioNoteBinaryByUidAsync(NoteWebServiceReference.VerifiedSession verifiedSession, long noteId, string externalUid)
+        {
+            NoteWebServiceReference.GetAudioNoteBinaryByUidRequest inValue = new NoteWebServiceReference.GetAudioNoteBinaryByUidRequest();
+            inValue.verifiedSession = verifiedSession;
+            inValue.noteId = noteId;
+            inValue.externalUid = externalUid;
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetAudioNoteBinaryByUidAsync(inValue);
+        }
+        
+        public System.Threading.Tasks.Task SetAudioNoteBinaryAsync(System.IO.Stream binaryStream)
+        {
+            return base.Channel.SetAudioNoteBinaryAsync(binaryStream);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetAudioNoteResultByIdResponse> NoteWebServiceReference.NoteWebService.GetAudioNoteResultByIdAsync(NoteWebServiceReference.GetAudioNoteResultByIdRequest request)
+        {
+            return base.Channel.GetAudioNoteResultByIdAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetAudioNoteResultByIdResponse> GetAudioNoteResultByIdAsync(NoteWebServiceReference.VerifiedSession verifiedSession, long audioNoteId, string externalUid, bool lockNote, string password, bool includeBinary)
+        {
+            NoteWebServiceReference.GetAudioNoteResultByIdRequest inValue = new NoteWebServiceReference.GetAudioNoteResultByIdRequest();
+            inValue.verifiedSession = verifiedSession;
+            inValue.audioNoteId = audioNoteId;
+            inValue.externalUid = externalUid;
+            inValue.lockNote = lockNote;
+            inValue.password = password;
+            inValue.includeBinary = includeBinary;
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetAudioNoteResultByIdAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechNoteResultByIdResponse> NoteWebServiceReference.NoteWebService.GetSpeechNoteResultByIdAsync(NoteWebServiceReference.GetSpeechNoteResultByIdRequest request)
+        {
+            return base.Channel.GetSpeechNoteResultByIdAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechNoteResultByIdResponse> GetSpeechNoteResultByIdAsync(NoteWebServiceReference.VerifiedSession verifiedSession, long noteId, string externalUid, bool lockNote)
+        {
+            NoteWebServiceReference.GetSpeechNoteResultByIdRequest inValue = new NoteWebServiceReference.GetSpeechNoteResultByIdRequest();
+            inValue.verifiedSession = verifiedSession;
+            inValue.noteId = noteId;
+            inValue.externalUid = externalUid;
+            inValue.lockNote = lockNote;
+            return ((NoteWebServiceReference.NoteWebService)(this)).GetSpeechNoteResultByIdAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<NoteWebServiceReference.UpdateAudioNoteResponse> NoteWebServiceReference.NoteWebService.UpdateAudioNoteAsync(NoteWebServiceReference.UpdateAudioNoteRequest request)
+        {
+            return base.Channel.UpdateAudioNoteAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<NoteWebServiceReference.UpdateAudioNoteResponse> UpdateAudioNoteAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.AudioNote audioNote, long duration, long timeAgo, bool releaseLock, bool forceOverWrite)
+        {
+            NoteWebServiceReference.UpdateAudioNoteRequest inValue = new NoteWebServiceReference.UpdateAudioNoteRequest();
+            inValue.verifiedSession = verifiedSession;
+            inValue.audioNote = audioNote;
+            inValue.duration = duration;
+            inValue.timeAgo = timeAgo;
+            inValue.releaseLock = releaseLock;
+            inValue.forceOverWrite = forceOverWrite;
+            return ((NoteWebServiceReference.NoteWebService)(this)).UpdateAudioNoteAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteAudioNoteResponse> NoteWebServiceReference.NoteWebService.DeleteAudioNoteAsync(NoteWebServiceReference.DeleteAudioNoteRequest request)
+        {
+            return base.Channel.DeleteAudioNoteAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<NoteWebServiceReference.DeleteAudioNoteResponse> DeleteAudioNoteAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.AudioNote audioNote, long duration, long timeAgo, NoteWebServiceReference.NoteValidationRules ignoreTheseRules)
+        {
+            NoteWebServiceReference.DeleteAudioNoteRequest inValue = new NoteWebServiceReference.DeleteAudioNoteRequest();
+            inValue.verifiedSession = verifiedSession;
+            inValue.audioNote = audioNote;
+            inValue.duration = duration;
+            inValue.timeAgo = timeAgo;
+            inValue.ignoreTheseRules = ignoreTheseRules;
+            return ((NoteWebServiceReference.NoteWebService)(this)).DeleteAudioNoteAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteNoteResponse> NoteWebServiceReference.NoteWebService.DeleteNoteAsync(NoteWebServiceReference.DeleteNoteRequest request)
+        {
+            return base.Channel.DeleteNoteAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<NoteWebServiceReference.DeleteNoteResponse> DeleteNoteAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string externalUid)
+        {
+            NoteWebServiceReference.DeleteNoteRequest inValue = new NoteWebServiceReference.DeleteNoteRequest();
+            inValue.verifiedSession = verifiedSession;
+            inValue.externalUid = externalUid;
+            return ((NoteWebServiceReference.NoteWebService)(this)).DeleteNoteAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<NoteWebServiceReference.CreateAudioNoteResponse> NoteWebServiceReference.NoteWebService.CreateAudioNoteAsync(NoteWebServiceReference.CreateAudioNoteRequest request)
+        {
+            return base.Channel.CreateAudioNoteAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<NoteWebServiceReference.CreateAudioNoteResponse> CreateAudioNoteAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.AudioNote audioNote, long duration, long timeAgo, bool isLocalCopy)
+        {
+            NoteWebServiceReference.CreateAudioNoteRequest inValue = new NoteWebServiceReference.CreateAudioNoteRequest();
+            inValue.verifiedSession = verifiedSession;
+            inValue.audioNote = audioNote;
+            inValue.duration = duration;
+            inValue.timeAgo = timeAgo;
+            inValue.isLocalCopy = isLocalCopy;
+            return ((NoteWebServiceReference.NoteWebService)(this)).CreateAudioNoteAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -21758,302 +22054,6 @@ namespace NoteWebServiceReference
             return base.Channel.IsAliveAsync();
         }
         
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetParametersResponse> NoteWebServiceReference.NoteWebService.GetParametersAsync(NoteWebServiceReference.GetParametersRequest request)
-        {
-            return base.Channel.GetParametersAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<NoteWebServiceReference.GetParametersResponse> GetParametersAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string name, string categoryName, string subname)
-        {
-            NoteWebServiceReference.GetParametersRequest inValue = new NoteWebServiceReference.GetParametersRequest();
-            inValue.verifiedSession = verifiedSession;
-            inValue.name = name;
-            inValue.categoryName = categoryName;
-            inValue.subname = subname;
-            return ((NoteWebServiceReference.NoteWebService)(this)).GetParametersAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<NoteWebServiceReference.SaveAllParametersResponse> NoteWebServiceReference.NoteWebService.SaveAllParametersAsync(NoteWebServiceReference.SaveAllParametersRequest request)
-        {
-            return base.Channel.SaveAllParametersAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<NoteWebServiceReference.SaveAllParametersResponse> SaveAllParametersAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.Parameter[] parameters)
-        {
-            NoteWebServiceReference.SaveAllParametersRequest inValue = new NoteWebServiceReference.SaveAllParametersRequest();
-            inValue.verifiedSession = verifiedSession;
-            inValue.parameters = parameters;
-            return ((NoteWebServiceReference.NoteWebService)(this)).SaveAllParametersAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<NoteWebServiceReference.SetParameterResponse> NoteWebServiceReference.NoteWebService.SetParameterAsync(NoteWebServiceReference.SetParameterRequest request)
-        {
-            return base.Channel.SetParameterAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<NoteWebServiceReference.SetParameterResponse> SetParameterAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.Parameter parameter)
-        {
-            NoteWebServiceReference.SetParameterRequest inValue = new NoteWebServiceReference.SetParameterRequest();
-            inValue.verifiedSession = verifiedSession;
-            inValue.parameter = parameter;
-            return ((NoteWebServiceReference.NoteWebService)(this)).SetParameterAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<NoteWebServiceReference.SaveAllParametersWithErrorResponse> NoteWebServiceReference.NoteWebService.SaveAllParametersWithErrorAsync(NoteWebServiceReference.SaveAllParametersWithErrorRequest request)
-        {
-            return base.Channel.SaveAllParametersWithErrorAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<NoteWebServiceReference.SaveAllParametersWithErrorResponse> SaveAllParametersWithErrorAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.Parameter[] parameters)
-        {
-            NoteWebServiceReference.SaveAllParametersWithErrorRequest inValue = new NoteWebServiceReference.SaveAllParametersWithErrorRequest();
-            inValue.verifiedSession = verifiedSession;
-            inValue.parameters = parameters;
-            return ((NoteWebServiceReference.NoteWebService)(this)).SaveAllParametersWithErrorAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetSystemParametersResponse> NoteWebServiceReference.NoteWebService.GetSystemParametersAsync(NoteWebServiceReference.GetSystemParametersRequest request)
-        {
-            return base.Channel.GetSystemParametersAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<NoteWebServiceReference.GetSystemParametersResponse> GetSystemParametersAsync(string categoryName, string subName)
-        {
-            NoteWebServiceReference.GetSystemParametersRequest inValue = new NoteWebServiceReference.GetSystemParametersRequest();
-            inValue.categoryName = categoryName;
-            inValue.subName = subName;
-            return ((NoteWebServiceReference.NoteWebService)(this)).GetSystemParametersAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetApplicationParametersResponse> NoteWebServiceReference.NoteWebService.GetApplicationParametersAsync(NoteWebServiceReference.GetApplicationParametersRequest request)
-        {
-            return base.Channel.GetApplicationParametersAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<NoteWebServiceReference.GetApplicationParametersResponse> GetApplicationParametersAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string applicationName, string parameterCategory)
-        {
-            NoteWebServiceReference.GetApplicationParametersRequest inValue = new NoteWebServiceReference.GetApplicationParametersRequest();
-            inValue.verifiedSession = verifiedSession;
-            inValue.applicationName = applicationName;
-            inValue.parameterCategory = parameterCategory;
-            return ((NoteWebServiceReference.NoteWebService)(this)).GetApplicationParametersAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetApplicationParametersForAllCategoriesResponse> NoteWebServiceReference.NoteWebService.GetApplicationParametersForAllCategoriesAsync(NoteWebServiceReference.GetApplicationParametersForAllCategoriesRequest request)
-        {
-            return base.Channel.GetApplicationParametersForAllCategoriesAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<NoteWebServiceReference.GetApplicationParametersForAllCategoriesResponse> GetApplicationParametersForAllCategoriesAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string applicationName)
-        {
-            NoteWebServiceReference.GetApplicationParametersForAllCategoriesRequest inValue = new NoteWebServiceReference.GetApplicationParametersForAllCategoriesRequest();
-            inValue.verifiedSession = verifiedSession;
-            inValue.applicationName = applicationName;
-            return ((NoteWebServiceReference.NoteWebService)(this)).GetApplicationParametersForAllCategoriesAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetAutoTextResponse> NoteWebServiceReference.NoteWebService.GetAutoTextAsync(NoteWebServiceReference.GetAutoTextRequest request)
-        {
-            return base.Channel.GetAutoTextAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<NoteWebServiceReference.GetAutoTextResponse> GetAutoTextAsync(NoteWebServiceReference.VerifiedSession verifiedSession, long autoTextId)
-        {
-            NoteWebServiceReference.GetAutoTextRequest inValue = new NoteWebServiceReference.GetAutoTextRequest();
-            inValue.verifiedSession = verifiedSession;
-            inValue.autoTextId = autoTextId;
-            return ((NoteWebServiceReference.NoteWebService)(this)).GetAutoTextAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<NoteWebServiceReference.AudioNoteExistsResponse> NoteWebServiceReference.NoteWebService.AudioNoteExistsAsync(NoteWebServiceReference.AudioNoteExistsRequest request)
-        {
-            return base.Channel.AudioNoteExistsAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<NoteWebServiceReference.AudioNoteExistsResponse> AudioNoteExistsAsync(NoteWebServiceReference.VerifiedSession verifiedSession, long audioNoteId, string externalUid)
-        {
-            NoteWebServiceReference.AudioNoteExistsRequest inValue = new NoteWebServiceReference.AudioNoteExistsRequest();
-            inValue.verifiedSession = verifiedSession;
-            inValue.audioNoteId = audioNoteId;
-            inValue.externalUid = externalUid;
-            return ((NoteWebServiceReference.NoteWebService)(this)).AudioNoteExistsAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetAudioNoteByIdResponse> NoteWebServiceReference.NoteWebService.GetAudioNoteByIdAsync(NoteWebServiceReference.GetAudioNoteByIdRequest request)
-        {
-            return base.Channel.GetAudioNoteByIdAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<NoteWebServiceReference.GetAudioNoteByIdResponse> GetAudioNoteByIdAsync(NoteWebServiceReference.VerifiedSession verifiedUser, long audioNoteId, string externalUid, bool includeBinary)
-        {
-            NoteWebServiceReference.GetAudioNoteByIdRequest inValue = new NoteWebServiceReference.GetAudioNoteByIdRequest();
-            inValue.verifiedUser = verifiedUser;
-            inValue.audioNoteId = audioNoteId;
-            inValue.externalUid = externalUid;
-            inValue.includeBinary = includeBinary;
-            return ((NoteWebServiceReference.NoteWebService)(this)).GetAudioNoteByIdAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetNoteResponse> NoteWebServiceReference.NoteWebService.GetNoteAsync(NoteWebServiceReference.GetNoteRequest request)
-        {
-            return base.Channel.GetNoteAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<NoteWebServiceReference.GetNoteResponse> GetNoteAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string externalUid)
-        {
-            NoteWebServiceReference.GetNoteRequest inValue = new NoteWebServiceReference.GetNoteRequest();
-            inValue.verifiedSession = verifiedSession;
-            inValue.externalUid = externalUid;
-            return ((NoteWebServiceReference.NoteWebService)(this)).GetNoteAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetNoteResultResponse> NoteWebServiceReference.NoteWebService.GetNoteResultAsync(NoteWebServiceReference.GetNoteResultRequest request)
-        {
-            return base.Channel.GetNoteResultAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<NoteWebServiceReference.GetNoteResultResponse> GetNoteResultAsync(NoteWebServiceReference.VerifiedSession verifiedSession, long noteId, string externalUid, bool lockNote)
-        {
-            NoteWebServiceReference.GetNoteResultRequest inValue = new NoteWebServiceReference.GetNoteResultRequest();
-            inValue.verifiedSession = verifiedSession;
-            inValue.noteId = noteId;
-            inValue.externalUid = externalUid;
-            inValue.lockNote = lockNote;
-            return ((NoteWebServiceReference.NoteWebService)(this)).GetNoteResultAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetAudioNoteBinaryByUidResponse> NoteWebServiceReference.NoteWebService.GetAudioNoteBinaryByUidAsync(NoteWebServiceReference.GetAudioNoteBinaryByUidRequest request)
-        {
-            return base.Channel.GetAudioNoteBinaryByUidAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<NoteWebServiceReference.GetAudioNoteBinaryByUidResponse> GetAudioNoteBinaryByUidAsync(NoteWebServiceReference.VerifiedSession verifiedSession, long noteId, string externalUid)
-        {
-            NoteWebServiceReference.GetAudioNoteBinaryByUidRequest inValue = new NoteWebServiceReference.GetAudioNoteBinaryByUidRequest();
-            inValue.verifiedSession = verifiedSession;
-            inValue.noteId = noteId;
-            inValue.externalUid = externalUid;
-            return ((NoteWebServiceReference.NoteWebService)(this)).GetAudioNoteBinaryByUidAsync(inValue);
-        }
-        
-        public System.Threading.Tasks.Task SetAudioNoteBinaryAsync(System.IO.Stream binaryStream)
-        {
-            return base.Channel.SetAudioNoteBinaryAsync(binaryStream);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetAudioNoteResultByIdResponse> NoteWebServiceReference.NoteWebService.GetAudioNoteResultByIdAsync(NoteWebServiceReference.GetAudioNoteResultByIdRequest request)
-        {
-            return base.Channel.GetAudioNoteResultByIdAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<NoteWebServiceReference.GetAudioNoteResultByIdResponse> GetAudioNoteResultByIdAsync(NoteWebServiceReference.VerifiedSession verifiedSession, long audioNoteId, string externalUid, bool lockNote, string password, bool includeBinary)
-        {
-            NoteWebServiceReference.GetAudioNoteResultByIdRequest inValue = new NoteWebServiceReference.GetAudioNoteResultByIdRequest();
-            inValue.verifiedSession = verifiedSession;
-            inValue.audioNoteId = audioNoteId;
-            inValue.externalUid = externalUid;
-            inValue.lockNote = lockNote;
-            inValue.password = password;
-            inValue.includeBinary = includeBinary;
-            return ((NoteWebServiceReference.NoteWebService)(this)).GetAudioNoteResultByIdAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechNoteResultByIdResponse> NoteWebServiceReference.NoteWebService.GetSpeechNoteResultByIdAsync(NoteWebServiceReference.GetSpeechNoteResultByIdRequest request)
-        {
-            return base.Channel.GetSpeechNoteResultByIdAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<NoteWebServiceReference.GetSpeechNoteResultByIdResponse> GetSpeechNoteResultByIdAsync(NoteWebServiceReference.VerifiedSession verifiedSession, long noteId, string externalUid, bool lockNote)
-        {
-            NoteWebServiceReference.GetSpeechNoteResultByIdRequest inValue = new NoteWebServiceReference.GetSpeechNoteResultByIdRequest();
-            inValue.verifiedSession = verifiedSession;
-            inValue.noteId = noteId;
-            inValue.externalUid = externalUid;
-            inValue.lockNote = lockNote;
-            return ((NoteWebServiceReference.NoteWebService)(this)).GetSpeechNoteResultByIdAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<NoteWebServiceReference.UpdateAudioNoteResponse> NoteWebServiceReference.NoteWebService.UpdateAudioNoteAsync(NoteWebServiceReference.UpdateAudioNoteRequest request)
-        {
-            return base.Channel.UpdateAudioNoteAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<NoteWebServiceReference.UpdateAudioNoteResponse> UpdateAudioNoteAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.AudioNote audioNote, long duration, long timeAgo, bool releaseLock, bool forceOverWrite)
-        {
-            NoteWebServiceReference.UpdateAudioNoteRequest inValue = new NoteWebServiceReference.UpdateAudioNoteRequest();
-            inValue.verifiedSession = verifiedSession;
-            inValue.audioNote = audioNote;
-            inValue.duration = duration;
-            inValue.timeAgo = timeAgo;
-            inValue.releaseLock = releaseLock;
-            inValue.forceOverWrite = forceOverWrite;
-            return ((NoteWebServiceReference.NoteWebService)(this)).UpdateAudioNoteAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteAudioNoteResponse> NoteWebServiceReference.NoteWebService.DeleteAudioNoteAsync(NoteWebServiceReference.DeleteAudioNoteRequest request)
-        {
-            return base.Channel.DeleteAudioNoteAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<NoteWebServiceReference.DeleteAudioNoteResponse> DeleteAudioNoteAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.AudioNote audioNote, long duration, long timeAgo, NoteWebServiceReference.NoteValidationRules ignoreTheseRules)
-        {
-            NoteWebServiceReference.DeleteAudioNoteRequest inValue = new NoteWebServiceReference.DeleteAudioNoteRequest();
-            inValue.verifiedSession = verifiedSession;
-            inValue.audioNote = audioNote;
-            inValue.duration = duration;
-            inValue.timeAgo = timeAgo;
-            inValue.ignoreTheseRules = ignoreTheseRules;
-            return ((NoteWebServiceReference.NoteWebService)(this)).DeleteAudioNoteAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<NoteWebServiceReference.DeleteNoteResponse> NoteWebServiceReference.NoteWebService.DeleteNoteAsync(NoteWebServiceReference.DeleteNoteRequest request)
-        {
-            return base.Channel.DeleteNoteAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<NoteWebServiceReference.DeleteNoteResponse> DeleteNoteAsync(NoteWebServiceReference.VerifiedSession verifiedSession, string externalUid)
-        {
-            NoteWebServiceReference.DeleteNoteRequest inValue = new NoteWebServiceReference.DeleteNoteRequest();
-            inValue.verifiedSession = verifiedSession;
-            inValue.externalUid = externalUid;
-            return ((NoteWebServiceReference.NoteWebService)(this)).DeleteNoteAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<NoteWebServiceReference.CreateAudioNoteResponse> NoteWebServiceReference.NoteWebService.CreateAudioNoteAsync(NoteWebServiceReference.CreateAudioNoteRequest request)
-        {
-            return base.Channel.CreateAudioNoteAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<NoteWebServiceReference.CreateAudioNoteResponse> CreateAudioNoteAsync(NoteWebServiceReference.VerifiedSession verifiedSession, NoteWebServiceReference.AudioNote audioNote, long duration, long timeAgo, bool isLocalCopy)
-        {
-            NoteWebServiceReference.CreateAudioNoteRequest inValue = new NoteWebServiceReference.CreateAudioNoteRequest();
-            inValue.verifiedSession = verifiedSession;
-            inValue.audioNote = audioNote;
-            inValue.duration = duration;
-            inValue.timeAgo = timeAgo;
-            inValue.isLocalCopy = isLocalCopy;
-            return ((NoteWebServiceReference.NoteWebService)(this)).CreateAudioNoteAsync(inValue);
-        }
-        
         public virtual System.Threading.Tasks.Task OpenAsync()
         {
             return System.Threading.Tasks.Task.Factory.FromAsync(((System.ServiceModel.ICommunicationObject)(this)).BeginOpen(null, null), new System.Action<System.IAsyncResult>(((System.ServiceModel.ICommunicationObject)(this)).EndOpen));
@@ -22082,7 +22082,7 @@ namespace NoteWebServiceReference
         {
             if ((endpointConfiguration == EndpointConfiguration.BasicHttpBinding_NoteWebService))
             {
-                return new System.ServiceModel.EndpointAddress("http://testserver111.mmtest.local/MMServer/NoteWebService.svc");
+                return new System.ServiceModel.EndpointAddress("http://localhost:10012/NoteWebService.svc");
             }
             throw new System.InvalidOperationException(string.Format("Could not find endpoint with name \'{0}\'.", endpointConfiguration));
         }

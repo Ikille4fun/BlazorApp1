@@ -1,5 +1,10 @@
 ﻿@page "/lists/notelist"
 @using BlazorApp1.Shared.Components.Models.NoteList
+@using System.Text.Json
+@using BlazorApp1.Client.Components.Models
+@using BlazorApp1.Shared.Components.Models
+@using Microsoft.Net.Http.Headers
+@using System.IO
 
 @inject Blazored.SessionStorage.ISessionStorageService sessionStorage
 @inject NavigationManager NavigationManager
@@ -74,11 +79,11 @@
         @* footer *@
         <div>
             <button class="btn btn-primary" @onclick="Create">add</button>
-            <button class="btn btn-primary" @onclick="Refresh">refresh</button>
+            <button class="btn btn-primary" @onclick="Update">refresh</button>
             <div class="search-container">
                 <form onsubmit="Search()">
                     <input type="text" placeholder="Search..." id="Search"/>
-                    <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-search"></i></button>
+                    <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
                 </form>
             </div>
         </div>
@@ -98,14 +103,8 @@
     protected override async Task OnInitializedAsync()
     {
         _loginData.Username = await sessionStorage.GetItemAsync<string>("Username");
-        _loginData.Password = await sessionStorage.GetItemAsync<string>("Password");
-        //var _VerifiedSession = await sessionStorage.GetItemAsync<object>("VerifiedSession");
 
-        Console.WriteLine("MMNoteList Test of sessionstorage L96: " + _loginData.Username);
-        Console.WriteLine("MMNoteList Test of sessionstorage: " + _loginData.Password);
-        //Console.WriteLine("Test of sessionstorage: " + _VerifiedSession);
-
-        await Refresh();
+        await Update();
     }
 
     private async Task Create()
@@ -113,20 +112,34 @@
         NavigationManager.NavigateTo("Audio/audionote");
     }
 
-    private async Task Refresh()
+    private async Task Update()
     {
         try
         {
-            Console.WriteLine("MMNoteList Test of sessionstorage L112: " + _loginData.Username);
-            Console.WriteLine("MMNoteList Test of sessionstorage: " + _loginData.Password);
+            var _VerifiedSession = await sessionStorage.GetItemAsync<string>("VerifiedSession");
 
-            // Http call to get a verifiedSession from LoginController
-            await HttpClient.PostAsJsonAsync("/api/login/login", _loginData);
+            VerifiedSession verifiedSession = Newtonsoft.Json.JsonConvert.DeserializeObject<VerifiedSession>(_VerifiedSession);
 
-            // Http call to get Notes from NoteListController
-            var _snoteListDatas = await HttpClient.GetAsync("api/NoteListData/update");
+            //Console.WriteLine("MMNoteList.razor _VerifiedSession: " + verifiedSession);
 
-            Console.WriteLine("MMNoteList Get NoteList: " + _noteListDatas);
+            var VS_NSQ = new{ VerifiedSession = verifiedSession };
+
+            // http call to get Notes from NoteListController
+            var HttpResponse = await HttpClient.PostAsJsonAsync("api/NoteListData/update", VS_NSQ);
+
+            Console.WriteLine("MMNoteList HttpResponse: " + HttpResponse);
+
+            string test1 = HttpResponse.Content.ReadAsStringAsync().Result;
+
+            Console.WriteLine("MMNoteList test1: " + test1);
+
+            List<string> test2 = test1.Split(',').ToList();
+
+            Console.WriteLine("MMNoteList test2: " + test2);
+
+            List<NoteListData> newNoteListDatas = new List<NoteListData>();
+
+            newNoteListDatas.Add(new NoteListData() { Id = test2.IndexOf("id") });
         }
         catch (Exception e)
         {

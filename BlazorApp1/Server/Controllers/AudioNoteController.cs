@@ -27,9 +27,19 @@ namespace BlazorApp1.Server.Controllers
         }
 
         // POST api/<AudioNoteController>
+        [Route("ready")]
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void PostReady([FromBody] string value)
         {
+
+        }
+
+        // POST api/<AudioNoteController>
+        [Route("suspend")]
+        [HttpPost]
+        public void PostSuspend([FromBody] string value)
+        {
+
         }
 
         // PUT api/<AudioNoteController>/5
